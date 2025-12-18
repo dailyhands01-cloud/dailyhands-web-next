@@ -28,8 +28,8 @@ const ContactInfo = () => {
                                 </div>
                                 <div className="contact-box__single-text">
                                     <h2><a href="#">Email Address</a></h2>
-                                    <p><a href="mailto:exampal@gmail.com">exampal@gmail.com</a></p>
-                                    <p><a href="mailto:exampal@gmail.com">www.unicktheme.com</a></p>
+                                    <p><a href="mailto:info@dailyhands.in">info@dailyhands.in</a></p>
+                                    <p><a href="https://dailyhands.in">www.dailyhands.in</a></p>
                                 </div>
                             </div>
                         </div>

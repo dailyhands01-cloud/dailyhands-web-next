@@ -40,7 +40,7 @@ const HeaderOne = () => {
                                             <span className="icon-email"></span>
                                         </div>
                                         <div className="text">
-                                            <p><a href="mailto:exampal@gmail.com">exampal@gmail.com</a></p>
+                                            <p><a href="mailto:info@dailyhands.in">info@dailyhands.in</a></p>
                                         </div>
                                     </li>
                                     <li>

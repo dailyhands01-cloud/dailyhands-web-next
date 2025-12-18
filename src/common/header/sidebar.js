@@ -30,7 +30,7 @@ const Sidebar = ({isActive, setIsActive}) => {
                 <ul className="mobile-nav__contact list-unstyled">
                     <li>
                         <i className="fa fa-envelope"></i>
-                        <a href="mailto:needhelp@packageName__.com">needhelp@seacab.com</a>
+                        <a href="mailto:info@dailyhands.in">info@dailyhands.in</a>
                     </li>
                     <li>
                         <i className="fa fa-phone-alt"></i>
