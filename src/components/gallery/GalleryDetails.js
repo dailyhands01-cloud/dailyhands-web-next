@@ -33,7 +33,7 @@ const GalleryDetails = () => {
 
                                         <li>
                                             <h5>Location</h5>
-                                            <p>New York, USA</p>
+                                            <p>Pune, Maharashtra, India</p>
                                         </li>
 
                                         <li>

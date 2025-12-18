@@ -14,7 +14,7 @@ const ContactInfo = () => {
                                 </div>
                                 <div className="contact-box__single-text">
                                     <h2><a href="#">Our Location</a></h2>
-                                    <p>354 Oakridge, Camden <br />NJ 08102 - USA</p>
+                                    <p>Spring Velly Flat No. 103,<br />Near Kaylani Training Center,<br />Keshavnagar, Mundhwa,<br />Pune 411036</p>
                                 </div>
                             </div>
                         </div>
@@ -43,8 +43,8 @@ const ContactInfo = () => {
                                 </div>
                                 <div className="contact-box__single-text">
                                     <h2><a href="#">Phone Number</a></h2>
-                                    <p><a href="tel:123456789">+012 (999) 666 22</a></p>
-                                    <p><a href="tel:123456789">+856352287</a></p>
+                                    <p><a href="tel:8805779006">+91 88057 79006</a></p>
+                                    <p><a href="tel:7385483447">+91 73854 83447</a></p>
                                 </div>
                             </div>
                         </div>

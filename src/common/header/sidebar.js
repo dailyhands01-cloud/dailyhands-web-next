@@ -34,7 +34,7 @@ const Sidebar = ({isActive, setIsActive}) => {
                     </li>
                     <li>
                         <i className="fa fa-phone-alt"></i>
-                        <a href="tel:666-888-0000">666 888 0000</a>
+                        <a href="tel:8805779006">+91 88057 79006</a>
                     </li>
                 </ul>
                 <div className="mobile-nav__top">
