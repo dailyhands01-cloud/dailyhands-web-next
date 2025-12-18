@@ -48,7 +48,7 @@ const HeroThree = () => {
                         <div className="container">
                             <div className="main-slider-three__content text-center">
                                 <div className="tagline">
-                                    <p>Welcome to Washup.</p>
+                                    <p>Welcome to Daily Hands.</p>
                                 </div>
                                 <div className="title">
                                     <h2>Best Residential Service <br /> Tcial For Clean. </h2>
@@ -75,7 +75,7 @@ const HeroThree = () => {
                         <div className="container">
                             <div className="main-slider-three__content text-center">
                                 <div className="tagline">
-                                    <p>Welcome to Washup.</p>
+                                    <p>Welcome to Daily Hands.</p>
                                 </div>
                                 <div className="title">
                                     <h2>Best Residential Service <br /> Tcial For Clean. </h2>
@@ -102,7 +102,7 @@ const HeroThree = () => {
                         <div className="container">
                             <div className="main-slider-three__content text-center">
                                 <div className="tagline">
-                                    <p>Welcome to Washup.</p>
+                                    <p>Welcome to Daily Hands.</p>
                                 </div>
                                 <div className="title">
                                     <h2>Best Residential Service <br /> Tcial For Clean. </h2>

@@ -51,7 +51,7 @@ const HeroTwo = () => {
                         <div className="container">
                             <div className="main-slider-one__content">
                                 <div className="tagline">
-                                    <p>Welcome to Washup.</p>
+                                    <p>Welcome to Daily Hands.</p>
                                 </div>
                                 <div className="title">
                                     <h2>So Fresh & So Clean... <br /> We Promise!</h2>
@@ -80,7 +80,7 @@ const HeroTwo = () => {
                         <div className="container">
                             <div className="main-slider-one__content">
                                 <div className="tagline">
-                                    <p>Welcome to Washup.</p>
+                                    <p>Welcome to Daily Hands.</p>
                                 </div>
                                 <div className="title">
                                     <h2>So Fresh & So Clean... <br /> We Promise!</h2>
@@ -109,7 +109,7 @@ const HeroTwo = () => {
                         <div className="container">
                             <div className="main-slider-one__content">
                                 <div className="tagline">
-                                    <p>Welcome to Washup.</p>
+                                    <p>Welcome to Daily Hands.</p>
                                 </div>
                                 <div className="title">
                                     <h2>So Fresh & So Clean... <br /> We Promise!</h2>

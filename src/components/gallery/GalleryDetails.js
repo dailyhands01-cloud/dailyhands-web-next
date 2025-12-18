@@ -28,7 +28,7 @@ const GalleryDetails = () => {
 
                                         <li>
                                             <h5>Website</h5>
-                                            <p><a href="#">Washup.com</a></p>
+                                            <p><a href="#">DailyHands.in</a></p>
                                         </li>
 
                                         <li>

@@ -141,7 +141,7 @@ const FooterOne = () => {
                             <div className="col-xl-12">
                                 <div className="footer-one__bottom-inner">
                                     <div className="footer-one__bottom-text">
-                                        <p>Copyright © 2023 <Link href="/">Washup</Link>. All Rights Reserved.</p>
+                                        <p>Copyright © 2023 <Link href="/">Daily Hands</Link>. All Rights Reserved.</p>
                                     </div>
                                 </div>
                             </div>
