@@ -78,7 +78,7 @@ const BlogOne = () => {
                     </div>
 
                     {/* Start Styled Pagination */}
-                    <div class="row">
+                    {/* <div class="row">
                         <div class="col-xl-12">
                             <ul class="styled-pagination text-center clearfix">
                                 <li class="prev"><a href="#"><span class="fa fa-angle-double-left"></span></a></li>
@@ -88,7 +88,7 @@ const BlogOne = () => {
                                 <li class="next"><a href="#"><span class="fa fa-angle-double-right"></span></a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                     {/* Start Styled Pagination */}
                 </div>
             </section>

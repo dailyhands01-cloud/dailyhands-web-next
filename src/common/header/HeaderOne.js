@@ -53,7 +53,7 @@ const HeaderOne = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="main-header__top-right">
+                            {/* <div className="main-header__top-right">
                                 <div className="main-header__top-right-search">
                                     <a href="#" className="search-toggler" variant="primary" onClick={handleShow}> <i className="fa fa-search"></i></a>
                                     <div className="search-popup">
@@ -90,7 +90,7 @@ const HeaderOne = () => {
                                         </form>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

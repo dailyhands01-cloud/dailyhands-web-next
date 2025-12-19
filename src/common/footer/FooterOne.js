@@ -22,13 +22,13 @@ const FooterOne = () => {
                                                 <p className="footer-widget__about-text">We help businesses maximize their
                                                     online presence with a personalized approach to digital marketing.</p>
 
-                                                <div className="social-link">
+                                                {/* <div className="social-link">
                                                     <ul>
                                                         <li><a href="#"><span className="icon-facebook"></span></a></li>
                                                         <li><a href="#"><span className="icon-instagram"></span></a></li>
                                                         <li><a href="#"><span className="icon-twitter"></span></a></li>
                                                     </ul>
-                                                </div>
+                                                </div> */}
 
                                             </div>
                                         </div>
