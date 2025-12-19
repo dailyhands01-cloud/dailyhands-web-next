@@ -17,7 +17,7 @@ const FooterOne = () => {
                                         <div className="col-xl-4 col-lg-4 col-md-6 wow animated fadeInUp" data-wow-delay="0.1s">
                                             <div className="footer-widget__column footer-widget__about">
                                                 <div className="footer-widget__about-logo" style={{display:"flex",justifyContent:"start", alignItems:"center"}} >
-                                                    <Link href="/"><img src="/assets/images/resources/footer-logo1.png" alt=""style={{width:"120px" ,height:"80px"}} /></Link>
+                                                    <Link href="/"><img src="/assets/images/resources/footer-logo1.png" alt=""style={{width:"250px" ,height:"100px"}} /></Link>
                                                 </div>
                                                 <p className="footer-widget__about-text">We help businesses maximize their
                                                     online presence with a personalized approach to digital marketing.</p>

@@ -14,7 +14,7 @@ const Sidebar = ({isActive, setIsActive}) => {
 
                 <div className="logo-box">
                     <Link href="/" aria-label="logo image"><img src="/assets/images/resources/footer-logo1.png"
-                            width="155" alt="" /></Link>
+                            width="250px" height="100px" alt="" /></Link>
                 </div>
                 <div className="mobile-nav__container"></div>
 

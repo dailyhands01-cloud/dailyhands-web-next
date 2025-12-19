@@ -4,11 +4,11 @@ const menu_data = [
       has_dropdown: true,
       title: "Home",
       link: "/",
-      sub_menus: [
-        { link: "/", title: "Home One" },
+      // sub_menus: [
+      //   { link: "/", title: "Home One" },
         // { link: "/home-two", title: "Home Two" },
         // { link: "/home-three", title: "Home Three" },
-      ],
+      // ],
     },
     {
       id: 2,
