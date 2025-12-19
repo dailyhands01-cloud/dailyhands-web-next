@@ -14,7 +14,7 @@ const CtaOne = () => {
                                 <div className="title">
                                     <h2> Call us to Take an Extraordinary Service!</h2>
                                     <div className="number">
-                                        <p>Call: <a href="tel:180050033333">++019999999</a></p>
+                                        <p>Call: <a href="tel:8805779006">+91 88057 79006</a></p>
                                     </div>
                                 </div>
                                 <div className="button-box">

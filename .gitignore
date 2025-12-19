@@ -24,4 +24,6 @@ Thumbs.db
 
 # Next.js
 .next/
-out/
+/out/
+
+.firebase/
