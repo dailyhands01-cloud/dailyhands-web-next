@@ -30,7 +30,7 @@ const TeamDetails = () => {
                                         and industry expertise to develop solutions that can connect.</p>
                                 </div>
                                 <div class="number">
-                                    <p>Call: <a href="tel:180050033333">++019999999</a></p>
+                                    <p>Call: <a href="tel:8805779006">+91 88057 79006</a></p>
                                 </div>
                                 <div class="social-icon">
                                     <div class="title">
