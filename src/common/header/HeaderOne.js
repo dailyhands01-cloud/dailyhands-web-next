@@ -54,7 +54,7 @@ const HeaderOne = () => {
                                 </ul>
                             </div>
                             <div className="main-header__top-right">
-                                <div className="main-header__top-right-search">
+                                {/* <div className="main-header__top-right-search">
                                     <a href="#" className="search-toggler" variant="primary" onClick={handleShow}> <i className="fa fa-search"></i></a>
                                     <div className="search-popup">
                                         <Modal show={show} onHide={handleClose} className="search-popup__overlay search-toggler">
@@ -69,15 +69,15 @@ const HeaderOne = () => {
                                             </div>
                                         </Modal>
                                     </div>
-                                </div>
+                                </div> */}
 
-                                <div className="main-header__top-right-social">
+                                {/* <div className="main-header__top-right-social">
                                     <a href="#"><i className="fab fa-facebook"></i></a>
                                     <a href="#"><i className="fab fa-twitter"></i></a>
                                     <a href="#"><i className="fab fa-pinterest-p"></i></a>
-                                </div>
+                                </div> */}
 
-                                <div class="language-switcher">
+                                {/* <div class="language-switcher">
                                     <div id="polyglotLanguageSwitcher">
                                         <form action="#">
                                             <select id="polyglot-language-options">
@@ -89,7 +89,7 @@ const HeaderOne = () => {
                                             </select>
                                         </form>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
