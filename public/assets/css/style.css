@@ -5907,6 +5907,7 @@ div[class^="bubble-"] {
     transition: all 500ms ease;
     transition-delay: 0.3s;
     z-index: 1;
+    min-height: 550px;
 }
 
 .pricing-plan-one__single::before {

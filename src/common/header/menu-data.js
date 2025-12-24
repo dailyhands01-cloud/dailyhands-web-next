@@ -43,7 +43,7 @@ const menu_data = [
         { link: "/team-details", title: "Team Details" },
         // { link: "/project", title: "Project" },
         // { link: "/project-details", title: "Project Details" },
-        // { link: "/pricing", title: "Pricing" },
+        { link: "/pricing", title: "Pricing" },
         { link: "/testimonial", title: "Testimonial" },
         { link: "/gallery-one", title: "Gallery 01" },
         // { link: "/gallery-two", title: "Gallery 02" },

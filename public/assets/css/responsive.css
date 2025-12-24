@@ -285,6 +285,7 @@
         max-width: 380px;
         width: 100%;
         margin: 0 auto 30px;
+        min-height: 550px;
     }
 
     /*Testimonial Two*/
@@ -674,6 +675,7 @@
         max-width: 380px;
         width: 100%;
         margin: 0 auto 30px;
+        min-height: 550px;
     }
 
     /*Pricing Plan One*/
