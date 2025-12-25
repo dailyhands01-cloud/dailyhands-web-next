@@ -8,46 +8,28 @@ export const BrandOneData = [
     },
     {
         id: 2,
-        image: "/assets/images/brand/brand-1-1.png",
+        image: "/assets/images/brand/brand-1-2.png",
         alt: "Brand",
         link: "#",
     },
     {
         id: 3,
-        image: "/assets/images/brand/brand-1-1.png",
+        image: "/assets/images/brand/brand-1-3.png",
         alt: "Brand",
         link: "#",
     },
     {
         id: 4,
-        image: "/assets/images/brand/brand-1-1.png",
+        image: "/assets/images/brand/brand-1-4.png",
         alt: "Brand",
         link: "#",
     },
     {
         id: 5,
-        image: "/assets/images/brand/brand-1-1.png",
+        image: "/assets/images/brand/brand-1-5.png",
         alt: "Brand",
         link: "#",
-    },
-    {
-        id: 6,
-        image: "/assets/images/brand/brand-1-1.png",
-        alt: "Brand",
-        link: "#",
-    },
-    {
-        id: 7,
-        image: "/assets/images/brand/brand-1-1.png",
-        alt: "Brand",
-        link: "#",
-    },
-    {
-        id: 8,
-        image: "/assets/images/brand/brand-1-1.png",
-        alt: "Brand",
-        link: "#",
-    },
+    }
 ];
 
 // Brand Three
