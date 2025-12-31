@@ -95,7 +95,7 @@ const HeaderOne = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                
 
                 <nav className="main-menu clearfix">
                     <div className="container clearfix">
