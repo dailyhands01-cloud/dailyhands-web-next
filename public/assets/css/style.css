@@ -6946,6 +6946,7 @@ div[class^="bubble-"] {
     position: relative;
     display: block;
     margin-top: 60px;
+    margin-bottom: 100px;
 }
 
 .service-details__bottom-title {
@@ -9066,6 +9067,7 @@ div[class^="bubble-"] {
     display: block;
     padding: 103px 0px 100px;
     z-index: 1;
+    margin-bottom: 100px;
 }
 
 .cta-one .image-layer {

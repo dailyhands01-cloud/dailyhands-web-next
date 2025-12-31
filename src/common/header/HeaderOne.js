@@ -53,6 +53,8 @@ const HeaderOne = () => {
                                     </li>
                                 </ul>
                             </div>
+                            {/* <div className="main-header__top-right">
+                                <div className="main-header__top-right-search">
                             <div className="main-header__top-right">
                                 {/* <div className="main-header__top-right-search">
                                     <a href="#" className="search-toggler" variant="primary" onClick={handleShow}> <i className="fa fa-search"></i></a>
@@ -93,7 +95,7 @@ const HeaderOne = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                
 
                 <nav className="main-menu clearfix">
                     <div className="container clearfix">

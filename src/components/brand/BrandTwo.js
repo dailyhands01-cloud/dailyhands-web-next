@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const BrandTwo = () => {
     return (
         <>
-            <section className="brand-one brand-one--two">
+            {/* <section className="brand-one brand-one--two">
                 <div className="container">
                     <Swiper
                         spaceBetween={50}
@@ -46,7 +46,7 @@ const BrandTwo = () => {
                         </div>
                     </Swiper>
                 </div>
-            </section>
+            </section> */}
         </>
     )
 }
