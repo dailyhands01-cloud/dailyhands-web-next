@@ -5,86 +5,95 @@ const WhyChooseUsOne = () => {
 
         if ($(".tabs-box").length) {
             $(".tabs-box .tab-buttons .tab-btn").on("click", function (e) {
-              e.preventDefault();
-              var target = $($(this).attr("data-tab"));
-        
-              if ($(target).is(":visible")) {
-                return false;
-              } else {
-                target
-                  .parents(".tabs-box")
-                  .find(".tab-buttons")
-                  .find(".tab-btn")
-                  .removeClass("active-btn");
-                $(this).addClass("active-btn");
-                target
-                  .parents(".tabs-box")
-                  .find(".tabs-content")
-                  .find(".tab")
-                  .fadeOut(0);
-                target
-                  .parents(".tabs-box")
-                  .find(".tabs-content")
-                  .find(".tab")
-                  .removeClass("active-tab");
-                $(target).fadeIn(300);
-                $(target).addClass("active-tab");
-              }
+                e.preventDefault();
+                var target = $($(this).attr("data-tab"));
+
+                if ($(target).is(":visible")) {
+                    return false;
+                } else {
+                    target
+                        .parents(".tabs-box")
+                        .find(".tab-buttons")
+                        .find(".tab-btn")
+                        .removeClass("active-btn");
+                    $(this).addClass("active-btn");
+                    target
+                        .parents(".tabs-box")
+                        .find(".tabs-content")
+                        .find(".tab")
+                        .fadeOut(0)
+                        .removeClass("active-tab");
+                    $(target).fadeIn(300).addClass("active-tab");
+                }
             });
         }
 
         if ($(".video-popup").length) {
             $(".video-popup").magnificPopup({
-              type: "iframe",
-              mainClass: "mfp-fade",
-              removalDelay: 160,
-              preloader: true,
-        
-              fixedContentPos: false
+                type: "iframe",
+                mainClass: "mfp-fade",
+                removalDelay: 160,
+                preloader: true,
+                fixedContentPos: false
             });
         }
-            
-      }, []);
+
+    }, []);
+
     return (
         <>
             <section className="tab-one pd-120-0-120 clearfix">
                 <div className="container">
+
+                    {/* Section Heading */}
                     <div className="section-title text-center">
-                        <span className="section-title__tagline">Our Tab Contant</span>
-                        <h2 className="section-title__title">Our daily or weekly attractive <br /> Tab planpolicy.</h2>
+                        <span className="section-title__tagline">Why Choose Us</span>
+                        <h2 className="section-title__title">
+                            Flexible Cleaning Plans Designed <br /> For Your Lifestyle
+                        </h2>
                     </div>
+
                     <div className="tab-one__tabs tabs-box">
                         <ul className="tab-buttons clearfix">
-                            <li data-tab="#providing" className="tab-btn active-btn"><span>Providing</span></li>
-                            <li data-tab="#emergency" className="tab-btn"><span>Emergency</span></li>
-                            <li data-tab="#residential" className="tab-btn"><span>Residential</span></li>
-                            <li data-tab="#furniture" className="tab-btn"><span>Furniture</span></li>
+                            <li data-tab="#providing" className="tab-btn active-btn"><span>Service Plans</span></li>
+                            <li data-tab="#emergency" className="tab-btn"><span>Emergency Cleaning</span></li>
+                            <li data-tab="#residential" className="tab-btn"><span>Residential Cleaning</span></li>
+                            <li data-tab="#furniture" className="tab-btn"><span>Furniture Care</span></li>
                         </ul>
+
                         <div className="tabs-content">
-                            {/* Start Tab */}
+
+                            {/* Service Plans */}
                             <div className="tab active-tab" id="providing">
                                 <div className="row clearfix">
-                                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                    <div className="col-xl-6 col-lg-6 col-md-12">
                                         <div className="tab-one__content">
                                             <div className="title">
-                                                <h2>We support him 75% on <br /> your tab insurance.</h2>
+                                                <h2>
+                                                    Affordable & Reliable <br /> Cleaning Service Plans
+                                                </h2>
                                             </div>
                                             <div className="text">
-                                                <p>will reenergize your ome and enhance your life. From everyday housekeeping to routine cleanings, our professional this to members can provide you.</p>
+                                                <p>
+                                                    Our customized cleaning plans are designed to meet your daily,
+                                                    weekly, or monthly needs while ensuring high-quality service
+                                                    and consistent results.
+                                                </p>
                                             </div>
                                             <ul className="tab-one__content-list">
-                                                <li>We provide janitorial and specialized is services.</li>
-                                                <li>Tonstantly evolving and your brand must evolve.</li>
-                                                <li>Tempor incididunt ut labore dolore magna aliqua.</li>
-                                                <li>Majority have suffered alteration in some form. </li>
-                                                <li>Re injected humour, or randomised words evolving.</li>
-                                                <li>This generators on the Internet to repeat predefined.</li>
+                                                <li>Flexible scheduling options for homes and offices</li>
+                                                <li>Transparent pricing with no hidden charges</li>
+                                                <li>Trained and background-verified professionals</li>
+                                                <li>Eco-friendly cleaning products for safety</li>
+                                                <li>Quality assurance with regular inspections</li>
+                                                <li>Customer support available at all times</li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+
+                                    <div className="col-xl-6 col-lg-6 col-md-12">
                                         <div className="tab-one__img">
-                                            <img src="/assets/images/resources/tab-v1-img.jpg" alt="" />
+                                            <img src="/assets/images/resources/tab-v1-img.jpg" alt="Professional Cleaning Services" />
                                             <div className="icon">
                                                 <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" className="video-popup">
                                                     <div className="tab-one__video-icon">
@@ -97,32 +106,38 @@ const WhyChooseUsOne = () => {
                                     </div>
                                 </div>
                             </div>
-                            {/* End Tab */}
 
-                            {/* Start Tab */}
+                            {/* Emergency Cleaning */}
                             <div className="tab" id="emergency">
                                 <div className="row clearfix">
-                                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                    <div className="col-xl-6 col-lg-6 col-md-12">
                                         <div className="tab-one__content">
                                             <div className="title">
-                                                <h2>We support him 75% on <br /> your tab insurance.</h2>
+                                                <h2>
+                                                    Fast & Reliable <br /> Emergency Cleaning Services
+                                                </h2>
                                             </div>
                                             <div className="text">
-                                                <p>will reenergize your ome and enhance your life. From everyday housekeeping to routine cleanings, our professional this to members can provide you.</p>
+                                                <p>
+                                                    When unexpected messes occur, our emergency cleaning team
+                                                    responds quickly to restore cleanliness, hygiene, and comfort
+                                                    without delay.
+                                                </p>
                                             </div>
                                             <ul className="tab-one__content-list">
-                                                <li>We provide janitorial and specialized is services.</li>
-                                                <li>Tonstantly evolving and your brand must evolve.</li>
-                                                <li>Tempor incididunt ut labore dolore magna aliqua.</li>
-                                                <li>Majority have suffered alteration in some form. </li>
-                                                <li>Re injected humour, or randomised words evolving.</li>
-                                                <li>This generators on the Internet to repeat predefined.</li>
+                                                <li>Same-day and urgent cleaning support</li>
+                                                <li>24/7 availability for critical situations</li>
+                                                <li>Advanced tools for deep sanitization</li>
+                                                <li>Rapid response with professional staff</li>
+                                                <li>Ideal for offices, homes, and commercial spaces</li>
+                                                <li>Safety-focused and compliant cleaning methods</li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+
+                                    <div className="col-xl-6 col-lg-6 col-md-12">
                                         <div className="tab-one__img">
-                                            <img src="/assets/images/resources/tab-v1-img.jpg" alt="" />
+                                            <img src="/assets/images/resources/tab-v1-img.jpg" alt="Emergency Cleaning Services" />
                                             <div className="icon">
                                                 <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" className="video-popup">
                                                     <div className="tab-one__video-icon">
@@ -135,32 +150,38 @@ const WhyChooseUsOne = () => {
                                     </div>
                                 </div>
                             </div>
-                            {/* End Tab */}
 
-                            {/* Start Tab */}
+                            {/* Residential Cleaning */}
                             <div className="tab" id="residential">
                                 <div className="row clearfix">
-                                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                    <div className="col-xl-6 col-lg-6 col-md-12">
                                         <div className="tab-one__content">
                                             <div className="title">
-                                                <h2>We support him 75% on <br /> your tab insurance.</h2>
+                                                <h2>
+                                                    Trusted Residential <br /> Cleaning Solutions
+                                                </h2>
                                             </div>
                                             <div className="text">
-                                                <p>will reenergize your ome and enhance your life. From everyday housekeeping to routine cleanings, our professional this to members can provide you.</p>
+                                                <p>
+                                                    We provide thorough residential cleaning services that help
+                                                    maintain a healthy, fresh, and comfortable living environment
+                                                    for you and your family.
+                                                </p>
                                             </div>
                                             <ul className="tab-one__content-list">
-                                                <li>We provide janitorial and specialized is services.</li>
-                                                <li>Tonstantly evolving and your brand must evolve.</li>
-                                                <li>Tempor incididunt ut labore dolore magna aliqua.</li>
-                                                <li>Majority have suffered alteration in some form. </li>
-                                                <li>Re injected humour, or randomised words evolving.</li>
-                                                <li>This generators on the Internet to repeat predefined.</li>
+                                                <li>Complete home cleaning and sanitization</li>
+                                                <li>Kitchen, bathroom, and living area care</li>
+                                                <li>Safe cleaning for children and pets</li>
+                                                <li>Customized plans based on home size</li>
+                                                <li>Attention to detail in every corner</li>
+                                                <li>Consistent quality with every visit</li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+
+                                    <div className="col-xl-6 col-lg-6 col-md-12">
                                         <div className="tab-one__img">
-                                            <img src="/assets/images/resources/tab-v1-img.jpg" alt="" />
+                                            <img src="/assets/images/resources/tab-v1-img.jpg" alt="Residential Cleaning Services" />
                                             <div className="icon">
                                                 <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" className="video-popup">
                                                     <div className="tab-one__video-icon">
@@ -173,32 +194,38 @@ const WhyChooseUsOne = () => {
                                     </div>
                                 </div>
                             </div>
-                            {/* End Tab */}
 
-                            {/* Start Tab */}
+                            {/* Furniture Cleaning */}
                             <div className="tab" id="furniture">
                                 <div className="row clearfix">
-                                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                    <div className="col-xl-6 col-lg-6 col-md-12">
                                         <div className="tab-one__content">
                                             <div className="title">
-                                                <h2>We support him 75% on <br /> your tab insurance.</h2>
+                                                <h2>
+                                                    Professional Furniture <br /> Cleaning & Care
+                                                </h2>
                                             </div>
                                             <div className="text">
-                                                <p>will reenergize your ome and enhance your life. From everyday housekeeping to routine cleanings, our professional this to members can provide you.</p>
+                                                <p>
+                                                    Our specialized furniture cleaning services help extend the
+                                                    life of your furniture while restoring its original freshness
+                                                    and appearance.
+                                                </p>
                                             </div>
                                             <ul className="tab-one__content-list">
-                                                <li>We provide janitorial and specialized is services.</li>
-                                                <li>Tonstantly evolving and your brand must evolve.</li>
-                                                <li>Tempor incididunt ut labore dolore magna aliqua.</li>
-                                                <li>Majority have suffered alteration in some form. </li>
-                                                <li>Re injected humour, or randomised words evolving.</li>
-                                                <li>This generators on the Internet to repeat predefined.</li>
+                                                <li>Sofa, mattress, and upholstery cleaning</li>
+                                                <li>Deep stain and odor removal solutions</li>
+                                                <li>Fabric-safe and damage-free methods</li>
+                                                <li>Advanced equipment for better results</li>
+                                                <li>Improves indoor air quality</li>
+                                                <li>Ideal for homes, offices, and hotels</li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+
+                                    <div className="col-xl-6 col-lg-6 col-md-12">
                                         <div className="tab-one__img">
-                                            <img src="/assets/images/resources/tab-v1-img.jpg" alt="" />
+                                            <img src="/assets/images/resources/tab-v1-img.jpg" alt="Furniture Cleaning Services" />
                                             <div className="icon">
                                                 <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" className="video-popup">
                                                     <div className="tab-one__video-icon">
@@ -211,13 +238,13 @@ const WhyChooseUsOne = () => {
                                     </div>
                                 </div>
                             </div>
-                            {/* End Tab */}
+
                         </div>
                     </div>
                 </div>
             </section>
         </>
-    )
-}
+    );
+};
 
 export default WhyChooseUsOne;

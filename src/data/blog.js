@@ -3,31 +3,32 @@ export const BlogOneData = [
     {
         id: 1,
         image: "/assets/images/blog/blog-v1-img1.jpg",
-        alt: "Blog Post",
-        heading: "Business Conference Of Access To Blog.",
-        description: "We everyday housekeeping to routine cleanings, our professional this to members can provide you.",
+        alt: "Business Conference Blog Post",
+        heading: "Unlock Business Insights at Leading Industry Conferences",
+        description: "From everyday housekeeping to routine cleanings, our professional team delivers reliable services. Enjoy a clean and healthy space every day.",
         btn: "Read More",
         link: "/blog-details",
     },
     {
         id: 2,
         image: "/assets/images/blog/blog-v1-img2.jpg",
-        alt: "Blog Post",
-        heading: "Benefits of a professional cleaning for service",
-        description: "We everyday housekeeping to routine cleanings, our professional this to members can provide you.",
+        alt: "Professional Cleaning Benefits",
+        heading: "Top Benefits of Hiring Professional Cleaning Services",
+        description: "From daily housekeeping to specialized cleaning tasks, professional services ensure a spotless, healthy environment, saving you time and effort.",
         btn: "Read More",
         link: "/blog-details",
     },
     {
         id: 3,
         image: "/assets/images/blog/blog-v1-img3.jpg",
-        alt: "Blog Post",
-        heading: "Personalid cleaning service adipiscing agna aliqua.",
-        description: "We everyday housekeeping to routine cleanings, our professional this to members can provide you.",
+        alt: "Personalized Cleaning Service",
+        heading: "Personalized Cleaning Solutions for Every Home",
+        description: "Experience customized cleaning services designed to meet your unique needs. Our expert team ensures your home stays clean, organized, and comfortable every day.",
         btn: "Read More",
         link: "/blog-details",
     },
 ];
+
 
 // Blog Two
 export const BlogTwoData = [

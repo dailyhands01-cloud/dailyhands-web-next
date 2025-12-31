@@ -2,50 +2,59 @@ import React, { useEffect } from 'react';
 
 const AboutTwo = () => {
     useEffect(() => {
-
         if ($(".count-bar").length) {
             $(".count-bar").appear(
-              function () {
-                var el = $(this);
-                var percent = el.data("percent");
-                $(el).css("width", percent).addClass("counted");
-              }, {
-                accY: -50
-              }
+                function () {
+                    var el = $(this);
+                    var percent = el.data("percent");
+                    $(el).css("width", percent).addClass("counted");
+                },
+                { accY: -50 }
             );
         }
-        
+
         if ($(".progress-levels .progress-box .bar-fill").length) {
-            $(".progress-box .bar-fill").each(
-                function () {
+            $(".progress-box .bar-fill").each(function () {
                 $(".progress-box .bar-fill").appear(function () {
                     var progressWidth = $(this).attr("data-percent");
                     $(this).css("width", progressWidth + "%");
                 });
-                }, {
-                accY: 0
-                }
-            );
+            });
         }
-            
-      }, []);
+    }, []);
+
     return (
         <>
             <section className="about-two">
                 <div className="container">
                     <div className="row">
+
                         {/* Start About Two Img */}
                         <div className="col-xl-6">
                             <div className="about-two__img clearfix">
-                                <div className="about-two__img1 wow slideInLeft" data-wow-delay="100ms"
-                                    data-wow-duration="2500ms">
+                                <div
+                                    className="about-two__img1 wow slideInLeft"
+                                    data-wow-delay="100ms"
+                                    data-wow-duration="2500ms"
+                                >
                                     <div className="about-two__img1-inner">
-                                        <img src="/assets/images/about/about-v2-img1.jpg" alt="" />
+                                        <img
+                                            src="/assets/images/about/about-v2-img1.jpg"
+                                            alt="Professional Cleaning Process"
+                                        />
                                     </div>
                                 </div>
-                                <div className="about-two__img2 wow zoomIn" data-wow-delay="100ms" data-wow-duration="3500ms">
+
+                                <div
+                                    className="about-two__img2 wow zoomIn"
+                                    data-wow-delay="100ms"
+                                    data-wow-duration="3500ms"
+                                >
                                     <div className="about-two__img2-inner">
-                                        <img src="/assets/images/about/about-v2-img2.jpg" alt="" />
+                                        <img
+                                            src="/assets/images/about/about-v2-img2.jpg"
+                                            alt="Expert Cleaning Team at Work"
+                                        />
                                     </div>
                                 </div>
                             </div>
@@ -56,60 +65,85 @@ const AboutTwo = () => {
                         <div className="col-xl-6">
                             <div className="about-two__content">
                                 <div className="section-title">
-                                    <span className="section-title__tagline">About Us</span>
-                                    <h2 className="section-title__title">We Have 25 Years Of <br /> Experience In This Field
+                                    <span className="section-title__tagline">Why Choose Us</span>
+                                    <h2 className="section-title__title">
+                                        Delivering Reliable, <br /> High-Quality Cleaning Solutions
                                     </h2>
                                 </div>
+
                                 <div className="about-two__content-inner">
                                     <div className="text">
-                                        <p>will reenergize your ome and enhance your life. From everyday housekeeping to
-                                            routine cleanings, our professional this to members can provide you.</p>
+                                        <p>
+                                            Our cleaning solutions are designed to meet modern hygiene
+                                            standards, ensuring safe, sanitized, and comfortable
+                                            environments for homes, offices, and commercial spaces.
+                                        </p>
                                     </div>
+
                                     <div className="about-two__content-list">
                                         <ul>
                                             <li>
-                                                <p>We provide janitorial and specialized is services.</p>
+                                                <p>
+                                                    Advanced cleaning equipment and eco-friendly products.
+                                                </p>
                                             </li>
                                             <li>
-                                                <p>Tonstantly evolving and your brand must evolve.</p>
+                                                <p>
+                                                    Flexible service plans for residential and commercial
+                                                    clients.
+                                                </p>
                                             </li>
                                             <li>
-                                                <p>Tempor incididunt ut labore dolore magna aliqua.</p>
+                                                <p>
+                                                    Strict quality checks to maintain consistent results.
+                                                </p>
                                             </li>
                                         </ul>
                                     </div>
-                                    <div className="about-two__progress">
-                                        {/* Start About Two Progress Single */}
-                                        <div className="about-two__progress-single">
-                                            <h4 className="about-two__progress-title">Development</h4>
-                                            <div className="bar">
-                                                <div className="bar-inner count-bar" data-percent="58%">
-                                                    <div className="count-text">58%</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {/* End About Two Progress Single */}
 
-                                        {/* Start About Two Progress Single */}
-                                        <div className="about-two__progress-single mar-b0">
-                                            <h4 className="about-two__progress-title">Design</h4>
+                                    <div className="about-two__progress">
+
+                                        {/* Progress Single */}
+                                        <div className="about-two__progress-single">
+                                            <h4 className="about-two__progress-title">
+                                                Service Quality
+                                            </h4>
                                             <div className="bar">
-                                                <div className="bar-inner count-bar" data-percent="77%">
-                                                    <div className="count-text">77%</div>
+                                                <div
+                                                    className="bar-inner count-bar"
+                                                    data-percent="92%"
+                                                >
+                                                    <div className="count-text">92%</div>
                                                 </div>
                                             </div>
                                         </div>
-                                        {/* End About Two Progress Single */}
+
+                                        {/* Progress Single */}
+                                        <div className="about-two__progress-single mar-b0">
+                                            <h4 className="about-two__progress-title">
+                                                Customer Satisfaction
+                                            </h4>
+                                            <div className="bar">
+                                                <div
+                                                    className="bar-inner count-bar"
+                                                    data-percent="96%"
+                                                >
+                                                    <div className="count-text">96%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                         {/* End About Two Content */}
+
                     </div>
                 </div>
             </section>
         </>
-    )
-}
+    );
+};
 
 export default AboutTwo;
