@@ -8,7 +8,7 @@ const NiceSelect = () => {
     }, []);
     return (
         <>
-            <div class="language-switcher">
+            {/* <div class="language-switcher">
                 <div id="polyglotLanguageSwitcher">
                     <form action="#">
                         <select id="polyglot-language-options">
@@ -20,7 +20,7 @@ const NiceSelect = () => {
                         </select>
                     </form>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

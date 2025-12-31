@@ -14,7 +14,7 @@ const ContactInfo = () => {
                                 </div>
                                 <div className="contact-box__single-text">
                                     <h2><a href="#">Our Location</a></h2>
-                                    <p>Spring Velly Flat No. 103,Near Kaylani Training Center,Keshavnagar, Mundhwa,Pune 411036</p>
+                                    <p>Spring Velly Flat No. 103,<br />Near Kaylani Training Center,<br />Keshavnagar, Mundhwa,<br />Pune 411036</p>
                                 </div>
                             </div>
                         </div>
