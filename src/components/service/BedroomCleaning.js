@@ -31,23 +31,28 @@ const BedroomCleaning = () => {
                     </div>
 
                     <div class="service-details__bottom">
-                        <h2 class="service-details__bottom-title">Bedroom Cleaning</h2>
+                        <h2 class="service-details__bottom-title">Professional Bedroom Cleaning Services</h2>
                         <div class="service-details__bottom-text1">
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected humour, or rando
-                                mised words which don't look even slightly believable. If you are going to use a passage of
-                                Lorem Ipsum, you need to be sure there isn't anything this
-                                embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet
-                                tend to repeat predefined chunks as necessary, making
-                                this the first true generator on the Internet. It uses a dictio words, combined with a
-                                handful of </p>
-                        </div>
-                        <div class="service-details__bottom-text2">
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected humour, or rando
-                                mised words which don't look even slightly believable. If you are going to use a passage.
+                            <p>
+                                Our professional bedroom cleaning service is designed to create a clean, hygienic, and relaxing living space.
+                                We thoroughly remove dust, allergens, and hidden dirt from floors, furniture, mattresses, and high-touch areas
+                                using safe and effective cleaning methods.
+                            </p>
+                            <p>
+                                From vacuuming and mopping to surface sanitization and organized detailing, our trained cleaning experts ensure
+                                your bedroom remains fresh, comfortable, and well-maintained. Whether you need regular upkeep or deep bedroom
+                                cleaning, we deliver reliable results that enhance indoor air quality and overall comfort.
                             </p>
                         </div>
+
+                        <div class="service-details__bottom-text2">
+                            <p>
+                                Our bedroom cleaning process focuses on hygiene, comfort, and attention to detail. We clean and disinfect
+                                frequently touched surfaces, remove dust buildup, and ensure every corner is properly maintained for a
+                                healthier and more pleasant environment.
+                            </p>
+                        </div>
+
                         <div class="service-details__bottom-text3">
                             <div class="row">
                                 <div class="col-xl-4 col-lg-5">
@@ -57,25 +62,24 @@ const BedroomCleaning = () => {
                                 </div>
                                 <div class="col-xl-8 col-lg-7">
                                     <div class="content-box">
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                            have suffered
-                                            mised words which don't look even slightly believable. If you are going to use a
-                                            passage of Lorem
-                                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
-                                            Internet tend to
-                                            this the first true generator on the Internet. It uses a dictio words, combined
-                                            with a handful ofrem
-                                            Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free
-                                            from repetiti
-                                            njected humor, sure there isn’t anything embarrassing hidden in the middle of
-                                            the text. All the
-                                            orem Ipsum generators on the Internet tend to repeat predefine</p>
-
+                                        <p>
+                                            Our bedroom cleaning service is designed to deliver a spotless, healthy, and well-organized living space
+                                            through a detailed and systematic cleaning process. Our trained professionals carefully remove dust, dirt,
+                                            and allergens from floors, furniture, mattresses, and hard-to-reach areas using industry-approved tools and
+                                            safe cleaning solutions. Special attention is given to high-touch surfaces, ensuring a hygienic environment
+                                            that supports better indoor air quality and everyday comfort.
+                                        </p>
+                                        <p>
+                                            Whether you require routine maintenance or a deep bedroom cleaning service, we follow strict quality
+                                            standards to protect your furnishings while achieving long-lasting cleanliness. Our goal is to create
+                                            a calm, fresh, and relaxing bedroom environment that enhances both hygiene and overall well-being.
+                                        </p>
                                         <ul>
-                                            <li><span class="icon-plus"></span> Mbarrassing hidden in the middle of text</li>
-                                            <li><span class="icon-plus"></span> Mbarrassing hidden in the middle of text</li>
+                                            <li><span class="icon-plus"></span> Detailed dusting and cleaning of all bedroom surfaces</li>
+                                            <li><span class="icon-plus"></span> Disinfection of frequently touched areas for added safety</li>
                                         </ul>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
