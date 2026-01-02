@@ -31,23 +31,29 @@ const CommercialCleaning = () => {
                     </div>
 
                     <div className="service-details__bottom">
-                        <h2 className="service-details__bottom-title">Commercial Cleaning</h2>
-                        <div className="service-details__bottom-text1">
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected humour, or rando
-                                mised words which don't look even slightly believable. If you are going to use a passage of
-                                Lorem Ipsum, you need to be sure there isn't anything this
-                                embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet
-                                tend to repeat predefined chunks as necessary, making
-                                this the first true generator on the Internet. It uses a dictio words, combined with a
-                                handful of </p>
-                        </div>
-                        <div className="service-details__bottom-text2">
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected humour, or rando
-                                mised words which don't look even slightly believable. If you are going to use a passage.
+                        <h2 class="service-details__bottom-title">Professional Commercial Cleaning Services</h2>
+
+                        <div class="service-details__bottom-text1">
+                            <p>
+                                Our professional commercial cleaning services are designed to maintain clean, hygienic, and well-managed
+                                business environments across various industries. We provide comprehensive cleaning solutions for offices,
+                                retail stores, corporate buildings, and commercial facilities using advanced tools and safe cleaning products.
+                            </p>
+                            <p>
+                                A clean commercial space enhances employee productivity, ensures health and safety compliance, and creates
+                                a positive impression on clients and visitors. Our experienced cleaning professionals follow industry-standard
+                                protocols to deliver consistent quality and reliable results.
                             </p>
                         </div>
+
+                        <div class="service-details__bottom-text2">
+                            <p>
+                                We offer flexible commercial cleaning schedules tailored to your operational needs, including daily, weekly,
+                                or customized service plans. From surface sanitization to floor care and waste management, we help businesses
+                                maintain a professional and welcoming environment.
+                            </p>
+                        </div>
+
                         <div className="service-details__bottom-text3">
                             <div className="row">
                                 <div className="col-xl-4 col-lg-5">
@@ -56,26 +62,25 @@ const CommercialCleaning = () => {
                                     </div>
                                 </div>
                                 <div className="col-xl-8 col-lg-7">
-                                    <div className="content-box">
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                            have suffered
-                                            mised words which don't look even slightly believable. If you are going to use a
-                                            passage of Lorem
-                                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
-                                            Internet tend to
-                                            this the first true generator on the Internet. It uses a dictio words, combined
-                                            with a handful ofrem
-                                            Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free
-                                            from repetiti
-                                            njected humor, sure there isn’t anything embarrassing hidden in the middle of
-                                            the text. All the
-                                            orem Ipsum generators on the Internet tend to repeat predefine</p>
-
+                                    <div class="content-box">
+                                        <p>
+                                            Our commercial cleaning services are delivered with a focus on consistency, hygiene, and operational
+                                            efficiency. We clean and maintain high-traffic commercial spaces by removing dust, dirt, and harmful
+                                            germs from work areas, common spaces, restrooms, and shared facilities using industry-approved equipment
+                                            and safe cleaning solutions.
+                                        </p>
+                                        <p>
+                                            Our trained cleaning professionals follow structured cleaning checklists to ensure every area meets
+                                            quality and safety standards. Whether you manage a corporate office, retail outlet, or commercial
+                                            facility, our services are designed to minimize disruption while maintaining a clean, professional,
+                                            and welcoming environment.
+                                        </p>
                                         <ul>
-                                            <li><span className="icon-plus"></span> Mbarrassing hidden in the middle of text</li>
-                                            <li><span className="icon-plus"></span> Mbarrassing hidden in the middle of text</li>
+                                            <li><span class="icon-plus"></span> Comprehensive cleaning of high-traffic and shared commercial areas</li>
+                                            <li><span class="icon-plus"></span> Sanitization of surfaces to support workplace health and safety</li>
                                         </ul>
                                     </div>
+
                                 </div>
                             </div>
                         </div>

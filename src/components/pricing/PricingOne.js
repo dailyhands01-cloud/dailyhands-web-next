@@ -47,12 +47,18 @@ const PricingOne = () => {
                 <div className="container">
                     <div className="section-title__style2">
                         <div className="section-title">
-                            <span className="section-title__tagline">Cleaning Service Pricing</span>
-                            <h2 className="section-title__title">Choose Your Cleaning Plan</h2>
+                            <span className="section-title__tagline">Transparent Cleaning Service Pricing</span>
+                            <h2 className="section-title__title">Choose the Right Cleaning Plan for Your Needs</h2>
                         </div>
+
                         <div className="text-box">
-                            <p>Get professional daily cleaning services tailored to your apartment size. All plans include nearby staff and reliable replacement support for your peace of mind.</p>
+                            <p>
+                                Select from our flexible daily cleaning plans designed to match your apartment size and cleaning
+                                requirements. Every plan includes trained local cleaning staff, consistent service quality, and
+                                reliable replacement support to ensure complete peace of mind.
+                            </p>
                         </div>
+
                     </div>
                     <div className="row">
                         <div className="col-xl-12">
@@ -60,7 +66,7 @@ const PricingOne = () => {
                                 {PricingOneData.map((item, i) => (
                                     <div key={i} className="pricing-plan-one__single wow animated fadeInUp" data-wow-delay={item.delay}>
                                         <div className="pricing-plan-one__single-inner">
-                                            <div className="layer-outer" style={{backgroundImage: `url(${BackgroundOne.src})`}}></div>
+                                            <div className="layer-outer" style={{ backgroundImage: `url(${BackgroundOne.src})` }}></div>
                                             <div className="table-header text-center">
                                                 <div className="category-wrapper">
                                                     <h3>{item.heading}</h3>

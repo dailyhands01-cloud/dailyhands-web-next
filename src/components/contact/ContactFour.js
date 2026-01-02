@@ -18,23 +18,23 @@ const ContactFour = () => {
                                     <span class="section-title__tagline">Contact With Us</span>
                                     <h2 class="section-title__title">Write A Message</h2>
                                 </div>
-                                <form id="contact-form" name="contact_form" class="default-form2" action="#" method="post">
+                                <form id="contact-form" name="contact_form" class="default-form2" action="https://formspree.io/f/meeojopo" method="POST">
                                     <div class="row">
                                         <div class="col-xl-6 col-lg-6 col-md-6">
                                             <div class="input-box">
-                                                <input type="text" name="form_name" value="" placeholder="Your Name" required="" />
+                                                <input type="text" name="form_name"  placeholder="Your Name" required="" />
                                             </div>
                                         </div>
                                         <div class="col-xl-6 col-lg-6 col-md-6">
                                             <div class="input-box">
-                                                <input type="email" name="form_email" value="" placeholder="Your Email" required="" />
+                                                <input type="email" name="form_email"  placeholder="Your Email" required="" />
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-xl-6 col-lg-6 col-md-6">
                                             <div class="input-box">
-                                                <input type="text" name="form_phone" value="" placeholder="Your Phone" />
+                                                <input type="text" name="form_phone"  placeholder="Your Phone" />
                                             </div>
                                         </div>
                                         <div class="col-xl-6 col-lg-6 col-md-6">
@@ -57,12 +57,12 @@ const ContactFour = () => {
                                     <div class="row">
                                         <div class="col-xl-6 col-lg-6 col-md-6">
                                             <div class="input-box">
-                                                <input type="text" name="form_subject" value="" placeholder="Office address" />
+                                                <input type="text" name="form_subject"  placeholder="Office address" />
                                             </div>
                                         </div>
                                         <div class="col-xl-6 col-lg-6 col-md-6">
                                             <div class="input-box">
-                                                <input type="text" name="form_subject" value="" placeholder="Select Date" id="datepicker" />
+                                                <input type="date" name="form_date" placeholder="Select Date" id="datepicker" />
                                             </div>
                                         </div>
                                     </div>

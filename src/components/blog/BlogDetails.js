@@ -25,41 +25,35 @@ const BlogDetails = () => {
                                         <li><Link href="/blog-details"><i class="fa fa-comments"></i><span>(2)</span></Link></li>
                                         <li><Link href="/blog-details"><i class="fa fa-thumbs-up"></i><span>(2)</span></Link></li>
                                     </ul>
-                                    <h3 class="blog-details__title">Top tips for kitchen cleaning</h3>
-                                    <p class="blog-details__text-1">Ut enim ad minim veniam, quis nostrud exercitation
-                                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                        reprehenderit in voluptat velit esse cillum dolore eu fugiat nulla pariatur.
-                                        Excepteur sint occaecat cupidatat none proident, sunt in culpa qui officia deserunt
-                                        mollit anim id est laborum. Sed ut is a perspiciatis unde omnis iste natus error sit
-                                        voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-                                        illo inventore veritatis equasi architecto beatae vitae dicta sunt explicabo. Nemo
-                                        enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                                        consequuntur magni doloreeos qui ratione voluptatem sequi nesciunt. </p>
-                                    <p class="blog-details__text-2">Excepteur sint occaecat cupidatat none proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum. Sed ut is a perspiciatis unde
-                                        omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-                                        aperiam, eaque ipsa quae ab illo inventore veritatis </p>
+                                    <h3 class="blog-details__title">Top Tips for Kitchen Cleaning</h3>
+                                    <p class="blog-details__text-1">
+                                        Keeping your kitchen clean is essential for hygiene, safety, and a pleasant cooking environment. Start by wiping down countertops, cabinets, and appliances daily to prevent grime buildup. Regularly clean sinks, faucets, and cutting boards with disinfectant to avoid bacterial growth. Don’t forget to empty the trash and sanitize trash cans to prevent odors. Deep clean your refrigerator and pantry weekly, checking for expired items and wiping surfaces. Proper cleaning tools, such as microfiber cloths and eco-friendly cleaners, make the process efficient and effective.
+                                    </p>
+                                    <p class="blog-details__text-2">
+                                        Additionally, pay attention to stovetops, ovens, and microwaves, removing spills and grease promptly. Floors should be swept and mopped regularly to maintain a safe, hygienic environment. Organize utensils, pots, and pans to reduce clutter and make cleaning easier. Small habits, like wiping spills immediately and using liners in drawers or trays, help maintain cleanliness. Following these practical tips ensures your kitchen remains spotless, healthy, and inviting for cooking and dining every day.
+                                    </p>
+
                                 </div>
                                 <div class="blog-details__content-two">
                                     <div class="blog-details__content-two-img">
                                         <img src="/assets/images/blog/blog-details-img-2.jpg" alt="" />
                                     </div>
                                     <div class="blog-details__content-two-details">
-                                        <h3 class="blog-details__content-two-title">Top tips for house cleaning</h3>
-                                        <p class="blog-details__content-two-text-1">Labore et dolore magna aliqua. Ut enim
-                                            ad minim veniam, quis nexercitatiullamco laboris nisi ut aliquip ex ea commodo
-                                            consequat. Duis aute irure dolreprehenderit in voluptate velit esse cillum
-                                            dolore eu fugiat nulla pariatur. Excepteur sint </p>
-                                        <p class="blog-details__content-two-text-2">Ut enim ad minim veniam, quis nostrud
-                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                            irure dolor in reprehenderit in voluptate </p>
+                                        <h3 class="blog-details__content-two-title">Top Tips for House Cleaning</h3>
+                                        <p class="blog-details__content-two-text-1">
+                                            Maintaining a clean home is essential for comfort, health, and productivity. Start by organizing rooms and decluttering surfaces to make cleaning easier. Regular dusting, vacuuming, and wiping down high-touch areas prevent dirt and germs from accumulating. Focus on kitchens and bathrooms, using disinfectants to keep these high-use spaces hygienic. Adopting a routine cleaning schedule ensures your home stays consistently fresh and welcoming for everyone.
+                                        </p>
+                                        <p class="blog-details__content-two-text-2">
+                                            In addition to daily tasks, perform weekly deep cleaning for floors, windows, and furniture. Use eco-friendly cleaning products whenever possible to protect your family and pets. Small habits like wiping spills immediately, rotating chores, and keeping cleaning tools organized make house cleaning efficient and stress-free.
+                                        </p>
                                         <ul class="blog-details__content-two-points">
-                                            <li>Living so moveth won fish waters thing grass tree does not fresh there.</li>
-                                            <li>Beast itself doesn't signs they are so together signs for the called.</li>
-                                            <li>Male divide sixth cattle evening all shall over green may seasons said.</li>
-                                            <li>Divided lights wherein wishing land bring deep abundantly also may.</li>
+                                            <li>Declutter each room before starting to make cleaning faster and more effective.</li>
+                                            <li>Dust and wipe high-touch surfaces daily to maintain hygiene.</li>
+                                            <li>Vacuum and mop floors regularly to keep them clean and allergen-free.</li>
+                                            <li>Use eco-friendly cleaning products for a safer home environment.</li>
                                         </ul>
                                     </div>
+
                                 </div>
                                 <div class="blog-details__bottom">
                                     <p class="blog-details__tags">
@@ -80,42 +74,41 @@ const BlogDetails = () => {
                                     </div>
                                     <div class="author-one__content">
                                         <h3>Hover Cameron</h3>
-                                        <p>Lorem ipsum is simply free text by copytyping refreshing. Neque porro est qui
-                                            dolorem ipsum quia quaed veritatis et quasi architecto.</p>
+                                        <p>Hover is a dedicated cleaning expert with years of experience in residential and commercial cleaning. Passionate about hygiene and efficiency, she ensures every space is spotless and welcoming.</p>
                                     </div>
+
                                 </div>
                                 <div class="comment-one">
                                     <h3 class="comment-one__title">2 Comments</h3>
+
                                     <div class="comment-one__single">
                                         <div class="comment-one__image">
-                                            <img src="/assets/images/blog/comment-1-1.jpg" alt="" />
+                                            <img src="/assets/images/blog/comment-1-1.jpg" alt="Suren Sumi Comment" />
                                         </div>
                                         <div class="comment-one__content">
                                             <h3>Suren Sumi</h3>
-                                            <p>It has survived not only five centuries, but also the leap into electronic
-                                                typesetting unchanged. It was popularised in the sheets containing lorem
-                                                ipsum is simply free text.</p>
-                                            <span>February 03. 2021</span>
+                                            <p>The cleaning tips shared in this blog are incredibly useful! Following these guidelines has made maintaining a spotless and hygienic home much easier for me.</p>
+                                            <span>November 15, 2025</span>
                                             <Link href="/blog-details" class="comment-one__btn">Reply</Link>
                                         </div>
                                     </div>
+
                                     <div class="comment-one__single">
                                         <div class="comment-one__image">
-                                            <img src="/assets/images/blog/comment-1-2.jpg" alt="" />
+                                            <img src="/assets/images/blog/comment-1-2.jpg" alt="Jessica Brown Comment" />
                                         </div>
                                         <div class="comment-one__content">
                                             <h3>Jessica Brown</h3>
-                                            <p>It has survived not only five centuries, but also the leap into electronic
-                                                typesetting unchanged. It was popularised in the sheets containing lorem
-                                                ipsum is simply free text.</p>
-                                            <span>February 03. 2021</span>
-                                            <a href="blog-details.html" class="comment-one__btn">Reply</a>
+                                            <p>I loved the practical advice on keeping kitchens and bathrooms clean. The step-by-step tips are easy to follow and have really improved the hygiene of my home.</p>
+                                            <span>December 03, 2025</span>
+                                            <a href="/blog-details" class="comment-one__btn">Reply</a>
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="comment-form">
                                     <h3 class="comment-form__title">Leave A Reply</h3>
-                                    <form action="#" class="comment-one__form contact-form-validated"
+                                    <form action="https://formspree.io/f/meeojopo" method='POST' class="comment-one__form contact-form-validated"
                                         novalidate="novalidate">
                                         <div class="row">
                                             <div class="col-xl-12">

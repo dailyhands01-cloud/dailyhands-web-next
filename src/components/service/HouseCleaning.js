@@ -31,23 +31,29 @@ const HouseCleaning = () => {
                     </div>
 
                     <div className="service-details__bottom">
-                        <h2 className="service-details__bottom-title">House Cleaning</h2>
-                        <div className="service-details__bottom-text1">
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected humour, or rando
-                                mised words which don't look even slightly believable. If you are going to use a passage of
-                                Lorem Ipsum, you need to be sure there isn't anything this
-                                embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet
-                                tend to repeat predefined chunks as necessary, making
-                                this the first true generator on the Internet. It uses a dictio words, combined with a
-                                handful of </p>
-                        </div>
-                        <div className="service-details__bottom-text2">
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected humour, or rando
-                                mised words which don't look even slightly believable. If you are going to use a passage.
+                        <h2 class="service-details__bottom-title">Professional House Cleaning Services</h2>
+
+                        <div class="service-details__bottom-text1">
+                            <p>
+                                Our professional house cleaning services are designed to keep your home clean, comfortable, and hygienic.
+                                We remove dust, dirt, and germs from living rooms, bedrooms, kitchens, bathrooms, and common areas using
+                                safe and effective cleaning products.
+                            </p>
+                            <p>
+                                A clean home not only improves indoor air quality but also creates a healthier and more relaxing living
+                                environment. Our trained cleaning professionals follow a detailed cleaning process to ensure consistent
+                                results while protecting your furniture and household surfaces.
                             </p>
                         </div>
+
+                        <div class="service-details__bottom-text2">
+                            <p>
+                                Whether you need regular home cleaning or a deep house cleaning service, we offer flexible schedules
+                                tailored to your needs. From surface sanitization to floor cleaning and waste disposal, we deliver
+                                reliable solutions that make your home feel fresh and well-maintained.
+                            </p>
+                        </div>
+
                         <div className="service-details__bottom-text3">
                             <div className="row">
                                 <div className="col-xl-4 col-lg-5">
@@ -56,26 +62,23 @@ const HouseCleaning = () => {
                                     </div>
                                 </div>
                                 <div className="col-xl-8 col-lg-7">
-                                    <div className="content-box">
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                            have suffered
-                                            mised words which don't look even slightly believable. If you are going to use a
-                                            passage of Lorem
-                                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
-                                            Internet tend to
-                                            this the first true generator on the Internet. It uses a dictio words, combined
-                                            with a handful ofrem
-                                            Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free
-                                            from repetiti
-                                            njected humor, sure there isn’t anything embarrassing hidden in the middle of
-                                            the text. All the
-                                            orem Ipsum generators on the Internet tend to repeat predefine</p>
-
+                                    <div class="content-box">
+                                        <p>
+                                            Our house cleaning services are carefully designed to maintain a clean, healthy, and welcoming home
+                                            environment. We focus on removing dust, dirt, and bacteria from all living spaces, including bedrooms,
+                                            kitchens, bathrooms, and common areas, using safe and effective cleaning products suitable for everyday use.
+                                        </p>
+                                        <p>
+                                            Our experienced cleaning professionals follow a detailed checklist to ensure consistent quality without
+                                            disrupting your daily routine. Whether you need routine home cleaning or a deep house cleaning service,
+                                            we deliver reliable results that enhance comfort, hygiene, and overall well-being.
+                                        </p>
                                         <ul>
-                                            <li><span className="icon-plus"></span> Mbarrassing hidden in the middle of text</li>
-                                            <li><span className="icon-plus"></span> Mbarrassing hidden in the middle of text</li>
+                                            <li><span class="icon-plus"></span> Thorough cleaning of all rooms and living areas</li>
+                                            <li><span class="icon-plus"></span> Sanitization of high-touch surfaces for a healthier home</li>
                                         </ul>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
