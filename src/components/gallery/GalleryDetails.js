@@ -18,12 +18,13 @@ const GalleryDetails = () => {
                                     <ul>
                                         <li>
                                             <h5>Date</h5>
-                                            <p>03 may, 2023</p>
+                                            <p>03 may, 2025</p>
                                         </li>
 
                                         <li>
                                             <h5>Client</h5>
-                                            <p>Themeforest, Envato</p>
+                                            <p>UrbanNest Facilities Pvt. Ltd.</p>
+
                                         </li>
 
                                         <li>
@@ -38,35 +39,39 @@ const GalleryDetails = () => {
 
                                         <li>
                                             <h5>Value</h5>
-                                            <p>$65,2000</p>
+                                            <p>$5,200</p>
                                         </li>
                                     </ul>
                                 </div>
                                 {/* Projects Details Information End */}
 
                                 <div class="gallery-details__text-box1">
-                                    <h2>House Cleaning</h2>
-                                    <p class="text1">It is a long established fact that a reader will be distracted by the
-                                        readable content of a page when looking at its layout. The point of using Lorem
-                                        Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
-                                        using 'Content here, content here', making it look like readable English. Many
-                                        desktop publishing packages and web page editors now use Lorem Ipsum as their
-                                        default model text, and a search for 'lorem ipsum' will uncover many web sites still
-                                        in their infancy.</p>
+                                    <h2>Professional House Cleaning Services</h2>
 
-                                    <p class="text2">There are many variations of passages of Lorem Ipsum available, but the
-                                        majority have suffered alteration in some form, by injected humour, or randomised
-                                        words which don't look even slightly believable. If you are going to use a passage
-                                        of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the
-                                        middle of text.</p>
+                                    <p class="text1">
+                                        Our house cleaning services are designed to create a healthier, fresher, and more comfortable living
+                                        environment for you and your family. We provide reliable and thorough cleaning solutions that cover every
+                                        corner of your home, using safe products and proven cleaning techniques to maintain the highest standards
+                                        of hygiene.
+                                    </p>
+
+                                    <p class="text2">
+                                        From daily upkeep to deep cleaning, our trained professionals ensure spotless kitchens, sanitized bathrooms,
+                                        dust-free living areas, and well-maintained bedrooms. With flexible scheduling, verified staff, and quality
+                                        assurance, we make home cleaning stress-free, consistent, and tailored to your lifestyle.
+                                    </p>
                                 </div>
 
 
+
                                 <div class="gallery-details__text-box2">
-                                    <h2>Bedroom Cleaning</h2>
-                                    <p class="text1">Contrary to popular belief, Lorem Ipsum is not simply random text. It
-                                        has roots in a piece of classical Latin literature from 45 BC, making it over 2000
-                                        years old.</p>
+                                    <h2>Bedroom Cleaning Services</h2>
+
+                                    <p class="text1">
+                                        A clean bedroom is essential for better sleep, improved health, and overall well-being. Our professional
+                                        bedroom cleaning services focus on eliminating dust, allergens, and germs to create a calm, hygienic, and
+                                        refreshing space for your daily rest.
+                                    </p>
 
                                     <div class="gallery-details__text-box2-list">
                                         <ul>
@@ -75,7 +80,7 @@ const GalleryDetails = () => {
                                                     <i class="icon-maps-and-flags"></i>
                                                 </div>
                                                 <div class="text">
-                                                    <p>It is a long established fact that</p>
+                                                    <p>Thorough dusting of beds, wardrobes, shelves, and surfaces</p>
                                                 </div>
                                             </li>
 
@@ -84,7 +89,7 @@ const GalleryDetails = () => {
                                                     <i class="icon-maps-and-flags"></i>
                                                 </div>
                                                 <div class="text">
-                                                    <p>It has survived not only five centuries</p>
+                                                    <p>Floor cleaning, vacuuming, and mopping for a dust-free room</p>
                                                 </div>
                                             </li>
 
@@ -93,16 +98,19 @@ const GalleryDetails = () => {
                                                     <i class="icon-maps-and-flags"></i>
                                                 </div>
                                                 <div class="text">
-                                                    <p> Lorem Ipsum has been the ndustry standard dummy text</p>
+                                                    <p>Cleaning of switches, mirrors, windows, and hard-to-reach corners</p>
                                                 </div>
                                             </li>
                                         </ul>
                                     </div>
-                                    <p class="text2">The standard chunk of Lorem Ipsum used since the 1500s is reproduced
-                                        below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et
-                                        Malorum" by Cicero are also reproduced in their exact original form, accompanied by
-                                        English versions from the 1914 translation by H. Rackham.</p>
+
+                                    <p class="text2">
+                                        Our trained and verified staff use safe cleaning products and follow a detailed checklist to ensure consistent
+                                        quality. Whether it’s daily maintenance or periodic deep cleaning, we help maintain a fresh, organized, and
+                                        comfortable bedroom environment.
+                                    </p>
                                 </div>
+
 
                                 <div class="gallery-details__pagination clearfix">
                                     <ul>

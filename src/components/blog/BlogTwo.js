@@ -10,12 +10,14 @@ const BlogTwo = () => {
                     <div className="section-title__style2">
                         <div className="section-title">
                             <span className="section-title__tagline">Our Blog</span>
-                            <h2 className="section-title__title">Latest News & Articles</h2>
+                            <h2 className="section-title__title">Latest Cleaning Tips, News & Insights</h2>
                         </div>
                         <div className="text-box">
-                            <p>will reenergize your ome and enhance your life. From everyday housekeeping to routine
-                                cleanings, our professional this to members can provide you.</p>
+                            <p>
+                                Explore expert cleaning tips, industry updates, and practical guides designed to keep your home and workspace fresh, healthy, and well-maintained. From daily housekeeping advice to professional cleaning insights, our blog helps you make smarter cleaning decisions.
+                            </p>
                         </div>
+
                     </div>
                     <div className="row">
                         {BlogTwoData.map((item, i) => (

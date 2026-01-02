@@ -7,38 +7,38 @@ const TestimonialTwo = () => {
 
         if ($(".testimonial-two__carousel").length) {
             $(".testimonial-two__carousel").owlCarousel({
-            loop: true,
-            margin: 30,
-            nav: false,
-            smartSpeed: 500,
-            autoHeight: false,
-            autoplay: true,
-            dots: true,
-            autoplayTimeout: 10000,
-            navText: [
-                '<span class="icon-left-arrow"></span>',
-                '<span class="icon-right-arrow"></span>'
-            ],
-            responsive: {
-                0: {
-                items: 1
-                },
-                600: {
-                items: 1
-                },
-                800: {
-                items: 2
-                },
-                1024: {
-                items: 2
-                },
-                1200: {
-                items: 3
+                loop: true,
+                margin: 30,
+                nav: false,
+                smartSpeed: 500,
+                autoHeight: false,
+                autoplay: true,
+                dots: true,
+                autoplayTimeout: 10000,
+                navText: [
+                    '<span class="icon-left-arrow"></span>',
+                    '<span class="icon-right-arrow"></span>'
+                ],
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    800: {
+                        items: 2
+                    },
+                    1024: {
+                        items: 2
+                    },
+                    1200: {
+                        items: 3
+                    }
                 }
-            }
             });
         }
-          
+
     }, []);
 
     return (
@@ -54,9 +54,13 @@ const TestimonialTwo = () => {
                             <h2 class="section-title__title">Clients Feedback About Their <br /> Experience With Us</h2>
                         </div>
                         <div class="text-box">
-                            <p>will reenergize your ome and enhance your life. From everyday housekeeping to routine
-                                cleanings, our professional this to members can provide you.</p>
+                            <p>
+                                Our professional cleaning services are designed to re-energize your home and enhance your everyday life.
+                                From regular housekeeping to routine maintenance cleaning, our trained team members deliver reliable,
+                                high-quality service you can trust.
+                            </p>
                         </div>
+
                     </div>
                     <div class="row">
                         <div class="col-xl-12">

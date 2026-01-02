@@ -8,54 +8,60 @@ const BlogOne = () => {
 
         if ($(".blog-one__carousel").length) {
             $(".blog-one__carousel").owlCarousel({
-              loop: true,
-              margin: 30,
-              nav: false,
-              smartSpeed: 500,
-              autoHeight: false,
-              autoplay: true,
-              dots: true,
-              autoplayTimeout: 10000,
-              navText: [
-                '<span class="icon-left-arrow"></span>',
-                '<span class="icon-right-arrow"></span>'
-              ],
-              responsive: {
-                0: {
-                  items: 1
-                },
-                600: {
-                  items: 1
-                },
-                800: {
-                  items: 2
-                },
-                1024: {
-                  items: 3
-                },
-                1200: {
-                  items: 3
+                loop: true,
+                margin: 30,
+                nav: false,
+                smartSpeed: 500,
+                autoHeight: false,
+                autoplay: true,
+                dots: true,
+                autoplayTimeout: 10000,
+                navText: [
+                    '<span class="icon-left-arrow"></span>',
+                    '<span class="icon-right-arrow"></span>'
+                ],
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    800: {
+                        items: 2
+                    },
+                    1024: {
+                        items: 3
+                    },
+                    1200: {
+                        items: 3
+                    }
                 }
-              }
             });
         }
-          
+
     }, []);
 
     return (
         <>
             <section class="blog-one blog-one--blog">
                 <div class="container">
-                    <div class="section-title text-center">
-                        <span class="section-title__tagline">Our Blog</span>
-                        <h2 class="section-title__title">Latest News & Articles</h2>
+                    <div className="section-title">
+                        <span className="section-title__tagline">Our Blog</span>
+                        <h2 className="section-title__title">Latest Cleaning Tips, News & Insights</h2>
                     </div>
+                    <div className="text-box">
+                        <p>
+                            Explore expert cleaning tips, industry updates, and practical guides designed to keep your home and workspace fresh, healthy, and well-maintained. From daily housekeeping advice to professional cleaning insights, our blog helps you make smarter cleaning decisions.
+                        </p>
+                    </div>
+
                     <div class="row">
                         {BlogThreeData.map((item, i) => (
                             <div key={i} class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay={item.delay}>
                                 <div class="blog-one__single">
                                     <div class="blog-one__single-img">
-                                        <img src={item.image} alt={item.alt}  />
+                                        <img src={item.image} alt={item.alt} />
                                         <div class="overlay-icon">
                                             <Link href={item.link}><span class="icon-plus"></span></Link>
                                         </div>

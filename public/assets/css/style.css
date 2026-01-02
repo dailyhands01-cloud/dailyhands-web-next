@@ -3447,6 +3447,7 @@ div[class^="bubble-"] {
 
 .contact-one__form-box .input-box input[type="text"],
 .contact-one__form-box .input-box input[type="email"],
+.contact-one__form-box .input-box input[type="date"],
 .contact-one__form-box .input-box textarea {
     position: relative;
     display: block;
@@ -7626,6 +7627,7 @@ div[class^="bubble-"] {
 
 .contact-one--team-details .contact-one__form-box .input-box input[type="text"],
 .contact-one--team-details .contact-one__form-box .input-box input[type="email"],
+.contact-one--team-details .contact-one__form-box .input-box input[type="date"],
 .contact-one--team-details .contact-one__form-box .input-box textarea {
     border: 2px solid var(--thm-base);
     color: var(--thm-base);
@@ -9476,7 +9478,6 @@ div[class^="bubble-"] {
 .gallery-details__information ul {
     position: relative;
     display: flex;
-    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
 }

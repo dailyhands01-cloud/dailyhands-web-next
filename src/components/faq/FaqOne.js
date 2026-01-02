@@ -5,35 +5,35 @@ const FaqOne = () => {
 
     useEffect(() => {
 
-      if ($(".accrodion-grp").length) {
-        var accrodionGrp = $(".accrodion-grp");
-        accrodionGrp.each(function () {
-          var accrodionName = $(this).data("grp-name");
-          var Self = $(this);
-          var accordion = Self.find(".accrodion");
-          Self.addClass(accrodionName);
-          Self.find(".accrodion .accrodion-content").hide();
-          Self.find(".accrodion.active").find(".accrodion-content").show();
-          accordion.each(function () {
-            $(this)
-              .find(".accrodion-title")
-              .on("click", function () {
-                if ($(this).parent().hasClass("active") === false) {
-                  $(".accrodion-grp." + accrodionName)
-                    .find(".accrodion")
-                    .removeClass("active");
-                  $(".accrodion-grp." + accrodionName)
-                    .find(".accrodion")
-                    .find(".accrodion-content")
-                    .slideUp();
-                  $(this).parent().addClass("active");
-                  $(this).parent().find(".accrodion-content").slideDown();
-                }
-              });
-          });
-        });
-      }
-          
+        if ($(".accrodion-grp").length) {
+            var accrodionGrp = $(".accrodion-grp");
+            accrodionGrp.each(function () {
+                var accrodionName = $(this).data("grp-name");
+                var Self = $(this);
+                var accordion = Self.find(".accrodion");
+                Self.addClass(accrodionName);
+                Self.find(".accrodion .accrodion-content").hide();
+                Self.find(".accrodion.active").find(".accrodion-content").show();
+                accordion.each(function () {
+                    $(this)
+                        .find(".accrodion-title")
+                        .on("click", function () {
+                            if ($(this).parent().hasClass("active") === false) {
+                                $(".accrodion-grp." + accrodionName)
+                                    .find(".accrodion")
+                                    .removeClass("active");
+                                $(".accrodion-grp." + accrodionName)
+                                    .find(".accrodion")
+                                    .find(".accrodion-content")
+                                    .slideUp();
+                                $(this).parent().addClass("active");
+                                $(this).parent().find(".accrodion-content").slideDown();
+                            }
+                        });
+                });
+            });
+        }
+
     }, []);
 
     return (
@@ -43,13 +43,17 @@ const FaqOne = () => {
                     <div class="section-title__style2">
                         <div class="section-title">
                             <span class="section-title__tagline">Frequently Asked Questions</span>
-                            <h2 class="section-title__title">Have Any Questions</h2>
+                            <h2 class="section-title__title">Got Questions? We’re Here to Help</h2>
                         </div>
                         <div class="text-box">
-                            <p>will reenergize your ome and enhance your life. From everyday housekeeping to routine
-                                cleanings, our professional this to members can provide you.</p>
+                            <p>
+                                Our cleaning services are designed to refresh your home and simplify your daily life. From regular
+                                housekeeping to scheduled deep cleaning, our trained professionals ensure reliable, high-quality service
+                                tailored to your needs.
+                            </p>
                         </div>
                     </div>
+
                     <div class="row">
                         {/* Start Faq One Content */}
                         <div class="col-xl-7">

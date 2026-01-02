@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-const WhyChooseUsOne = () => {
+const  WhyChooseUsOne = () => {
     useEffect(() => {
 
         if ($(".tabs-box").length) {

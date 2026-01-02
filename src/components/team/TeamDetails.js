@@ -21,14 +21,19 @@ const TeamDetails = () => {
                                 <div class="title">
                                     <h2>Team Details</h2>
                                 </div>
+
                                 <div class="name">
-                                    <h6>Name : Md Imran Hossain</h6>
+                                    <h6>Name : Ayesha Khan</h6>
                                 </div>
+
                                 <div class="text">
-                                    <p>About : Phis are bound to ensue; and equal blame belongs to those who
-                                        through weakness of will, which is the same as through.We have the
-                                        and industry expertise to develop solutions that can connect.</p>
+                                    <p>
+                                        About : Ayesha Khan is a dedicated professional with strong industry experience in cleaning services
+                                        and operations management. She is committed to delivering high-quality service, maintaining operational
+                                        excellence, and ensuring complete customer satisfaction across all projects.
+                                    </p>
                                 </div>
+
                                 <div class="number">
                                     <p>Call: <a href="tel:8805779006">+91 88057 79006</a></p>
                                 </div>
