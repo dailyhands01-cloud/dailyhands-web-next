@@ -3,72 +3,72 @@ export const TestimonialOneData = [
     {
         id: 1,
         image: "/assets/images/testimonial/testimonials-v1-img1.png",
-        alt: "Rubel Rcon Testimonial",
-        name: "Rubel Rcon",
+        alt: "Sonali Tupe Testimonial",
+        name: "Sonali Tupe",
         position: "Founder",
         description: "Partnering with this startup has transformed our business operations. Their innovative solutions and client-first approach consistently exceed expectations."
     },
     {
         id: 2,
         image: "/assets/images/testimonial/testimonials-v1-img2.png",
-        alt: "Suren Sumi Testimonial",
-        name: "Suren Sumi",
+        alt: "Rajashree Pawar Testimonial",
+        name: "Rajashree Pawar",
         position: "Staff Officer",
         description: "The team demonstrated exceptional professionalism and delivered solutions that enhanced our workflow efficiency and overall productivity."
     },
     {
         id: 3,
         image: "/assets/images/testimonial/testimonials-v1-img3.png",
-        alt: "Bamak Rent Testimonial",
-        name: "Bamak Rent",
+        alt: "Aditya Pawar Testimonial",
+        name: "Aditya Pawar",
         position: "Manager",
         description: "Their expertise and strategic guidance provided measurable results. Highly recommended for businesses seeking growth-driven solutions."
     },
     {
         id: 4,
         image: "/assets/images/testimonial/testimonials-v1-img1.png",
-        alt: "Rubel Rcon Testimonial",
-        name: "Rubel Rcon",
+        alt: "Prerana Pardeshi Testimonial",
+        name: "Prerana Pardeshi",
         position: "Founder",
         description: "The startup’s innovative approach and dedication to client satisfaction have significantly improved our operational efficiency."
     },
     {
         id: 5,
         image: "/assets/images/testimonial/testimonials-v1-img2.png",
-        alt: "Suren Sumi Testimonial",
-        name: "Suren Sumi",
+        alt: "Sanjana Pawar Testimonial",
+        name: "Sanjana Pawar",
         position: "Staff Officer",
         description: "Professional, reliable, and results-driven, this startup delivers high-quality solutions that make a tangible business impact."
     },
     {
         id: 6,
         image: "/assets/images/testimonial/testimonials-v1-img3.png",
-        alt: "Bamak Rent Testimonial",
-        name: "Bamak Rent",
+        alt: "Sonali Tupe Testimonial",
+        name: "Sonali Tupe",
         position: "Manager",
         description: "Their tailored solutions and client-focused methodology ensure scalable success and long-term growth for businesses."
     },
     {
         id: 7,
         image: "/assets/images/testimonial/testimonials-v1-img1.png",
-        alt: "Rubel Rcon Testimonial",
-        name: "Rubel Rcon",
+        alt: "RajaShree Pawar Testimonial",
+        name: "RajaShree Pawar",
         position: "Founder",
         description: "Working with this team has been seamless. Their innovative strategies and timely execution enhanced our business outcomes."
     },
     {
         id: 8,
         image: "/assets/images/testimonial/testimonials-v1-img2.png",
-        alt: "Suren Sumi Testimonial",
-        name: "Suren Sumi",
+        alt: "Aditya Pawar Testimonial",
+        name: "Aditya Pawar",
         position: "Staff Officer",
         description: "They combine creativity with measurable results, providing solutions that directly contribute to business growth."
     },
     {
         id: 9,
         image: "/assets/images/testimonial/testimonials-v1-img3.png",
-        alt: "Bamak Rent Testimonial",
-        name: "Bamak Rent",
+        alt: "Prerana Perdeshi Testimonial",
+        name: "Prerana Perdeshi",
         position: "Manager",
         description: "A trusted partner for startups, delivering innovative, client-focused, and highly effective solutions for modern business challenges."
     },

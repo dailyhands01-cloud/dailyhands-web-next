@@ -5,12 +5,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const BrandOne = () => {
     return (
         <>
-            {/* <section className="brand-one brand-one--one">
+            <section className="brand-one brand-one--one">
                 <div className="container">
                     <Swiper
                         spaceBetween={50}
                         slidesPerView={5}
-                        autoplay={{delay:   5000}}
+                        autoplay={{delay:5000}}
                         breakpoints={{
                             "0": {
                                 spaceBetween: 30,
@@ -46,7 +46,7 @@ const BrandOne = () => {
                         </div>
                     </Swiper>
                 </div>
-            </section> */}
+            </section>
         </>
     )
 }

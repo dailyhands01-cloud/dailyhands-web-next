@@ -29,6 +29,12 @@ export const BrandOneData = [
         image: "/assets/images/brand/brand-1-5.png",
         alt: "Brand",
         link: "#",
+    },
+    {
+        id: 6,
+        image: "/assets/images/brand/brand-1-1.png",
+        alt: "Brand",
+        link: "#",
     }
 ];
 

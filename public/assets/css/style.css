@@ -18,6 +18,7 @@
    # Common
 ===============================================*/
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
     --thm-font: 'Heebo', sans-serif;
     --thm-font-two: 'Roboto', sans-serif;
@@ -103,7 +104,7 @@ ul {
 }
 
 .fixed-bg {
-    background-attachment: fixed!important;
+    background-attachment: fixed !important;
 }
 
 
@@ -574,20 +575,20 @@ ul {
    Scroll To Top
 ===============================================*/
 .scroll-to-top {
-    display: inline-block!important;
-    width: 45px!important;
-    height: 45px!important;
-    background: var(--thm-base)!important;
-    color: #fff!important;
+    display: inline-block !important;
+    width: 45px !important;
+    height: 45px !important;
+    background: var(--thm-base) !important;
+    color: #fff !important;
     position: fixed;
-    bottom: 40px!important;
-    right: 40px!important;
-    z-index: 99!important;
-    text-align: center!important;
+    bottom: 40px !important;
+    right: 40px !important;
+    z-index: 99 !important;
+    text-align: center !important;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
     display: none;
-    border-radius: 50%!important;
+    border-radius: 50% !important;
     transition: all 0.4s ease;
 }
 
@@ -840,14 +841,14 @@ ul {
     float: left;
     padding-top: 33px;
     padding-bottom: 33px;
-    padding:0px;
+    padding: 0px;
 }
 
 .main-menu-wrapper__logo a img {
-    width:250px;
+    width: 250px;
     height: 105px;
-    
-} 
+
+}
 
 .main-menu-wrapper__right {
     position: relative;
@@ -985,7 +986,6 @@ a.sc-hLseeU {
     visibility: visible;
     -webkit-transform: scaleY(1) translateZ(0px);
     transform: scaleY(1) translateZ(0px);
-
 }
 
 .main-menu .main-menu__list li ul li,
@@ -3229,6 +3229,8 @@ div[class^="bubble-"] {
     display: block;
     background: #ffffff;
     padding: 52px 0px 26px;
+    min-height: 230px;
+    height: 100%;
 }
 
 .services-one__single-content h2 {
@@ -3888,6 +3890,9 @@ div[class^="bubble-"] {
     margin-left: -13px;
     margin-right: -13px;
     margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .tab-one__tabs .tab-buttons li {
@@ -3900,12 +3905,28 @@ div[class^="bubble-"] {
     text-transform: capitalize;
     background: #ffffff;
     border-radius: var(--thm-bdr-radius);
-    padding: 19px 81px 20px;
+    /* padding: 19px 81px 20px; */
+    padding: 20px 40px;
     cursor: pointer;
     margin: 0px 11px 0px;
     text-align: center;
     transition: all 200ms linear;
     transition-delay: 0.1s;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .tab-one__tabs .tab-buttons li {
+        padding: 25px;
+        flex: 0 0 40%;
+        margin: 12px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tab-one__tabs .tab-buttons li {
+        padding: 20px;
+        flex: 0 0 100%;
+    }
 }
 
 .tab-one__tabs .tab-buttons li:hover,
@@ -3926,6 +3947,12 @@ div[class^="bubble-"] {
     display: block;
     margin-top: 0px;
     transform: translateY(0px);
+}
+
+.tab-inner-section {
+    display: flex;
+    align-items: end;
+    justify-content: center;
 }
 
 .tab-one__content {
@@ -3985,6 +4012,10 @@ div[class^="bubble-"] {
 .tab-one__img {
     position: relative;
     display: block;
+}
+
+.tab-one__img img {
+    width: 100%;
 }
 
 .tab-one__img .icon {
@@ -4125,6 +4156,8 @@ div[class^="bubble-"] {
     padding-right: 20px;
     box-shadow: 0px 0px 7px 0px rgb(0, 0, 0, 0.07);
     z-index: 1;
+    min-height: 350px;
+    height: 100%;
 }
 
 .testimonials-one__single::before {
@@ -4205,7 +4238,6 @@ div[class^="bubble-"] {
     position: relative;
     display: block;
     line-height: 0;
-    padding-left: 20px;
 }
 
 .testimonials-one__single .client-info .text h2 {
@@ -4257,7 +4289,8 @@ div[class^="bubble-"] {
     position: relative;
     display: block;
     background: #f1f5f9;
-    padding: 120px 0px 90px;
+    /* padding: 120px 0px 90px; */
+    padding: 90px 0px 50px;
 }
 
 .blog-one__single {
@@ -4446,7 +4479,13 @@ div[class^="bubble-"] {
     position: relative;
     display: block;
     border-bottom: 1px solid rgba(255, 255, 255, .27);
-    padding: 120px 0px 90px;
+    padding: 90px 0px 90px;
+}
+
+.footer-one__inner-wrapper {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 .footer-widget__column {
@@ -4585,10 +4624,58 @@ div[class^="bubble-"] {
     font-weight: 400;
     letter-spacing: 0.015em;
     font-family: var(--thm-font);
+    transition: all 500ms ease;
 }
 
-.footer-widget__links-list-item a:hover {
-    color: #ffffff;
+.footer-widget__links-list-item a::after {
+    content: "";
+    height: 1.2px;
+    border-radius: 0;
+    background-color: #fff;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: right center;
+    transition: transform 500ms ease;
+    z-index: 1;
+}
+
+.footer-widget__links-list-item a:hover::after {
+    transform: scaleX(1);
+}
+
+.footer-widget__links-list-item a {
+    position: relative;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    letter-spacing: 0.015em;
+    font-family: var(--thm-font);
+    transition: all 500ms ease;
+}
+
+.footer-widget__links-list-item a::after {
+    content: "";
+    height: 1.2px;
+    border-radius: 0;
+    background-color: #fff;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: transform 500ms ease;
+    z-index: 1;
+}
+
+.footer-widget__links-list-item a:hover::after {
+    transform: scaleX(1);
+    transform-origin: right center;
 }
 
 .footer-widget__gallery {
@@ -4666,6 +4753,7 @@ div[class^="bubble-"] {
 .footer-one__bottom-text {
     position: relative;
     display: block;
+    text-decoration: none;
     text-align: center;
 }
 
@@ -6786,14 +6874,25 @@ div[class^="bubble-"] {
     padding: 120px 0px 120px;
 }
 
+.brand-one--two .swiper-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .brand-one--two .swiper-slide {
     background-color: #ffffff;
-    padding: 15px;
+    padding: 0px;
     border-radius: 10px;
     box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.05);
     transition: all 0.3s ease;
     display: block;
     overflow: hidden;
+    max-width: 300px;
+    width: 100% !important;
+    margin-right: 0px !important;
 }
 
 .brand-one--two .swiper-slide:before,
@@ -6814,7 +6913,6 @@ div[class^="bubble-"] {
     border-radius: 6px;
     transition: all 0.3s ease;
 }
-
 
 /***
 =============================================
@@ -9067,7 +9165,7 @@ div[class^="bubble-"] {
     display: block;
     padding: 103px 0px 100px;
     z-index: 1;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 
 .cta-one .image-layer {
@@ -9129,10 +9227,20 @@ div[class^="bubble-"] {
     font-size: 25px;
     line-height: 35px;
     font-weight: 500;
+    margin-bottom: 20px;
 }
 
 .cta-one__inner .title .number p a {
     color: #ffffff;
+    text-decoration: none;
+    transition: all 500ms ease;
+}
+
+.cta-one__inner .title .number p a:hover {
+    color: #ffffff;
+    text-shadow:
+        0 0 5px rgba(255, 255, 255, 0.4),
+        0 0 10px rgba(255, 255, 255, 0.2);
 }
 
 .cta-one__inner .button-box {

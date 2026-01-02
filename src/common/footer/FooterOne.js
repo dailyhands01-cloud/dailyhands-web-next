@@ -4,23 +4,26 @@ import Link from 'next/link';
 const FooterOne = () => {
     return (
         <>
-
             <footer className="footer-one">
-                <div className="footer-one__bg" style={{backgroundImage: `url(/assets/images/backgrounds/footer-v1-bg.jpg)`}}></div>
+                <div className="footer-one__bg" style={{ backgroundImage: `url(/assets/images/backgrounds/footer-v1-bg.jpg)` }}></div>
                 <div className="footer-one__top">
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-12">
                                 <div className="footer-one__top-wrapper">
-                                    <div className="row">
+                                    <div className="row footer-one__inner-wrapper">
                                         {/* Start Footer Widget Column */}
                                         <div className="col-xl-4 col-lg-4 col-md-6 wow animated fadeInUp" data-wow-delay="0.1s">
                                             <div className="footer-widget__column footer-widget__about">
-                                                <div className="footer-widget__about-logo" style={{display:"flex",justifyContent:"start", alignItems:"center"}} >
-                                                    <Link href="/"><img src="/assets/images/resources/footer-logo1.png" alt=""style={{width:"250px" ,height:"100px"}} /></Link>
+                                                <div className="footer-widget__about-logo" style={{ display: "flex", justifyContent: "start", alignItems: "center" }} >
+                                                    <Link href="/"><img src="/assets/images/resources/footer-logo1.png" alt="" style={{ width: "250px", height: "100px" }} /></Link>
                                                 </div>
-                                                <p className="footer-widget__about-text">We help businesses maximize their
-                                                    online presence with a personalized approach to digital marketing.</p>
+                                                {/* <p className="footer-widget__about-text">We help businesses maximize their
+                                                    online presence with a personalized approach to digital marketing.</p> */}
+
+                                                <p className="footer-widget__about-text">
+                                                    We help businesses strengthen their online presence through customized digital marketing strategies designed to boost visibility, engagement, and growth.
+                                                </p>
 
                                                 {/* <div className="social-link">
                                                     <ul>
@@ -133,7 +136,6 @@ const FooterOne = () => {
                     </div>
                 </div>
 
-
                 {/* Start Footer One Bottom */}
                 <div className="footer-one__bottom">
                     <div className="container">
@@ -141,7 +143,10 @@ const FooterOne = () => {
                             <div className="col-xl-12">
                                 <div className="footer-one__bottom-inner">
                                     <div className="footer-one__bottom-text">
-                                        <p>Copyright © 2023 <Link href="/">Daily Hands</Link>. All Rights Reserved.</p>
+                                        <p>
+                                            Copyright © {new Date().getFullYear()}{" "}
+                                            <Link href="/">Daily Hands</Link>. All Rights Reserved.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -150,7 +155,6 @@ const FooterOne = () => {
                 </div>
                 {/* End Footer One Bottom */}
             </footer>
-            
         </>
     )
 }

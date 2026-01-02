@@ -51,7 +51,7 @@ const BlogOne = () => {
                     </div>
                     <div className="row">
                         {BlogOneData.map((item, i) => (
-                            <div className="col-xl-4 col-lg-4">
+                            <div className="col-xl-4 col-lg-4 mb-5">
                                 <div key={i} className="blog-one__single">
                                     <div className="blog-one__single-img">
                                         <img src={item.image} alt={item.alt} />

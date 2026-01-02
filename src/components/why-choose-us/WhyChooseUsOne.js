@@ -65,7 +65,7 @@ const WhyChooseUsOne = () => {
 
                             {/* Service Plans */}
                             <div className="tab active-tab" id="providing">
-                                <div className="row clearfix">
+                                <div className="row clearfix tab-inner-section">
                                     <div className="col-xl-6 col-lg-6 col-md-12">
                                         <div className="tab-one__content">
                                             <div className="title">
@@ -109,7 +109,7 @@ const WhyChooseUsOne = () => {
 
                             {/* Emergency Cleaning */}
                             <div className="tab" id="emergency">
-                                <div className="row clearfix">
+                                <div className="row clearfix tab-inner-section">
                                     <div className="col-xl-6 col-lg-6 col-md-12">
                                         <div className="tab-one__content">
                                             <div className="title">
@@ -153,7 +153,7 @@ const WhyChooseUsOne = () => {
 
                             {/* Residential Cleaning */}
                             <div className="tab" id="residential">
-                                <div className="row clearfix">
+                                <div className="row clearfix tab-inner-section">
                                     <div className="col-xl-6 col-lg-6 col-md-12">
                                         <div className="tab-one__content">
                                             <div className="title">
@@ -197,7 +197,7 @@ const WhyChooseUsOne = () => {
 
                             {/* Furniture Cleaning */}
                             <div className="tab" id="furniture">
-                                <div className="row clearfix">
+                                <div className="row clearfix tab-inner-section">
                                     <div className="col-xl-6 col-lg-6 col-md-12">
                                         <div className="tab-one__content">
                                             <div className="title">
