@@ -57,29 +57,26 @@ const AboutOne = () => {
                                     </p>
 
                                     <p className="about-one__content-text2">
-                                        From everyday housekeeping to deep and routine cleanings,
-                                        our professionally trained team uses modern techniques to
-                                        create spotless, healthy, and welcoming spaces.
+                                        Our professionally trained team handles everything from regular housekeeping to
+                                        detailed deep cleaning, using modern techniques to keep your spaces spotless,
+                                        healthy, and welcoming.
                                     </p>
 
                                     <div className="about-one__content-list">
                                         <ul>
                                             <li>
                                                 <p>
-                                                    Comprehensive residential and commercial cleaning
-                                                    services.
+                                                    Choose comprehensive residential or commercial cleaning services.
                                                 </p>
                                             </li>
                                             <li>
                                                 <p>
-                                                    Customized cleaning solutions tailored to your
-                                                    specific needs.
+                                                    Get customized cleaning plans tailored to your exact needs.
                                                 </p>
                                             </li>
                                             <li>
                                                 <p>
-                                                    Experienced, verified, and professionally trained
-                                                    cleaning staff.
+                                                    Work with experienced, verified, and professionally trained staff.
                                                 </p>
                                             </li>
                                         </ul>
@@ -96,7 +93,6 @@ const AboutOne = () => {
                             </div>
                         </div>
                         {/* End About Content */}
-
                     </div>
                 </div>
             </section>

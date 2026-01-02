@@ -52,33 +52,19 @@ const BlogOne = () => {
 
           <div className="row">
             {BlogOneData.map((item, i) => (
-              <div className="col-xl-4 col-lg-4">
+              <div className="col-xl-4 col-lg-4 mb-5">
                 <div key={i} className="blog-one__single">
                   <div className="blog-one__single-img">
                     <img src={item.image} alt={item.alt} />
                     <div className="overlay-icon">
                       <a href={item.link}><span className="icon-plus"></span></a>
                     </div>
-                    <div className="row">
-                      {BlogOneData.map((item, i) => (
-                        <div className="col-xl-4 col-lg-4 mb-5">
-                          <div key={i} className="blog-one__single">
-                            <div className="blog-one__single-img">
-                              <img src={item.image} alt={item.alt} />
-                              <div className="overlay-icon">
-                                <a href={item.link}><span className="icon-plus"></span></a>
-                              </div>
-                            </div>
-                            <div className="blog-one__content">
-                              <h2><a href={item.link}>{item.heading}</a></h2>
-                              <p>{item.description}</p>
-                              <div className="btn-box">
-                                <a href={item.link}>{item.btn} <span className="icon-plus"></span></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      ))}
+                  </div>
+                  <div className="blog-one__content">
+                    <h2><a href={item.link}>{item.heading}</a></h2>
+                    <p>{item.description}</p>
+                    <div className="btn-box">
+                      <a href={item.link}>{item.btn} <span className="icon-plus"></span></a>
                     </div>
                   </div>
                 </div>

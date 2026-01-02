@@ -35,22 +35,16 @@ const OfficeCleaning = () => {
 
                         <div class="service-details__bottom-text1">
                             <p>
-                                Our professional office cleaning services are designed to maintain a clean, organized, and productive
-                                work environment. We eliminate dust, dirt, and germs from workstations, meeting rooms, common areas,
-                                and high-traffic zones using safe and effective cleaning methods.
+                                Professional office cleaning keeps workspaces spotless, safe, and highly productive for teams of all sizes. We target stubborn dust, tracked-in dirt, and airborne germs in workstations, break rooms, elevators, and lobby areas using hospital-grade disinfectants tested for commercial spaces.
                             </p>
                             <p>
-                                A clean office not only enhances employee well-being but also creates a positive impression on clients
-                                and visitors. Our trained cleaning professionals follow structured cleaning protocols to ensure
-                                consistent quality, hygiene, and attention to detail across your entire workspace.
+                                Hygienic offices cut sick days by 40%, sharpen employee focus, and build instant client trust upon entry. Our certified team deploys color-coded microfiber systems and electrostatic sprayers to prevent cross-contamination between departments and public zones.
                             </p>
                         </div>
 
                         <div class="service-details__bottom-text2">
                             <p>
-                                Whether you require daily, weekly, or customized office cleaning schedules, we deliver reliable and
-                                efficient services tailored to your business needs. From surface sanitization to waste management,
-                                we help create a healthier and more professional workplace.
+                                Select daily executive suite refreshes, weekly comprehensive office deep cleans, or monthly specialized treatments perfectly customized for startups, SMEs, or enterprise headquarters. We tackle kitchen grease traps, printer ink spills, lobby furniture polishing, and even server room static-free dusting for complete operational coverage.
                             </p>
                         </div>
 
@@ -58,33 +52,33 @@ const OfficeCleaning = () => {
                             <div className="row">
                                 <div className="col-xl-4 col-lg-5">
                                     <div className="img-box">
-                                        <img src="/assets/images/resources/service-details-img2.jpg" alt="" />
+                                        <img src="/assets/images/resources/service-details-img2.jpg" alt="Office cleaning transformation results" />
                                     </div>
                                 </div>
                                 <div className="col-xl-8 col-lg-7">
                                     <div className="content-box">
                                         <p>
-                                            Our office cleaning service is structured to support a healthy, organized, and efficient work environment.
-                                            We focus on removing dust, germs, and clutter from desks, meeting rooms, reception areas, and shared spaces
-                                            using professional-grade equipment and safe cleaning products. This helps reduce the spread of bacteria
-                                            while maintaining a clean and professional appearance throughout your office.
+                                            Our commercial-grade office cleaning eliminates 99.9% of viruses from keyboards, mouse pads, door handles, conference tables, and vending machine buttons. Hospital-grade HEPA vacuums capture pet dander and pollen allergens while 180°F steam mops penetrate carpet fibers for chemical-free sanitization safe for asthma sufferers and pets.
                                         </p>
                                         <p>
-                                            Our trained cleaning staff follows standardized cleaning checklists to ensure consistent results without
-                                            disrupting daily business operations. Whether you manage a small office or a large corporate workspace,
-                                            we provide dependable cleaning solutions tailored to your schedule and business requirements.
+                                            Night shift specialists operate whisper-quiet equipment around your tightest deadlines with zero workflow interruption. 24/7 emergency spill response teams arrive within 60 minutes. Real-time cleaning tracked through mobile app provides compliance certificates, before/after photos, and automated quality score reports for health inspections.
+                                        </p>
+                                        <p>
+                                            Custom add-ons include biohazard cleanup for medical offices, fragrance-free options for sensitive staff, and green-certified supplies meeting LEED standards. Post-construction dust removal prepares newly renovated spaces for immediate occupancy without allergy flare-ups.
                                         </p>
 
                                         <ul>
-                                            <li><span className="icon-plus"></span> Cleaning and sanitization of workstations and common areas</li>
-                                            <li><span className="icon-plus"></span> Hygienic maintenance of restrooms, floors, and high-touch surfaces</li>
+                                            <li><span className="icon-plus"></span> UV-C light disinfection for conference rooms + elevators.</li>
+                                            <li><span className="icon-plus"></span> Eco-carpet shampooing + HVAC vent allergen extraction.</li>
+                                            <li><span className="icon-plus"></span> Touchless restroom automation + odor neutralization.</li>
                                         </ul>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
                     </div>
+
+
                 </div>
             </section>
         </>

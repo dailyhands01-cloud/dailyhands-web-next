@@ -35,22 +35,19 @@ const HouseCleaning = () => {
 
                         <div class="service-details__bottom-text1">
                             <p>
-                                Our professional house cleaning services are designed to keep your home clean, comfortable, and hygienic.
-                                We remove dust, dirt, and germs from living rooms, bedrooms, kitchens, bathrooms, and common areas using
-                                safe and effective cleaning products.
+                                Complete home transformation from compact 1BHK apartments to sprawling 4BHK villas and independent bungalows. We conquer kitchen exhaust grease traps, bathroom black mold behind tiles, pet hair tumbleweeds under sofas using pH-neutral plant-based degreasers completely safe for crawling babies, toddlers, and elderly grandparents.
                             </p>
                             <p>
-                                A clean home not only improves indoor air quality but also creates a healthier and more relaxing living
-                                environment. Our trained cleaning professionals follow a detailed cleaning process to ensure consistent
-                                results while protecting your furniture and household surfaces.
+                                Self-cleaning oven interiors receive heavy carbon scrubbing. Refrigerator evaporator coils vacuumed for 20-25% electricity bill savings. Imported marble/granite countertops hand-polished to showroom mirror shine using pH-balanced stone-safe compounds that prevent etching or dulling.
                             </p>
                         </div>
 
                         <div class="service-details__bottom-text2">
                             <p>
-                                Whether you need regular home cleaning or a deep house cleaning service, we offer flexible schedules
-                                tailored to your needs. From surface sanitization to floor cleaning and waste disposal, we deliver
-                                reliable solutions that make your home feel fresh and well-maintained.
+                                Flexible bi-weekly sparkle maintenance or quarterly transformation deep cleans. Post-Diwali/Dussehra sweet-sticky floor rescue, pre-monsoon humidity mold prevention sprays, post-party confetti/vomit cleanup available 365 days including Ganesh Chaturthi and Christmas holidays.
+                            </p>
+                            <p>
+                                Working professionals get precise 9AM-6PM weekday slots. Large families receive weekend 2-team blitz cleans. New homeowners get move-in ready sparkling vacancy cleans. Airbnb hosts receive rapid-turnaround 4-hour refresh service between guest bookings.
                             </p>
                         </div>
 
@@ -58,27 +55,27 @@ const HouseCleaning = () => {
                             <div className="row">
                                 <div className="col-xl-4 col-lg-5">
                                     <div className="img-box">
-                                        <img src="/assets/images/resources/service-details-img2.jpg" alt="" />
+                                        <img src="/assets/images/resources/service-details-img2.jpg" alt="Complete house deep cleaning before after results" />
                                     </div>
                                 </div>
                                 <div className="col-xl-8 col-lg-7">
                                     <div class="content-box">
                                         <p>
-                                            Our house cleaning services are carefully designed to maintain a clean, healthy, and welcoming home
-                                            environment. We focus on removing dust, dirt, and bacteria from all living spaces, including bedrooms,
-                                            kitchens, bathrooms, and common areas, using safe and effective cleaning products suitable for everyday use.
+                                            180°F high-pressure steam sanitizes bathroom grout lines and kitchen backsplash tiles killing 99.9% E.coli, Salmonella bacteria. Hospital-grade microfiber color-coding system prevents cross-contamination between toilet brush and glassware. Pre-clean air purifier activation captures 85% airborne allergens before surface disturbance.
                                         </p>
                                         <p>
-                                            Our experienced cleaning professionals follow a detailed checklist to ensure consistent quality without
-                                            disrupting your daily routine. Whether you need routine home cleaning or a deep house cleaning service,
-                                            we deliver reliable results that enhance comfort, hygiene, and overall well-being.
+                                            Same trusted cleaner visits monthly building personal rapport. 100% satisfaction guarantee or complimentary re-clean within 48 hours. Eco-waterless cleaning options save 70% water usage. Child-locked chemical storage and pet-safe product lines available.
+                                        </p>
+                                        <p>
+                                            Specialty add-ons: Chandelier crystal polishing, Persian carpet dry cleaning, balcony pigeon dropping neutralization, mosquito net steam sanitization, AC filter replacement + vent dusting for 15% cooling efficiency boost.
                                         </p>
                                         <ul>
-                                            <li><span class="icon-plus"></span> Thorough cleaning of all rooms and living areas</li>
-                                            <li><span class="icon-plus"></span> Sanitization of high-touch surfaces for a healthier home</li>
+                                            <li><span class="icon-plus"></span> 180°F steam grout sanitization + Indian tile restoration.</li>
+                                            <li><span class="icon-plus"></span> Appliance deep interior cleaning + energy-saving coil vacuuming.</li>
+                                            <li><span class="icon-plus"></span> Festival special sticky-sweet floor rescue service.</li>
+                                            <li><span class="icon-plus"></span> Balcony/wall pigeon dropping neutralization + odor block.</li>
                                         </ul>
                                     </div>
-
                                 </div>
                             </div>
                         </div>

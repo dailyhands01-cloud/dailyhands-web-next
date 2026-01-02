@@ -4369,6 +4369,8 @@ div[class^="bubble-"] {
     display: block;
     background: #ffffff;
     padding: 23px 30px 31px;
+    min-height: 351px;
+    height: 100%;
 }
 
 .blog-one__content h2 {

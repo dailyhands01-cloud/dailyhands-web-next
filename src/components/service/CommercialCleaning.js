@@ -35,22 +35,19 @@ const CommercialCleaning = () => {
 
                         <div class="service-details__bottom-text1">
                             <p>
-                                Our professional commercial cleaning services are designed to maintain clean, hygienic, and well-managed
-                                business environments across various industries. We provide comprehensive cleaning solutions for offices,
-                                retail stores, corporate buildings, and commercial facilities using advanced tools and safe cleaning products.
+                                Spotless commercial spaces for offices, retail stores, restaurants, medical clinics, fitness centers, and warehouses. Hospital-grade electrostatic fogging eliminates viruses from counters, door handles, POS terminals, weight machines using touchless technology that reaches 99.99% of surfaces.
                             </p>
                             <p>
-                                A clean commercial space enhances employee productivity, ensures health and safety compliance, and creates
-                                a positive impression on clients and visitors. Our experienced cleaning professionals follow industry-standard
-                                protocols to deliver consistent quality and reliable results.
+                                Clean facilities pass OSHA health inspections instantly, reduce employee sick days by 37%, and boost customer dwell time 25%. Night crews coordinate with security for after-hours access with zero operational disruption.
                             </p>
                         </div>
 
                         <div class="service-details__bottom-text2">
                             <p>
-                                We offer flexible commercial cleaning schedules tailored to your operational needs, including daily, weekly,
-                                or customized service plans. From surface sanitization to floor care and waste management, we help businesses
-                                maintain a professional and welcoming environment.
+                                24/7 emergency spill response + flexible janitorial schedules. Strip malls receive pressure-washed sidewalks and storefront glass; restaurants get grease trap servicing and hood filter degreasing; warehouses floor marking repainting and forklift path sweeping.
+                            </p>
+                            <p>
+                                Corporate cafeteria deep cleans include oven interiors, commercial dishwashers, walk-in cooler coil defrosting. Hotel lobby services feature brass polishing and marble floor crystallization.
                             </p>
                         </div>
 
@@ -58,29 +55,27 @@ const CommercialCleaning = () => {
                             <div className="row">
                                 <div className="col-xl-4 col-lg-5">
                                     <div className="img-box">
-                                        <img src="/assets/images/resources/service-details-img2.jpg" alt="" />
+                                        <img src="/assets/images/resources/service-details-img2.jpg" alt="Commercial space deep cleaning transformation" />
                                     </div>
                                 </div>
                                 <div className="col-xl-8 col-lg-7">
                                     <div class="content-box">
                                         <p>
-                                            Our commercial cleaning services are delivered with a focus on consistency, hygiene, and operational
-                                            efficiency. We clean and maintain high-traffic commercial spaces by removing dust, dirt, and harmful
-                                            germs from work areas, common spaces, restrooms, and shared facilities using industry-approved equipment
-                                            and safe cleaning solutions.
+                                            5000 sq ft offices cleaned in 4 hours using ride-on scrubbers. Industrial vacuums handle post-construction dust; diamond-ground concrete floors burnished to 3000 grit mirror finish. Biohazard Level 2 certified for clinics, salons, tattoo parlors.
                                         </p>
                                         <p>
-                                            Our trained cleaning professionals follow structured cleaning checklists to ensure every area meets
-                                            quality and safety standards. Whether you manage a corporate office, retail outlet, or commercial
-                                            facility, our services are designed to minimize disruption while maintaining a clean, professional,
-                                            and welcoming environment.
+                                            Real-time cleaning verified via QR code audits and time-lapse cameras. Automated chemical dilution stations save 30% on supplies. Green Seal™ certified, Cradle to Cradle products meet Fortune 500 sustainability mandates.
+                                        </p>
+                                        <p>
+                                            Specialty services: post-event confetti/vomit cleanup, odor neutralization for restaurants, gum removal from parking lots, bird control netting maintenance for loading docks, elevator shaft pressure washing.
                                         </p>
                                         <ul>
-                                            <li><span class="icon-plus"></span> Comprehensive cleaning of high-traffic and shared commercial areas</li>
-                                            <li><span class="icon-plus"></span> Sanitization of surfaces to support workplace health and safety</li>
+                                            <li><span class="icon-plus"></span> Touchless electrostatic disinfection reaches behind furniture.</li>
+                                            <li><span class="icon-plus"></span> High-speed burnishing + concrete floor polishing.</li>
+                                            <li><span class="icon-plus"></span> Restaurant hood suppression system grease removal.</li>
+                                            <li><span class="icon-plus"></span> 24/7 emergency biohazard response teams.</li>
                                         </ul>
                                     </div>
-
                                 </div>
                             </div>
                         </div>

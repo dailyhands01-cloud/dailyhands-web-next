@@ -32,24 +32,19 @@ const BedroomCleaning = () => {
 
                     <div class="service-details__bottom">
                         <h2 class="service-details__bottom-title">Professional Bedroom Cleaning Services</h2>
+
                         <div class="service-details__bottom-text1">
                             <p>
-                                Our professional bedroom cleaning service is designed to create a clean, hygienic, and relaxing living space.
-                                We thoroughly remove dust, allergens, and hidden dirt from floors, furniture, mattresses, and high-touch areas
-                                using safe and effective cleaning methods.
+                                Transform messy bedrooms into allergy-free sanctuaries. We deep clean floors, nightstands, dressers, and headboards using HEPA vacuums that capture 99.97% of dust particles and microscopic allergens.
                             </p>
                             <p>
-                                From vacuuming and mopping to surface sanitization and organized detailing, our trained cleaning experts ensure
-                                your bedroom remains fresh, comfortable, and well-maintained. Whether you need regular upkeep or deep bedroom
-                                cleaning, we deliver reliable results that enhance indoor air quality and overall comfort.
+                                Professional steam sanitization penetrates fabrics killing dust mites, bed bugs, and bacteria without toxic chemicals. Baseboard detailing and wall spot-cleaning remove fingerprints for pristine walls.
                             </p>
                         </div>
 
                         <div class="service-details__bottom-text2">
                             <p>
-                                Our bedroom cleaning process focuses on hygiene, comfort, and attention to detail. We clean and disinfect
-                                frequently touched surfaces, remove dust buildup, and ensure every corner is properly maintained for a
-                                healthier and more pleasant environment.
+                                Hidden areas get special attention: behind dressers, under beds, inside wardrobes, ceiling fan blades. Anti-static treatments repel future dust while fabric protectants shield upholstery from spills.
                             </p>
                         </div>
 
@@ -57,29 +52,26 @@ const BedroomCleaning = () => {
                             <div class="row">
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="img-box">
-                                        <img src="/assets/images/resources/service-details-img2.jpg" alt="" />
+                                        <img src="/assets/images/resources/service-details-img2.jpg" alt="Bedroom deep cleaning before and after results" />
                                     </div>
                                 </div>
                                 <div class="col-xl-8 col-lg-7">
                                     <div class="content-box">
                                         <p>
-                                            Our bedroom cleaning service is designed to deliver a spotless, healthy, and well-organized living space
-                                            through a detailed and systematic cleaning process. Our trained professionals carefully remove dust, dirt,
-                                            and allergens from floors, furniture, mattresses, and hard-to-reach areas using industry-approved tools and
-                                            safe cleaning solutions. Special attention is given to high-touch surfaces, ensuring a hygienic environment
-                                            that supports better indoor air quality and everyday comfort.
+                                            Mattress revival service extracts 95% of allergens with UV-C light + enzyme treatments. Duvets steamed at 180°F, pillows sanitized, sheets changed. Window treatments hand-washed to eliminate pollen buildup.
                                         </p>
                                         <p>
-                                            Whether you require routine maintenance or a deep bedroom cleaning service, we follow strict quality
-                                            standards to protect your furnishings while achieving long-lasting cleanliness. Our goal is to create
-                                            a calm, fresh, and relaxing bedroom environment that enhances both hygiene and overall well-being.
+                                            Nighttime service available. Weekly refreshes or quarterly deep cleans. Pet hair specialty using rubber grooming tools. Post-renovation dust removal prepares bedrooms for immediate use.
+                                        </p>
+                                        <p>
+                                            Eco-friendly focus: plant-based solutions, reusable microfiber, water-efficient methods. Child-safe products eliminate VOCs. Results last 3X longer than DIY cleaning.
                                         </p>
                                         <ul>
-                                            <li><span class="icon-plus"></span> Detailed dusting and cleaning of all bedroom surfaces</li>
-                                            <li><span class="icon-plus"></span> Disinfection of frequently touched areas for added safety</li>
+                                            <li><span class="icon-plus"></span> Mattress UV sanitization + dust mite extraction.</li>
+                                            <li><span class="icon-plus"></span> Ceiling fans, blinds, curtains professional laundering.</li>
+                                            <li><span class="icon-plus"></span> Baseboards, door frames, switch plates detailed.</li>
                                         </ul>
                                     </div>
-
                                 </div>
                             </div>
                         </div>

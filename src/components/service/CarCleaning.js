@@ -35,22 +35,19 @@ const CarCleaning = () => {
 
                         <div class="service-details__bottom-text1">
                             <p>
-                                Our professional car cleaning services are designed to restore and maintain the cleanliness, comfort,
-                                and appearance of your vehicle. We remove dust, stains, and buildup from both interior and exterior
-                                surfaces using specialized tools and vehicle-safe cleaning products.
+                                Complete automotive transformation from hatchbacks, sedans, SUVs to luxury MPVs restored to showroom condition. 180°F steam seat extraction kills 99.9% bacteria/Staph while pH-neutral leather conditioner prevents dashboard cracking, seat bolstering from Pune summer heat. AC evaporator coil fogged eliminates musty odors permanently.
                             </p>
                             <p>
-                                A clean car not only enhances visual appeal but also improves hygiene and driving comfort. Our trained
-                                cleaning professionals carefully clean seats, dashboards, carpets, windows, and exterior panels to
-                                deliver a fresh and polished finish.
+                                Professional clay bar decontamination safely removes industrial brake dust, highway tar, tree sap, bird droppings without single scratch. Headlight lens restoration returns 90-95% original light output passing RTO inspection. Engine bay precision degreased using citrus-based protectants safe for rubber/aluminum components.
                             </p>
                         </div>
 
                         <div class="service-details__bottom-text2">
                             <p>
-                                Whether you need regular car cleaning or a deep interior and exterior detailing service, we provide
-                                reliable and efficient solutions tailored to your vehicle’s needs. Our goal is to keep your car
-                                spotless, sanitized, and well-maintained.
+                                Express 90-minute refreshes for busy professionals or comprehensive 5-hour showroom detailing packages. Monsoon mud/interior extraction, post-Lonavala roadtrip sanitization, pre-used car sale value-boosting polishes. Optional nano-ceramic coating provides 24-month hydrophobic protection repelling water, UV damage, contaminants.
+                            </p>
+                            <p>
+                                Wedding/special occasion white glove service includes red carpet runner protection, confetti removal, silk seat covers. Corporate fleet contracts with dedicated vehicles/technicians. Race track preparation removes rubber debris from high-performance braking systems.
                             </p>
                         </div>
 
@@ -58,32 +55,31 @@ const CarCleaning = () => {
                             <div class="row">
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="img-box">
-                                        <img src="/assets/images/resources/service-details-img2.jpg" alt="" />
+                                        <img src="/assets/images/resources/service-details-img2.jpg" alt="Professional car detailing interior exterior before after" />
                                     </div>
                                 </div>
                                 <div class="col-xl-8 col-lg-7">
                                     <div class="content-box">
                                         <p>
-                                            Our car cleaning service ensures your vehicle looks spotless, feels fresh, and is hygienically maintained.
-                                            We thoroughly clean both the interior and exterior, removing dust, dirt, stains, and grime using safe
-                                            cleaning products and professional-grade equipment.
+                                            Nano-ceramic technology interior protectant creates 360° spill-repellent surfaces on fabric/leather. Trunk compartments fully organized, spare tire well dust-free, emergency kit inventoried. Convertible soft tops deep conditioned prevent cracking. Sunroof drain channels cleared eliminate winter leaks.
                                         </p>
                                         <p>
-                                            Our trained car cleaning professionals pay attention to every detail, including carpets, upholstery,
-                                            dashboards, windows, and exterior panels, delivering a polished finish that enhances the appearance
-                                            and comfort of your vehicle. Whether it’s a routine wash or a full detailing service, we provide
-                                            consistent and reliable results.
+                                            Complimentary mobile service at Pimpri office complexes, residential societies, or corporate parking. Free pick-up/drop-off within 15km radius. Pre-RTO/PUC inspection detailing maximizes resale value 12-18%. PetSafe transport package with rubber curry combs, enzyme odor neutralizers.
+                                        </p>
+                                        <p>
+                                            Vintage car restoration specialty: period-correct waxes, convertible top fabric revival, wire wheel polishing. Electric vehicle interiors ozone-treated for battery-safe sanitization. Supercar carbon fiber safe protectants preserve 6-figure investments.
                                         </p>
                                         <ul>
-                                            <li><span class="icon-plus"></span> Complete interior cleaning, including seats, carpets, and dashboard</li>
-                                            <li><span class="icon-plus"></span> Exterior washing, polishing, and stain removal for a spotless finish</li>
+                                            <li><span class="icon-plus"></span> Steam seat extraction + Italian leather conditioning.</li>
+                                            <li><span class="icon-plus"></span> Headlight restoration + industrial fallout decontamination.</li>
+                                            <li><span class="icon-plus"></span> Nano-ceramic coating + 24-month hydrophobic warranty.</li>
+                                            <li><span class="icon-plus"></span> Vintage convertible top restoration + wire wheel detailing.</li>
                                         </ul>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>  
                 </div>
             </section>
         </>

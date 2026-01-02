@@ -8,7 +8,7 @@ export const ServiceOneData = [
     image: "/assets/images/services/services-v1-img1.jpg",
     heading: "Bedroom Cleaning",
     description:
-      "Professional bedroom cleaning services to eliminate dust, allergens, and create a fresh, hygienic sleeping environment.",
+      "Professional bedroom cleaning that removes dust, allergens, and germs for a fresh, hygienic sleeping space.",
     link: "/bedroom-cleaning",
     delay: "0ms",
     duration: "1500ms",
@@ -19,7 +19,7 @@ export const ServiceOneData = [
     image: "/assets/images/services/services-v1-img2.jpg",
     heading: "Window Cleaning",
     description:
-      "Expert window cleaning services for homes and offices, delivering streak-free glass and enhanced natural light.",
+      "Streak-free window cleaning removes dust and stains from home/office glass. Enhances visibility and curb appeal.",
     link: "/window-cleaning",
     delay: "100ms",
     duration: "1500ms",
@@ -30,7 +30,7 @@ export const ServiceOneData = [
     image: "/assets/images/services/services-v1-img3.jpg",
     heading: "Office Cleaning",
     description:
-      "Reliable office cleaning solutions designed to maintain cleanliness, hygiene, freshness and a productive workplace.",
+      "Office cleaning for healthy workspaces removes dust and germs from workstations, meeting rooms, and high-traffic areas.",
     link: "/office-cleaning",
     delay: "200ms",
     duration: "1500ms",
@@ -41,7 +41,7 @@ export const ServiceOneData = [
     image: "/assets/images/services/services-v1-img4.jpg",
     heading: "Commercial Cleaning",
     description:
-      "Comprehensive commercial cleaning services for businesses, retail spaces, and corporate facilities.",
+      "Expert commercial cleaning services for offices, retail stores, restaurants, and corporate facilities with customized schedules",
     link: "/commercial-cleaning",
     delay: "300ms",
     duration: "1500ms",
@@ -52,7 +52,7 @@ export const ServiceOneData = [
     image: "/assets/images/services/services-v1-img5.jpg",
     heading: "House Cleaning",
     description:
-      "Complete house cleaning services covering kitchens, bathrooms, living areas, and routine maintenance.",
+      "Comprehensive house cleaning services for kitchens, bathrooms, living rooms, bedrooms, and regular maintenance.",
     link: "/house-cleaning",
     delay: "400ms",
     duration: "1500ms",
@@ -63,7 +63,7 @@ export const ServiceOneData = [
     image: "/assets/images/services/services-v1-img6.jpg",
     heading: "Car Cleaning",
     description:
-      "Professional car cleaning services to keep your vehicle spotless and well-maintained.",
+      "Expert car detailing services restoring vehicles to showroom condition with steam sanitization and nano-ceramic protection.",
     link: "/car-cleaning",
     delay: "500ms",
     duration: "1500ms",
