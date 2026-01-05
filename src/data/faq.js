@@ -12,7 +12,7 @@ export const FaqOneData = [
     },
     {
         id: 2,
-        image: "/assets/images/resources/faq-v1-img1.jpg",
+        image: "/assets/images/resources/faq-v1-img1.2.jpg",
         alt: "Affordable Cleaning FAQ",
         heading: "Why are your cleaning services so affordable?",
         description: "Our pricing is transparent and competitive because we optimize operations and hire nearby staff. This allows us to provide high-quality cleaning services at reasonable rates without compromising on standards.",
@@ -21,7 +21,7 @@ export const FaqOneData = [
     },
     {
         id: 3,
-        image: "/assets/images/resources/faq-v1-img1.jpg",
+        image: "/assets/images/resources/faq-v1-img1.3.jpg",
         alt: "Cleaning Pricing FAQ",
         heading: "Do you offer flexible pricing plans?",
         description: "Yes, we provide flexible cleaning plans based on your apartment size and requirements. You can choose from monthly packages designed for 1 BHK, 2 BHK, and 3 BHK homes.",
@@ -30,7 +30,7 @@ export const FaqOneData = [
     },
     {
         id: 4,
-        image: "/assets/images/resources/faq-v1-img1.jpg",
+        image: "/assets/images/resources/faq-v1-img1.4.jpg",
         alt: "Home Preparation FAQ",
         heading: "Do I need to prepare my home before cleaning?",
         description: "Basic tidying like keeping valuables safe is recommended, but our professional cleaners handle the rest. We aim to make the process as convenient as possible for you.",
@@ -39,7 +39,7 @@ export const FaqOneData = [
     },
     {
         id: 5,
-        image: "/assets/images/resources/faq-v1-img1.jpg",
+        image: "/assets/images/resources/faq-v1-img1.5.jpg",
         alt: "Service Reliability FAQ",
         heading: "What if my assigned cleaner is unavailable?",
         description: "We provide free replacement support to ensure uninterrupted service. If your cleaner is unavailable, a trained replacement is arranged promptly.",

@@ -52,7 +52,7 @@ const BedroomCleaning = () => {
                             <div class="row">
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="img-box">
-                                        <img src="/assets/images/resources/service-details-img2.jpg" alt="Bedroom deep cleaning before and after results" />
+                                        <img src="/assets/images/resources/bedroom-cleaning.jpg" alt="Bedroom deep cleaning before and after results" />
                                     </div>
                                 </div>
                                 <div class="col-xl-8 col-lg-7">

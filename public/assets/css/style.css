@@ -5854,6 +5854,7 @@ div[class^="bubble-"] {
     position: absolute;
     top: -3px;
     left: 0;
+    width: 150px;
 }
 
 .faq-one-accrodion .accrodion-content .inner .img-box::before {
@@ -6804,6 +6805,7 @@ div[class^="bubble-"] {
     background: #f1f5f9;
     padding: 20px 0px 20px;
     z-index: 1;
+    
 }
 
 .brand-one .swiper-slide:before,
@@ -9417,6 +9419,7 @@ div[class^="bubble-"] {
     display: block;
     overflow: hidden;
     z-index: 1;
+    height: 450px;
 }
 
 .gallery-page__single-img:before {

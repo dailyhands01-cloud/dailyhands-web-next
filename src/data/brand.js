@@ -32,7 +32,7 @@ export const BrandOneData = [
     },
     {
         id: 6,
-        image: "/assets/images/brand/brand-1-1.png",
+        image: "/assets/images/brand/brand-1-6.png",
         alt: "Brand",
         link: "#",
     }

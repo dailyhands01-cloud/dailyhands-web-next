@@ -103,49 +103,49 @@ export const TestimonialTwoData = [
     },
     {
         id: 4,
-        image: "/assets/images/testimonial/testimonials-v2-thumb-img1.jpg",
+        image: "/assets/images/testimonial/testimonials-v2-img1.jpg",
         alt: "Daily Cleaning Service Review",
-        name: "Suren Sumi",
+        name: "Suzian Mitra",
         position: "Working Professional",
         description: "Daily cleaning has made our home more comfortable and hygienic. The replacement support is very helpful."
     },
     {
         id: 5,
-        image: "/assets/images/testimonial/testimonials-v2-thumb-img2.jpg",
+        image: "/assets/images/testimonial/testimonials-v2-img2.jpg",
         alt: "Apartment Cleaning Review",
-        name: "Anowar Hossain",
+        name: "Imran Zahir",
         position: "Tenant",
         description: "Affordable plans and professional cleaners. The service quality has been consistent and dependable."
     },
     {
         id: 6,
-        image: "/assets/images/testimonial/testimonials-v2-thumb-img3.jpg",
+        image: "/assets/images/testimonial/testimonials-v2-img3.jpg",
         alt: "Office Cleaning Feedback",
-        name: "Bamak Rent",
+        name: "Sam White",
         position: "Manager",
         description: "Our office environment has improved significantly after hiring their cleaning service. Highly professional and well-managed team."
     },
     {
         id: 7,
-        image: "/assets/images/testimonial/testimonials-v2-thumb-img1.jpg",
+        image: "/assets/images/testimonial/testimonials-v3-img1.jpg",
         alt: "Residential Cleaning Review",
-        name: "Suren Sumi",
+        name: "Monika Das",
         position: "Apartment Owner",
         description: "The staff is well-trained and follows proper cleaning routines. Great service for residential cleaning needs."
     },
     {
         id: 8,
-        image: "/assets/images/testimonial/testimonials-v2-thumb-img2.jpg",
+        image: "/assets/images/testimonial/testimonials-v3-img2.jpg",
         alt: "Deep Cleaning Review",
-        name: "Anowar Hossain",
+        name: "Raj Gupta",
         position: "Homeowner",
         description: "Booked a deep cleaning service and the results were outstanding. Every area was cleaned thoroughly."
     },
     {
         id: 9,
-        image: "/assets/images/testimonial/testimonials-v2-thumb-img3.jpg",
+        image: "/assets/images/testimonial/testimonials-v3-img3.jpg",
         alt: "Trusted Cleaning Service Review",
-        name: "Bamak Rent",
+        name: "Aditya Sen",
         position: "Property Manager",
         description: "A reliable cleaning partner for long-term maintenance. Their service quality and professionalism stand out."
     },
