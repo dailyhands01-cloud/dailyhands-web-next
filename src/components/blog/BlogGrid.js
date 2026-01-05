@@ -25,6 +25,7 @@ const BlogGrid = () => {
                                             </li>
                                         </ul>
                                         <h2><Link href={item.link}>{item.heading}</Link></h2>
+                                        <p>{item.description}</p>
                                     </div>
                                 </div>
                             </div>

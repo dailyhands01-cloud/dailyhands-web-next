@@ -23,14 +23,13 @@ const TeamDetails = () => {
                                 </div>
 
                                 <div class="name">
-                                    <h6>Name : Ayesha Khan</h6>
+                                    <h6>Name : Prerana Pardesi</h6>
                                 </div>
 
                                 <div class="text">
-                                    <p>
-                                        About : Ayesha Khan is a dedicated professional with strong industry experience in cleaning services
-                                        and operations management. She is committed to delivering high-quality service, maintaining operational
-                                        excellence, and ensuring complete customer satisfaction across all projects.
+                                    <p> 
+                                        About : Prerana Pardesi is an accomplished operations manager specializing in professional house cleaning, car detailing, and commercial cleaning services.
+                                        With extensive industry expertise, she drives operational excellence and consistently delivers exceptional results and complete customer satisfaction across residential, commercial, and automotive projects.
                                     </p>
                                 </div>
 
@@ -43,9 +42,7 @@ const TeamDetails = () => {
                                     </div>
                                     <ul>
                                         <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                         <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
                                     </ul>
                                 </div>
                             </div>

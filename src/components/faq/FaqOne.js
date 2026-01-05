@@ -47,9 +47,11 @@ const FaqOne = () => {
                         </div>
                         <div class="text-box">
                             <p>
-                                Our cleaning services are designed to refresh your home and simplify your daily life. From regular
-                                housekeeping to scheduled deep cleaning, our trained professionals ensure reliable, high-quality service
-                                tailored to your needs.
+                                Professional house cleaning services featuring certified cleaners, eco-friendly products,
+                                and flexible scheduling options. From daily maintenance and weekly housekeeping to
+                                comprehensive deep cleaning, kitchen sanitization, bathroom disinfection, and bedroom
+                                allergen removal, our trained staff deliver consistent quality tailored to your home
+                                size, lifestyle, and schedule requirements with 100% satisfaction guarantee.
                             </p>
                         </div>
                     </div>

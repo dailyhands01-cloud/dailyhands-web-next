@@ -10,7 +10,7 @@ const ContactInfo = () => {
                         <div className="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                             <div className="contact-box__single text-center">
                                 <div className="contact-box__single-icon">
-                                    <span className="fa fa-map-marker"></span>
+                                    <span className="fa fa-map-marker" aria-hidden="true"></span>
                                 </div>
                                 <div className="contact-box__single-text">
                                     <h2><a href="#">Our Location</a></h2>

@@ -10,7 +10,7 @@ const ContactTwo = () => {
                             <div class="contact-page-form__inner">
                                 <div class="section-title text-center">
                                     <span class="section-title__tagline">Contact With Us Now</span>
-                                    <h2 class="section-title__title">Feel Free to Write Our <br />Cleaning Experts</h2>
+                                    <h2 className="section-title__title">Contact Our Cleaning Experts Today</h2>
                                 </div>
                                 <form action="https://formspree.io/f/meeojopo" method="POST" class="contact-page-form__form contact-form-validated">
                                     <div class="row">

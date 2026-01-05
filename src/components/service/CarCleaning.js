@@ -35,20 +35,17 @@ const CarCleaning = () => {
 
                         <div class="service-details__bottom-text1">
                             <p>
-                                Complete automotive transformation from hatchbacks, sedans, SUVs to luxury MPVs restored to showroom condition. 180°F steam seat extraction kills 99.9% bacteria/Staph while pH-neutral leather conditioner prevents dashboard cracking, seat bolstering from Pune summer heat. AC evaporator coil fogged eliminates musty odors permanently.
-                            </p>
+                                Complete automotive transformation for hatchbacks, sedans, SUVs, and luxury MPVs restored to near-showroom condition. 180°F steam seat extraction helps kill up to 99.9% of bacteria while pH-neutral leather conditioners help prevent dashboard and seat cracking in harsh summer heat. AC evaporator coil treatment helps remove musty odors for a fresher-smelling cabin.                            </p>
                             <p>
-                                Professional clay bar decontamination safely removes industrial brake dust, highway tar, tree sap, bird droppings without single scratch. Headlight lens restoration returns 90-95% original light output passing RTO inspection. Engine bay precision degreased using citrus-based protectants safe for rubber/aluminum components.
-                            </p>
+
+                                Professional clay bar decontamination safely removes industrial brake dust, highway tar, tree sap, and bird droppings without scratching the paint. Headlight lens restoration helps recover approximately 90–95% of original light output for better visibility and easier inspection approval. Engine bay precision degreasing uses citrus-based protectants that are gentler on rubber and aluminum components.                            </p>
                         </div>
 
                         <div class="service-details__bottom-text2">
                             <p>
-                                Express 90-minute refreshes for busy professionals or comprehensive 5-hour showroom detailing packages. Monsoon mud/interior extraction, post-Lonavala roadtrip sanitization, pre-used car sale value-boosting polishes. Optional nano-ceramic coating provides 24-month hydrophobic protection repelling water, UV damage, contaminants.
-                            </p>
+                                Express 90-minute refresh services are available for busy professionals, along with comprehensive 5-hour full showroom detailing packages. Services include monsoon mud and interior extraction, post-road-trip sanitization, and pre-used-car-sale polishing to help boost resale value. Optional nano-ceramic coating offers up to 24 months of hydrophobic protection against water, UV rays, and contaminants.                            </p>
                             <p>
-                                Wedding/special occasion white glove service includes red carpet runner protection, confetti removal, silk seat covers. Corporate fleet contracts with dedicated vehicles/technicians. Race track preparation removes rubber debris from high-performance braking systems.
-                            </p>
+                                Wedding and special-occasion white-glove services include red carpet runner protection, confetti removal, and care for premium or silk seat covers. Corporate fleet contracts are available with dedicated vehicles and technicians to maintain multiple cars on a fixed schedule. Track-day preparation focuses on removing rubber debris and heavy brake dust from high-performance braking systems.                            </p>
                         </div>
 
                         <div class="service-details__bottom-text3">
@@ -61,13 +58,11 @@ const CarCleaning = () => {
                                 <div class="col-xl-8 col-lg-7">
                                     <div class="content-box">
                                         <p>
-                                            Nano-ceramic technology interior protectant creates 360° spill-repellent surfaces on fabric/leather. Trunk compartments fully organized, spare tire well dust-free, emergency kit inventoried. Convertible soft tops deep conditioned prevent cracking. Sunroof drain channels cleared eliminate winter leaks.
-                                        </p>
+                                            Nano-ceramic interior protectants create 360° spill-repellent surfaces on both fabric and leather. Trunk compartments are fully organized, spare tire wells cleaned, and emergency kits checked and arranged neatly. Convertible soft tops are deep-conditioned to help prevent cracking, and sunroof drain channels are cleared to reduce the risk of water leaks.                                        </p>
                                         <p>
-                                            Complimentary mobile service at Pimpri office complexes, residential societies, or corporate parking. Free pick-up/drop-off within 15km radius. Pre-RTO/PUC inspection detailing maximizes resale value 12-18%. PetSafe transport package with rubber curry combs, enzyme odor neutralizers.
-                                        </p>
+                                            Complimentary mobile service is available at office complexes, residential societies, or corporate parking areas, with free pick-up and drop-off within a defined local radius. Pre-inspection detailing for regulatory or emission checks is designed to help maximize resale value by 12–18%. Pet-safe transport packages include rubber curry combs for hair removal and enzyme-based odor neutralizers for long-lasting freshness.                                        </p>
                                         <p>
-                                            Vintage car restoration specialty: period-correct waxes, convertible top fabric revival, wire wheel polishing. Electric vehicle interiors ozone-treated for battery-safe sanitization. Supercar carbon fiber safe protectants preserve 6-figure investments.
+                                            Vintage car restoration services feature period-correct waxes, fabric convertible top revival, and detailed wire wheel polishing. Electric vehicle interiors can be ozone-treated for odor control using battery-safe methods. Supercar detailing uses carbon-fiber-safe protectants to help preserve high-value performance vehicles over time.
                                         </p>
                                         <ul>
                                             <li><span class="icon-plus"></span> Steam seat extraction + Italian leather conditioning.</li>
@@ -79,7 +74,7 @@ const CarCleaning = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>  
+                    </div>
                 </div>
             </section>
         </>

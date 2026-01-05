@@ -46,73 +46,69 @@ const GalleryDetails = () => {
                                 {/* Projects Details Information End */}
 
                                 <div class="gallery-details__text-box1">
-                                    <h2>Professional House Cleaning Services</h2>
+                                    <h2>Expert House Cleaning Services for Spotless Homes</h2>
 
                                     <p class="text1">
-                                        Our house cleaning services are designed to create a healthier, fresher, and more comfortable living
-                                        environment for you and your family. We provide reliable and thorough cleaning solutions that cover every
-                                        corner of your home, using safe products and proven cleaning techniques to maintain the highest standards
-                                        of hygiene.
+                                        Professional house cleaning services that create healthier living spaces for families.
+                                        Thorough cleaning solutions using safe, effective products and proven techniques
+                                        to maintain superior hygiene standards throughout your home.
                                     </p>
 
                                     <p class="text2">
-                                        From daily upkeep to deep cleaning, our trained professionals ensure spotless kitchens, sanitized bathrooms,
-                                        dust-free living areas, and well-maintained bedrooms. With flexible scheduling, verified staff, and quality
-                                        assurance, we make home cleaning stress-free, consistent, and tailored to your lifestyle.
+                                        Complete coverage from kitchen deep cleaning and bathroom sanitization to dust-free
+                                        bedrooms and living areas. Flexible schedules, certified cleaners, and guaranteed
+                                        quality make professional home cleaning effortless and reliable.
                                     </p>
                                 </div>
 
+                                <div className="gallery-details__text-box2">
+                                    <h2>Professional Bedroom Cleaning for Healthy Sleep</h2>
 
-
-                                <div class="gallery-details__text-box2">
-                                    <h2>Bedroom Cleaning Services</h2>
-
-                                    <p class="text1">
-                                        A clean bedroom is essential for better sleep, improved health, and overall well-being. Our professional
-                                        bedroom cleaning services focus on eliminating dust, allergens, and germs to create a calm, hygienic, and
-                                        refreshing space for your daily rest.
+                                    <p className="text1">
+                                        Professional bedroom cleaning eliminates dust, allergens, and germs for better sleep quality
+                                        and improved health. Our expert services create a fresh, hygienic sleeping environment
+                                        essential for restful nights and overall well-being.
                                     </p>
 
-                                    <div class="gallery-details__text-box2-list">
+                                    <div className="gallery-details__text-box2-list">
                                         <ul>
                                             <li>
-                                                <div class="icon">
-                                                    <i class="icon-maps-and-flags"></i>
+                                                <div className="icon">
+                                                    <i className="icon-maps-and-flags"></i>
                                                 </div>
-                                                <div class="text">
-                                                    <p>Thorough dusting of beds, wardrobes, shelves, and surfaces</p>
-                                                </div>
-                                            </li>
-
-                                            <li>
-                                                <div class="icon">
-                                                    <i class="icon-maps-and-flags"></i>
-                                                </div>
-                                                <div class="text">
-                                                    <p>Floor cleaning, vacuuming, and mopping for a dust-free room</p>
+                                                <div className="text">
+                                                    <p>Complete bed frame, wardrobe, shelf, and surface dusting</p>
                                                 </div>
                                             </li>
 
                                             <li>
-                                                <div class="icon">
-                                                    <i class="icon-maps-and-flags"></i>
+                                                <div className="icon">
+                                                    <i className="icon-maps-and-flags"></i>
                                                 </div>
-                                                <div class="text">
-                                                    <p>Cleaning of switches, mirrors, windows, and hard-to-reach corners</p>
+                                                <div className="text">
+                                                    <p>Thorough floor vacuuming and mopping for dust-free surfaces</p>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div className="icon">
+                                                    <i className="icon-maps-and-flags"></i>
+                                                </div>
+                                                <div className="text">
+                                                    <p>Switches, mirrors, windows, and hard-to-reach areas cleaned</p>
                                                 </div>
                                             </li>
                                         </ul>
                                     </div>
 
-                                    <p class="text2">
-                                        Our trained and verified staff use safe cleaning products and follow a detailed checklist to ensure consistent
-                                        quality. Whether it’s daily maintenance or periodic deep cleaning, we help maintain a fresh, organized, and
-                                        comfortable bedroom environment.
+                                    <p className="text2">
+                                        Certified cleaners use safe products and detailed protocols for consistent quality.
+                                        From daily maintenance to deep cleaning, we ensure your bedroom stays fresh,
+                                        organized, and optimized for healthy sleep.
                                     </p>
                                 </div>
 
-
-                                <div class="gallery-details__pagination clearfix">
+                                {/* <div class="gallery-details__pagination clearfix">
                                     <ul>
                                         <li>
                                             <div class="previous">
@@ -126,7 +122,8 @@ const GalleryDetails = () => {
                                             </div>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> */}
+
                             </div>
                         </div>
                     </div>

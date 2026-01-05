@@ -39,7 +39,6 @@ const BlogOne = () => {
                 }
             });
         }
-
     }, []);
 
     return (
@@ -48,11 +47,14 @@ const BlogOne = () => {
                 <div class="container">
                     <div className="section-title">
                         <span className="section-title__tagline">Our Blog</span>
-                        <h2 className="section-title__title">Latest Cleaning Tips, News & Insights</h2>
+                        <h2 className="section-title__title">Professional Cleaning Tips & Guides</h2>
                     </div>
-                    <div className="text-box">
+                    <div className="text-box mb-4">
                         <p>
-                            Explore expert cleaning tips, industry updates, and practical guides designed to keep your home and workspace fresh, healthy, and well-maintained. From daily housekeeping advice to professional cleaning insights, our blog helps you make smarter cleaning decisions.
+                            Discover professional house cleaning tips, practical home maintenance guides, and expert
+                            cleaning techniques to keep your living spaces spotless and healthy. From daily
+                            housekeeping solutions to deep cleaning strategies, our insights help you achieve
+                            professional results effortlessly.
                         </p>
                     </div>
 

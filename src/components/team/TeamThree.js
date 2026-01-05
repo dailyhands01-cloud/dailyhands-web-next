@@ -23,8 +23,7 @@ const TeamThree = () => {
                                             </div>
                                             <div className="social-link">
                                                 <a href={item.facebook}><i className="fab fa-facebook"></i></a>
-                                                <a href={item.twitter}><i className="fab fa-twitter"></i></a>
-                                                <a href={item.pinterest}><i className="fab fa-pinterest-p"></i></a>
+                                                <a href={item.instagram}><i className="fab fa-instagram"></i></a>
                                             </div>
                                         </div>
                                     </div>

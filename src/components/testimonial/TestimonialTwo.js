@@ -51,16 +51,16 @@ const TestimonialTwo = () => {
                     <div class="section-title__style2">
                         <div class="section-title">
                             <span class="section-title__tagline">Testimonials</span>
-                            <h2 class="section-title__title">Clients Feedback About Their <br /> Experience With Us</h2>
+                            {/* <h2 class="section-title__title">Clients Feedback About Their <br /> Experience With Us</h2> */}
+                            <h2 className="section-title__title">What Our Clients Say About <br className="d-none d-md-block" /> Their Cleaning Experience</h2>
                         </div>
                         <div class="text-box">
                             <p>
-                                Our professional cleaning services are designed to re-energize your home and enhance your everyday life.
-                                From regular housekeeping to routine maintenance cleaning, our trained team members deliver reliable,
-                                high-quality service you can trust.
+                                Our expert cleaning services transform your living spaces and elevate your daily lifestyle.
+                                From daily housekeeping to comprehensive deep cleaning, our certified professionals
+                                deliver consistent, high-quality results you can trust.
                             </p>
                         </div>
-
                     </div>
                     <div class="row">
                         <div class="col-xl-12">

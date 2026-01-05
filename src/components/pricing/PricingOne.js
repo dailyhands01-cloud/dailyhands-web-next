@@ -48,17 +48,16 @@ const PricingOne = () => {
                     <div className="section-title__style2">
                         <div className="section-title">
                             <span className="section-title__tagline">Transparent Cleaning Service Pricing</span>
-                            <h2 className="section-title__title">Choose the Right Cleaning Plan for Your Needs</h2>
+                            <h2 className="section-title__title cleaning-pricing-section-title">Select Your Perfect Cleaning Package</h2>
                         </div>
 
                         <div className="text-box">
                             <p>
-                                Select from our flexible daily cleaning plans designed to match your apartment size and cleaning
-                                requirements. Every plan includes trained local cleaning staff, consistent service quality, and
-                                reliable replacement support to ensure complete peace of mind.
+                                Choose from customized house cleaning packages tailored to your home size, frequency needs, and budget.
+                                Each plan features certified professional cleaners, guaranteed quality standards, and seamless service
+                                continuity for complete reliability and satisfaction.
                             </p>
                         </div>
-
                     </div>
                     <div className="row">
                         <div className="col-xl-12">
