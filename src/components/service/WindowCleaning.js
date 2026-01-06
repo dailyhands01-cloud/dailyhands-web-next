@@ -55,7 +55,7 @@ const WindowCleaning = () => {
                             <div className="row">
                                 <div className="col-xl-4 col-lg-5">
                                     <div className="img-box">
-                                        <img src="/assets/images/resources/service-details-img2.jpg" alt="" />
+                                        <img src="/assets/images/resources/window-cleaning.jpg" alt="" />
                                     </div>
                                 </div>
                                 <div className="col-xl-8 col-lg-7">

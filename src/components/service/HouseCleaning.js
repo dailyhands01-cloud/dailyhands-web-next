@@ -55,7 +55,7 @@ const HouseCleaning = () => {
                             <div className="row">
                                 <div className="col-xl-4 col-lg-5">
                                     <div className="img-box">
-                                        <img src="/assets/images/resources/service-details-img2.jpg" alt="Complete house deep cleaning before after results" />
+                                        <img src="/assets/images/resources/house-cleaning.jpg" alt="Complete house deep cleaning before after results" />
                                     </div>
                                 </div>
                                 <div className="col-xl-8 col-lg-7">

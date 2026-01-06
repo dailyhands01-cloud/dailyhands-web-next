@@ -99,9 +99,9 @@ const GalleryOne = () => {
                         <div class="col-xl-4 col-lg-4 col-md-6 filter-item house office">
                             <div class="gallery-page__single wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="gallery-page__single-img">
-                                    <img src="/assets/images/gallery/gallery-page-img1.jpg" alt="" />
+                                    <img src="/assets/images/gallery/gallery-page-house1.jpg" alt="" />
                                     <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img1.jpg"><span class="icon-plus"></span></a>
+                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-house1.jpg"><span class="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -113,9 +113,9 @@ const GalleryOne = () => {
                             <div class="gallery-page__single wow fadeInUp" data-wow-delay="200ms"
                                 data-wow-duration="1500ms">
                                 <div class="gallery-page__single-img">
-                                    <img src="/assets/images/gallery/gallery-page-img2.jpg" alt="" />
+                                    <img src="/assets/images/gallery/gallery-page-house2.jpg" alt="" />
                                     <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img2.jpg"><span class="icon-plus"></span></a>
+                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-house2.jpg"><span class="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -126,9 +126,9 @@ const GalleryOne = () => {
                         <div class="col-xl-4 col-lg-4 col-md-6 office kitchen filter-item">
                             <div class="gallery-page__single wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <div class="gallery-page__single-img">
-                                    <img src="/assets/images/gallery/gallery-page-img3.jpg" alt="" />
+                                    <img src="/assets/images/gallery/gallery-page-house3.jpg" alt="" />
                                     <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img3.jpg"><span class="icon-plus"></span></a>
+                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-house3.jpg"><span class="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -139,9 +139,9 @@ const GalleryOne = () => {
                         <div class="col-xl-4 col-lg-4 col-md-6 filter-item floor house kitchen">
                             <div class="gallery-page__single wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="gallery-page__single-img">
-                                    <img src="/assets/images/gallery/gallery-page-img4.jpg" alt="" />
+                                    <img src="/assets/images/gallery/gallery-page-house4.jpg" alt="" />
                                     <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img4.jpg"><span class="icon-plus"></span></a>
+                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-house4.jpg"><span class="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -152,9 +152,9 @@ const GalleryOne = () => {
                         <div class="col-xl-4 col-lg-4 col-md-6 filter-item house toilet kitchen">
                             <div class="gallery-page__single wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <div class="gallery-page__single-img">
-                                    <img src="/assets/images/gallery/gallery-page-img5.jpg" alt="" />
+                                    <img src="/assets/images/gallery/gallery-page-house5.jpg" alt="" />
                                     <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img5.jpg"><span class="icon-plus"></span></a>
+                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-house5.jpg"><span class="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -165,9 +165,9 @@ const GalleryOne = () => {
                         <div class="col-xl-4 col-lg-4 col-md-6 filter-item kitchen house floor">
                             <div class="gallery-page__single wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <div class="gallery-page__single-img">
-                                    <img src="/assets/images/gallery/gallery-page-img6.jpg" alt="" />
+                                    <img src="/assets/images/gallery/gallery-page-house6.jpg" alt="" />
                                     <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img6.jpg"><span class="icon-plus"></span></a>
+                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-house6.jpg"><span class="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>

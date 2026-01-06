@@ -52,7 +52,7 @@ const OfficeCleaning = () => {
                             <div className="row">
                                 <div className="col-xl-4 col-lg-5">
                                     <div className="img-box">
-                                        <img src="/assets/images/resources/service-details-img2.jpg" alt="Office cleaning transformation results" />
+                                        <img src="/assets/images/resources/office-cleaning.jpg" alt="Office cleaning transformation results" />
                                     </div>
                                 </div>
                                 <div className="col-xl-8 col-lg-7">

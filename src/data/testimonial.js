@@ -104,9 +104,9 @@ export const TestimonialTwoData = [
     },
     {
         id: 4,
-        image: "/assets/images/testimonial/testimonials-v2-thumb-img1.jpg",
         alt: "Daily House Cleaning Testimonial",
         name: "Neha Gupta",
+        image: "/assets/images/testimonial/testimonials-v2-img1.jpg",
         position: "Working Professional",
         description: "Daily cleaning service transformed our home into a hygienic sanctuary. The backup staff replacement system provides complete peace of mind."
     },
@@ -136,17 +136,41 @@ export const TestimonialTwoData = [
     },
     {
         id: 8,
-        image: "/assets/images/testimonial/testimonials-v2-thumb-img2.jpg",
         alt: "Professional Deep Cleaning Service",
-        name: "Sneha Joshi",
+        image: "/assets/images/testimonial/testimonials-v2-img2.jpg",
+        name: "Imran Zahir",
+        position: "Tenant",
+        description: "Affordable plans and professional cleaners. The service quality has been consistent and dependable."
+    },
+    {
+        id: 6,
+        image: "/assets/images/testimonial/testimonials-v2-img3.jpg",
+        alt: "Office Cleaning Feedback",
+        name: "Sam White",
+        position: "Manager",
+        description: "Our office environment has improved significantly after hiring their cleaning service. Highly professional and well-managed team."
+    },
+    {
+        id: 7,
+        image: "/assets/images/testimonial/testimonials-v3-img1.jpg",
+        alt: "Residential Cleaning Review",
+        name: "Monika Das",
+        position: "Apartment Owner",
+        description: "The staff is well-trained and follows proper cleaning routines. Great service for residential cleaning needs."
+    },
+    {
+        id: 8,
+        image: "/assets/images/testimonial/testimonials-v3-img2.jpg",
+        alt: "Deep Cleaning Review",
+        name: "Raj Gupta",
         position: "Homeowner",
         description: "Deep cleaning service delivered exceptional results. Every surface and corner received meticulous professional attention."
     },
     {
         id: 9,
-        image: "/assets/images/testimonial/testimonials-v2-thumb-img3.jpg",
         alt: "Long-term Cleaning Partnership Review",
         name: "Arjun Reddy",
+        image: "/assets/images/testimonial/testimonials-v3-img3.jpg",
         position: "Property Manager",
         description: "Trusted cleaning partner for ongoing property maintenance. Superior service quality and professional reliability we depend on."
     },

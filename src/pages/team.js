@@ -4,6 +4,8 @@ import Breadcrumb from "../common/breadcrumb/Breadcrumb";
 import TeamThree from "../components/team/TeamThree";
 import BrandOne from "../components/brand/BrandOne";
 import FooterOne from "../common/footer/FooterOne";
+import BrandThree from "@/components/brand/BrandThree";
+import BrandTwo from "@/components/brand/BrandTwo";
 
 export default function TeamPage() {
 	return (
@@ -15,7 +17,7 @@ export default function TeamPage() {
                 currentPage="Team" 
             />
 			<TeamThree />
-			<BrandOne />
+			<BrandTwo />
 			<FooterOne />
 		</>
 	);
