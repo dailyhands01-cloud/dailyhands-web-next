@@ -83,10 +83,10 @@ const AboutOne = () => {
                                     </div>
 
                                     <div className="about-one__content-btn">
-                                        <Link href="/about" className="thm-btn">
+                                        {/* <Link href="/about" className="thm-btn">
                                             <span>Learn More About Us</span>
                                             <div className="liquid"></div>
-                                        </Link>
+                                        </Link> */}
                                     </div>
                                 </div>
 

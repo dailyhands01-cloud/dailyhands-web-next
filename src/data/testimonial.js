@@ -3,32 +3,32 @@ export const TestimonialOneData = [
     {
         id: 1,
         image: "/assets/images/testimonial/testimonials-v1-img1.png",
-        alt: "Monali Testimonial",
-        name: "Monali",
+        alt: "Ankit Malhotra Testimonial",
+        name: "Ankit Malhotra",
         // position: "Founder",
         description: "Partnering with this startup has transformed our business operations. Their innovative solutions and client-first approach consistently exceed expectations."
     },
     {
         id: 2,
         image: "/assets/images/testimonial/testimonials-v1-img2.png",
-        alt: "Rajashree Testimonial",
-        name: "Rajeev",
+        alt: "Neha Kapoor Testimonial",
+        name: "Neha Kapoor",
         // position: "Staff Officer",
         description: "The team demonstrated exceptional professionalism and delivered solutions that enhanced our workflow efficiency and overall productivity."
     },
     {
         id: 3,
         image: "/assets/images/testimonial/testimonials-v1-img3.png",
-        alt: "Aditya Testimonial",
-        name: "Aditya",
+        alt: "Aditya kumar Testimonial",
+        name: "Aditya Kumar ",
         // position: "Manager",
         description: "Their expertise and strategic guidance provided measurable results. Highly recommended for businesses seeking growth-driven solutions."
     },
     {
         id: 4,
         image: "/assets/images/testimonial/testimonials-v1-img1.png",
-        alt: "Pradivya Testimonial",
-        name: "Pradivya",
+        alt: "Sneha Iyer Testimonial",
+        name: "Sneha Iyer",
         // position: "Manager",
         description: "The startup’s innovative approach and dedication to client satisfaction have significantly improved our operational efficiency."
     },
@@ -43,32 +43,32 @@ export const TestimonialOneData = [
     {
         id: 6,
         image: "/assets/images/testimonial/testimonials-v1-img3.png",
-        alt: "Monali Testimonial",
-        name: "Monali",
+        alt: "Ankit Malhotra Testimonial",
+        name: "Ankit Malhotra",
         // position: "Founder",
         description: "Their tailored solutions and client-focused methodology ensure scalable success and long-term growth for businesses."
     },
     {
         id: 7,
         image: "/assets/images/testimonial/testimonials-v1-img1.png",
-        alt: "Rajeev Testimonial",
-        name: "Rajeev",
+        alt: "Neha Kapoor Testimonial",
+        name: "Neha Kapoor",
         // position: "Founder",
         description: "Working with this team has been seamless. Their innovative strategies and timely execution enhanced our business outcomes."
     },
     {
         id: 8,
         image: "/assets/images/testimonial/testimonials-v1-img2.png",
-        alt: "Aditya Testimonial",
-        name: "Aditya",
+        alt: "Aditya Kumar Testimonial",
+        name: "Aditya Kumar",
         // position: "Staff Officer",
         description: "They combine creativity with measurable results, providing solutions that directly contribute to business growth."
     },
     {
         id: 9,
         image: "/assets/images/testimonial/testimonials-v1-img3.png",
-        alt: "Pradivya Testimonial",
-        name: "Pradivya",
+        alt: "Sneha Iyer Testimonial",
+        name: "Sneha Iyer",
         // position: "Manager",
         description: "A trusted partner for startups, delivering innovative, client-focused, and highly effective solutions for modern business challenges."
     },
