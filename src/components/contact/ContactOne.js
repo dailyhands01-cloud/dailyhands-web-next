@@ -67,7 +67,7 @@ const ContactOne = () => {
                                         </div>
                                         <div className="col-xl-6 col-lg-6 col-md-6">
                                             <div className="input-box">
-                                                <input type="text" name="form_subject" placeholder="Select Date" id="datepicker" required />
+                                                <input type="date" name="form_date" placeholder="Select Date" id="datepicker" required />
                                             </div>
                                         </div>
                                     </div>

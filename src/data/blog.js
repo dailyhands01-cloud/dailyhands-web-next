@@ -20,7 +20,7 @@ export const BlogOneData = [
     },
     {
         id: 3,
-        image: "/assets/images/blog/blog-v1-img3.jpg",
+        image: "/assets/images/blog/blog-v1-img4.jpg",
         alt: "Customized Home Cleaning Blog",
         heading: "Personalized Cleaning Plans Tailored for Every Home",
         description: "Get customized cleaning services designed to suit your home's unique needs. Our skilled team ensures every room is spotless, organized, and welcoming.",
@@ -149,7 +149,7 @@ export const BlogGridData = [
     },
     {
         id: 2,
-        image: "/assets/images/blog/blog-v1-img2.jpg",
+        image: "/assets/images/blog/blog-v1-img3.jpg",
         alt: "Professional Car Cleaning Tips",
         heading: "10 Essential Car Cleaning Tips for Showroom Shine",
         description: "Expert car detailing techniques for interior steam cleaning, exterior polishing, and nano-ceramic protection that lasts 24 months.",
@@ -160,7 +160,8 @@ export const BlogGridData = [
     },
     {
         id: 3,
-        image: "/assets/images/blog/blog-v1-img3.jpg",
+
+        image: "/assets/images/blog/blog-v1-img2.jpg",
         alt: "Home Sanitization Guide",
         heading: "Complete Home Sanitization Guide for Germ Protection",
         description: "Professional infection control methods for kitchen, bathroom, and bedrooms. Eliminate 99.9% bacteria with safe sanitization techniques.",

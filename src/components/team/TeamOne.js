@@ -61,10 +61,10 @@ const TeamOne = () => {
                           <h3>{item.name}</h3>
                           <p>{item.position}</p>
                         </div>
-                        <div className="social-link">
+                        {/* <div className="social-link">
                           <a href={item.facebook}><i className="fab fa-facebook"></i></a>
                           <a href={item.instagram}><i className="fab fa-instagram"></i></a>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>

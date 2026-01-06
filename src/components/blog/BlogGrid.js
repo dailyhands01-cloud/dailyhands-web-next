@@ -14,7 +14,8 @@ const BlogGrid = () => {
                                     <div class="blog-one__single-img">
                                         <img src={item.image} alt={item.alt} />
                                         <div class="overlay-icon">
-                                            <Link href={item.link}><span class="icon-plus"></span></Link>
+                                            {/* <Link href={item.link}><span class="icon-plus"></span></Link> */}
+
                                         </div>
                                     </div>
                                     <div class="blog-one__content">
@@ -24,7 +25,8 @@ const BlogGrid = () => {
                                             <li><span class="icon-wall-clock"></span><a href="#">{item.comment}</a>
                                             </li>
                                         </ul>
-                                        <h2><Link href={item.link}>{item.heading}</Link></h2>
+                                        {/* <h2><Link href={item.link}>{item.heading}</Link></h2> */}
+                                        <h2>{item.heading}</h2>
                                         <p>{item.description}</p>
                                     </div>
                                 </div>

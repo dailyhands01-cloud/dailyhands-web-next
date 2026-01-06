@@ -4,7 +4,7 @@ const SEO = ({ pageTitle }) => (
     <>
         <Head>
             <title>
-                {pageTitle && `${pageTitle} || Daily Hands || Cleaning Services`}
+                {pageTitle && `${pageTitle}`}
             </title>
             <meta httpEquiv="x-ua-compatible" content="ie=edge" />
             <meta name="description" content="Daily Hands Cleaning Services" />

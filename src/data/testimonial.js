@@ -3,73 +3,73 @@ export const TestimonialOneData = [
     {
         id: 1,
         image: "/assets/images/testimonial/testimonials-v1-img1.png",
-        alt: "Sonali Tupe Testimonial",
-        name: "Sonali Tupe",
-        position: "Founder",
+        alt: "Monali Testimonial",
+        name: "Monali",
+        // position: "Founder",
         description: "Partnering with this startup has transformed our business operations. Their innovative solutions and client-first approach consistently exceed expectations."
     },
     {
         id: 2,
         image: "/assets/images/testimonial/testimonials-v1-img2.png",
-        alt: "Rajashree Pawar Testimonial",
-        name: "Rajashree Pawar",
-        position: "Staff Officer",
+        alt: "Rajashree Testimonial",
+        name: "Rajeev",
+        // position: "Staff Officer",
         description: "The team demonstrated exceptional professionalism and delivered solutions that enhanced our workflow efficiency and overall productivity."
     },
     {
         id: 3,
         image: "/assets/images/testimonial/testimonials-v1-img3.png",
-        alt: "Aditya Pawar Testimonial",
-        name: "Aditya Pawar",
-        position: "Manager",
+        alt: "Aditya Testimonial",
+        name: "Aditya",
+        // position: "Manager",
         description: "Their expertise and strategic guidance provided measurable results. Highly recommended for businesses seeking growth-driven solutions."
     },
     {
         id: 4,
         image: "/assets/images/testimonial/testimonials-v1-img1.png",
-        alt: "Prerana Pardeshi Testimonial",
-        name: "Prerana Pardeshi",
-        position: "Founder",
+        alt: "Pradivya Testimonial",
+        name: "Pradivya",
+        // position: "Manager",
         description: "The startup’s innovative approach and dedication to client satisfaction have significantly improved our operational efficiency."
     },
     {
         id: 5,
         image: "/assets/images/testimonial/testimonials-v1-img2.png",
-        alt: "Sanjana Pawar Testimonial",
-        name: "Sanjana Pawar",
-        position: "Staff Officer",
+        alt: "Sanjana Testimonial",
+        name: "Sanjana",
+        // position: "Staff Officer",
         description: "Professional, reliable, and results-driven, this startup delivers high-quality solutions that make a tangible business impact."
     },
     {
         id: 6,
         image: "/assets/images/testimonial/testimonials-v1-img3.png",
-        alt: "Sonali Tupe Testimonial",
-        name: "Sonali Tupe",
-        position: "Manager",
+        alt: "Monali Testimonial",
+        name: "Monali",
+        // position: "Founder",
         description: "Their tailored solutions and client-focused methodology ensure scalable success and long-term growth for businesses."
     },
     {
         id: 7,
         image: "/assets/images/testimonial/testimonials-v1-img1.png",
-        alt: "RajaShree Pawar Testimonial",
-        name: "RajaShree Pawar",
-        position: "Founder",
+        alt: "Rajeev Testimonial",
+        name: "Rajeev",
+        // position: "Founder",
         description: "Working with this team has been seamless. Their innovative strategies and timely execution enhanced our business outcomes."
     },
     {
         id: 8,
         image: "/assets/images/testimonial/testimonials-v1-img2.png",
-        alt: "Aditya Pawar Testimonial",
-        name: "Aditya Pawar",
-        position: "Staff Officer",
+        alt: "Aditya Testimonial",
+        name: "Aditya",
+        // position: "Staff Officer",
         description: "They combine creativity with measurable results, providing solutions that directly contribute to business growth."
     },
     {
         id: 9,
         image: "/assets/images/testimonial/testimonials-v1-img3.png",
-        alt: "Prerana Perdeshi Testimonial",
-        name: "Prerana Perdeshi",
-        position: "Manager",
+        alt: "Pradivya Testimonial",
+        name: "Pradivya",
+        // position: "Manager",
         description: "A trusted partner for startups, delivering innovative, client-focused, and highly effective solutions for modern business challenges."
     },
 ];
@@ -80,7 +80,7 @@ export const TestimonialOneData = [
 export const TestimonialTwoData = [
     {
         id: 1,
-        image: "/assets/images/testimonial/testimonials-v2-thumb-img1.jpg",
+        image: "/assets/images/testimonial/testimonials-v2-thumb-img4.jpg",
         alt: "Professional Office Cleaning Testimonial",
         name: "Priya Sharma",
         position: "Office Manager",
@@ -120,7 +120,7 @@ export const TestimonialTwoData = [
     },
     {
         id: 6,
-        image: "/assets/images/testimonial/testimonials-v2-thumb-img3.jpg",
+        image: "/assets/images/testimonial/testimonials-v2-thumb-img1.jpg",
         alt: "Corporate Office Cleaning Testimonial",
         name: "Pooja Desai",
         position: "Operations Manager",
@@ -128,7 +128,7 @@ export const TestimonialTwoData = [
     },
     {
         id: 7,
-        image: "/assets/images/testimonial/testimonials-v2-thumb-img1.jpg",
+        image: "/assets/images/testimonial/testimonials-v2-img4.jpg",
         alt: "Residential Deep Cleaning Review",
         name: "Rohit Verma",
         position: "Property Owner",

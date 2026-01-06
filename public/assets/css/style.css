@@ -1105,6 +1105,7 @@ a.sc-hLseeU {
     transition: 500ms;
 }
 
+
 .main-menu .mobile-nav__toggler:hover {
     color: var(--thm-black);
 }
@@ -3469,7 +3470,6 @@ div[class^="bubble-"] {
     outline: none;
 }
 
-
 .contact-one__form-box form input[type="text"]::-webkit-input-placeholder {
     color: #ffffff;
 }
@@ -3559,6 +3559,7 @@ div[class^="bubble-"] {
     border-radius: 0px;
     width: 270px;
     padding: 5px;
+    
 }
 
 #ui-datepicker-div.ui-datepicker .ui-datepicker-header {
@@ -3569,6 +3570,7 @@ div[class^="bubble-"] {
     font-weight: 700;
     padding: 5px 0;
     position: relative;
+
 }
 
 .ui-datepicker td a {
@@ -3577,6 +3579,7 @@ div[class^="bubble-"] {
     background-image: none !important;
     background: #f5f5f5 !important;
     border: 1px solid #f9f9f9 !important;
+    
 }
 
 .ui-state-highlight,
@@ -4369,7 +4372,7 @@ div[class^="bubble-"] {
     display: block;
     background: #ffffff;
     padding: 23px 30px 31px;
-    min-height: 351px;
+    min-height: 385px;
     height: 100%;
 }
 
@@ -6631,6 +6634,7 @@ div[class^="bubble-"] {
     border-bottom-left-radius: 80px;
     transition: all 400ms linear;
     transition-delay: 0.1s;
+    min-height: 275px;
 }
 
 .testimonial-two__single:hover .testimonial-two__single-content {
@@ -6881,7 +6885,7 @@ div[class^="bubble-"] {
 .brand-one--two {
     position: relative;
     display: block;
-    padding: 120px 0px 120px;
+    padding: 70px 0px 120px;
 }
 
 .brand-one--two .swiper-wrapper {
@@ -6922,6 +6926,15 @@ div[class^="bubble-"] {
     display: block;
     border-radius: 6px;
     transition: all 0.3s ease;
+}
+
+.brand-one__single{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
 }
 
 /***
@@ -9178,7 +9191,7 @@ div[class^="bubble-"] {
     display: block;
     padding: 103px 0px 100px;
     z-index: 1;
-    /* margin-bottom: 100px; */
+    margin-bottom: 100px;
 }
 
 .cta-one .image-layer {
@@ -10175,6 +10188,7 @@ div[class^="bubble-"] {
     margin-right: 20px;
     padding: 25px 30px 23px;
     z-index: 5;
+    min-height: 300px;
 }
 
 .blog-one--blog--grid .blog-one__content h2 {

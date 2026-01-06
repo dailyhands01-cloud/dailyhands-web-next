@@ -19,7 +19,7 @@ export const PricingOneData = [
         heading: "2 BHK Home Cleaning",
         price: "₹3,500 – ₹4,500",
         duration: "Monthly Subscription",
-        feature_one: "Daily Deep Cleaning (1.5 hours)",
+        feature_one: "Daily Deep Cleaning Service (1.5 hours)",
         feature_two: "Local Certified Staff",
         feature_three: "Complimentary Staff Replacement",
         feature_four: "Trained Professionals",

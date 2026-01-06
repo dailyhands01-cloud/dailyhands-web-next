@@ -9,6 +9,10 @@ function MyApp({ Component, pageProps }) {
         setTimeout(() => {
           animationCreate();
         }, 500);
+        // Clear hash if it's #contact-form to prevent auto-scroll on reload
+        if (typeof window !== 'undefined' && window.location.hash === '#contact-form') {
+            window.location.hash = '';
+        }
       }, []);
     return (
         <>

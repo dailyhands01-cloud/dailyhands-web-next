@@ -7,7 +7,7 @@ const ContactThree = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-12 col-lg-12">
-                            <div className="contact-page-form__inner">
+                            <div className="contact-page-form__inner" id="contact-form">
                                 <form action="https://formspree.io/f/meeojopo" method="POST" className="contact-page-form__form contact-form-validated">
                                     <div className="row">
                                         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">

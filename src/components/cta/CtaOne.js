@@ -18,10 +18,13 @@ const CtaOne = () => {
                                     </div>
                                 </div>
                                 <div className="button-box">
-                                    <Link href="/contact" className="thm-btn">
-                                        <span>Contact Us</span>
-                                        <div className="liquid"></div>
-                                    </Link>
+                                    <button onClick={() => {
+                                        const element = document.getElementById('contact-form');
+                                        if (element) {
+                                            element.scrollIntoView({ behavior: 'smooth' });
+                                        }
+                                    }} className="thm-btn" style={{border:"none"}}>Contact Us</button>
+                                    
                                 </div>
                             </div>
                         </div>

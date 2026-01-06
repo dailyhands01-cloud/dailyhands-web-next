@@ -110,10 +110,15 @@ const HeaderOne = () => {
                                     <a onClick={() => setIsActive(true)} className="mobile-nav__toggler"><i className="fa fa-bars"></i></a>
                                     <NavMenu />
                                 </div>
-                                <Link href="/contact" className="thm-btn main-header__btn">
+                                <button onClick={() => {
+                                    const element = document.getElementById('contact-form');
+                                    if (element) {
+                                        element.scrollIntoView({ behavior: 'smooth' });
+                                    }
+                                }} className="thm-btn main-header__btn" style={{border:"none"}}>
                                     <span>Contact Us</span>
                                     <div className="liquid"></div>
-                                </Link>
+                                </button>
                             </div>
                         </div>
                     </div>

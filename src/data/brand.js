@@ -3,36 +3,42 @@ export const BrandOneData = [
     {
         id: 1,
         image: "/assets/images/brand/brand-1-1.png",
+        title: "Florida River Bank",
         alt: "Brand",
         link: "#",
     },
     {
         id: 2,
         image: "/assets/images/brand/brand-1-2.png",
+        title: "Royal Crest Residences",
         alt: "Brand",
         link: "#",
     },
     {
         id: 3,
         image: "/assets/images/brand/brand-1-3.png",
+        title: "Sunset Villas",
         alt: "Brand",
         link: "#",
     },
     {
         id: 4,
         image: "/assets/images/brand/brand-1-4.png",
+        title: "Mountainview Business Tower",
         alt: "Brand",
         link: "#",
     },
     {
         id: 5,
         image: "/assets/images/brand/brand-1-5.png",
+        title: "Gera Imperium",
         alt: "Brand",
         link: "#",
     },
     {
         id: 6,
         image: "/assets/images/brand/brand-1-6.png",
+        title: "Lakeside Corporate Park",
         alt: "Brand",
         link: "#",
     }

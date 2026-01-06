@@ -12,8 +12,8 @@ const NewsletterOne = () => {
                                     <h3>Subscribe Our Newsletters</h3>
                                 </div>
                                 <div class="subscribe-box">
-                                    <form class="subscribe-form" action="#">
-                                        <input type="email" name="email" placeholder="Enter Your Email" />
+                                    <form class="subscribe-form" action="https://formspree.io/f/meeojopo" method='POST'>
+                                        <input type="email" name="email" placeholder="Enter Your Email" required />
                                         <button class="btn-one" type="submit"><span class="txt">Subscribe</span></button>
                                     </form>
                                 </div>

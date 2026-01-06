@@ -95,7 +95,7 @@ const  WhyChooseUsOne = () => {
                                         <div className="tab-one__img">
                                             <img src="/assets/images/resources/tab-v1-img.jpg" alt="Professional Cleaning Services" />
                                             <div className="icon">
-                                                <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" className="video-popup">
+                                                <a href="https://www.youtube.com/watch?v=KjNnGgYDfwE" className="video-popup">
                                                     <div className="tab-one__video-icon">
                                                         <span className="icon-play-button"></span>
                                                         <i className="ripple"></i>
@@ -139,7 +139,7 @@ const  WhyChooseUsOne = () => {
                                         <div className="tab-one__img">
                                             <img src="/assets/images/resources/tab-v1-img.jpg" alt="Emergency Cleaning Services" />
                                             <div className="icon">
-                                                <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" className="video-popup">
+                                                <a href="https://www.youtube.com/watch?v=KjNnGgYDfwE"  className="video-popup">
                                                     <div className="tab-one__video-icon">
                                                         <span className="icon-play-button"></span>
                                                         <i className="ripple"></i>
@@ -183,7 +183,7 @@ const  WhyChooseUsOne = () => {
                                         <div className="tab-one__img">
                                             <img src="/assets/images/resources/tab-v1-img.jpg" alt="Residential Cleaning Services" />
                                             <div className="icon">
-                                                <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" className="video-popup">
+                                                <a href="https://www.youtube.com/watch?v=KjNnGgYDfwE"  className="video-popup">
                                                     <div className="tab-one__video-icon">
                                                         <span className="icon-play-button"></span>
                                                         <i className="ripple"></i>
@@ -227,7 +227,7 @@ const  WhyChooseUsOne = () => {
                                         <div className="tab-one__img">
                                             <img src="/assets/images/resources/tab-v1-img.jpg" alt="Furniture Cleaning Services" />
                                             <div className="icon">
-                                                <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" className="video-popup">
+                                                <a href="https://www.youtube.com/watch?v=KjNnGgYDfwE" className="video-popup">
                                                     <div className="tab-one__video-icon">
                                                         <span className="icon-play-button"></span>
                                                         <i className="ripple"></i>

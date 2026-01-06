@@ -2,8 +2,8 @@ import SEO from "../common/seo/Seo";
 import HeaderOne from "../common/header/HeaderOne";
 import Breadcrumb from "../common/breadcrumb/Breadcrumb";
 import BlogDetails from "../components/blog/BlogDetails";
-import BrandOne from "../components/brand/BrandOne";
 import FooterOne from "../common/footer/FooterOne";
+import BrandTwo from "@/components/brand/BrandTwo";
 
 export default function BlogDetailsPage() {
 	return (
@@ -15,7 +15,7 @@ export default function BlogDetailsPage() {
                 currentPage="Blog Details" 
             />
 			<BlogDetails />
-			<BrandOne />
+			<BrandTwo />
 			<FooterOne />
 		</>
 	);
