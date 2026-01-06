@@ -5,6 +5,7 @@ import FaqOne from "../components/faq/FaqOne";
 import ContactTwo from "../components/contact/ContactTwo";
 import BrandOne from "../components/brand/BrandOne";
 import FooterOne from "../common/footer/FooterOne";
+import BrandTwo from "@/components/brand/BrandTwo";
 
 export default function FaqPage() {
 	return (
@@ -17,7 +18,7 @@ export default function FaqPage() {
             />
 			<FaqOne />
 			<ContactTwo />
-			<BrandOne />
+			<BrandTwo />
 			<FooterOne />
 		</>
 	);

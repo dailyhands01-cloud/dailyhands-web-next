@@ -4,8 +4,8 @@ import Breadcrumb from "../common/breadcrumb/Breadcrumb";
 import TeamDetails from "../components/team/TeamDetails";
 import TeamOne from "../components/team/TeamOne";
 import ContactFour from "../components/contact/ContactFour";
-import BrandOne from "../components/brand/BrandTwo";
 import FooterOne from "../common/footer/FooterOne";
+import BrandTwo from "../components/brand/BrandTwo";
 
 export default function TeamDetailsPage() {
 	return (
@@ -19,7 +19,7 @@ export default function TeamDetailsPage() {
 			<TeamDetails />
 			<TeamOne />
 			<ContactFour />
-			<BrandOne />
+			{/* <BrandTwo /> */}
 			<FooterOne />
 		</>
 	);
