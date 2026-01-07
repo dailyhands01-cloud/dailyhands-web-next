@@ -35,8 +35,8 @@ export const TestimonialOneData = [
     {
         id: 5,
         image: "/assets/images/testimonial/testimonials-v1-img2.png",
-        alt: "Sanjana Testimonial",
-        name: "Sanjana",
+        alt: "Sanjana Singh Testimonial",
+        name: "Sanjana Singh",
         // position: "Staff Officer",
         description: "Professional, reliable, and results-driven, this startup delivers high-quality solutions that make a tangible business impact."
     },

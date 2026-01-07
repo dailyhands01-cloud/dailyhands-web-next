@@ -7,7 +7,7 @@ const WindowCleaning = () => {
             <section className="service-details">
                 <div className="container">
                     <div className="service-details__top">
-                        <div className="row">
+                        <div className="row d-flex justify-content-center">
                             <div className="col-xl-4 col-lg-8 order-2">
                                 <div className="service-details__sidebar">
                                     <h2 className="service-details__sidebar-title">All Service</h2>

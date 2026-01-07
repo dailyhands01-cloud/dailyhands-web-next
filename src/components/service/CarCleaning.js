@@ -7,7 +7,7 @@ const CarCleaning = () => {
             <section class="service-details">
                 <div class="container">
                     <div class="service-details__top">
-                        <div class="row">
+                        <div class="row d-flex justify-content-center">
                             <div class="col-xl-4 col-lg-8 order-2">
                                 <div class="service-details__sidebar">
                                     <h2 class="service-details__sidebar-title">All Service</h2>

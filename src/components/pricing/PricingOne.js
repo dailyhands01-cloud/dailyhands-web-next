@@ -84,7 +84,7 @@ const PricingOne = () => {
                                                 </ul>
                                             </div>
 
-                                            <div className="table-footer">
+                                            <div className="table-footer d-flex justify-content-center">
                                                 <Link href={item.link} className="thm-btn">
                                                     <span>{item.link_label}</span>
                                                     <div className="liquid"></div>

@@ -22,7 +22,7 @@ const AboutOne = () => {
                     <div className="row">
 
                         {/* Start About Image */}
-                        <div className="col-xl-6">
+                        <div className="col-xl-6 d-flex justify-content-center">
                             <div className="about-one__img clearfix">
                                 <div className="about-one__img-inner">
                                     <img

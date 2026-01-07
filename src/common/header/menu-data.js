@@ -1,7 +1,7 @@
 const menu_data = [
     {
       id: 1,
-      has_dropdown: true,
+      has_dropdown: false,
       title: "Home",
       link: "/",
       // sub_menus: [
@@ -45,7 +45,7 @@ const menu_data = [
         // { link: "/project-details", title: "Project Details" },
         { link: "/pricing", title: "Pricing" },
         { link: "/testimonial", title: "Testimonial" },
-        { link: "/gallery-one", title: "Gallery 01" },
+        { link: "/gallery-one", title: "Gallery" },
         // { link: "/gallery-two", title: "Gallery 02" },
         { link: "/gallery-details", title: "Gallery Details" },
         // { link: "/client", title: "Client" },

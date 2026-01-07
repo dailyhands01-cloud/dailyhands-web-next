@@ -93,7 +93,7 @@ const FaqOne = () => {
                         {/* End Faq One Content */}
 
                         {/* Start Faq One Img */}
-                        <div class="col-xl-5">
+                        <div class="col-xl-5 d-flex justify-content-center align-items-center">
                             <div class="faq-one__img">
                                 <img src="/assets/images/resources/faq-v1-img2.jpg" alt="" />
                             </div>

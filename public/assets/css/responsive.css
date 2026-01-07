@@ -15,6 +15,10 @@
         margin-left: 20px;
     }
 
+    .services-one__single-content{
+        min-height: 300px;
+    }
+
     /*About One*/
     .about-one__content {
         margin-top: 50px;
@@ -54,6 +58,9 @@
     }
 
     /*Pricing Plan One*/
+     .pricing-plan-one__single{
+    min-height: 750px;
+     }
     .pricing-plan-one__single .table-header h3 {
         font-size: 17px;
     }
@@ -118,6 +125,9 @@
     }
 
     /*Blog One*/
+    .blog-one__content{
+        min-height: 440px;
+    }
     .blog-one__content h2 {
         font-size: 18px;
     }
@@ -418,17 +428,10 @@
         margin: 0 auto 30px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
+    
+    .blog-one__content{
+        min-height: 250px;
+    }
 
 
 }
@@ -491,6 +494,7 @@
         width: 100%;
         margin: 0 auto 30px;
     }
+    
 
     /*Projects One*/
     .projects-one__single {
@@ -505,6 +509,10 @@
     }
 
     /*Blog One*/
+
+    .blog-one__content{
+        min-height: 250px;
+    }
     .blog-one__content h2 a br {
         display: none;
     }
@@ -633,6 +641,9 @@
 
     .faq-one-accrodion .accrodion-content .inner {
         padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .faq-one-accrodion .accrodion-content .inner .text {
@@ -990,31 +1001,6 @@
         display: none;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
@@ -1285,7 +1271,7 @@
 
 
 /*About One*/
-@media (max-width: 1700px) {
+@media (max-width: 1199px) {
     .about-one__img2 {
         display: none;
     }
