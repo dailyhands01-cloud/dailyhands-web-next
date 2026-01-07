@@ -62,10 +62,9 @@ const BlogDetails = () => {
                                         <a href="#">Business</a>
                                     </p>
                                     <div class="blog-details__social-list">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                  
                                         <a href="#"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://www.instagram.com/dailyhands1?igsh=MWZsMnRxb20wdDJ0bQ=="><i class="fab fa-instagram"></i></a>
                                     </div>
                                 </div>
                                 <div class="author-one">

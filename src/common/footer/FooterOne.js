@@ -25,13 +25,13 @@ const FooterOne = () => {
                                                     We help businesses strengthen their online presence through customized digital marketing strategies designed to boost visibility, engagement, and growth.
                                                 </p>
 
-                                                {/* <div className="social-link">
+                                                <div className="social-link">
                                                     <ul>
                                                         <li><a href="#"><span className="icon-facebook"></span></a></li>
-                                                        <li><a href="#"><span className="icon-instagram"></span></a></li>
-                                                        <li><a href="#"><span className="icon-twitter"></span></a></li>
+                                                        <li><a href="https://www.instagram.com/dailyhands1?igsh=MWZsMnRxb20wdDJ0bQ=="><span className="icon-instagram"></span></a></li>
+                                                        {/* <li><a href="#"><span className="icon-twitter"></span></a></li> */}
                                                     </ul>
-                                                </div> */}
+                                                </div>
 
                                             </div>
                                         </div>

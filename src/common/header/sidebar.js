@@ -38,11 +38,9 @@ const Sidebar = ({isActive, setIsActive}) => {
                     </li>
                 </ul>
                 <div className="mobile-nav__top">
-                    <div className="mobile-nav__social">
-                        <a href="#" className="fab fa-twitter"></a>
+                    <div className="mobile-nav__social">                       
                         <a href="#" className="fab fa-facebook-square"></a>
-                        <a href="#" className="fab fa-pinterest-p"></a>
-                        <a href="#" className="fab fa-instagram"></a>
+                        <a href="https://www.instagram.com/dailyhands1?igsh=MWZsMnRxb20wdDJ0bQ==" className="fab fa-instagram"></a>
                     </div>
                 </div>
         </div>
