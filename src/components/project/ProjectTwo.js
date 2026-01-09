@@ -28,6 +28,12 @@ const ProjectTwo = () => {
               });
             });
         }
+
+             $(".projects-two__single-img").on("click", function (e) {
+    if (!$(e.target).closest(".img-popup").length) {
+      $(this).find(".img-popup")[0].click();
+    }
+  });
       
     }, []);
     return (

@@ -76,7 +76,7 @@ const FooterOne = () => {
                                                         <div className="img-box">
                                                             <img src="/assets/images/footer/footer-v1-img1.png" alt="" />
                                                             <div className="overlay-icon">
-                                                                <Link href="/"><span className="icon-link"></span></Link>
+                                                                <span className="icon-link"></span>
                                                             </div>
                                                         </div>
                                                     </li>
@@ -85,7 +85,7 @@ const FooterOne = () => {
                                                         <div className="img-box">
                                                             <img src="/assets/images/footer/footer-v1-img2.png" alt="" />
                                                             <div className="overlay-icon">
-                                                                <Link href="/"><span className="icon-link"></span></Link>
+                                                                <span className="icon-link"></span>
                                                             </div>
                                                         </div>
                                                     </li>
@@ -94,7 +94,7 @@ const FooterOne = () => {
                                                         <div className="img-box">
                                                             <img src="/assets/images/footer/footer-v1-img3.png" alt="" />
                                                             <div className="overlay-icon">
-                                                                <Link href="/"><span className="icon-link"></span></Link>
+                                                                <span className="icon-link"></span>
                                                             </div>
                                                         </div>
                                                     </li>
@@ -103,7 +103,7 @@ const FooterOne = () => {
                                                         <div className="img-box">
                                                             <img src="/assets/images/footer/footer-v1-img4.png" alt="" />
                                                             <div className="overlay-icon">
-                                                                <Link href="/"><span className="icon-link"></span></Link>
+                                                                <span className="icon-link"></span>
                                                             </div>
                                                         </div>
                                                     </li>
@@ -112,7 +112,7 @@ const FooterOne = () => {
                                                         <div className="img-box">
                                                             <img src="/assets/images/footer/footer-v1-img5.png" alt="" />
                                                             <div className="overlay-icon">
-                                                                <Link href="/"><span className="icon-link"></span></Link>
+                                                                <span className="icon-link"></span>
                                                             </div>
                                                         </div>
                                                     </li>
@@ -121,7 +121,7 @@ const FooterOne = () => {
                                                         <div className="img-box">
                                                             <img src="/assets/images/footer/footer-v1-img6.png" alt="" />
                                                             <div className="overlay-icon">
-                                                                <Link href="/"><span className="icon-link"></span></Link>
+                                                                <span className="icon-link"></span>
                                                             </div>
                                                         </div>
                                                     </li>

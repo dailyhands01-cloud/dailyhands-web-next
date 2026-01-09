@@ -11,7 +11,7 @@ export const PricingOneData = [
         feature_four: "Trained Professionals",
         feature_five: "100% Quality Assurance",
         link_label: "Book Your Cleaning",
-        link: "/contact",
+        link: "/contact/#contact-form",
         delay: "0.1s",
     },
     {
@@ -25,7 +25,7 @@ export const PricingOneData = [
         feature_four: "Trained Professionals",
         feature_five: "100% Quality Assurance",
         link_label: "Book Your Cleaning",
-        link: "/contact",
+        link: "/contact/#contact-form",
         delay: "0.3s",
     },
     {
@@ -39,7 +39,7 @@ export const PricingOneData = [
         feature_four: "Trained Professionals",
         feature_five: "100% Quality Assurance",
         link_label: "Book Your Cleaning",
-        link: "/contact",
+        link: "/contact/#contact-form",
         delay: "0.5s",
     },
 ];

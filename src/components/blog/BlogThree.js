@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { BlogThreeData } from '@/data/blog';
 import Link from 'next/link';
 
-const BlogOne = () => {
+const BlogThree = () => {
 
     useEffect(() => {
 
@@ -106,4 +106,4 @@ const BlogOne = () => {
     )
 }
 
-export default BlogOne;
+export default BlogThree;

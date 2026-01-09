@@ -15,7 +15,7 @@
         margin-left: 20px;
     }
 
-    .services-one__single-content{
+    .services-one__single-content {
         min-height: 300px;
     }
 
@@ -58,9 +58,10 @@
     }
 
     /*Pricing Plan One*/
-     .pricing-plan-one__single{
-    min-height: 750px;
-     }
+    .pricing-plan-one__single {
+        min-height: 750px;
+    }
+
     .pricing-plan-one__single .table-header h3 {
         font-size: 17px;
     }
@@ -119,15 +120,20 @@
     }
 
     .faq-one__img {
-        margin-top: 45px;
+        padding-top: 120px;
         max-width: 650px;
         width: 100%;
     }
 
+    .faq-one-accrodion .accrodion-content {
+        min-height: 150px;
+    }
+
     /*Blog One*/
-    .blog-one__content{
+    .blog-one__content {
         min-height: 440px;
     }
+
     .blog-one__content h2 {
         font-size: 18px;
     }
@@ -276,7 +282,11 @@
     }
 
     .faq-one__img {
-        margin-top: 45px;
+        padding-top: 120px;
+    }
+
+    .faq-one-accrodion .accrodion-content {
+        min-height: 150px;
     }
 
     /*About Three*/
@@ -428,8 +438,8 @@
         margin: 0 auto 30px;
     }
 
-    
-    .blog-one__content{
+
+    .blog-one__content {
         min-height: 250px;
     }
 
@@ -494,7 +504,7 @@
         width: 100%;
         margin: 0 auto 30px;
     }
-    
+
 
     /*Projects One*/
     .projects-one__single {
@@ -510,9 +520,10 @@
 
     /*Blog One*/
 
-    .blog-one__content{
+    .blog-one__content {
         min-height: 250px;
     }
+
     .blog-one__content h2 a br {
         display: none;
     }
@@ -626,6 +637,11 @@
     }
 
     /*Faq One*/
+    .faq-one {
+        padding-bottom: 90px;
+        padding-top: 90px;
+    }
+
     .faq-one__content {
         padding-right: 0px;
     }
@@ -633,6 +649,7 @@
     .faq-one__img {
         margin-top: 45px;
     }
+
 
     .faq-one-accrodion .accrodion-content .inner .img-box {
         position: relative;
@@ -648,6 +665,7 @@
 
     .faq-one-accrodion .accrodion-content .inner .text {
         margin-top: 20px;
+        left: 0px
     }
 
     .faq-one-accrodion .accrodion-title {
@@ -803,6 +821,7 @@
     }
 
     /*Contact Box*/
+
     .contact-box {
         padding: 120px 0px 60px;
     }
@@ -884,6 +903,10 @@
     }
 
     /*Team One Team*/
+    .team-one--team {
+        padding: 120px 0px 20px;
+    }
+
     .team-one--team .team-one__single {
         max-width: 500px;
         width: 100%;
@@ -1000,6 +1023,7 @@
     .blog-one__content h2 br {
         display: none;
     }
+
 
 }
 
@@ -1124,7 +1148,9 @@
         display: none;
     }
 
-
+    .testimonials-one__single {
+        min-height: 100px;
+    }
 
 }
 
@@ -1193,9 +1219,34 @@
     }
 
 
+    .testimonials-one__single {
+        min-height: 300px;
+
+    }
 
 
+    .contact-one__form-box .input-box input[type="text"],
+    .contact-one__form-box .input-box input[type="email"],
+    .contact-one__form-box .input-box input[type="phone"],
+    .contact-one__form-box .input-box input[type="date"],
+    .contact-one__form-box .input-box .nice-select {
+        height: 45px;
+    }
 
+    .contact-one__form-box .input-box .select-box {
+        height: 45px;
+    }
+
+    .contact-one__form-box .input-box .nice-select {
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-one__form-box .input-box .nice-select:after {
+        top: 20px;
+
+
+    }
 
 }
 
@@ -1204,139 +1255,133 @@
 
 
 
-/*==============================================
+
+    /*==============================================
    Main Menu All Responsice Css
 ===============================================*/
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .main-menu-wrapper__right {
-        padding: 24px 0;
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .main-menu-wrapper__right {
+            padding: 24px 0;
+        }
+
+
     }
 
 
-}
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .main-header__top {
+            display: none;
+        }
 
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .main-header__top {
-        display: none;
-    }
-
-    .main-menu-wrapper__right {
-        padding: 24px 0;
-    }
+        .main-menu-wrapper__right {
+            padding: 24px 0;
+        }
 
 
 
 
 
 
-}
-
-
-
-
-@media (max-width: 767px) {
-
-    a.sc-hLseeU {
-        display: block;
-        color: #004a94;
-    }
-
-    .main-header__top {
-        display: none;
-    }
-
-    .main-header__btn {
-        display: none;
-    }
-
-    .main-menu-wrapper__main-menu {
-        margin-right: 0;
-    }
-
-    .main-menu-wrapper__right {
-        padding: 40px 0;
     }
 
 
 
 
+    @media (max-width: 767px) {
+
+        a.sc-hLseeU {
+            display: block;
+            color: #004a94;
+        }
+
+        .main-header__top {
+            display: none;
+        }
+
+        .main-header__btn {
+            display: none;
+        }
+
+        .main-menu-wrapper__main-menu {
+            margin-right: 0;
+        }
+
+        .main-menu-wrapper__right {
+            padding: 40px 0;
+        }
 
 
-
-
-
-}
-
-
-/*About One*/
-@media (max-width: 1199px) {
-    .about-one__img2 {
-        display: none;
-    }
-}
-
-
-
-/*Contact One*/
-@media only screen and (min-width: 1200px) and (max-width: 1499px) {
-    .contact-one__img {
-        right: -120px;
-    }
-
-    .contact-one__img img {
-        width: 83%;
-    }
-}
-
-/*Contact One*/
-@media only screen and (min-width: 1500px) and (max-width: 1675px) {
-    .contact-one__img {
-        right: 40px;
-    }
-}
-
-/*Blog One*/
-@media only screen and (min-width: 1024px) and (max-width: 1199px) {
-    .blog-one__content h2 a br {
-        display: none;
     }
 
-    .blog-one__content p br {
-        display: none;
-    }
-}
 
-/*Blog One*/
-@media only screen and (min-width: 600px) and (max-width: 1023px) {
-    .blog-one__content h2 a br {
-        display: none;
+    /*About One*/
+    @media (max-width: 1199px) {
+        .about-one__img2 {
+            display: none;
+        }
     }
 
-    .blog-one__content p br {
-        display: none;
-    }
-}
-
-/*Blog One*/
-@media (max-width: 799px) {
-    .blog-one__single {
-        max-width: 500px;
-        margin: 0 auto;
-    }
-}
 
 
-@media only screen and (max-width: 1199px) {
-    .order-2 {
-        -ms-flex-order: 2;
-        order: 2;
+    /*Contact One*/
+    @media only screen and (min-width: 1200px) and (max-width: 1499px) {
+        .contact-one__img {
+            right: -120px;
+        }
+
+        .contact-one__img img {
+            width: 83%;
+        }
     }
 
-    .order-1 {
-        -ms-flex-order: 1;
-        order: 1;
+    /*Contact One*/
+    @media only screen and (min-width: 1500px) and (max-width: 1675px) {
+        .contact-one__img {
+            right: 40px;
+        }
     }
 
-}
+    /*Blog One*/
+    @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+        .blog-one__content h2 a br {
+            display: none;
+        }
+
+        .blog-one__content p br {
+            display: none;
+        }
+    }
+
+    /*Blog One*/
+    @media only screen and (min-width: 600px) and (max-width: 1023px) {
+        .blog-one__content h2 a br {
+            display: none;
+        }
+
+        .blog-one__content p br {
+            display: none;
+        }
+    }
+
+    /*Blog One*/
+    @media (max-width: 799px) {
+        .blog-one__single {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+    }
+
+
+    @media only screen and (max-width: 1199px) {
+        .order-2 {
+            -ms-flex-order: 2;
+            order: 2;
+        }
+
+        .order-1 {
+            -ms-flex-order: 1;
+            order: 1;
+        }
+
+    }

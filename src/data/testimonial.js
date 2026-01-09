@@ -43,8 +43,8 @@ export const TestimonialOneData = [
     {
         id: 6,
         image: "/assets/images/testimonial/testimonials-v1-img3.png",
-        alt: "Ankit Malhotra Testimonial",
-        name: "Ankit Malhotra",
+        alt: "Aniket Sharma Testimonial",
+        name: "Aniket Sharma",
         // position: "Founder",
         description: "Their tailored solutions and client-focused methodology ensure scalable success and long-term growth for businesses."
     },

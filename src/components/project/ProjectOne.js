@@ -2,32 +2,35 @@ import React, { useEffect } from 'react';
 
 const ProjectOne = () => {
     useEffect(() => {
+  if ($(".img-popup").length) {
+    var groups = {};
 
-        if ($(".img-popup").length) {
-            var groups = {};
-            $(".img-popup").each(function () {
-              var id = parseInt($(this).attr("data-group"), 10);
-        
-              if (!groups[id]) {
-                groups[id] = [];
-              }
-        
-              groups[id].push(this);
-            });
-        
-            $.each(groups, function () {
-              $(this).magnificPopup({
-                type: "image",
-                closeOnContentClick: true,
-                closeBtnInside: false,
-                gallery: {
-                  enabled: true
-                }
-              });
-            });
-        }
-      
-    }, []);
+    $(".img-popup").each(function () {
+      var id = parseInt($(this).attr("data-group"), 10) || 0;
+
+      if (!groups[id]) groups[id] = [];
+      groups[id].push(this);
+    });
+
+    $.each(groups, function () {
+      $(this).magnificPopup({
+        type: "image",
+        closeOnContentClick: true,
+        closeBtnInside: false,
+        gallery: { enabled: true }
+      });
+    });
+  }
+
+  // 🔥 MAIN FIX: click parent → trigger popup
+  $(".projects-one__single-img").on("click", function (e) {
+    if (!$(e.target).closest(".img-popup").length) {
+      $(this).find(".img-popup")[0].click();
+    }
+  });
+
+}, []);
+
     return (
         <>
             <section class="projects-one pd-120-0-90">

@@ -9,7 +9,7 @@ const TeamDetails = () => {
                     <div class="row">
                         <div class="col-xl-5">
                             {/* Start Team Details Img */}
-                            <div class="team-details__img js-tilt">
+                            <div class="team-details__img js-tilt "> 
                                 <img src="/assets/images/resources/team-detalis-img1.jpg" alt="" />
                             </div>
                             {/* End Team Details Img */}
@@ -23,12 +23,12 @@ const TeamDetails = () => {
                                 </div>
 
                                 <div class="name">
-                                    <h6>Name : Prerana Pardesi</h6>
+                                    <h6>Name : Sakshi Mehra</h6>
                                 </div>
 
                                 <div class="text">
                                     <p> 
-                                        About : Prerana Pardesi is an accomplished operations manager specializing in professional house cleaning, car detailing, and commercial cleaning services.
+                                        About : Sakshi Mehra is an accomplished operations manager specializing in professional house cleaning, car detailing, and commercial cleaning services.
                                         With extensive industry expertise, she drives operational excellence and consistently delivers exceptional results and complete customer satisfaction across residential, commercial, and automotive projects.
                                     </p>
                                 </div>

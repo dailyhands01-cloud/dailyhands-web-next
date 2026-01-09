@@ -45,7 +45,7 @@ const ContactOne = () => {
                                         <div className="col-xl-6 col-lg-6 col-md-6">
                                             <div className="input-box">
                                                 <div className="select-box">
-                                                    <select className="selectmenu wide">
+                                                    <select className="selectmenu wide ">
                                                         <option selected="selected">Select Category</option>
                                                         <option>Bedroom Cleaning</option>
                                                         <option>Window Cleaning</option>
