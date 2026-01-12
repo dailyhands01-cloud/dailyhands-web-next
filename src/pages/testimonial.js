@@ -13,6 +13,7 @@ export default function TestimonialPage() {
 			<Breadcrumb 
                 heading="Testimonial Page"
                 currentPage="Testimonial" 
+				bgImage="/assets/images/backgrounds/page-header-img13.jpg"
             />
 			<TestimonialTwo />
 			<BrandTwo />

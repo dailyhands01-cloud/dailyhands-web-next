@@ -14,6 +14,7 @@ export default function PricingPage() {
 			<Breadcrumb
                 heading="Cleaning Service Pricing"
                 currentPage="Pricing"
+				bgImage="/assets/images/backgrounds/page-header-img8.jpg"
             />
 			<PricingOne />
 			<NewsletterOne />

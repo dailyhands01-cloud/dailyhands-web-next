@@ -13,6 +13,7 @@ export default function GalleryOnePage() {
 			<Breadcrumb 
                 heading="Gallery"
                 currentPage="Gallery" 
+				bgImage="/assets/images/backgrounds/page-header-img9.jpg"
             />
 			<GalleryOne />
 			<CtaOne />

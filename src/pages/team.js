@@ -15,6 +15,7 @@ export default function TeamPage() {
 			<Breadcrumb 
                 heading="Team Page"
                 currentPage="Team" 
+				bgImage="/assets/images/backgrounds/page-header-img7.jpg"
             />
 			<TeamThree />
 			<BrandTwo />

@@ -3267,11 +3267,11 @@ div[class^="bubble-"] {
     margin-bottom: 3px;
 }
 
-.services-one__single-content h2 a {
+.services-one__single-content h2 {
     color: var(--thm-black);
 }
 
-.services-one__single-content h2 a:hover {
+.services-one__single-content h2:hover {
     color: var(--thm-base);
 }
 
@@ -4415,11 +4415,11 @@ div[class^="bubble-"] {
     margin-bottom: 9px;
 }
 
-.blog-one__content h2 a {
+.blog-one__content h2  {
     color: var(--thm-black);
 }
 
-.blog-one__content h2 a:hover {
+.blog-one__content h2:hover {
     color: var(--thm-base);
 }
 
@@ -9194,6 +9194,8 @@ div[class^="bubble-"] {
     position: relative;
     display: block;
     z-index: 1;
+    margin-top:80px;
+      margin-bottom:80px
 }
 
 .contact-page-google-map__one {
@@ -9317,7 +9319,7 @@ div[class^="bubble-"] {
     color: var(--thm-base);
 }
 
-.cta-one__inner .button-box .thm-btn .liquid {
+.cta-one__inner  .thm-btn .liquid {
     background: #ffffff;
 }
 
@@ -9338,6 +9340,7 @@ div[class^="bubble-"] {
 
 .cta-one__inner .button-box a:hover {
     color: #ffffff;
+    cursor:pointer;
 }
 
 /*** 

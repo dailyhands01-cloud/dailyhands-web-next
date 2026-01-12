@@ -13,6 +13,7 @@ export default function BusinessGroceryPage() {
 			<Breadcrumb 
                 heading="Bedroom Cleaning"
                 currentPage="Bedroom Cleaning" 
+				bgImage="/assets/images/backgrounds/page-header-img2.jpg"
             />
 			<BedroomCleaning />
 			<BrandOne />
