@@ -24,7 +24,7 @@ const CarCleaning = () => {
 
                             <div class="col-xl-8 order-1">
                                 <div class="service-details__top-img">
-                                    <img src="/assets/images/resources/service-details-img4.jpg" alt="" />
+                                    <img src="/assets/images/resources/service-details-img4.webp" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ const CarCleaning = () => {
                             <div class="row">
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="img-box">
-                                        <img src="/assets/images/resources/car-cleaning.jpg" alt="Professional car detailing interior exterior before after" />
+                                        <img src="/assets/images/resources/car-cleaning.webp" alt="Professional car detailing interior exterior before after" />
                                     </div>
                                 </div>
                                 <div class="col-xl-8 col-lg-7">

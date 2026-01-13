@@ -2,7 +2,7 @@
 export const BlogOneData = [
     {
         id: 1,
-        image: "/assets/images/blog/blog-v1-img1.jpg",
+        image: "/assets/images/blog/blog-v1-img1.webp",
         alt: "Cleaning Tips Blog Post",
         heading: "Essential House Cleaning Tips for a Healthier Home",
         description: "Discover practical cleaning tips that help maintain a spotless and hygienic home. Learn how daily housekeeping and expert strategies can improve your living environment.",
@@ -11,7 +11,7 @@ export const BlogOneData = [
     },
     {
         id: 2,
-        image: "/assets/images/blog/blog-v1-img2.jpg",
+        image: "/assets/images/blog/blog-v1-img2.webp",
         alt: "Professional Cleaning Services Blog",
         heading: "Top Advantages of Hiring Professional Cleaning Services",
         description: "Hiring professional cleaners ensures a consistent, high-quality clean. Save time, reduce stress, and enjoy a healthier home or office with expert cleaning support.",
@@ -20,7 +20,7 @@ export const BlogOneData = [
     },
     {
         id: 3,
-        image: "/assets/images/blog/blog-v1-img4.jpg",
+        image: "/assets/images/blog/blog-v1-img4.webp",
         alt: "Customized Home Cleaning Blog",
         heading: "Personalized Cleaning Plans Tailored for Every Home",
         description: "Get customized cleaning services designed to suit your home's unique needs. Our skilled team ensures every room is spotless, organized, and welcoming.",
@@ -34,7 +34,7 @@ export const BlogOneData = [
 export const BlogTwoData = [
     {
         id: 1,
-        image: "/assets/images/blog/blog-v1-img1.jpg",
+        image: "/assets/images/blog/blog-v1-img1.webp",
         alt: "Infection Control Guide",
         heading: "Essential Guide to Infection Control for a Healthy Home",
         description: "Learn practical tips and expert strategies to maintain a hygienic home. From daily cleaning routines to deep sanitation, our professional team ensures a safe and clean living space.",
@@ -43,7 +43,7 @@ export const BlogTwoData = [
     },
     {
         id: 2,
-        image: "/assets/images/blog/blog-v1-img2.jpg",
+        image: "/assets/images/blog/blog-v1-img2.webp",
         alt: "Professional Cleaning Benefits",
         heading: "Top Benefits of Hiring Professional Cleaning Services",
         description: "Discover how professional cleaning services save time, maintain hygiene, and enhance the overall comfort of your home. Our expert cleaners deliver reliable results every time.",
@@ -52,7 +52,7 @@ export const BlogTwoData = [
     },
     {
         id: 3,
-        image: "/assets/images/blog/blog-v1-img3.jpg",
+        image: "/assets/images/blog/blog-v1-img3.webp",
         alt: "Personalized Cleaning Service",
         heading: "Personalized Cleaning Solutions for Every Home",
         description: "Experience tailor-made cleaning services designed to meet your unique needs. Our team ensures each room is spotless, organized, and maintained to perfection, making your home healthier and more comfortable.",
@@ -67,7 +67,7 @@ export const BlogTwoData = [
 export const BlogThreeData = [
     {
         id: 1,
-        image: "/assets/images/blog/blog-v1-img1.jpg",
+        image: "/assets/images/blog/blog-v1-img1.webp",
         alt: "Custom House Cleaning Services Guide",
         heading: "Customized House Cleaning Plans for Every Home",
         description: "Tailored house cleaning services matching your schedule, home size, and preferences. Professional cleaners deliver personalized deep cleaning and daily maintenance solutions.",
@@ -78,7 +78,7 @@ export const BlogThreeData = [
     },
     {
         id: 2,
-        image: "/assets/images/blog/blog-v1-img2.jpg",
+        image: "/assets/images/blog/blog-v1-img2.webp",
         alt: "Home Infection Control Cleaning Tips",
         heading: "Effective Infection Control Cleaning for Homes",
         description: "Professional house cleaning techniques to eliminate germs, bacteria, and allergens. Essential sanitization methods for kitchen, bathroom, and high-touch surfaces.",
@@ -89,7 +89,7 @@ export const BlogThreeData = [
     },
     {
         id: 3,
-        image: "/assets/images/blog/blog-v1-img3.jpg",
+        image: "/assets/images/blog/blog-v1-img3.webp",
         alt: "Weekly House Cleaning Benefits",
         heading: "Why Weekly House Cleaning Improves Health",
         description: "Health benefits of consistent weekly cleaning schedules. Dust control, allergen reduction, and time-saving strategies for maintaining spotless living spaces.",
@@ -100,7 +100,7 @@ export const BlogThreeData = [
     },
     {
         id: 4,
-        image: "/assets/images/blog/blog-v1-img4.jpg",
+        image: "/assets/images/blog/blog-v1-img4.webp",
         alt: "Complete Room Cleaning Checklist",
         heading: "Ultimate Room-by-Room House Cleaning Checklist",
         description: "Printable checklists for kitchen deep cleaning, bathroom sanitization, bedroom dusting, and living room maintenance. Professional step-by-step cleaning guide.",
@@ -111,7 +111,7 @@ export const BlogThreeData = [
     },
     {
         id: 5,
-        image: "/assets/images/blog/blog-v1-img5.jpg",
+        image: "/assets/images/blog/blog-v1-img5.webp",
         alt: "Hire Professional House Cleaners Guide",
         heading: "7 Reasons to Hire Professional House Cleaners",
         description: "Time savings, superior results, and guaranteed quality. Compare professional cleaning vs DIY and discover why expert services transform your home maintenance.",
@@ -122,7 +122,7 @@ export const BlogThreeData = [
     },
     {
         id: 6,
-        image: "/assets/images/blog/blog-v1-img6.jpg",
+        image: "/assets/images/blog/blog-v1-img6.webp",
         alt: "Home Cleaning Before Travel Checklist",
         heading: "Complete Home Cleaning Checklist Before Travel",
         description: "Pre-travel house cleaning routine to prevent dust buildup and odors. Kitchen fridge prep, bathroom sanitization, and bedroom maintenance for worry-free vacations.",
@@ -138,7 +138,7 @@ export const BlogThreeData = [
 export const BlogGridData = [
     {
         id: 1,
-        image: "/assets/images/blog/blog-v1-img1.jpg",
+        image: "/assets/images/blog/blog-v1-img1.webp",
         alt: "Custom House Cleaning Plans",
         heading: "Custom House Cleaning Plans for Every Home",
         description: "Tailored house cleaning services for 1BHK, 2BHK, 3BHK homes. Professional cleaners match your schedule and specific cleaning needs.",
@@ -149,7 +149,7 @@ export const BlogGridData = [
     },
     {
         id: 2,
-        image: "/assets/images/blog/blog-v1-img3.jpg",
+        image: "/assets/images/blog/blog-v1-img3.webp",
         alt: "Professional Car Cleaning Tips",
         heading: "10 Essential Car Cleaning Tips for Showroom Shine",
         description: "Expert car detailing techniques for interior steam cleaning, exterior polishing, and nano-ceramic protection that lasts 24 months.",
@@ -161,7 +161,7 @@ export const BlogGridData = [
     {
         id: 3,
 
-        image: "/assets/images/blog/blog-v1-img2.jpg",
+        image: "/assets/images/blog/blog-v1-img2.webp",
         alt: "Home Sanitization Guide",
         heading: "Complete Home Sanitization Guide for Germ Protection",
         description: "Professional infection control methods for kitchen, bathroom, and bedrooms. Eliminate 99.9% bacteria with safe sanitization techniques.",
@@ -172,7 +172,7 @@ export const BlogGridData = [
     },
     {
         id: 4,
-        image: "/assets/images/blog/blog-v1-img4.jpg",
+        image: "/assets/images/blog/blog-v1-img4.webp",
         alt: "Professional Cleaning Benefits",
         heading: "7 Reasons Professional Cleaning Beats DIY Forever",
         description: "Save time, get superior results, and guaranteed quality. Compare professional house cleaning vs DIY cleaning services.",
@@ -183,7 +183,7 @@ export const BlogGridData = [
     },
     {
         id: 5,
-        image: "/assets/images/blog/blog-v1-img5.jpg",
+        image: "/assets/images/blog/blog-v1-img5.webp",
         alt: "Room Cleaning Checklist",
         heading: "Kitchen, Bathroom & Bedroom Cleaning Checklist [Free Download]",
         description: "Printable room-by-room cleaning checklists for deep cleaning every area. Professional step-by-step guide for spotless results.",
@@ -194,7 +194,7 @@ export const BlogGridData = [
     },
     {
         id: 6,
-        image: "/assets/images/blog/blog-v1-img6.jpg",
+        image: "/assets/images/blog/blog-v1-img6.webp",
         alt: "Weekly House Cleaning Benefits",
         heading: "Weekly House Cleaning Schedule: Health & Time Benefits",
         description: "Health benefits of regular weekly cleaning. Dust control, allergen reduction, and effortless home maintenance strategies.",
@@ -210,7 +210,7 @@ export const BlogGridData = [
 export const BlogListData = [
     {
         id: 1,
-        image: "/assets/images/blog/blog-list-img1.jpg",
+        image: "/assets/images/blog/blog-list-img1.webp",
         alt: "Daily Cleaning Tips",
         heading: "Simple Daily Cleaning Tips for a Spotless Home",
         description: "Discover easy daily cleaning routines that keep your home fresh and organized. Our expert tips help maintain hygiene and comfort effortlessly.",
@@ -221,7 +221,7 @@ export const BlogListData = [
     },
     {
         id: 2,
-        image: "/assets/images/blog/blog-list-img2.jpg",
+        image: "/assets/images/blog/blog-list-img2.webp",
         alt: "Infection Control Guide",
         heading: "Essential Guide to Home Infection Control",
         description: "Learn practical strategies to prevent germs and bacteria at home. Our professional cleaning insights ensure a safe and healthy living environment.",
@@ -232,7 +232,7 @@ export const BlogListData = [
     },
     {
         id: 3,
-        image: "/assets/images/blog/blog-list-img3.jpg",
+        image: "/assets/images/blog/blog-list-img3.webp",
         alt: "Weekly Cleaning Benefits",
         heading: "How Weekly Cleaning Services Enhance Your Home",
         description: "Explore the benefits of regular professional cleaning. Maintain a spotless, hygienic home while saving time and reducing stress.",
@@ -243,7 +243,7 @@ export const BlogListData = [
     },
     {
         id: 4,
-        image: "/assets/images/blog/blog-list-img4.jpg",
+        image: "/assets/images/blog/blog-list-img4.webp",
         alt: "Room Cleaning Checklist",
         heading: "Room-by-Room Cleaning Checklist for Busy Homes",
         description: "Follow our detailed room cleaning checklist to keep bedrooms, kitchens, and living areas clean. Our tips help you achieve efficient, thorough cleaning.",
@@ -254,7 +254,7 @@ export const BlogListData = [
     },
     {
         id: 5,
-        image: "/assets/images/blog/blog-list-img5.jpg",
+        image: "/assets/images/blog/blog-list-img5.webp",
         alt: "Professional Cleaning Benefits",
         heading: "Top Benefits of Hiring Professional Cleaning Services",
         description: "Discover how professional cleaners save time, maintain hygiene, and improve home comfort. Reliable services for every room in your house.",
@@ -265,7 +265,7 @@ export const BlogListData = [
     },
     {
         id: 6,
-        image: "/assets/images/blog/blog-list-img6.jpg",
+        image: "/assets/images/blog/blog-list-img6.webp",
         alt: "Bedroom & Toilet Cleaning Tips",
         heading: "Expert Tips for Cleaning Your Bedroom & Bathroom",
         description: "Keep your bedroom and bathroom sparkling clean with professional tips. Ensure hygiene, prevent germs, and maintain a healthy home environment.",
@@ -276,7 +276,7 @@ export const BlogListData = [
     },
     {
         id: 7,
-        image: "/assets/images/blog/blog-list-img7.jpg",
+        image: "/assets/images/blog/blog-list-img7.webp",
         alt: "Versatile Cleaning Solutions",
         heading: "Versatile Cleaning Solutions for Every Home",
         description: "Our cleaning solutions are perfect for all types of homes and spaces. Learn techniques to maintain cleanliness efficiently and professionally.",
@@ -292,7 +292,7 @@ export const BlogListData = [
 export const BlogStandardData = [
     {
         id: 1,
-        image: "/assets/images/blog/blog-standard-img1.jpg",
+        image: "/assets/images/blog/blog-standard-img1.webp",
         alt: "Daily Cleaning Tips",
         date: "10 Oct",
         heading: "Essential Daily Cleaning Tips for a Sparkling Home",
@@ -304,7 +304,7 @@ export const BlogStandardData = [
     },
     {
         id: 2,
-        image: "/assets/images/blog/blog-standard-img2.jpg",
+        image: "/assets/images/blog/blog-standard-img2.webp",
         alt: "Bedroom Cleaning Guide",
         date: "10 Oct",
         heading: "Comprehensive Bedroom Cleaning Guide for Healthy Living",
@@ -316,7 +316,7 @@ export const BlogStandardData = [
     },
     {
         id: 3,
-        image: "/assets/images/blog/blog-standard-img3.jpg",
+        image: "/assets/images/blog/blog-standard-img3.webp",
         alt: "Bathroom Cleaning Tips",
         date: "10 Oct",
         heading: "Top Bathroom Cleaning Tips for a Germ-Free Space",
@@ -328,7 +328,7 @@ export const BlogStandardData = [
     },
     {
         id: 4,
-        image: "/assets/images/blog/blog-standard-img4.jpg",
+        image: "/assets/images/blog/blog-standard-img4.webp",
         alt: "Kitchen Cleaning Advice",
         date: "10 Oct",
         heading: "Expert Kitchen Cleaning Advice for a Healthier Home",

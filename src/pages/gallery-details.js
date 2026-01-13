@@ -13,7 +13,7 @@ export default function GalleryDetailsPage() {
 			<Breadcrumb 
                 heading="Gallery Details"
                 currentPage="Gallery Details" 
-				bgImage="/assets/images/backgrounds/page-header-img9.jpg"
+				bgImage="/assets/images/backgrounds/page-header-img9.webp"
             />
 			<GalleryDetails />
 			<CtaOne />

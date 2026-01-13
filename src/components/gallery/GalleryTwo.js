@@ -46,9 +46,9 @@ const GalleryTwo = () => {
                         <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <div class="gallery-page__single">
                                 <div class="gallery-page__single-img">
-                                    <img src="/assets/images/gallery/gallery-page-img1.jpg" alt="" />
+                                    <img src="/assets/images/gallery/gallery-page-img1.webp" alt="" />
                                     <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img1.jpg"><span class="icon-plus"></span></a>
+                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img1.webp"><span class="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -59,9 +59,9 @@ const GalleryTwo = () => {
                         <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div class="gallery-page__single">
                                 <div class="gallery-page__single-img">
-                                    <img src="/assets/images/gallery/gallery-page-img2.jpg" alt="" />
+                                    <img src="/assets/images/gallery/gallery-page-img2.webp" alt="" />
                                     <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img2.jpg"><span class="icon-plus"></span></a>
+                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img2.webp"><span class="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -72,9 +72,9 @@ const GalleryTwo = () => {
                         <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div class="gallery-page__single">
                                 <div class="gallery-page__single-img">
-                                    <img src="/assets/images/gallery/gallery-page-img3.jpg" alt="" />
+                                    <img src="/assets/images/gallery/gallery-page-img3.webp" alt="" />
                                     <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img3.jpg"><span class="icon-plus"></span></a>
+                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img3.webp"><span class="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -85,9 +85,9 @@ const GalleryTwo = () => {
                         <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <div class="gallery-page__single">
                                 <div class="gallery-page__single-img">
-                                    <img src="/assets/images/gallery/gallery-page-img4.jpg" alt="" />
+                                    <img src="/assets/images/gallery/gallery-page-img4.webp" alt="" />
                                     <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img4.jpg"><span class="icon-plus"></span></a>
+                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img4.webp"><span class="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -98,9 +98,9 @@ const GalleryTwo = () => {
                         <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div class="gallery-page__single">
                                 <div class="gallery-page__single-img">
-                                    <img src="/assets/images/gallery/gallery-page-img5.jpg" alt="" />
+                                    <img src="/assets/images/gallery/gallery-page-img5.webp" alt="" />
                                     <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img5.jpg"><span class="icon-plus"></span></a>
+                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img5.webp"><span class="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -111,9 +111,9 @@ const GalleryTwo = () => {
                         <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div class="gallery-page__single">
                                 <div class="gallery-page__single-img">
-                                    <img src="/assets/images/gallery/gallery-page-img6.jpg" alt="" />
+                                    <img src="/assets/images/gallery/gallery-page-img6.webp" alt="" />
                                     <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img6.jpg"><span class="icon-plus"></span></a>
+                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img6.webp"><span class="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>

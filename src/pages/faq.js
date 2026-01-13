@@ -15,7 +15,7 @@ export default function FaqPage() {
 			<Breadcrumb 
                 heading="Faq Page"
                 currentPage="Faq" 
-				bgImage="/assets/images/backgrounds/page-header-img10.jpg"
+				bgImage="/assets/images/backgrounds/page-header-img10.webp"
             />
 			<FaqOne />
 			<ContactTwo />

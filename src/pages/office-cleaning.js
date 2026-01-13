@@ -13,7 +13,7 @@ export default function OfficeCleaningPage() {
 			<Breadcrumb 
                 heading="Office Cleaning"
                 currentPage="Office Cleaning" 
-				bgImage="/assets/images/backgrounds/page-header-img4.jpg"
+				bgImage="/assets/images/backgrounds/page-header-img4.webp"
             />
 			<OfficeCleaning />
 			<BrandOne />

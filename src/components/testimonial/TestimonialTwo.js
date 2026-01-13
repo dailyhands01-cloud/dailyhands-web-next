@@ -45,7 +45,7 @@ const TestimonialTwo = () => {
         <>
             <section class="testimonial-two">
                 <div class="shape1 wow slideInRight" data-wow-delay="500ms">
-                    <img src="/assets/images/shapes/shape-1.png" alt="" />
+                    <img src="/assets/images/shapes/shape-1.webp" alt="" />
                 </div>
                 <div class="container">
                     <div class="section-title__style2">

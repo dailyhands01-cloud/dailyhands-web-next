@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import VideoBGOne from '../../../public/assets/images/backgrounds/video-v1-bg.jpg';
+import VideoBGOne from '../../../public/assets/images/backgrounds/video-v1-bg.webp';
 
 const VideoOne = () => {
 

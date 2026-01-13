@@ -2,7 +2,7 @@
 export const TeamOneData = [
     {
         id: 1,
-        image: "/assets/images/team/team-v1-img1.jpg",
+        image: "/assets/images/team/team-v1-img1.webp",
         name: "Sonali Tupe",
         alt: "Team",
         position: "Founder",
@@ -11,7 +11,7 @@ export const TeamOneData = [
     },
     {
         id: 2,
-        image: "/assets/images/team/team-v1-img2.jpg",
+        image: "/assets/images/team/team-v1-img2.webp",
         alt: "Team",
         name: "Prerana Pardeshi",
         position: "Manager",
@@ -20,7 +20,7 @@ export const TeamOneData = [
     },
     {
         id: 3,
-        image: "/assets/images/team/team-v1-img3.jpg",
+        image: "/assets/images/team/team-v1-img3.webp",
         alt: "Team",
         name: "Rajashree Pawar",
        position: "Business Executive",
@@ -29,7 +29,7 @@ export const TeamOneData = [
     },
     {
         id: 4,
-        image: "/assets/images/team/team-v1-img1.jpg",
+        image: "/assets/images/team/team-v1-img1.webp",
         name: "Sonali Tupe",
         alt: "Team",
         position: "Founder",
@@ -38,7 +38,7 @@ export const TeamOneData = [
     },
     {
         id: 5,
-        image: "/assets/images/team/team-v1-img2.jpg",
+        image: "/assets/images/team/team-v1-img2.webp",
         alt: "Team",
         name: "Prerana Pardeshi",
         position: "Manager",
@@ -47,7 +47,7 @@ export const TeamOneData = [
     },
     {
         id: 6,
-        image: "/assets/images/team/team-v1-img3.jpg",
+        image: "/assets/images/team/team-v1-img3.webp",
         alt: "Team",
         name: "Rajashree Pawar",
         position: "Business Executive",
@@ -56,7 +56,7 @@ export const TeamOneData = [
     },
      {
         id: 7,
-        image: "/assets/images/team/team-v1-img1.jpg",
+        image: "/assets/images/team/team-v1-img1.webp",
         name: "Sonali Tupe",
         alt: "Team",
         position: "Founder",
@@ -65,7 +65,7 @@ export const TeamOneData = [
     },
     {
         id: 8,
-        image: "/assets/images/team/team-v1-img2.jpg",
+        image: "/assets/images/team/team-v1-img2.webp",
         alt: "Team",
         name: "Prerana Pardeshi",
         position: "Manager",
@@ -74,7 +74,7 @@ export const TeamOneData = [
     },
     {
         id: 9,
-        image: "/assets/images/team/team-v1-img3.jpg",
+        image: "/assets/images/team/team-v1-img3.webp",
         alt: "Team",
         name: "Rajashree Pawar",
        position: "Business Executive",
@@ -88,7 +88,7 @@ export const TeamOneData = [
 export const TeamThreeData = [
     {
         id: 1,
-        image: "/assets/images/team/team-v1-img1.jpg",
+        image: "/assets/images/team/team-v1-img1.webp",
         alt: "Team",
         name: "Sonali Tupe",
         position: "Founder",
@@ -100,7 +100,7 @@ export const TeamThreeData = [
     },
     {
         id: 2,
-        image: "/assets/images/team/team-v1-img2.jpg",
+        image: "/assets/images/team/team-v1-img2.webp",
         alt: "Team",
         name: "Prerana Pardeshi",
         position: "Manager",
@@ -112,7 +112,7 @@ export const TeamThreeData = [
     },
     {
         id: 3,
-        image: "/assets/images/team/team-v1-img3.jpg",
+        image: "/assets/images/team/team-v1-img3.webp",
         alt: "Team",
         name: "Rajashree Pawar",
         position: "Business Executive",
@@ -124,7 +124,7 @@ export const TeamThreeData = [
     },
     {
         id: 4,
-        image: "/assets/images/team/team-v1-img4.jpg",
+        image: "/assets/images/team/team-v1-img4.webp",
         alt: "Team",
         name: "Rohini Pawar",
         position: "HR Executive",
@@ -136,7 +136,7 @@ export const TeamThreeData = [
     },
     {
         id: 5,
-        image: "/assets/images/team/team-v1-img5.jpg",
+        image: "/assets/images/team/team-v1-img5.webp",
         alt: "Team",
         name: "Sanjana Pawar",
         position: "Client Relationship Manager",
@@ -148,7 +148,7 @@ export const TeamThreeData = [
     },
     {
         id: 6,
-        image: "/assets/images/team/team-v1-img6.jpg",
+        image: "/assets/images/team/team-v1-img6.webp",
         alt: "Team",
         name: "Jayashree Pawar",
         position: "Quality Control Executive",
@@ -164,7 +164,7 @@ export const TeamThreeData = [
 // export const TeamThreeData = [
 //     {
 //         id: 1,
-//         image: "/assets/images/team/team-v1-img1.jpg",
+//         image: "/assets/images/team/team-v1-img1.webp",
 //         alt: "Team",
 //         name: "Mss. Sumi Aktar",
 //         position: "Founder",
@@ -177,7 +177,7 @@ export const TeamThreeData = [
 //     },
 //     {
 //         id: 2,
-//         image: "/assets/images/team/team-v1-img2.jpg",
+//         image: "/assets/images/team/team-v1-img2.webp",
 //         alt: "Team",
 //         name: "Mss. Sumi Aktar",
 //         position: "Founder",
@@ -190,7 +190,7 @@ export const TeamThreeData = [
 //     },
 //     {
 //         id: 3,
-//         image: "/assets/images/team/team-v1-img3.jpg",
+//         image: "/assets/images/team/team-v1-img3.webp",
 //         alt: "Team",
 //         name: "Mss. Sumi Aktar",
 //         position: "Founder",
@@ -203,7 +203,7 @@ export const TeamThreeData = [
 //     },
 //     {
 //         id: 4,
-//         image: "/assets/images/team/team-v1-img4.jpg",
+//         image: "/assets/images/team/team-v1-img4.webp",
 //         alt: "Team",
 //         name: "Mss. Sumi Aktar",
 //         position: "Founder",
@@ -216,7 +216,7 @@ export const TeamThreeData = [
 //     },
 //     {
 //         id: 5,
-//         image: "/assets/images/team/team-v1-img5.jpg",
+//         image: "/assets/images/team/team-v1-img5.webp",
 //         alt: "Team",
 //         name: "Mss. Sumi Aktar",
 //         position: "Founder",
@@ -229,7 +229,7 @@ export const TeamThreeData = [
 //     },
 //     {
 //         id: 6,
-//         image: "/assets/images/team/team-v1-img6.jpg",
+//         image: "/assets/images/team/team-v1-img6.webp",
 //         alt: "Team",
 //         name: "Mss. Sumi Aktar",
 //         position: "Founder",

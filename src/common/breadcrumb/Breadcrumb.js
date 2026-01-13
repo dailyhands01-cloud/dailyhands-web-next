@@ -4,7 +4,7 @@ import Link from "next/link";
 const Breadcrumb = ({
   heading = "About Us",
   currentPage = "About",
-  bgImage = "/assets/images/backgrounds/page-header-img1.jpg",
+  bgImage = "/assets/images/backgrounds/page-header-img1.webp",
 }) => {
   return (
     <section className="page-header">

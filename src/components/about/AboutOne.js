@@ -13,7 +13,7 @@ const AboutOne = () => {
                 >
                     <img
                         className="float-bob-x"
-                        src="/assets/images/about/about-v1-img2.png"
+                        src="/assets/images/about/about-v1-img2.webp"
                         alt="Professional Cleaning Services"
                     />
                 </div>
@@ -26,7 +26,7 @@ const AboutOne = () => {
                             <div className="about-one__img clearfix">
                                 <div className="about-one__img-inner">
                                     <img
-                                        src="/assets/images/about/about-v1-img1.jpg"
+                                        src="/assets/images/about/about-v1-img1.webp"
                                         alt="Trusted Residential and Commercial Cleaning"
                                     />
                                 </div>

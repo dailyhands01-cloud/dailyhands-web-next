@@ -13,7 +13,7 @@ export default function FocusEmergencyPage() {
 			<Breadcrumb 
                 heading="Car Cleaning"
                 currentPage="Car Cleaning" 
-				bgImage="/assets/images/backgrounds/page-header-img6.jpg"
+				bgImage="/assets/images/backgrounds/page-header-img6.webp"
             />
 			<CarCleaning />
 			<BrandOne />

@@ -13,7 +13,7 @@ export default function WindowCleaningPage() {
 			<Breadcrumb 
                 heading="Window Cleaning"
                 currentPage="Window Cleaning" 
-				bgImage="/assets/images/backgrounds/page-header-img3.jpg"
+				bgImage="/assets/images/backgrounds/page-header-img3.webp"
             />
 			<WindowCleaning />
 			<BrandOne />

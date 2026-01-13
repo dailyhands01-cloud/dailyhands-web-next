@@ -3,9 +3,9 @@
 export const ProjectTwoData = [
     {
         id: 1,
-        image: "/assets/images/projects/projects-v1-img1.jpg",
+        image: "/assets/images/projects/projects-v1-img1.webp",
         alt: "Project",
-        image_popup: "/assets/images/projects/projects-v1-img1.jpg",
+        image_popup: "/assets/images/projects/projects-v1-img1.webp",
         heading: "Apertment Park Cleaning",
         link: "/project-details",
         delay: "0ms",
@@ -13,9 +13,9 @@ export const ProjectTwoData = [
     },
     {
         id: 2,
-        image: "/assets/images/projects/projects-v1-img3.jpg",
+        image: "/assets/images/projects/projects-v1-img3.webp",
         alt: "Project",
-        image_popup: "/assets/images/projects/projects-v1-img3.jpg",
+        image_popup: "/assets/images/projects/projects-v1-img3.webp",
         heading: "Apertment Park Cleaning",
         link: "/project-details",
         delay: "200ms",
@@ -23,9 +23,9 @@ export const ProjectTwoData = [
     },
     {
         id: 3,
-        image: "/assets/images/projects/projects-v1-img5.jpg",
+        image: "/assets/images/projects/projects-v1-img5.webp",
         alt: "Project",
-        image_popup: "/assets/images/projects/projects-v1-img5.jpg",
+        image_popup: "/assets/images/projects/projects-v1-img5.webp",
         heading: "Apertment Park Cleaning",
         link: "/project-details",
         delay: "400ms",

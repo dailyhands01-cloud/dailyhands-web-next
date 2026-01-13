@@ -13,7 +13,7 @@ export default function BlogPage() {
 			<Breadcrumb 
                 heading="Blog Page"
                 currentPage="Blog" 
-				bgImage="/assets/images/backgrounds/page-header-img11.jpg"
+				bgImage="/assets/images/backgrounds/page-header-img11.webp"
             />
 			<BlogThree />
 			<BrandOne />

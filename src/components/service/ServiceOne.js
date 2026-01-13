@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { ServiceOneData } from '@/data/service';
-import BackgroundOne from '../../../public/assets/images/pattern/services-v1-pattern.png';
+import BackgroundOne from '../../../public/assets/images/pattern/services-v1-pattern.webp';
 
 const ServiceOne = () => {
     return (

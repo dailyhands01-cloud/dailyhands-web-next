@@ -5,7 +5,7 @@ export const ServiceOneData = [
   {
     id: 1,
     icon: "icon-house",
-    image: "/assets/images/services/services-v1-img1.jpg",
+    image: "/assets/images/services/services-v1-img1.webp",
     heading: "Bedroom Cleaning",
     description:
       "Professional bedroom cleaning that removes dust, allergens, and germs for a fresh, hygienic sleeping space.",
@@ -16,7 +16,7 @@ export const ServiceOneData = [
   {
     id: 2,
     icon: "icon-window-cleaning",
-    image: "/assets/images/services/services-v1-img2.jpg",
+    image: "/assets/images/services/services-v1-img2.webp",
     heading: "Window Cleaning",
     description:
       "Streak-free window cleaning removes dust and stains from home/office glass. Enhances visibility and curb appeal.",
@@ -27,7 +27,7 @@ export const ServiceOneData = [
   {
     id: 3,
     icon: "icon-flat",
-    image: "/assets/images/services/services-v1-img3.jpg",
+    image: "/assets/images/services/services-v1-img3.webp",
     heading: "Office Cleaning",
     description:
       "Office cleaning for healthy workspaces removes dust and germs from workstations, meeting rooms, and high-traffic areas.",
@@ -38,7 +38,7 @@ export const ServiceOneData = [
   {
     id: 4,
     icon: "icon-carpet-cleaner",
-    image: "/assets/images/services/services-v1-img4.jpg",
+    image: "/assets/images/services/services-v1-img4.webp",
     heading: "Commercial Cleaning",
     description:
       "Expert commercial cleaning services for offices, retail stores, restaurants, and corporate facilities with customized schedules",
@@ -49,7 +49,7 @@ export const ServiceOneData = [
   {
     id: 5,
     icon: "icon-house-1",
-    image: "/assets/images/services/services-v1-img5.jpg",
+    image: "/assets/images/services/services-v1-img5.webp",
     heading: "House Cleaning",
     description:
       "Comprehensive house cleaning services for kitchens, bathrooms, living rooms, bedrooms, and regular maintenance.",
@@ -60,7 +60,7 @@ export const ServiceOneData = [
   {
     id: 6,
     icon: "icon-electric-vehicle",
-    image: "/assets/images/services/services-v1-img6.jpg",
+    image: "/assets/images/services/services-v1-img6.webp",
     heading: "Car Cleaning",
     description:
       "Expert car detailing services restoring vehicles to showroom condition with steam sanitization and nano-ceramic protection.",
@@ -77,7 +77,7 @@ export const ServiceTwoData = [
   {
     id: 1,
     icon: "icon-house",
-    image: "/assets/images/services/services-v1-img1.jpg",
+    image: "/assets/images/services/services-v1-img1.webp",
     alt: "Bedroom Cleaning Service",
     heading: "Bedroom Cleaning",
     description:
@@ -89,7 +89,7 @@ export const ServiceTwoData = [
   {
     id: 2,
     icon: "icon-window-cleaning",
-    image: "/assets/images/services/services-v1-img3.jpg",
+    image: "/assets/images/services/services-v1-img3.webp",
     alt: "Window Cleaning Service",
     heading: "Window Cleaning",
     description:
@@ -101,7 +101,7 @@ export const ServiceTwoData = [
   {
     id: 3,
     icon: "icon-carpet-cleaner",
-    image: "/assets/images/services/services-v1-img4.jpg",
+    image: "/assets/images/services/services-v1-img4.webp",
     alt: "Commercial Cleaning Service",
     heading: "Commercial Cleaning",
     description:

@@ -13,7 +13,7 @@ export default function BusinessOptionsPage() {
 			<Breadcrumb 
                 heading="House Cleaning"
                 currentPage="House Cleaning" 
-				bgImage="/assets/images/backgrounds/page-header-img5.jpg"
+				bgImage="/assets/images/backgrounds/page-header-img5.webp"
             />
 			<HouseCleaning />
 			<BrandOne />

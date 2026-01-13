@@ -44,11 +44,11 @@ const ProjectDetails = () => {
                             <div className="projects-detalis__content">
                                 <div className="projects-detalis__content-carousel owl-carousel owl-theme">
                                     <div className="single-img">
-                                        <img src="/assets/images/resources/projects-detalis-img1.jpg" alt="" />
+                                        <img src="/assets/images/resources/projects-detalis-img1.webp" alt="" />
                                     </div>
 
                                     <div className="single-img">
-                                        <img src="/assets/images/resources/projects-detalis-img2.jpg" alt="" />
+                                        <img src="/assets/images/resources/projects-detalis-img2.webp" alt="" />
                                     </div>
                                 </div>
 
@@ -161,7 +161,7 @@ const ProjectDetails = () => {
 
                                 <div className="projects-detalis__sidebar-discount wow animated fadeInUp" data-wow-delay="0.5s">
                                     <div className="img-box">
-                                        <img src="/assets/images/resources/projects-detalis-img3.jpg" alt="" />
+                                        <img src="/assets/images/resources/projects-detalis-img3.webp" alt="" />
                                         <div className="content-box">
                                             <h2><span>50 </span>% Discount</h2>
                                             <h4>Promotion Offer 20 Days</h4>

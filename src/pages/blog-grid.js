@@ -13,7 +13,7 @@ export default function BlogGridPage() {
 			<Breadcrumb 
                 heading="Blog Grid"
                 currentPage="Blog Grid" 
-				bgImage="/assets/images/backgrounds/page-header-img11.jpg"
+				bgImage="/assets/images/backgrounds/page-header-img11.webp"
             />
 			<BlogGrid />
 			<BrandOne />

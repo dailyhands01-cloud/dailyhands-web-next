@@ -15,7 +15,7 @@ export default function TeamDetailsPage() {
 			<Breadcrumb 
                 heading="Team Details"
                 currentPage="Team Details" 
-				bgImage="/assets/images/backgrounds/page-header-img7.jpg"
+				bgImage="/assets/images/backgrounds/page-header-img7.webp"
             />
 			<TeamDetails />
 			<TeamOne />

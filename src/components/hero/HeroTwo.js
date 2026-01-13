@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import Link from "next/link";
-import BackgroundOne from '../../../public/assets/images/backgrounds/main-slider-v2-bg.png';
-import BackgroundTwo from '../../../public/assets/images/backgrounds/main-slider-v2-bg.png';
-import BackgroundThree from '../../../public/assets/images/backgrounds/main-slider-v2-bg.png';
+import BackgroundOne from '../../../public/assets/images/backgrounds/main-slider-v2-bg.webp';
+import BackgroundTwo from '../../../public/assets/images/backgrounds/main-slider-v2-bg.webp';
+import BackgroundThree from '../../../public/assets/images/backgrounds/main-slider-v2-bg.webp';
 
 const HeroTwo = () => {
 
@@ -40,12 +40,12 @@ const HeroTwo = () => {
     return (
         <>
             <section className="main-slider-one main-slider-one--two">
-                <div className="shape1 zoominout-2"><img src="/assets/images/shapes/main-slider-v2-shape1.png" alt="" /></div>
+                <div className="shape1 zoominout-2"><img src="/assets/images/shapes/main-slider-v2-shape1.webp" alt="" /></div>
                 <div className="main-slider-two__carousel owl-carousel owl-theme">
                     {/* Start Main Slider Two Single */}
                     <div className="main-slider-one__single">
                         <div className="main-slider-one--two-img">
-                            <img src="/assets/images/resources/main-slider-v2-img1.png" alt="" />
+                            <img src="/assets/images/resources/main-slider-v2-img1.webp" alt="" />
                         </div>
                         <div className="image-layer" style={{backgroundImage: `url(${BackgroundOne.src})`}}></div>
                         <div className="container">
@@ -74,7 +74,7 @@ const HeroTwo = () => {
                     {/* Start Main Slider Two Single */}
                     <div className="main-slider-one__single">
                         <div className="main-slider-one--two-img">
-                            <img src="/assets/images/resources/main-slider-v2-img2.png" alt="" />
+                            <img src="/assets/images/resources/main-slider-v2-img2.webp" alt="" />
                         </div>
                         <div className="image-layer" style={{backgroundImage: `url(${BackgroundTwo.src})`}}></div>
                         <div className="container">
@@ -103,7 +103,7 @@ const HeroTwo = () => {
                     {/* Start Main Slider Two Single */}
                     <div className="main-slider-one__single">
                         <div className="main-slider-one--two-img">
-                            <img src="/assets/images/resources/main-slider-v2-img3.png" alt="" />
+                            <img src="/assets/images/resources/main-slider-v2-img3.webp" alt="" />
                         </div>
                         <div className="image-layer" style={{backgroundImage: `url(${BackgroundThree.src})`}}></div>
                         <div className="container">

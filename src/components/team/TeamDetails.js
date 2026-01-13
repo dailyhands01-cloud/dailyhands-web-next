@@ -7,10 +7,10 @@ const TeamDetails = () => {
             <section class="team-details">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-5">
+                        <div class="col-xl-5 d-flex">
                             {/* Start Team Details Img */}
                             <div class="team-details__img js-tilt "> 
-                                <img src="/assets/images/resources/team-detalis-img1.jpg" alt="" />
+                                <img src="/assets/images/resources/team-detalis-img1.webp" alt="" />
                             </div>
                             {/* End Team Details Img */}
                         </div>

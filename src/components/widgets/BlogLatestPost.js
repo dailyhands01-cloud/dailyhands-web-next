@@ -9,7 +9,7 @@ const BlogLatestPost = () => {
                <div className="sidebar__post-box">
     <div className="sidebar__post-single">
         <div className="sidebar-post__img">
-            <img src="/assets/images/blog/lp-1-1.jpg" alt="Professional Car Cleaning Tips" />
+            <img src="/assets/images/blog/lp-1-1.webp" alt="Professional Car Cleaning Tips" />
         </div>
         <div className="sidebar__post-content-box">
             <h3>
@@ -20,7 +20,7 @@ const BlogLatestPost = () => {
 
     <div className="sidebar__post-single">
         <div className="sidebar-post__img">
-            <img src="/assets/images/blog/lp-1-2.jpg" alt="Effective Bedroom Cleaning Guide" />
+            <img src="/assets/images/blog/lp-1-2.webp" alt="Effective Bedroom Cleaning Guide" />
         </div>
         <div className="sidebar__post-content-box">
             <h3>
@@ -31,7 +31,7 @@ const BlogLatestPost = () => {
 
     <div className="sidebar__post-single">
         <div className="sidebar-post__img">
-            <img src="/assets/images/blog/lp-1-3.jpg" alt="House Cleaning Tips" />
+            <img src="/assets/images/blog/lp-1-3.webp" alt="House Cleaning Tips" />
         </div>
         <div className="sidebar__post-content-box">
             <h3>

@@ -2,7 +2,7 @@
 export const TestimonialOneData = [
     {
         id: 1,
-        image: "/assets/images/testimonial/testimonials-v1-img1.png",
+        image: "/assets/images/testimonial/testimonials-v1-img1.webp",
         alt: "Ankit Malhotra Testimonial",
         name: "Ankit Malhotra",
         // position: "Founder",
@@ -10,7 +10,7 @@ export const TestimonialOneData = [
     },
     {
         id: 2,
-        image: "/assets/images/testimonial/testimonials-v1-img2.png",
+        image: "/assets/images/testimonial/testimonials-v1-img2.webp",
         alt: "Neha Kapoor Testimonial",
         name: "Neha Kapoor",
         // position: "Staff Officer",
@@ -18,7 +18,7 @@ export const TestimonialOneData = [
     },
     {
         id: 3,
-        image: "/assets/images/testimonial/testimonials-v1-img3.png",
+        image: "/assets/images/testimonial/testimonials-v1-img3.webp",
         alt: "Aditya kumar Testimonial",
         name: "Aditya Kumar ",
         // position: "Manager",
@@ -26,7 +26,7 @@ export const TestimonialOneData = [
     },
     {
         id: 4,
-        image: "/assets/images/testimonial/testimonials-v1-img1.png",
+        image: "/assets/images/testimonial/testimonials-v1-img1.webp",
         alt: "Sneha Iyer Testimonial",
         name: "Sneha Iyer",
         // position: "Manager",
@@ -34,7 +34,7 @@ export const TestimonialOneData = [
     },
     {
         id: 5,
-        image: "/assets/images/testimonial/testimonials-v1-img2.png",
+        image: "/assets/images/testimonial/testimonials-v1-img2.webp",
         alt: "Sanjana Singh Testimonial",
         name: "Sanjana Singh",
         // position: "Staff Officer",
@@ -42,7 +42,7 @@ export const TestimonialOneData = [
     },
     {
         id: 6,
-        image: "/assets/images/testimonial/testimonials-v1-img3.png",
+        image: "/assets/images/testimonial/testimonials-v1-img3.webp",
         alt: "Aniket Sharma Testimonial",
         name: "Aniket Sharma",
         // position: "Founder",
@@ -50,7 +50,7 @@ export const TestimonialOneData = [
     },
     {
         id: 7,
-        image: "/assets/images/testimonial/testimonials-v1-img1.png",
+        image: "/assets/images/testimonial/testimonials-v1-img1.webp",
         alt: "Neha Kapoor Testimonial",
         name: "Neha Kapoor",
         // position: "Founder",
@@ -58,7 +58,7 @@ export const TestimonialOneData = [
     },
     {
         id: 8,
-        image: "/assets/images/testimonial/testimonials-v1-img2.png",
+        image: "/assets/images/testimonial/testimonials-v1-img2.webp",
         alt: "Aditya Kumar Testimonial",
         name: "Aditya Kumar",
         // position: "Staff Officer",
@@ -66,7 +66,7 @@ export const TestimonialOneData = [
     },
     {
         id: 9,
-        image: "/assets/images/testimonial/testimonials-v1-img3.png",
+        image: "/assets/images/testimonial/testimonials-v1-img3.webp",
         alt: "Sneha Iyer Testimonial",
         name: "Sneha Iyer",
         // position: "Manager",
@@ -80,7 +80,7 @@ export const TestimonialOneData = [
 export const TestimonialTwoData = [
     {
         id: 1,
-        image: "/assets/images/testimonial/testimonials-v2-thumb-img4.jpg",
+        image: "/assets/images/testimonial/testimonials-v2-thumb-img4.webp",
         alt: "Professional Office Cleaning Testimonial",
         name: "Priya Sharma",
         position: "Office Manager",
@@ -88,7 +88,7 @@ export const TestimonialTwoData = [
     },
     {
         id: 2,
-        image: "/assets/images/testimonial/testimonials-v2-thumb-img2.jpg",
+        image: "/assets/images/testimonial/testimonials-v2-thumb-img2.webp",
         alt: "Reliable House Cleaning Service Review",
         name: "Rahul Patel",
         position: "Homeowner",
@@ -96,7 +96,7 @@ export const TestimonialTwoData = [
     },
     {
         id: 3,
-        image: "/assets/images/testimonial/testimonials-v2-thumb-img3.jpg",
+        image: "/assets/images/testimonial/testimonials-v2-thumb-img3.webp",
         alt: "Commercial Cleaning Service Testimonial",
         name: "Amit Kumar",
         position: "Facility Manager",
@@ -106,13 +106,13 @@ export const TestimonialTwoData = [
         id: 4,
         alt: "Daily House Cleaning Testimonial",
         name: "Neha Gupta",
-        image: "/assets/images/testimonial/testimonials-v2-img1.jpg",
+        image: "/assets/images/testimonial/testimonials-v2-img1.webp",
         position: "Working Professional",
         description: "Daily cleaning service transformed our home into a hygienic sanctuary. The backup staff replacement system provides complete peace of mind."
     },
     {
         id: 5,
-        image: "/assets/images/testimonial/testimonials-v2-thumb-img2.jpg",
+        image: "/assets/images/testimonial/testimonials-v2-thumb-img2.webp",
         alt: "1BHK Apartment Cleaning Review",
         name: "Vikram Singh",
         position: "Apartment Resident",
@@ -120,7 +120,7 @@ export const TestimonialTwoData = [
     },
     {
         id: 6,
-        image: "/assets/images/testimonial/testimonials-v2-thumb-img1.jpg",
+        image: "/assets/images/testimonial/testimonials-v2-thumb-img1.webp",
         alt: "Corporate Office Cleaning Testimonial",
         name: "Pooja Desai",
         position: "Operations Manager",
@@ -128,7 +128,7 @@ export const TestimonialTwoData = [
     },
     {
         id: 7,
-        image: "/assets/images/testimonial/testimonials-v2-img4.jpg",
+        image: "/assets/images/testimonial/testimonials-v2-img4.webp",
         alt: "Residential Deep Cleaning Review",
         name: "Rohit Verma",
         position: "Property Owner",
@@ -137,14 +137,14 @@ export const TestimonialTwoData = [
     {
         id: 8,
         alt: "Professional Deep Cleaning Service",
-        image: "/assets/images/testimonial/testimonials-v2-img2.jpg",
+        image: "/assets/images/testimonial/testimonials-v2-img2.webp",
         name: "Imran Zahir",
         position: "Tenant",
         description: "Affordable plans and professional cleaners. The service quality has been consistent and dependable."
     },
     {
         id: 6,
-        image: "/assets/images/testimonial/testimonials-v2-img3.jpg",
+        image: "/assets/images/testimonial/testimonials-v2-img3.webp",
         alt: "Office Cleaning Feedback",
         name: "Sam White",
         position: "Manager",
@@ -152,7 +152,7 @@ export const TestimonialTwoData = [
     },
     {
         id: 7,
-        image: "/assets/images/testimonial/testimonials-v3-img1.jpg",
+        image: "/assets/images/testimonial/testimonials-v3-img1.webp",
         alt: "Residential Cleaning Review",
         name: "Monika Das",
         position: "Apartment Owner",
@@ -160,7 +160,7 @@ export const TestimonialTwoData = [
     },
     {
         id: 8,
-        image: "/assets/images/testimonial/testimonials-v3-img2.jpg",
+        image: "/assets/images/testimonial/testimonials-v3-img2.webp",
         alt: "Deep Cleaning Review",
         name: "Raj Gupta",
         position: "Homeowner",
@@ -170,7 +170,7 @@ export const TestimonialTwoData = [
         id: 9,
         alt: "Long-term Cleaning Partnership Review",
         name: "Arjun Reddy",
-        image: "/assets/images/testimonial/testimonials-v3-img3.jpg",
+        image: "/assets/images/testimonial/testimonials-v3-img3.webp",
         position: "Property Manager",
         description: "Trusted cleaning partner for ongoing property maintenance. Superior service quality and professional reliability we depend on."
     },

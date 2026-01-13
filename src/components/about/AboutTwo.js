@@ -39,7 +39,7 @@ const AboutTwo = () => {
                                 >
                                     <div className="about-two__img1-inner">
                                         <img
-                                            src="/assets/images/about/about-v2-img1.jpg"
+                                            src="/assets/images/about/about-v2-img1.webp"
                                             alt="Professional Cleaning Process"
                                         />
                                     </div>
@@ -52,7 +52,7 @@ const AboutTwo = () => {
                                 >
                                     <div className="about-two__img2-inner">
                                         <img
-                                            src="/assets/images/about/about-v2-img2.jpg"
+                                            src="/assets/images/about/about-v2-img2.webp"
                                             alt="Expert Cleaning Team at Work"
                                         />
                                     </div>

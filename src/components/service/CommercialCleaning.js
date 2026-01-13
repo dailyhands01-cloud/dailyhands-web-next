@@ -24,7 +24,7 @@ const CommercialCleaning = () => {
 
                             <div className="col-xl-8 order-1">
                                 <div className="service-details__top-img">
-                                    <img src="/assets/images/resources/service-details-img5.jpg" alt="" />
+                                    <img src="/assets/images/resources/service-details-img5.webp" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -55,7 +55,7 @@ const CommercialCleaning = () => {
                             <div className="row">
                                 <div className="col-xl-4 col-lg-5">
                                     <div className="img-box">
-                                        <img src="/assets/images/resources/service-details-img2.jpg" alt="Commercial space deep cleaning transformation" />
+                                        <img src="/assets/images/resources/service-details-img2.webp" alt="Commercial space deep cleaning transformation" />
                                     </div>
                                 </div>
                                 <div className="col-xl-8 col-lg-7">

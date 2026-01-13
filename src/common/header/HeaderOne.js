@@ -102,7 +102,7 @@ const HeaderOne = () => {
                         <div className="main-menu-wrapper clearfix">
                             <div className="main-menu-wrapper__left">
                                 <div className="main-menu-wrapper__logo">
-                                    <Link href="/"><img src="/assets/images/resources/logo-1.png" alt="" /></Link>
+                                    <Link href="/"><img src="/assets/images/resources/logo-1.webp" alt="" /></Link>
                                 </div>
                             </div>
                             <div className="main-menu-wrapper__right">
