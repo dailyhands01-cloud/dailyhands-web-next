@@ -9007,7 +9007,8 @@ div[class^="bubble-"] {
     display: block;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 30px 0px rgb(234, 234, 234, 0.7);
+    /* box-shadow: 0px 0px 30px 0px rgb(234, 234, 234, 0.7); */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 95px 0px 40px;
     margin-top: -45px;
     min-height: 300px;
@@ -9062,7 +9063,8 @@ div[class^="bubble-"] {
     display: block;
     padding: 80px 120px 80px;
     background: #ffffff;
-    box-shadow: 0px 0px 30px 0px rgb(234, 234, 234, 0.7);
+    /* box-shadow: 0px 0px 30px 0px rgb(234, 234, 234, 0.7); */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     z-index: 5;
 }
 
@@ -9195,7 +9197,7 @@ div[class^="bubble-"] {
     display: block;
     z-index: 1;
     margin-top:80px;
-      margin-bottom:80px
+    /* margin-bottom:80px */
 }
 
 .contact-page-google-map__one {
