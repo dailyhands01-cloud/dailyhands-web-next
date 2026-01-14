@@ -16,8 +16,8 @@ const GalleryOne = () => {
           .on("click", function () {
             var Self = $(this);
             var selector = Self.parent().attr("data-filter");
-            $(".post-filter li").removeClass("active");
-            Self.parent().addClass("active");
+            $(".post-filter li").removeclassName("active");
+            Self.parent().addclassName("active");
             $(".filter-layout").isotope({
               filter: selector,
               animationOptions: {
@@ -40,7 +40,7 @@ const GalleryOne = () => {
           var count = $(".filter-layout").find(filterElement).length;
           $(this)
             .children(".filter-text")
-            .append('<span class="count">(' + count + ")</span>");
+            .append('<span className="count">(' + count + ")</span>");
         });
       }
 
@@ -78,20 +78,20 @@ const GalleryOne = () => {
 
     return (
         <>
-            <section class="gallery-page">
-                <div class="container">
-                    <div class="row">
+            <section className="gallery-page">
+                <div className="container">
+                    <div className="row">
                         {/* Start case-studies-one Top */}
-                        <div class="gallery-page__top">
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                <div class="gallery-page__menu-box">
-                                    <ul class="project-filter clearfix post-filter has-dynamic-filters-counter">
-                                        <li data-filter=".filter-item" class="active"><span class="filter-text">Show All</span></li>
-                                        <li data-filter=".house"><span class="filter-text">House</span></li>
-                                        <li data-filter=".floor"><span class="filter-text">Floor </span></li>
-                                        <li data-filter=".kitchen"><span class="filter-text">Kitchen</span></li>
-                                        <li data-filter=".toilet"><span class="filter-text">Toilet</span></li>
-                                        <li data-filter=".office"><span class="filter-text">Office</span></li>
+                        <div className="gallery-page__top">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                <div className="gallery-page__menu-box">
+                                    <ul className="project-filter clearfix post-filter has-dynamic-filters-counter">
+                                        <li data-filter=".filter-item" className="active"><span className="filter-text">Show All</span></li>
+                                        <li data-filter=".house"><span className="filter-text">House</span></li>
+                                        <li data-filter=".floor"><span className="filter-text">Floor </span></li>
+                                        <li data-filter=".kitchen"><span className="filter-text">Kitchen</span></li>
+                                        <li data-filter=".toilet"><span className="filter-text">Toilet</span></li>
+                                        <li data-filter=".office"><span className="filter-text">Office</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -100,14 +100,14 @@ const GalleryOne = () => {
                     </div>
 
 
-                    <div class="row filter-layout masonary-layout">
+                    <div className="row filter-layout masonary-layout">
                         {/* Start Gallery Page Single */}
-                        <div class="col-xl-4 col-lg-4 col-md-6 filter-item house office">
-                            <div class="gallery-page__single wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div class="gallery-page__single-img">
+                        <div className="col-xl-4 col-lg-4 col-md-6 filter-item house office">
+                            <div className="gallery-page__single wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <div className="gallery-page__single-img">
                                     <img src="/assets/images/gallery/gallery-page-house1.webp" alt="" />
-                                    <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-house1.webp"><span class="icon-plus"></span></a>
+                                    <div className="gallery-page__single-icon">
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-house1.webp"><span className="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -115,13 +115,13 @@ const GalleryOne = () => {
                         {/* End Gallery Page Single */}
 
                         {/* Start Gallery Page Single */}
-                        <div class="col-xl-4 col-lg-4 col-md-6 filter-item toilet floor">
-                            <div class="gallery-page__single wow fadeInUp" data-wow-delay="200ms"
+                        <div className="col-xl-4 col-lg-4 col-md-6 filter-item toilet floor">
+                            <div className="gallery-page__single wow fadeInUp" data-wow-delay="200ms"
                                 data-wow-duration="1500ms">
-                                <div class="gallery-page__single-img">
+                                <div className="gallery-page__single-img">
                                     <img src="/assets/images/gallery/gallery-page-house2.webp" alt="" />
-                                    <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-house2.webp"><span class="icon-plus"></span></a>
+                                    <div className="gallery-page__single-icon">
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-house2.webp"><span className="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -129,12 +129,12 @@ const GalleryOne = () => {
                         {/* End Gallery Page Single */}
 
                         {/* Start Gallery Page Single */}
-                        <div class="col-xl-4 col-lg-4 col-md-6 office kitchen filter-item">
-                            <div class="gallery-page__single wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                                <div class="gallery-page__single-img">
+                        <div className="col-xl-4 col-lg-4 col-md-6 office kitchen filter-item">
+                            <div className="gallery-page__single wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                                <div className="gallery-page__single-img">
                                     <img src="/assets/images/gallery/gallery-page-house3.webp" alt="" />
-                                    <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-house3.webp"><span class="icon-plus"></span></a>
+                                    <div className="gallery-page__single-icon">
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-house3.webp"><span className="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -142,12 +142,12 @@ const GalleryOne = () => {
                         {/* End Gallery Page Single */}
 
                         {/* Start Gallery Page Single */}
-                        <div class="col-xl-4 col-lg-4 col-md-6 filter-item floor house kitchen">
-                            <div class="gallery-page__single wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div class="gallery-page__single-img">
+                        <div className="col-xl-4 col-lg-4 col-md-6 filter-item floor house kitchen">
+                            <div className="gallery-page__single wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <div className="gallery-page__single-img">
                                     <img src="/assets/images/gallery/gallery-page-house4.webp" alt="" />
-                                    <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-house4.webp"><span class="icon-plus"></span></a>
+                                    <div className="gallery-page__single-icon">
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-house4.webp"><span className="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -155,12 +155,12 @@ const GalleryOne = () => {
                         {/* End Gallery Page Single */}
 
                         {/* Start Gallery Page Single */}
-                        <div class="col-xl-4 col-lg-4 col-md-6 filter-item house toilet kitchen">
-                            <div class="gallery-page__single wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                <div class="gallery-page__single-img">
+                        <div className="col-xl-4 col-lg-4 col-md-6 filter-item house toilet kitchen">
+                            <div className="gallery-page__single wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                <div className="gallery-page__single-img">
                                     <img src="/assets/images/gallery/gallery-page-house5.webp" alt="" />
-                                    <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-house5.webp"><span class="icon-plus"></span></a>
+                                    <div className="gallery-page__single-icon">
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-house5.webp"><span className="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -168,12 +168,12 @@ const GalleryOne = () => {
                         {/* End Gallery Page Single */}
 
                         {/* Start Gallery Page Single */}
-                        <div class="col-xl-4 col-lg-4 col-md-6 filter-item kitchen house floor">
-                            <div class="gallery-page__single wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                                <div class="gallery-page__single-img">
+                        <div className="col-xl-4 col-lg-4 col-md-6 filter-item kitchen house floor">
+                            <div className="gallery-page__single wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                                <div className="gallery-page__single-img">
                                     <img src="/assets/images/gallery/gallery-page-house6.webp" alt="" />
-                                    <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-house6.webp"><span class="icon-plus"></span></a>
+                                    <div className="gallery-page__single-icon">
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-house6.webp"><span className="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>

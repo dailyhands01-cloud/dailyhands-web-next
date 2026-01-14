@@ -39,16 +39,16 @@ const GalleryTwo = () => {
 
     return (
         <>
-            <section class="gallery-page">
-                <div class="container">
-                    <div class="row">
+            <section className="gallery-page">
+                <div className="container">
+                    <div className="row">
                         {/* Start Gallery Page Single */}
-                        <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <div class="gallery-page__single">
-                                <div class="gallery-page__single-img">
+                        <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div className="gallery-page__single">
+                                <div className="gallery-page__single-img">
                                     <img src="/assets/images/gallery/gallery-page-img1.webp" alt="" />
-                                    <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img1.webp"><span class="icon-plus"></span></a>
+                                    <div className="gallery-page__single-icon">
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-img1.webp"><span className="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -56,12 +56,12 @@ const GalleryTwo = () => {
                         {/* End Gallery Page Single */}
 
                         {/* Start Gallery Page Single */}
-                        <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <div class="gallery-page__single">
-                                <div class="gallery-page__single-img">
+                        <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div className="gallery-page__single">
+                                <div className="gallery-page__single-img">
                                     <img src="/assets/images/gallery/gallery-page-img2.webp" alt="" />
-                                    <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img2.webp"><span class="icon-plus"></span></a>
+                                    <div className="gallery-page__single-icon">
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-img2.webp"><span className="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -69,12 +69,12 @@ const GalleryTwo = () => {
                         {/* End Gallery Page Single */}
 
                         {/* Start Gallery Page Single */}
-                        <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                            <div class="gallery-page__single">
-                                <div class="gallery-page__single-img">
+                        <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                            <div className="gallery-page__single">
+                                <div className="gallery-page__single-img">
                                     <img src="/assets/images/gallery/gallery-page-img3.webp" alt="" />
-                                    <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img3.webp"><span class="icon-plus"></span></a>
+                                    <div className="gallery-page__single-icon">
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-img3.webp"><span className="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -82,12 +82,12 @@ const GalleryTwo = () => {
                         {/* End Gallery Page Single */}
 
                         {/* Start Gallery Page Single */}
-                        <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <div class="gallery-page__single">
-                                <div class="gallery-page__single-img">
+                        <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div className="gallery-page__single">
+                                <div className="gallery-page__single-img">
                                     <img src="/assets/images/gallery/gallery-page-img4.webp" alt="" />
-                                    <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img4.webp"><span class="icon-plus"></span></a>
+                                    <div className="gallery-page__single-icon">
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-img4.webp"><span className="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -95,12 +95,12 @@ const GalleryTwo = () => {
                         {/* End Gallery Page Single */}
 
                         {/* Start Gallery Page Single */}
-                        <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <div class="gallery-page__single">
-                                <div class="gallery-page__single-img">
+                        <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div className="gallery-page__single">
+                                <div className="gallery-page__single-img">
                                     <img src="/assets/images/gallery/gallery-page-img5.webp" alt="" />
-                                    <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img5.webp"><span class="icon-plus"></span></a>
+                                    <div className="gallery-page__single-icon">
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-img5.webp"><span className="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -108,12 +108,12 @@ const GalleryTwo = () => {
                         {/* End Gallery Page Single */}
 
                         {/* Start Gallery Page Single */}
-                        <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                            <div class="gallery-page__single">
-                                <div class="gallery-page__single-img">
+                        <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                            <div className="gallery-page__single">
+                                <div className="gallery-page__single-img">
                                     <img src="/assets/images/gallery/gallery-page-img6.webp" alt="" />
-                                    <div class="gallery-page__single-icon">
-                                        <a class="img-popup" href="/assets/images/gallery/gallery-page-img6.webp"><span class="icon-plus"></span></a>
+                                    <div className="gallery-page__single-icon">
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-img6.webp"><span className="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>

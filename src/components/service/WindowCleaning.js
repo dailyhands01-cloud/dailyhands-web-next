@@ -31,9 +31,9 @@ const WindowCleaning = () => {
                     </div>
 
                     <div className="service-details__bottom">
-                        <h2 class="service-details__bottom-title">Professional Window Cleaning Services</h2>
+                        <h2 className="service-details__bottom-title">Professional Window Cleaning Services</h2>
 
-                        <div class="service-details__bottom-text1">
+                        <div className="service-details__bottom-text1">
                             <p>
                                 Get streak-free, crystal-clear windows for your home or office.
                                 We remove dust, stains, fingerprints, and grime from interior and exterior glass using safe tools and solutions.
@@ -44,7 +44,7 @@ const WindowCleaning = () => {
                             </p>
                         </div>
 
-                        <div class="service-details__bottom-text2">
+                        <div className="service-details__bottom-text2">
                             <p>
                                 We clean window tracks, sills, and corners thoroughly.
                                 Routine maintenance or deep cleaning—we deliver reliable results that brighten your space.
@@ -59,7 +59,7 @@ const WindowCleaning = () => {
                                     </div>
                                 </div>
                                 <div className="col-xl-8 col-lg-7">
-                                    <div class="content-box">
+                                    <div className="content-box">
                                         <p>
                                             Enjoy spotless, streak-free windows with our precise professional cleaning service. We thoroughly remove dust, dirt, hard water marks, fingerprints, and environmental residue from all interior and exterior glass surfaces.
                                         </p>
@@ -70,8 +70,8 @@ const WindowCleaning = () => {
                                             Our experts use safe techniques to protect window frames, seals, and surfaces while delivering perfect results every time. Routine maintenance or deep window cleaning—we guarantee a polished finish that makes your windows look new and last longer.
                                         </p>
                                         <ul>
-                                            <li><span class="icon-plus"></span> Streak-free interior and exterior glass cleaning.</li>
-                                            <li><span class="icon-plus"></span> Thorough cleaning of frames, tracks, and sills.</li>
+                                            <li><span className="icon-plus"></span> Streak-free interior and exterior glass cleaning.</li>
+                                            <li><span className="icon-plus"></span> Thorough cleaning of frames, tracks, and sills.</li>
                                         </ul>
                                     </div>
                                 </div>

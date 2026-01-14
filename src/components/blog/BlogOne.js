@@ -53,8 +53,8 @@ const BlogOne = () => {
 
           <div className="row">
             {BlogOneData.map((item, i) => (
-              <div className="col-xl-4 col-lg-4 mb-5">
-                <div key={i} className="blog-one__single">
+              <div key={i} className="col-xl-4 col-lg-4 mb-5">
+                <div className="blog-one__single">
                   <Link href={item.link} className="blog-one__link">
                     <div className="blog-one__single-img">
                       <img src={item.image} alt={item.alt} />

@@ -11,7 +11,7 @@ const ContactOne = () => {
         <>
 
             <section className="contact-one pd-120-0-120">
-                <div className="contact-one__bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style={{ backgroundImage: `url(${BackgroundOne.src})` }}>
+                <div className="contact-one__bg jarallax" data-jarallax data-speed="0.2" data-imgposition="50% 0%" style={{ backgroundImage: `url(${BackgroundOne.src})` }}>
                 </div>
                 <div className="contact-one__img wow slideInRight" data-wow-delay="500ms" data-wow-duration="2500ms"><img src="/assets/images/resources/contact-v1-img1.webp" alt="" /></div>
                 <div className="container">
@@ -45,7 +45,16 @@ const ContactOne = () => {
                                         <div className="col-xl-6 col-lg-6 col-md-6">
                                             <div className="input-box">
                                                 <div className="select-box">
-                                                    <select className="selectmenu wide ">
+                                                    <select className="selectmenu wide" defaultValue="">
+                                                        <option value="">Select Category</option>
+                                                        <option value="bedroom">Bedroom Cleaning</option>
+                                                        <option value="window">Window Cleaning</option>
+                                                        <option value="office">Office Cleaning</option>
+                                                        <option value="commercial">Commercial Cleaning</option>
+                                                        <option value="house">House Cleaning</option>
+                                                        <option value="car">Car Cleaning</option>
+                                                    </select>
+                                                    {/* <select className="selectmenu wide" defaultValue="">
                                                         <option selected="selected">Select Category</option>
                                                         <option>Bedroom Cleaning</option>
                                                         <option>Window Cleaning</option>
@@ -53,7 +62,7 @@ const ContactOne = () => {
                                                         <option>Commercial Cleaning</option>
                                                         <option>House Cleaning</option>
                                                         <option>Car Cleaning</option>
-                                                    </select>
+                                                    </select> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -62,7 +71,7 @@ const ContactOne = () => {
                                     <div className="row">
                                         <div className="col-xl-6 col-lg-6 col-md-6">
                                             <div className="input-box">
-                                                <input type="text" name="form_subject" placeholder="Office address"  required/>
+                                                <input type="text" name="form_subject" placeholder="Office address" required />
                                             </div>
                                         </div>
                                         <div className="col-xl-6 col-lg-6 col-md-6">

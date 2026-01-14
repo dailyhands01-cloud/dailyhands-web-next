@@ -16,8 +16,8 @@ const TestimonialTwo = () => {
                 dots: true,
                 autoplayTimeout: 10000,
                 navText: [
-                    '<span class="icon-left-arrow"></span>',
-                    '<span class="icon-right-arrow"></span>'
+                    '<span className="icon-left-arrow"></span>',
+                    '<span className="icon-right-arrow"></span>'
                 ],
                 responsive: {
                     0: {
@@ -43,18 +43,18 @@ const TestimonialTwo = () => {
 
     return (
         <>
-            <section class="testimonial-two">
-                <div class="shape1 wow slideInRight" data-wow-delay="500ms">
+            <section className="testimonial-two">
+                <div className="shape1 wow slideInRight" data-wow-delay="500ms">
                     <img src="/assets/images/shapes/shape-1.webp" alt="" />
                 </div>
-                <div class="container">
-                    <div class="section-title__style2">
-                        <div class="section-title">
-                            <span class="section-title__tagline">Testimonials</span>
-                            {/* <h2 class="section-title__title">Clients Feedback About Their <br /> Experience With Us</h2> */}
+                <div className="container">
+                    <div className="section-title__style2">
+                        <div className="section-title">
+                            <span className="section-title__tagline">Testimonials</span>
+                            {/* <h2 className="section-title__title">Clients Feedback About Their <br /> Experience With Us</h2> */}
                             <h2 className="section-title__title">What Our Clients Say About <br className="d-none d-md-block" /> Their Cleaning Experience</h2>
                         </div>
-                        <div class="text-box">
+                        <div className="text-box">
                             <p>
                                 Our expert cleaning services transform your living spaces and elevate your daily lifestyle.
                                 From daily housekeeping to comprehensive deep cleaning, our certified professionals
@@ -62,30 +62,30 @@ const TestimonialTwo = () => {
                             </p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="testimonial-two__carousel owl-carousel owl-theme owl-dot-style1">
+                    <div className="row">
+                        <div className="col-xl-12">
+                            <div className="testimonial-two__carousel owl-carousel owl-theme owl-dot-style1">
                                 {TestimonialTwoData.map((item, i) => (
-                                    <div key={i} class="testimonial-two__single text-center">
-                                        <div class="testimonial-two__single-content">
-                                            <div class="icon">
-                                                <i class="fas fa-quote-left"></i>
+                                    <div key={i} className="testimonial-two__single text-center">
+                                        <div className="testimonial-two__single-content">
+                                            <div className="icon">
+                                                <i className="fas fa-quote-left"></i>
                                             </div>
                                             <p>{item.description}</p>
-                                            <div class="rating">
+                                            <div className="rating">
                                                 <ul>
-                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i className="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i className="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i className="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i className="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i className="fa fa-star" aria-hidden="true"></i></li>
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div class="testimonial-two__single-thumb">
+                                        <div className="testimonial-two__single-thumb">
                                             <img src={item.image} alt={item.alt} />
                                         </div>
-                                        <div class="title-box">
+                                        <div className="title-box">
                                             <h2>{item.name}</h2>
                                             <span>{item.position}</span>
                                         </div>

@@ -31,9 +31,9 @@ const OfficeCleaning = () => {
                     </div>
 
                     <div className="service-details__bottom">
-                        <h2 class="service-details__bottom-title">Professional Office Cleaning Services</h2>
+                        <h2 className="service-details__bottom-title">Professional Office Cleaning Services</h2>
 
-                        <div class="service-details__bottom-text1">
+                        <div className="service-details__bottom-text1">
                             <p>
                                 Professional office cleaning keeps workspaces spotless, safe, and highly productive for teams of all sizes. We target stubborn dust, tracked-in dirt, and airborne germs in workstations, break rooms, elevators, and lobby areas using hospital-grade disinfectants tested for commercial spaces.
                             </p>
@@ -42,7 +42,7 @@ const OfficeCleaning = () => {
                             </p>
                         </div>
 
-                        <div class="service-details__bottom-text2">
+                        <div className="service-details__bottom-text2">
                             <p>
                                 Select daily executive suite refreshes, weekly comprehensive office deep cleans, or monthly specialized treatments perfectly customized for startups, SMEs, or enterprise headquarters. We tackle kitchen grease traps, printer ink spills, lobby furniture polishing, and even server room static-free dusting for complete operational coverage.
                             </p>

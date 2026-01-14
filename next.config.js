@@ -1,10 +1,21 @@
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
+//   output: 'export',
+//   trailingSlash: true,
+//   images: {
+//     unoptimized: true,
+//   },
+// }
+
+// module.exports = nextConfig
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  trailingSlash: true,
+  reactStrictMode: true,
   images: {
-    unoptimized: true,
+    unoptimized: true
   },
-}
+  trailingSlash: true
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

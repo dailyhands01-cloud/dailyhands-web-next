@@ -20,15 +20,15 @@ const VideoOne = () => {
 
     return (
         <>
-            <section class="video-one">
-                <div class="video-one-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style={{backgroundImage: `url(${VideoBGOne.src})`}}></div>
-                <div class="container">
-                    <div class="video-one__inner">
-                        <div class="video-one__video-link">
-                            <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
-                                <div class="video-one__video-icon">
-                                    <span class="fa fa-play"></span>
-                                    <i class="ripple"></i>
+            <section className="video-one">
+                <div className="video-one-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style={{backgroundImage: `url(${VideoBGOne.src})`}}></div>
+                <div className="container">
+                    <div className="video-one__inner">
+                        <div className="video-one__video-link">
+                            <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" className="video-popup">
+                                <div className="video-one__video-icon">
+                                    <span className="fa fa-play"></span>
+                                    <i className="ripple"></i>
                                 </div>
                             </a>
                         </div>

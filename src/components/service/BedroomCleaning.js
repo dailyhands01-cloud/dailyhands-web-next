@@ -4,36 +4,36 @@ import Link from 'next/link';
 const BedroomCleaning = () => {
     return (
         <>
-            <section class="service-details">
-                <div class="container">
-                    <div class="service-details__top">
-                        <div class="row d-flex justify-content-center">
-                            <div class="col-xl-4 col-lg-8 order-2">
-                                <div class="service-details__sidebar">
-                                    <h2 class="service-details__sidebar-title">All Service</h2>
-                                    <ul class="service-details__sidebar-list">
-                                        <li class="service-details__sidebar-list-item"><Link href="/" class="active">Bedroom Cleaning</Link></li>
-                                        <li class="service-details__sidebar-list-item"><Link href="/window-cleaning">Window Cleaning</Link></li>
-                                        <li class="service-details__sidebar-list-item"><Link href="/office-cleaning">Office Cleaning</Link></li>
-                                        <li class="service-details__sidebar-list-item"><Link href="/commercial-cleaning">Commercial Cleaning</Link></li>
-                                        <li class="service-details__sidebar-list-item"><Link href="/house-cleaning">House Cleaning</Link></li>
-                                        <li class="service-details__sidebar-list-item"><Link href="/car-cleaning">Car Cleaning</Link></li>
+            <section className="service-details">
+                <div className="container">
+                    <div className="service-details__top">
+                        <div className="row d-flex justify-content-center">
+                            <div className="col-xl-4 col-lg-8 order-2">
+                                <div className="service-details__sidebar">
+                                    <h2 className="service-details__sidebar-title">All Service</h2>
+                                    <ul className="service-details__sidebar-list">
+                                        <li className="service-details__sidebar-list-item"><Link href="/" className="active">Bedroom Cleaning</Link></li>
+                                        <li className="service-details__sidebar-list-item"><Link href="/window-cleaning">Window Cleaning</Link></li>
+                                        <li className="service-details__sidebar-list-item"><Link href="/office-cleaning">Office Cleaning</Link></li>
+                                        <li className="service-details__sidebar-list-item"><Link href="/commercial-cleaning">Commercial Cleaning</Link></li>
+                                        <li className="service-details__sidebar-list-item"><Link href="/house-cleaning">House Cleaning</Link></li>
+                                        <li className="service-details__sidebar-list-item"><Link href="/car-cleaning">Car Cleaning</Link></li>
                                     </ul>
                                 </div>
                             </div>
 
-                            <div class="col-xl-8 order-1">
-                                <div class="service-details__top-img">
+                            <div className="col-xl-8 order-1">
+                                <div className="service-details__top-img">
                                     <img src="/assets/images/resources/service-details-img1.webp" alt="" />
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="service-details__bottom">
-                        <h2 class="service-details__bottom-title">Professional Bedroom Cleaning Services</h2>
+                    <div className="service-details__bottom">
+                        <h2 className="service-details__bottom-title">Professional Bedroom Cleaning Services</h2>
 
-                        <div class="service-details__bottom-text1">
+                        <div className="service-details__bottom-text1">
                             <p>
                                 Transform messy bedrooms into allergy-free sanctuaries. We deep clean floors, nightstands, dressers, and headboards using HEPA vacuums that capture 99.97% of dust particles and microscopic allergens.
                             </p>
@@ -42,21 +42,21 @@ const BedroomCleaning = () => {
                             </p>
                         </div>
 
-                        <div class="service-details__bottom-text2">
+                        <div className="service-details__bottom-text2">
                             <p>
                                 Hidden areas get special attention: behind dressers, under beds, inside wardrobes, ceiling fan blades. Anti-static treatments repel future dust while fabric protectants shield upholstery from spills.
                             </p>
                         </div>
 
-                        <div class="service-details__bottom-text3">
-                            <div class="row">
-                                <div class="col-xl-4 col-lg-5">
-                                    <div class="img-box">
+                        <div className="service-details__bottom-text3">
+                            <div className="row">
+                                <div className="col-xl-4 col-lg-5">
+                                    <div className="img-box">
                                         <img src="/assets/images/resources/bedroom-cleaning.webp" alt="Bedroom deep cleaning before and after results" />
                                     </div>
                                 </div>
-                                <div class="col-xl-8 col-lg-7">
-                                    <div class="content-box">
+                                <div className="col-xl-8 col-lg-7">
+                                    <div className="content-box">
                                         <p>
                                             Mattress revival service extracts 95% of allergens with UV-C light + enzyme treatments. Duvets steamed at 180°F, pillows sanitized, sheets changed. Window treatments hand-washed to eliminate pollen buildup.
                                         </p>
@@ -67,9 +67,9 @@ const BedroomCleaning = () => {
                                             Eco-friendly focus: plant-based solutions, reusable microfiber, water-efficient methods. Child-safe products eliminate VOCs. Results last 3X longer than DIY cleaning.
                                         </p>
                                         <ul>
-                                            <li><span class="icon-plus"></span> Mattress UV sanitization + dust mite extraction.</li>
-                                            <li><span class="icon-plus"></span> Ceiling fans, blinds, curtains professional laundering.</li>
-                                            <li><span class="icon-plus"></span> Baseboards, door frames, switch plates detailed.</li>
+                                            <li><span className="icon-plus"></span> Mattress UV sanitization + dust mite extraction.</li>
+                                            <li><span className="icon-plus"></span> Ceiling fans, blinds, curtains professional laundering.</li>
+                                            <li><span className="icon-plus"></span> Baseboards, door frames, switch plates detailed.</li>
                                         </ul>
                                     </div>
                                 </div>
