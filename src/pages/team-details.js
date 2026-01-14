@@ -12,7 +12,7 @@ export default function TeamDetailsPage() {
 			<SEO pageTitle={"Expert Cleaning Team Details in Pune | Dailyhand Professionals"} />
 			<HeaderOne />
 			<Breadcrumb 
-                heading="Team Details"
+                heading="Our Professional Team Details"
                 currentPage="Team Details" 
 				bgImage="/assets/images/backgrounds/page-header-img7.webp"
             />

@@ -11,7 +11,7 @@ export default function GalleryOnePage() {
 			<SEO pageTitle={"Cleaning Gallery & Photo Portfolio | Dailyhand Pune Projects"} />
 			<HeaderOne />
 			<Breadcrumb 
-                heading="Cleaning Photo Gallery Pune"
+                heading="Cleaning Photo Gallery & Portfolio"
                 currentPage="Gallery" 
 				bgImage="/assets/images/backgrounds/page-header-img9.webp"
             />
