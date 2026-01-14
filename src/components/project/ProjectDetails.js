@@ -1,40 +1,40 @@
 import React, { useEffect } from 'react';
 
 const ProjectDetails = () => {
-    useEffect(() => {
 
+    useEffect(() => {
         if ($(".projects-detalis__content-carousel").length) {
             $(".projects-detalis__content-carousel").owlCarousel({
-              loop: true,
-              margin: 30,
-              nav: true,
-              smartSpeed: 500,
-              autoHeight: false,
-              autoplay: true,
-              dots: true,
-              autoplayTimeout: 10000,
-              navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right right"></span>'],
-              responsive: {
-                0: {
-                  items: 1
-                },
-                600: {
-                  items: 1
-                },
-                800: {
-                  items: 1
-                },
-                1024: {
-                  items: 1
-                },
-                1200: {
-                  items: 1
+                loop: true,
+                margin: 30,
+                nav: true,
+                smartSpeed: 500,
+                autoHeight: false,
+                autoplay: true,
+                dots: true,
+                autoplayTimeout: 10000,
+                navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right right"></span>'],
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    800: {
+                        items: 1
+                    },
+                    1024: {
+                        items: 1
+                    },
+                    1200: {
+                        items: 1
+                    }
                 }
-              }
             });
         }
-      
     }, []);
+
     return (
         <>
             <section className="projects-detalis">

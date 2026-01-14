@@ -1,40 +1,37 @@
 import React, { useEffect } from 'react';
-import { TestimonialTwoData } from '@/data/testimonial';
 
 const GalleryTwo = () => {
 
     useEffect(() => {
-
         if ($(".img-popup").length) {
             var groups = {};
             $(".img-popup").each(function () {
-              var id = parseInt($(this).attr("data-group"), 10);
-        
-              if (!groups[id]) {
-                groups[id] = [];
-              }
-        
-              groups[id].push(this);
-            });
-        
-            $.each(groups, function () {
-              $(this).magnificPopup({
-                type: "image",
-                closeOnContentClick: true,
-                closeBtnInside: false,
-                gallery: {
-                  enabled: true
+                var id = parseInt($(this).attr("data-group"), 10);
+
+                if (!groups[id]) {
+                    groups[id] = [];
                 }
-              });
+
+                groups[id].push(this);
+            });
+
+            $.each(groups, function () {
+                $(this).magnificPopup({
+                    type: "image",
+                    closeOnContentClick: true,
+                    closeBtnInside: false,
+                    gallery: {
+                        enabled: true
+                    }
+                });
             });
         }
 
-             $(".gallery-page__single-img").on("click", function (e) {
-    if (!$(e.target).closest(".img-popup").length) {
-      $(this).find(".img-popup")[0].click();
-    }
-  });
-          
+        $(".gallery-page__single-img").on("click", function (e) {
+            if (!$(e.target).closest(".img-popup").length) {
+                $(this).find(".img-popup")[0].click();
+            }
+        });
     }, []);
 
     return (

@@ -2,9 +2,7 @@ import React, { useEffect } from 'react';
 
 const ContactFour = () => {
     useEffect(() => {
-
         $('select').niceSelect();
-
     }, []);
     return (
         <>

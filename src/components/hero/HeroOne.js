@@ -7,34 +7,32 @@ import BackgroundThree from '../../../public/assets/images/backgrounds/main-slid
 const HeroOne = () => {
 
     useEffect(() => {
-
         if ($('.main-slider-one__carousel').length) {
             $('.main-slider-one__carousel').owlCarousel({
-              animateOut: 'fadeOut',
-              animateIn: 'fadeIn',
-              loop: true,
-              margin: 0,
-              dots: false,
-              nav: true,
-              singleItem: true,
-              smartSpeed: 500,
-              autoplay: true,
-              autoplayTimeout: 9000,
-              navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right right"></span>'],
-              responsive: {
-                0: {
-                  items: 1
-                },
-                600: {
-                  items: 1
-                },
-                1024: {
-                  items: 1
+                animateOut: 'fadeOut',
+                animateIn: 'fadeIn',
+                loop: true,
+                margin: 0,
+                dots: false,
+                nav: true,
+                singleItem: true,
+                smartSpeed: 500,
+                autoplay: true,
+                autoplayTimeout: 9000,
+                navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right right"></span>'],
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1024: {
+                        items: 1
+                    }
                 }
-              }
             });
         }
-            
     }, []);
 
     return (
@@ -45,14 +43,14 @@ const HeroOne = () => {
                     <div className="main-slider-one__single">
                         <div className="top-shape"></div>
                         <div className="bottom-shape"></div>
-                        <div className="image-layer" style={{backgroundImage: `url(${BackgroundOne.src})`}}></div>
+                        <div className="image-layer" style={{ backgroundImage: `url(${BackgroundOne.src})` }}></div>
                         <div className="container">
                             <div className="main-slider-one__content">
                                 <div className="tagline">
                                     <p>Welcome to Daily Hands. </p>
                                 </div>
                                 <div className="title">
-                                    <h2>Professional Cleaning Services <br/> That Deliver Exceptional Results</h2>
+                                    <h2>Professional Cleaning Services <br /> That Deliver Exceptional Results</h2>
 
                                 </div>
                                 <div className="text">
@@ -74,7 +72,7 @@ const HeroOne = () => {
                     <div className="main-slider-one__single">
                         <div className="top-shape"></div>
                         <div className="bottom-shape"></div>
-                        <div className="image-layer" style={{backgroundImage: `url(${BackgroundTwo.src})`}}>
+                        <div className="image-layer" style={{ backgroundImage: `url(${BackgroundTwo.src})` }}>
                         </div>
                         <div className="container">
                             <div className="main-slider-one__content">
@@ -82,7 +80,7 @@ const HeroOne = () => {
                                     <p>Welcome to Daily Hands.</p>
                                 </div>
                                 <div className="title">
-                                    <h2>Professional Cleaning Services <br/> That Deliver Exceptional Results</h2>
+                                    <h2>Professional Cleaning Services <br /> That Deliver Exceptional Results</h2>
 
                                 </div>
                                 <div className="text">
@@ -103,7 +101,7 @@ const HeroOne = () => {
                     <div className="main-slider-one__single">
                         <div className="top-shape"></div>
                         <div className="bottom-shape"></div>
-                        <div className="image-layer" style={{backgroundImage: `url(${BackgroundThree.src})`}}>
+                        <div className="image-layer" style={{ backgroundImage: `url(${BackgroundThree.src})` }}>
                         </div>
                         <div className="container">
                             <div className="main-slider-one__content">
@@ -111,7 +109,7 @@ const HeroOne = () => {
                                     <p>Welcome to Daily Hands.</p>
                                 </div>
                                 <div className="title">
-                                    <h2>Professional Cleaning Services <br/> That Deliver Exceptional Results</h2>
+                                    <h2>Professional Cleaning Services <br /> That Deliver Exceptional Results</h2>
                                 </div>
                                 <div className="text">
                                     <p>We deliver reliable health and wellness services that help you feel better, stay active, and enjoy a healthier lifestyle.</p>

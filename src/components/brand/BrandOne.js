@@ -10,7 +10,7 @@ const BrandOne = () => {
                     <Swiper
                         spaceBetween={50}
                         slidesPerView={5}
-                        autoplay={{delay:5000}}
+                        autoplay={{ delay: 5000 }}
                         breakpoints={{
                             "0": {
                                 spaceBetween: 30,

@@ -22,26 +22,26 @@
 .mean-container a.meanmenu-reveal {
     display: none;
 }
-  
+
 .mean-container .mean-nav {
     background: none;
     margin-top: 0;
 }
-  
+
 .mean-container .mean-bar {
     padding: 0;
     min-height: auto;
     background: none;
 }
-  
-.mean-container .mean-nav > ul {
+
+.mean-container .mean-nav>ul {
     padding: 0;
     margin: 0;
     width: 100%;
     list-style-type: none;
     display: block !important;
 }
-  
+
 .mean-container a.meanmenu-reveal {
     display: none !important;
 }
@@ -78,25 +78,25 @@
 }
 
 
-  
-.mean-container .mean-nav ul li > a > i {
+
+.mean-container .mean-nav ul li>a>i {
     display: none;
 }
-  
-.mean-container .mean-nav ul li > a.mean-expand i {
+
+.mean-container .mean-nav ul li>a.mean-expand i {
     display: inline-block;
     font-size: 14px;
 }
-  
-.mean-container .mean-nav > ul > li:first-child > a {
+
+.mean-container .mean-nav>ul>li:first-child>a {
     border-top: 0;
 }
-  
+
 .mean-container .mean-nav ul li a.mean-expand.mean-clicked {
     color: #222;
     background-color: #fff;
 }
-  
+
 .mean-container .mean-nav ul li a.mean-expand.mean-clicked i {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -176,18 +176,18 @@
 
 @media (max-width:576px) {
     .tt-offcanvas {
-      width: 300px;
-      padding: 50px 20px;
+        width: 300px;
+        padding: 50px 20px;
     }
 }
-  
+
 .offc-top-pattern {
     position: absolute;
     top: 0;
     right: 0;
     z-index: -1;
 }
-  
+
 .offc-bottom-pattern {
     position: absolute;
     left: 0;

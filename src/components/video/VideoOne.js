@@ -4,24 +4,22 @@ import VideoBGOne from '../../../public/assets/images/backgrounds/video-v1-bg.we
 const VideoOne = () => {
 
     useEffect(() => {
-
         if ($(".video-popup").length) {
             $(".video-popup").magnificPopup({
-              type: "iframe",
-              mainClass: "mfp-fade",
-              removalDelay: 160,
-              preloader: true,
-        
-              fixedContentPos: false
+                type: "iframe",
+                mainClass: "mfp-fade",
+                removalDelay: 160,
+                preloader: true,
+
+                fixedContentPos: false
             });
         }
-          
     }, []);
 
     return (
         <>
             <section className="video-one">
-                <div className="video-one-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style={{backgroundImage: `url(${VideoBGOne.src})`}}></div>
+                <div className="video-one-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style={{ backgroundImage: `url(${VideoBGOne.src})` }}></div>
                 <div className="container">
                     <div className="video-one__inner">
                         <div className="video-one__video-link">

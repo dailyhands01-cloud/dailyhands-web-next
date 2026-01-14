@@ -7,34 +7,32 @@ import BackgroundThree from '../../../public/assets/images/backgrounds/main-slid
 const HeroTwo = () => {
 
     useEffect(() => {
-
         if ($('.main-slider-two__carousel').length) {
             $('.main-slider-two__carousel').owlCarousel({
-              animateOut: 'fadeOut',
-              animateIn: 'fadeIn',
-              loop: true,
-              margin: 0,
-              dots: false,
-              nav: true,
-              singleItem: true,
-              smartSpeed: 500,
-              autoplay: true,
-              autoplayTimeout: 9000,
-              navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right right"></span>'],
-              responsive: {
-                0: {
-                  items: 1
-                },
-                600: {
-                  items: 1
-                },
-                1024: {
-                  items: 1
+                animateOut: 'fadeOut',
+                animateIn: 'fadeIn',
+                loop: true,
+                margin: 0,
+                dots: false,
+                nav: true,
+                singleItem: true,
+                smartSpeed: 500,
+                autoplay: true,
+                autoplayTimeout: 9000,
+                navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right right"></span>'],
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1024: {
+                        items: 1
+                    }
                 }
-              }
             });
         }
-            
     }, []);
 
     return (
@@ -47,7 +45,7 @@ const HeroTwo = () => {
                         <div className="main-slider-one--two-img">
                             <img src="/assets/images/resources/main-slider-v2-img1.webp" alt="" />
                         </div>
-                        <div className="image-layer" style={{backgroundImage: `url(${BackgroundOne.src})`}}></div>
+                        <div className="image-layer" style={{ backgroundImage: `url(${BackgroundOne.src})` }}></div>
                         <div className="container">
                             <div className="main-slider-one__content">
                                 <div className="tagline">
@@ -76,7 +74,7 @@ const HeroTwo = () => {
                         <div className="main-slider-one--two-img">
                             <img src="/assets/images/resources/main-slider-v2-img2.webp" alt="" />
                         </div>
-                        <div className="image-layer" style={{backgroundImage: `url(${BackgroundTwo.src})`}}></div>
+                        <div className="image-layer" style={{ backgroundImage: `url(${BackgroundTwo.src})` }}></div>
                         <div className="container">
                             <div className="main-slider-one__content">
                                 <div className="tagline">
@@ -105,7 +103,7 @@ const HeroTwo = () => {
                         <div className="main-slider-one--two-img">
                             <img src="/assets/images/resources/main-slider-v2-img3.webp" alt="" />
                         </div>
-                        <div className="image-layer" style={{backgroundImage: `url(${BackgroundThree.src})`}}></div>
+                        <div className="image-layer" style={{ backgroundImage: `url(${BackgroundThree.src})` }}></div>
                         <div className="container">
                             <div className="main-slider-one__content">
                                 <div className="tagline">

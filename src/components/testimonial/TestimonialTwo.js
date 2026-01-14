@@ -4,7 +4,6 @@ import { TestimonialTwoData } from '@/data/testimonial';
 const TestimonialTwo = () => {
 
     useEffect(() => {
-
         if ($(".testimonial-two__carousel").length) {
             $(".testimonial-two__carousel").owlCarousel({
                 loop: true,

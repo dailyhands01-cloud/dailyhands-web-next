@@ -35,7 +35,6 @@ const FaqOne = () => {
         }
     }, []);
 
-
     return (
         <>
             <section className="faq-one pd-120-0-120">

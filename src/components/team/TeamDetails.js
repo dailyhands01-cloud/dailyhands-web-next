@@ -1,5 +1,4 @@
 import React from 'react';
-import TeamOne from './TeamOne';
 
 const TeamDetails = () => {
     return (
@@ -9,7 +8,7 @@ const TeamDetails = () => {
                     <div className="row">
                         <div className="col-xl-5 d-flex">
                             {/* Start Team Details Img */}
-                            <div className="team-details__img js-tilt "> 
+                            <div className="team-details__img js-tilt ">
                                 <img src="/assets/images/resources/team-detalis-img1.webp" alt="" />
                             </div>
                             {/* End Team Details Img */}
@@ -27,7 +26,7 @@ const TeamDetails = () => {
                                 </div>
 
                                 <div className="text">
-                                    <p> 
+                                    <p>
                                         About : Sakshi Mehra is an accomplished operations manager specializing in professional house cleaning, car detailing, and commercial cleaning services.
                                         With extensive industry expertise, she drives operational excellence and consistently delivers exceptional results and complete customer satisfaction across residential, commercial, and automotive projects.
                                     </p>

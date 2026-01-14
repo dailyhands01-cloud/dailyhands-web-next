@@ -62,7 +62,7 @@ const BlogDetails = () => {
                                         <a href="#">Business</a>
                                     </p>
                                     <div className="blog-details__social-list">
-                                  
+
                                         <a href="#"><i className="fab fa-facebook"></i></a>
                                         <a href="https://www.instagram.com/dailyhands1?igsh=MWZsMnRxb20wdDJ0bQ=="><i className="fab fa-instagram"></i></a>
                                     </div>

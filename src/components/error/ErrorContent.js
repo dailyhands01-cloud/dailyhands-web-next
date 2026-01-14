@@ -2,9 +2,9 @@ import React from 'react';
 import Link from 'next/link';
 
 const ErrorContent = () => {
-    return (
-        <>
-            <section className="error-page">
+	return (
+		<>
+			<section className="error-page">
 				<div className="container">
 					<div className="row">
 						<div className="col-xl-12">
@@ -25,8 +25,8 @@ const ErrorContent = () => {
 					</div>
 				</div>
 			</section>
-        </>
-    )
+		</>
+	)
 }
 
 export default ErrorContent;

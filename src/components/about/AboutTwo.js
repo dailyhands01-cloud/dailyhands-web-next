@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 
 const AboutTwo = () => {
+    
     useEffect(() => {
         if ($(".count-bar").length) {
             $(".count-bar").appear(

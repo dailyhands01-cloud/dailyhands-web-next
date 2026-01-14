@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import BackgroundOne from '../../../public/assets/images/backgrounds/cta-v1-bg.webp';
 
 const CtaOne = () => {

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-const  WhyChooseUsOne = () => {
+const WhyChooseUsOne = () => {
     useEffect(() => {
 
         if ($(".tabs-box").length) {
@@ -139,7 +139,7 @@ const  WhyChooseUsOne = () => {
                                         <div className="tab-one__img">
                                             <img src="/assets/images/resources/tab-v1-img.webp" alt="Emergency Cleaning Services" />
                                             <div className="icon">
-                                                <a href="https://www.youtube.com/watch?v=KjNnGgYDfwE"  className="video-popup">
+                                                <a href="https://www.youtube.com/watch?v=KjNnGgYDfwE" className="video-popup">
                                                     <div className="tab-one__video-icon">
                                                         <span className="icon-play-button"></span>
                                                         <i className="ripple"></i>
@@ -183,7 +183,7 @@ const  WhyChooseUsOne = () => {
                                         <div className="tab-one__img">
                                             <img src="/assets/images/resources/tab-v1-img.webp" alt="Residential Cleaning Services" />
                                             <div className="icon">
-                                                <a href="https://www.youtube.com/watch?v=KjNnGgYDfwE"  className="video-popup">
+                                                <a href="https://www.youtube.com/watch?v=KjNnGgYDfwE" className="video-popup">
                                                     <div className="tab-one__video-icon">
                                                         <span className="icon-play-button"></span>
                                                         <i className="ripple"></i>
@@ -238,7 +238,6 @@ const  WhyChooseUsOne = () => {
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>

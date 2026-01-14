@@ -42,7 +42,7 @@ export default function Document() {
             <body>
                 <Main />
                 <NextScript />
-                <script  src="/assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+                <script src="/assets/vendors/jquery/jquery-3.6.0.min.js"></script>
                 <script src="/assets/vendors/jquery-appear/jquery.appear.min.js"></script>
                 <script src="/assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
                 <script src="/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>

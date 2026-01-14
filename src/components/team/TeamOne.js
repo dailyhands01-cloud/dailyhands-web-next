@@ -38,8 +38,8 @@ const TeamOne = () => {
         }
       });
     }
-
   }, []);
+  
   return (
     <>
       <section className="team-one">

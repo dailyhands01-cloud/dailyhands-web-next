@@ -14,10 +14,10 @@ export default function AboutPage() {
 		<>
 			<SEO pageTitle={"About Dailyhand | Professional Cleaning Services in Pune"} />
 			<HeaderOne />
-			<Breadcrumb 
-                heading="About Our Cleaning Company"
-                currentPage="About" 
-            />
+			<Breadcrumb
+				heading="About Our Cleaning Company"
+				currentPage="About"
+			/>
 			<AboutOne />
 			<ServiceOne />
 			<ContactOne />

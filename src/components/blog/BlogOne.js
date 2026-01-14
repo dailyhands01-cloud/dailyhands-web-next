@@ -5,7 +5,6 @@ import Link from 'next/link';
 const BlogOne = () => {
 
   useEffect(() => {
-
     if ($(".blog-one__carousel").length) {
       $(".blog-one__carousel").owlCarousel({
         loop: true,
@@ -39,7 +38,6 @@ const BlogOne = () => {
         }
       });
     }
-
   }, []);
 
   return (

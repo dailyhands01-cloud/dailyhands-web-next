@@ -3,77 +3,76 @@ import React, { useEffect } from 'react';
 const GalleryOne = () => {
 
     useEffect(() => {
-
-      if ($(".masonary-layout").length) {
-        $(".masonary-layout").isotope({
-          layoutMode: "masonry"
-        });
-      }
-
-      if ($(".post-filter").length) {
-        $(".post-filter li")
-          .children(".filter-text")
-          .on("click", function () {
-            var Self = $(this);
-            var selector = Self.parent().attr("data-filter");
-            $(".post-filter li").removeclassName("active");
-            Self.parent().addclassName("active");
-            $(".filter-layout").isotope({
-              filter: selector,
-              animationOptions: {
-                duration: 500,
-                easing: "linear",
-                queue: false
-              }
+        if ($(".masonary-layout").length) {
+            $(".masonary-layout").isotope({
+                layoutMode: "masonry"
             });
-            return false;
-          });
-      }
+        }
 
-      if ($(".post-filter.has-dynamic-filters-counter").length) {
-        // var allItem = $('.single-filter-item').length;
-        var activeFilterItem = $(".post-filter.has-dynamic-filters-counter").find(
-          "li"
-        );
-        activeFilterItem.each(function () {
-          var filterElement = $(this).data("filter");
-          var count = $(".filter-layout").find(filterElement).length;
-          $(this)
-            .children(".filter-text")
-            .append('<span className="count">(' + count + ")</span>");
-        });
-      }
+        if ($(".post-filter").length) {
+            $(".post-filter li")
+                .children(".filter-text")
+                .on("click", function () {
+                    var Self = $(this);
+                    var selector = Self.parent().attr("data-filter");
+                    $(".post-filter li").removeclassName("active");
+                    Self.parent().addclassName("active");
+                    $(".filter-layout").isotope({
+                        filter: selector,
+                        animationOptions: {
+                            duration: 500,
+                            easing: "linear",
+                            queue: false
+                        }
+                    });
+                    return false;
+                });
+        }
 
-      if ($(".img-popup").length) {
-        var groups = {};
-        $(".img-popup").each(function () {
-          var id = parseInt($(this).attr("data-group"), 10);
-    
-          if (!groups[id]) {
-            groups[id] = [];
-          }
-    
-          groups[id].push(this);
-        });
-    
-        $.each(groups, function () {
-          $(this).magnificPopup({
-            type: "image",
-            closeOnContentClick: true,
-            closeBtnInside: false,
-            gallery: {
-              enabled: true
-            }
-          });
-        });
-      }
+        if ($(".post-filter.has-dynamic-filters-counter").length) {
+            // var allItem = $('.single-filter-item').length;
+            var activeFilterItem = $(".post-filter.has-dynamic-filters-counter").find(
+                "li"
+            );
+            activeFilterItem.each(function () {
+                var filterElement = $(this).data("filter");
+                var count = $(".filter-layout").find(filterElement).length;
+                $(this)
+                    .children(".filter-text")
+                    .append('<span className="count">(' + count + ")</span>");
+            });
+        }
+
+        if ($(".img-popup").length) {
+            var groups = {};
+            $(".img-popup").each(function () {
+                var id = parseInt($(this).attr("data-group"), 10);
+
+                if (!groups[id]) {
+                    groups[id] = [];
+                }
+
+                groups[id].push(this);
+            });
+
+            $.each(groups, function () {
+                $(this).magnificPopup({
+                    type: "image",
+                    closeOnContentClick: true,
+                    closeBtnInside: false,
+                    gallery: {
+                        enabled: true
+                    }
+                });
+            });
+        }
 
         $(".gallery-page__single-img").on("click", function (e) {
-    if (!$(e.target).closest(".img-popup").length) {
-      $(this).find(".img-popup")[0].click();
-    }
-  });
-          
+            if (!$(e.target).closest(".img-popup").length) {
+                $(this).find(".img-popup")[0].click();
+            }
+        });
+
     }, []);
 
     return (
@@ -182,7 +181,7 @@ const GalleryOne = () => {
                     </div>
                 </div>
             </section>
-            
+
         </>
     )
 }

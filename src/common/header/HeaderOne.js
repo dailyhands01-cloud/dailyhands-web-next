@@ -2,31 +2,28 @@ import React, { useState, useEffect } from 'react';
 import NavMenu from './NavMenu';
 import Sidebar from './sidebar';
 import Link from 'next/link';
-import Modal from 'react-bootstrap/Modal';
 
 const HeaderOne = () => {
+
     useEffect(() => {
-
         $('select').niceSelect();
-
         if ($("#polyglot-language-options").length) {
             $('#polyglotLanguageSwitcher').polyglotLanguageSwitcher({
-              effect: 'slide',
-              animSpeed: 500,
-              testMode: true,
-              onChange: function (evt) {
-                alert("The selected language is: " + evt.selectedItem);
-              }
-        
+                effect: 'slide',
+                animSpeed: 500,
+                testMode: true,
+                onChange: function (evt) {
+                    alert("The selected language is: " + evt.selectedItem);
+                }
             });
         }
-            
     }, []);
+
     const [isActive, setIsActive] = useState(false);
-    
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
     return (
         <>
             <header className="main-header clearfix">
@@ -73,13 +70,13 @@ const HeaderOne = () => {
                                     </div>
                                 </div> */}
 
-                                {/* <div className="main-header__top-right-social">
+                            {/* <div className="main-header__top-right-social">
                                     <a href="#"><i className="fab fa-facebook"></i></a>
                                     <a href="#"><i className="fab fa-twitter"></i></a>
                                     <a href="#"><i className="fab fa-pinterest-p"></i></a>
                                 </div> */}
 
-                                {/* <div class="language-switcher">
+                            {/* <div class="language-switcher">
                                     <div id="polyglotLanguageSwitcher">
                                         <form action="#">
                                             <select id="polyglot-language-options">
@@ -92,10 +89,10 @@ const HeaderOne = () => {
                                         </form>
                                     </div>
                                 </div> */}
-                            </div>
                         </div>
                     </div>
-                
+                </div>
+
 
                 <nav className="main-menu clearfix">
                     <div className="container clearfix">
@@ -115,7 +112,7 @@ const HeaderOne = () => {
                                     if (element) {
                                         element.scrollIntoView({ behavior: 'smooth' });
                                     }
-                                }} className="thm-btn main-header__btn" style={{border:"none"}}>
+                                }} className="thm-btn main-header__btn" style={{ border: "none" }}>
                                     <span>Contact Us</span>
                                     <div className="liquid"></div>
                                 </button>

@@ -10,7 +10,7 @@ const BrandTwo = () => {
                     <Swiper
                         spaceBetween={50}
                         slidesPerView={5}
-                        autoplay={{delay:   5000}}
+                        autoplay={{ delay: 5000 }}
                         breakpoints={{
                             "0": {
                                 spaceBetween: 30,
@@ -41,9 +41,9 @@ const BrandTwo = () => {
                             {BrandOneData.map((item, i) => (
                                 <SwiperSlide key={i} className="swiper-slide">
                                     <div className="brand-one__single">
-                                    <img src={item.image} alt={item.alt} />
-                                    <h5>{item.title}</h5>
-                                </div>
+                                        <img src={item.image} alt={item.alt} />
+                                        <h5>{item.title}</h5>
+                                    </div>
                                 </SwiperSlide>
                             ))}
                         </div>

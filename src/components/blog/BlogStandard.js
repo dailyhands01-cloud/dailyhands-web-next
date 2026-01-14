@@ -10,7 +10,6 @@ import BlogTags from '../widgets/BlogTags';
 const BlogStandard = () => {
     return (
         <>
-
             <section className="blog-standard">
                 <div className="container">
                     <div className="row">

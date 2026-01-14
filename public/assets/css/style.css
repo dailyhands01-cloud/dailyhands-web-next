@@ -3278,7 +3278,7 @@ div[class^="bubble-"] {
 .services-one__single-content p {
     margin: 0px;
     padding: 0 40px;
-    color:rgb(96, 96, 96);
+    color: rgb(96, 96, 96);
 }
 
 
@@ -4415,7 +4415,7 @@ div[class^="bubble-"] {
     margin-bottom: 9px;
 }
 
-.blog-one__content h2  {
+.blog-one__content h2 {
     color: var(--thm-black);
 }
 
@@ -4425,7 +4425,7 @@ div[class^="bubble-"] {
 
 .blog-one__content p {
     margin: 0;
-    color:rgb(96, 96, 96)
+    color: rgb(96, 96, 96)
 }
 
 .blog-one__content .btn-box {
@@ -4769,7 +4769,7 @@ div[class^="bubble-"] {
     opacity: 1;
     transform: perspective(400px) scale(1.0);
     transition: all 0.3s ease-in-out 0.3s;
-    
+
 }
 
 .footer-widget__gallery-single .img-box .overlay-icon a {
@@ -7627,19 +7627,19 @@ div[class^="bubble-"] {
     display: block;
     background: #ffffff;
     padding: 120px 0px 120px;
-    
+
 }
 
 .team-details__img {
     position: relative;
     display: flex;
-  
+
 
 }
 
 .team-details__img img {
     width: 100%;
-      object-fit: cover;
+    object-fit: cover;
 }
 
 .team-details__content {
@@ -9196,7 +9196,7 @@ div[class^="bubble-"] {
     position: relative;
     display: block;
     z-index: 1;
-    margin-top:80px;
+    margin-top: 80px;
     /* margin-bottom:80px */
 }
 
@@ -9321,7 +9321,7 @@ div[class^="bubble-"] {
     color: var(--thm-base);
 }
 
-.cta-one__inner  .thm-btn .liquid {
+.cta-one__inner .thm-btn .liquid {
     background: #ffffff;
 }
 
@@ -9342,7 +9342,7 @@ div[class^="bubble-"] {
 
 .cta-one__inner .button-box a:hover {
     color: #ffffff;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 /*** 
@@ -10539,6 +10539,6 @@ div[class^="bubble-"] {
 /* dropdwop color change */
 
 .nice-select .option.selected {
-    font-weight:400 !important;
-   color: var(--thm-black) !important;
+    font-weight: 400 !important;
+    color: var(--thm-black) !important;
 }

@@ -1,11 +1,9 @@
 import React, { useEffect } from 'react';
 import { BlogThreeData } from '@/data/blog';
-import Link from 'next/link';
 
 const BlogThree = () => {
 
     useEffect(() => {
-
         if ($(".blog-one__carousel").length) {
             $(".blog-one__carousel").owlCarousel({
                 loop: true,
@@ -123,7 +121,7 @@ const BlogThree = () => {
                             </ul>
                         </div>
                         </div>
-                        */}``
+                        */}
                 </div>
             </section>
 
