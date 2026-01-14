@@ -11,7 +11,7 @@ export default function WindowCleaningPage() {
 			<SEO pageTitle={"Best Window Cleaning Services in Pune | Dailyhand - Sparkling Clean Homes & Offices"} />
 			<HeaderOne />
 			<Breadcrumb 
-                heading="Window Cleaning Services in Pimpri-Pune"
+                heading="Window Cleaning Services"
                 currentPage="Window Cleaning" 
 				bgImage="/assets/images/backgrounds/page-header-img3.webp"
             />

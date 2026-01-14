@@ -4,37 +4,37 @@ import { FaqOneData } from '@/data/faq';
 const FaqOne = () => {
 
     useEffect(() => {
-
         if ($(".accrodion-grp").length) {
             var accrodionGrp = $(".accrodion-grp");
+
             accrodionGrp.each(function () {
                 var accrodionName = $(this).data("grp-name");
                 var Self = $(this);
                 var accordion = Self.find(".accrodion");
-                Self.addclassName(accrodionName);
+                Self.addClass(accrodionName);
                 Self.find(".accrodion .accrodion-content").hide();
                 Self.find(".accrodion.active").find(".accrodion-content").show();
                 accordion.each(function () {
                     $(this)
                         .find(".accrodion-title")
                         .on("click", function () {
-                            if ($(this).parent().hasclassName("active") === false) {
+                            if (!$(this).parent().hasClass("active")) {
                                 $(".accrodion-grp." + accrodionName)
                                     .find(".accrodion")
-                                    .removeclassName("active");
+                                    .removeClass("active");
                                 $(".accrodion-grp." + accrodionName)
                                     .find(".accrodion")
                                     .find(".accrodion-content")
                                     .slideUp();
-                                $(this).parent().addclassName("active");
+                                $(this).parent().addClass("active");
                                 $(this).parent().find(".accrodion-content").slideDown();
                             }
                         });
                 });
             });
         }
-
     }, []);
+
 
     return (
         <>
@@ -63,7 +63,7 @@ const FaqOne = () => {
                                 <div className="faq-one__faq">
                                     <div className="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">
                                         {FaqOneData.map((item, i) => (
-                                            <div key={i} classNameName={`accrodion wow fadeInUp ${item.open}`} data-wow-delay={item.delay} data-wow-duration={item.duration}>
+                                            <div key={i} className={`accrodion wow fadeInUp ${item.open}`} data-wow-delay={item.delay} data-wow-duration={item.duration}>
                                                 <div className="accrodion-title">
                                                     <div className="accrodion-title-inner">
                                                         <div className="icon">

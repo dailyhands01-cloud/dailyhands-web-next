@@ -4,7 +4,7 @@ const ContactFour = () => {
     useEffect(() => {
 
         $('select').niceSelect();
-      
+
     }, []);
     return (
         <>
@@ -22,32 +22,32 @@ const ContactFour = () => {
                                     <div className="row">
                                         <div className="col-xl-6 col-lg-6 col-md-6">
                                             <div className="input-box">
-                                                <input type="text" name="form_name"  placeholder="Your Name" required="" />
+                                                <input type="text" name="form_name" placeholder="Your Name" required="" />
                                             </div>
                                         </div>
                                         <div className="col-xl-6 col-lg-6 col-md-6">
                                             <div className="input-box">
-                                                <input type="email" name="form_email"  placeholder="Your Email" required="" />
+                                                <input type="email" name="form_email" placeholder="Your Email" required="" />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-xl-6 col-lg-6 col-md-6">
                                             <div className="input-box">
-                                                <input type="text" name="form_phone"  placeholder="Your Phone" />
+                                                <input type="text" name="form_phone" placeholder="Your Phone" />
                                             </div>
                                         </div>
                                         <div className="col-xl-6 col-lg-6 col-md-6">
                                             <div className="input-box">
                                                 <div className="select-box">
-                                                    <select className="selectmenu wide">
-                                                        <option selected="selected">Select Category</option>
-                                                        <option>Bedroom Cleaning</option>
-                                                        <option>Window Cleaning</option>
-                                                        <option>Office Cleaning</option>
-                                                        <option>Commercial Cleaning</option>
-                                                        <option>House Cleaning</option>
-                                                        <option>Car Cleaning</option>
+                                                    <select className="selectmenu wide" defaultValue="">
+                                                        <option value="" disabled>Select Category</option>
+                                                        <option value="bedroom">Bedroom Cleaning</option>
+                                                        <option value="window">Window Cleaning</option>
+                                                        <option value="office">Office Cleaning</option>
+                                                        <option value="commercial">Commercial Cleaning</option>
+                                                        <option value="house">House Cleaning</option>
+                                                        <option value="car">Car Cleaning</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -57,7 +57,7 @@ const ContactFour = () => {
                                     <div className="row">
                                         <div className="col-xl-6 col-lg-6 col-md-6">
                                             <div className="input-box">
-                                                <input type="text" name="form_subject"  placeholder="Office address" />
+                                                <input type="text" name="form_subject" placeholder="Office address" />
                                             </div>
                                         </div>
                                         <div className="col-xl-6 col-lg-6 col-md-6">

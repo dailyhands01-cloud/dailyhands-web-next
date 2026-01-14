@@ -61,47 +61,47 @@ const GalleryDetails = () => {
                                     </p>
                                 </div>
 
-                                <div classNameName="gallery-details__text-box2">
+                                <div className="gallery-details__text-box2">
                                     <h2>Professional Bedroom Cleaning for Healthy Sleep</h2>
 
-                                    <p classNameName="text1">
+                                    <p className="text1">
                                         Professional bedroom cleaning eliminates dust, allergens, and germs for better sleep quality
                                         and improved health. Our expert services create a fresh, hygienic sleeping environment
                                         essential for restful nights and overall well-being.
                                     </p>
 
-                                    <div classNameName="gallery-details__text-box2-list">
+                                    <div className="gallery-details__text-box2-list">
                                         <ul>
                                             <li>
-                                                <div classNameName="icon">
-                                                    <i classNameName="icon-maps-and-flags"></i>
+                                                <div className="icon">
+                                                    <i className="icon-maps-and-flags"></i>
                                                 </div>
-                                                <div classNameName="text">
+                                                <div className="text">
                                                     <p>Complete bed frame, wardrobe, shelf, and surface dusting</p>
                                                 </div>
                                             </li>
 
                                             <li>
-                                                <div classNameName="icon">
-                                                    <i classNameName="icon-maps-and-flags"></i>
+                                                <div className="icon">
+                                                    <i className="icon-maps-and-flags"></i>
                                                 </div>
-                                                <div classNameName="text">
+                                                <div className="text">
                                                     <p>Thorough floor vacuuming and mopping for dust-free surfaces</p>
                                                 </div>
                                             </li>
 
                                             <li>
-                                                <div classNameName="icon">
-                                                    <i classNameName="icon-maps-and-flags"></i>
+                                                <div className="icon">
+                                                    <i className="icon-maps-and-flags"></i>
                                                 </div>
-                                                <div classNameName="text">
+                                                <div className="text">
                                                     <p>Switches, mirrors, windows, and hard-to-reach areas cleaned</p>
                                                 </div>
                                             </li>
                                         </ul>
                                     </div>
 
-                                    <p classNameName="text2">
+                                    <p className="text2">
                                         Certified cleaners use safe products and detailed protocols for consistent quality.
                                         From daily maintenance to deep cleaning, we ensure your bedroom stays fresh,
                                         organized, and optimized for healthy sleep.
