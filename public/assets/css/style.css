@@ -2956,7 +2956,11 @@ div[class^="bubble-"] {
     color: var(--thm-base);
 }
 
-
+@media only screen and (max-width: 767px) {
+    .page-header__content h2 {
+        font-size: 35px !important;
+    }
+}
 
 
 /***
@@ -6302,6 +6306,13 @@ div[class^="bubble-"] {
     background: rgba(var(--thm-base-rgb), 0.1);
 }
 
+@media only screen and (max-width: 767px) {
+    .pricing-plan-one__single {
+        max-width: 330px !important;
+        width: 100%;
+        min-height: 700px !important;
+    }
+}
 
 
 /***
