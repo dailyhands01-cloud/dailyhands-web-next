@@ -8,10 +8,10 @@ import FooterOne from "../common/footer/FooterOne";
 export default function ProjectPage() {
 	return (
 		<>
-			<SEO pageTitle={"Projects Page"} />
+			<SEO pageTitle={"Cleaning Projects & Portfolio in Pune | Dailyhand Success Stories"} />
 			<HeaderOne />
 			<Breadcrumb 
-                heading="Projects Page"
+                heading="Our Cleaning Projects"
                 currentPage="Projects" 
             />
 			<ProjectOne />

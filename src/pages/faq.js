@@ -1,19 +1,18 @@
-import SEO from "../common/seo/Seo";
-import HeaderOne from "../common/header/HeaderOne";
-import Breadcrumb from "../common/breadcrumb/Breadcrumb";
-import FaqOne from "../components/faq/FaqOne";
-import ContactTwo from "../components/contact/ContactTwo";
-import BrandOne from "../components/brand/BrandOne";
-import FooterOne from "../common/footer/FooterOne";
 import BrandTwo from "@/components/brand/BrandTwo";
+import Breadcrumb from "../common/breadcrumb/Breadcrumb";
+import FooterOne from "../common/footer/FooterOne";
+import HeaderOne from "../common/header/HeaderOne";
+import SEO from "../common/seo/Seo";
+import ContactTwo from "../components/contact/ContactTwo";
+import FaqOne from "../components/faq/FaqOne";
 
 export default function FaqPage() {
 	return (
 		<>
-			<SEO pageTitle={"Faq Page"} />
+			<SEO pageTitle={"Cleaning Services FAQ | Dailyhand Pune - Common Questions Answered"} />
 			<HeaderOne />
 			<Breadcrumb 
-                heading="Faq Page"
+                heading="Frequently Asked Questions"
                 currentPage="Faq" 
 				bgImage="/assets/images/backgrounds/page-header-img10.webp"
             />

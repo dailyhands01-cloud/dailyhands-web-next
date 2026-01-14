@@ -9,7 +9,7 @@ import FooterOne from "../common/footer/FooterOne";
 export default function PricingPage() {
 	return (
 		<>
-			<SEO pageTitle={"Cleaning Service Pricing"} />
+			<SEO pageTitle={"Cleaning Service Pricing in Pune | Dailyhand Affordable Rates"} />
 			<HeaderOne />
 			<Breadcrumb
                 heading="Cleaning Service Pricing"

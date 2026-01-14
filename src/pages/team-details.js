@@ -1,16 +1,15 @@
-import SEO from "../common/seo/Seo";
-import HeaderOne from "../common/header/HeaderOne";
 import Breadcrumb from "../common/breadcrumb/Breadcrumb";
+import FooterOne from "../common/footer/FooterOne";
+import HeaderOne from "../common/header/HeaderOne";
+import SEO from "../common/seo/Seo";
+import ContactFour from "../components/contact/ContactFour";
 import TeamDetails from "../components/team/TeamDetails";
 import TeamOne from "../components/team/TeamOne";
-import ContactFour from "../components/contact/ContactFour";
-import FooterOne from "../common/footer/FooterOne";
-import BrandTwo from "../components/brand/BrandTwo";
 
 export default function TeamDetailsPage() {
 	return (
 		<>
-			<SEO pageTitle={"Team Details"} />
+			<SEO pageTitle={"Expert Cleaning Team Details in Pune | Dailyhand Professionals"} />
 			<HeaderOne />
 			<Breadcrumb 
                 heading="Team Details"

@@ -9,10 +9,10 @@ import FooterOne from "../common/footer/FooterOne";
 export default function ContactPage() {
 	return (
 		<>
-			<SEO pageTitle={"Contact Page"} />
+			<SEO pageTitle={"Contact Dailyhand Cleaning Services | Pune Office Location & Phone"} />
 			<HeaderOne />
 			<Breadcrumb 
-                heading="Contact Page"
+                heading="Contact Us"
                 currentPage="Contact" 
 				bgImage="/assets/images/backgrounds/page-header-img14.webp"
             />

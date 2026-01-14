@@ -8,10 +8,10 @@ import FooterOne from "../common/footer/FooterOne";
 export default function WindowCleaningPage() {
 	return (
 		<>
-			<SEO pageTitle={"Window Cleaning"} />
+			<SEO pageTitle={"Best Window Cleaning Services in Pune | Dailyhand - Sparkling Clean Homes & Offices"} />
 			<HeaderOne />
 			<Breadcrumb 
-                heading="Window Cleaning"
+                heading="Window Cleaning Services in Pimpri-Pune"
                 currentPage="Window Cleaning" 
 				bgImage="/assets/images/backgrounds/page-header-img3.webp"
             />

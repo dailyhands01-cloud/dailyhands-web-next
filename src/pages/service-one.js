@@ -9,10 +9,10 @@ import FooterOne from "../common/footer/FooterOne";
 export default function ServicePageOne() {
 	return (
 		<>
-			<SEO pageTitle={"Service"} />
+			<SEO pageTitle={"Professional Cleaning Services in Pune | Dailyhand"} />
 			<HeaderOne />
 			<Breadcrumb 
-                heading="Service Page 1"
+                heading="Our Cleaning Services"
                 currentPage="Service" 
             />
 			<ServiceOne />

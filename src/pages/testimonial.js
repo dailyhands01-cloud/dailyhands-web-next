@@ -8,10 +8,10 @@ import FooterOne from "../common/footer/FooterOne";
 export default function TestimonialPage() {
 	return (
 		<>
-			<SEO pageTitle={"Testimonial Page"} />
+			<SEO pageTitle={"Customer Testimonials | Dailyhand Cleaning Services in Pune - Trusted Reviews"} />
 			<HeaderOne />
 			<Breadcrumb 
-                heading="Testimonial Page"
+                heading="Customer Testimonials"
                 currentPage="Testimonial" 
 				bgImage="/assets/images/backgrounds/page-header-img13.webp"
             />

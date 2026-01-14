@@ -16,7 +16,7 @@ import FooterOne from "../common/footer/FooterOne";
 export default function Home() {
 	return (
 		<>
-			<SEO pageTitle={"Home One"} />
+			<SEO pageTitle={"Professional Cleaning Services in Pune | Dailyhand - Home & Office Cleaning"} />
 			<HeaderOne />
       		<HeroOne />
 			<AboutOne />

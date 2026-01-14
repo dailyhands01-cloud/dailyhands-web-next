@@ -9,10 +9,10 @@ import FooterOne from "../common/footer/FooterOne";
 export default function ClientPage() {
 	return (
 		<>
-			<SEO pageTitle={"Client Page"} />
+			<SEO pageTitle={"Our Clients & Partners | Dailyhand Cleaning Services Pune"} />
 			<HeaderOne />
 			<Breadcrumb 
-                heading="Client Page"
+                heading="Our Valued Clients"
                 currentPage="Client Page" 
             />
 			<BrandThree />

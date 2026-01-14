@@ -8,10 +8,10 @@ import FooterOne from "../common/footer/FooterOne";
 export default function GalleryOnePage() {
 	return (
 		<>
-			<SEO pageTitle={"Gallery"} />
+			<SEO pageTitle={"Cleaning Gallery & Photo Portfolio | Dailyhand Pune Projects"} />
 			<HeaderOne />
 			<Breadcrumb 
-                heading="Gallery"
+                heading="Cleaning Photo Gallery Pune"
                 currentPage="Gallery" 
 				bgImage="/assets/images/backgrounds/page-header-img9.webp"
             />

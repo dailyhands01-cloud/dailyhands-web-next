@@ -1,18 +1,18 @@
-import SEO from "../common/seo/Seo";
-import HeaderOne from "../common/header/HeaderOne";
 import Breadcrumb from "../common/breadcrumb/Breadcrumb";
-import ServiceThree from "../components/service/ServiceThree";
+import FooterOne from "../common/footer/FooterOne";
+import HeaderOne from "../common/header/HeaderOne";
+import SEO from "../common/seo/Seo";
 import BrandOne from "../components/brand/BrandOne";
 import CtaOne from "../components/cta/CtaOne";
-import FooterOne from "../common/footer/FooterOne";
+import ServiceThree from "../components/service/ServiceThree";
 
 export default function ServicePageOne() {
 	return (
 		<>
-			<SEO pageTitle={"Service"} />
+			<SEO pageTitle={"Professional Cleaning Services in Pune | Dailyhand"} />
 			<HeaderOne />
 			<Breadcrumb 
-                heading="Service Page 2"
+                heading="Our Cleaning Services"
                 currentPage="Service" 
             />
 			<ServiceThree />

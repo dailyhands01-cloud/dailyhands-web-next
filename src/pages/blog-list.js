@@ -8,10 +8,10 @@ import FooterOne from "../common/footer/FooterOne";
 export default function BlogListPage() {
 	return (
 		<>
-			<SEO pageTitle={"Blog List"} />
+			<SEO pageTitle={"Cleaning Services Blog | Dailyhand Pune - Latest Articles & Tips"} />
 			<HeaderOne />
 			<Breadcrumb 
-                heading="Blog List"
+                heading="Blog Articles List"
                 currentPage="Blog List" 
             />
 			<BlogList />
