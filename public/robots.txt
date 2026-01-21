@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://dailyhands.in
+
+# Sitemaps
+Sitemap: https://dailyhands.in/sitemap.xml

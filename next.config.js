@@ -1,26 +1,20 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  trailingSlash: true,
+  reactStrictMode: true,
+
+  // Required for Firebase static hosting
+  output: 'export',
+
   images: {
     unoptimized: true,
   },
-  rewrites: async () => {
-    return {
-      beforeFiles: [
-        {
-          source: '/sitemap.xml',
-          destination: '/api/sitemap',
-        },
-        {
-          source: '/robots.txt',
-          destination: '/api/robots',
-        },
-      ],
-    };
-  },
-}
 
-module.exports = nextConfig
+  // Prevents routing issues on refresh
+  trailingSlash: true,
+};
+
+module.exports = nextConfig;
+
 
 // /** @type {import('next').NextConfig} */
 // const nextConfig = {
