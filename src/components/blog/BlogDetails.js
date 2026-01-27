@@ -15,15 +15,15 @@ const BlogDetails = () => {
                         <div className="col-xl-8 col-lg-7">
                             <div className="blog-details__left">
                                 <div className="blog-details__img">
-                                    <img src="/assets/images/blog/blog-details-img-1.webp" alt="" />
+                                    <img src="/assets/images/blog/blog-details-img-1.webp" alt="Kitchen cleaning tips" />
                                     <div className="blog-details__date">
                                         <p>10 <br /> Oct</p>
                                     </div>
                                 </div>
                                 <div className="blog-details__content">
                                     <ul className="blog-details__meta list-unstyled">
-                                        <li><Link href="/blog-details"><i className="fa fa-comments"></i><span>(2)</span></Link></li>
-                                        <li><Link href="/blog-details"><i className="fa fa-thumbs-up"></i><span>(2)</span></Link></li>
+                                        <li><Link href="/blog"><i className="fa fa-comments"></i><span>(2)</span></Link></li>
+                                        <li><Link href="/blog"><i className="fa fa-thumbs-up"></i><span>(2)</span></Link></li>
                                     </ul>
                                     <h3 className="blog-details__title">Top Tips for Kitchen Cleaning</h3>
                                     <p className="blog-details__text-1">
@@ -36,7 +36,7 @@ const BlogDetails = () => {
                                 </div>
                                 <div className="blog-details__content-two">
                                     <div className="blog-details__content-two-img">
-                                        <img src="/assets/images/blog/blog-details-img-2.webp" alt="" />
+                                        <img src="/assets/images/blog/blog-details-img-2.webp" alt="House cleaning checklist" />
                                     </div>
                                     <div className="blog-details__content-two-details">
                                         <h3 className="blog-details__content-two-title">Top Tips for House Cleaning</h3>
@@ -88,7 +88,7 @@ const BlogDetails = () => {
                                             <h3>Suren Sumi</h3>
                                             <p>The cleaning tips shared in this blog are incredibly useful! Following these guidelines has made maintaining a spotless and hygienic home much easier for me.</p>
                                             <span>November 15, 2025</span>
-                                            <Link href="/blog-details" className="comment-one__btn">Reply</Link>
+                                            <Link href="/blog" className="comment-one__btn">Reply</Link>
                                         </div>
                                     </div>
 
@@ -100,7 +100,7 @@ const BlogDetails = () => {
                                             <h3>Jessica Brown</h3>
                                             <p>I loved the practical advice on keeping kitchens and bathrooms clean. The step-by-step tips are easy to follow and have really improved the hygiene of my home.</p>
                                             <span>December 03, 2025</span>
-                                            <a href="/blog-details" className="comment-one__btn">Reply</a>
+                                            <a href="/blog" className="comment-one__btn">Reply</a>
                                         </div>
                                     </div>
                                 </div>

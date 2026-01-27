@@ -94,7 +94,7 @@ const FaqOne = () => {
                         {/* Start Faq One Img */}
                         <div className="col-xl-5 d-flex justify-content-center align-items-center">
                             <div className="faq-one__img">
-                                <img src="/assets/images/resources/faq-v1-img2.webp" alt="" />
+                                <img src="/assets/images/resources/faq-v1-img2.webp" alt="Frequently asked questions" />
                             </div>
                         </div>
                         {/* End Faq One Img */}

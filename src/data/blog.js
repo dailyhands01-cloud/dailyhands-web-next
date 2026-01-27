@@ -7,7 +7,7 @@ export const BlogOneData = [
         heading: "Essential House Cleaning Tips for a Healthier Home",
         description: "Discover practical cleaning tips that help maintain a spotless and hygienic home. Learn how daily housekeeping and expert strategies can improve your living environment.",
         btn: "Read More",
-        link: "/blog-details",
+        link: "/blog/essential-house-cleaning-tips-for-a-healthier-home",
     },
     {
         id: 2,
@@ -16,7 +16,7 @@ export const BlogOneData = [
         heading: "Top Advantages of Hiring Professional Cleaning Services",
         description: "Hiring professional cleaners ensures a consistent, high-quality clean. Save time, reduce stress, and enjoy a healthier home or office with expert cleaning support.",
         btn: "Read More",
-        link: "/blog-details",
+        link: "/blog/top-advantages-of-hiring-professional-cleaning-services",
     },
     {
         id: 3,
@@ -25,7 +25,7 @@ export const BlogOneData = [
         heading: "Personalized Cleaning Plans Tailored for Every Home",
         description: "Get customized cleaning services designed to suit your home's unique needs. Our skilled team ensures every room is spotless, organized, and welcoming.",
         btn: "Read More",
-        link: "/blog-details",
+        link: "/blog/personalized-cleaning-plans-tailored-for-every-home",
     },
 ];
 
@@ -39,7 +39,7 @@ export const BlogTwoData = [
         heading: "Essential Guide to Infection Control for a Healthy Home",
         description: "Learn practical tips and expert strategies to maintain a hygienic home. From daily cleaning routines to deep sanitation, our professional team ensures a safe and clean living space.",
         btn: "Read More",
-        link: "/blog-details",
+        link: "/blog/essential-guide-to-infection-control-for-a-healthy-home",
     },
     {
         id: 2,
@@ -48,7 +48,7 @@ export const BlogTwoData = [
         heading: "Top Benefits of Hiring Professional Cleaning Services",
         description: "Discover how professional cleaning services save time, maintain hygiene, and enhance the overall comfort of your home. Our expert cleaners deliver reliable results every time.",
         btn: "Read More",
-        link: "/blog-details",
+        link: "/blog/top-benefits-of-hiring-professional-cleaning-services",
     },
     {
         id: 3,
@@ -57,7 +57,7 @@ export const BlogTwoData = [
         heading: "Personalized Cleaning Solutions for Every Home",
         description: "Experience tailor-made cleaning services designed to meet your unique needs. Our team ensures each room is spotless, organized, and maintained to perfection, making your home healthier and more comfortable.",
         btn: "Read More",
-        link: "/blog-details",
+        link: "/blog/personalized-cleaning-solutions-for-every-home",
     },
 ];
 
@@ -73,7 +73,7 @@ export const BlogThreeData = [
         description: "Tailored house cleaning services matching your schedule, home size, and preferences. Professional cleaners deliver personalized deep cleaning and daily maintenance solutions.",
         author: "Priya Sharma",
         comment: "12 Comments",
-        link: "/blog-details/blog-custom-cleaning",
+        link: "/blog/blog-custom-cleaning",
         delay: "0ms",
     },
     {
@@ -84,7 +84,7 @@ export const BlogThreeData = [
         description: "Professional house cleaning techniques to eliminate germs, bacteria, and allergens. Essential sanitization methods for kitchen, bathroom, and high-touch surfaces.",
         author: "Rahul Patel",
         comment: "15 Comments",
-        link: "/blog-details/infection-control",
+        link: "/blog/infection-control",
         delay: "200ms",
     },
     {
@@ -95,7 +95,7 @@ export const BlogThreeData = [
         description: "Health benefits of consistent weekly cleaning schedules. Dust control, allergen reduction, and time-saving strategies for maintaining spotless living spaces.",
         author: "Neha Gupta",
         comment: "18 Comments",
-        link: "/blog-details/weekly-cleaning",
+        link: "/blog/weekly-cleaning",
         delay: "400ms",
     },
     {
@@ -106,7 +106,7 @@ export const BlogThreeData = [
         description: "Printable checklists for kitchen deep cleaning, bathroom sanitization, bedroom dusting, and living room maintenance. Professional step-by-step cleaning guide.",
         author: "Amit Kumar",
         comment: "22 Comments",
-        link: "/blog-details/room-checklist",
+        link: "/blog/room-checklist",
         delay: "0ms",
     },
     {
@@ -117,7 +117,7 @@ export const BlogThreeData = [
         description: "Time savings, superior results, and guaranteed quality. Compare professional cleaning vs DIY and discover why expert services transform your home maintenance.",
         author: "Pooja Desai",
         comment: "25 Comments",
-        link: "/blog-details/hire-professionals",
+        link: "/blog/hire-professionals",
         delay: "200ms",
     },
     {
@@ -128,7 +128,7 @@ export const BlogThreeData = [
         description: "Pre-travel house cleaning routine to prevent dust buildup and odors. Kitchen fridge prep, bathroom sanitization, and bedroom maintenance for worry-free vacations.",
         author: "Rohit Verma",
         comment: "14 Comments",
-        link: "/blog-details/travel-cleaning",
+        link: "/blog/travel-cleaning",
         delay: "400ms",
     },
 ];
@@ -216,7 +216,7 @@ export const BlogListData = [
         description: "Discover easy daily cleaning routines that keep your home fresh and organized. Our expert tips help maintain hygiene and comfort effortlessly.",
         author: "Admin",
         comment: "2 Comments",
-        link: "/blog-details",
+        link: "/blog/simple-daily-cleaning-tips-for-a-spotless-home",
         delay: "0.1s",
     },
     {
@@ -227,7 +227,7 @@ export const BlogListData = [
         description: "Learn practical strategies to prevent germs and bacteria at home. Our professional cleaning insights ensure a safe and healthy living environment.",
         author: "Admin",
         comment: "2 Comments",
-        link: "/blog-details",
+        link: "/blog/essential-guide-to-home-infection-control",
         delay: "0.2s",
     },
     {
@@ -238,7 +238,7 @@ export const BlogListData = [
         description: "Explore the benefits of regular professional cleaning. Maintain a spotless, hygienic home while saving time and reducing stress.",
         author: "Admin",
         comment: "2 Comments",
-        link: "/blog-details",
+        link: "/blog/how-weekly-cleaning-services-enhance-your-home",
         delay: "0.3s",
     },
     {
@@ -249,7 +249,7 @@ export const BlogListData = [
         description: "Follow our detailed room cleaning checklist to keep bedrooms, kitchens, and living areas clean. Our tips help you achieve efficient, thorough cleaning.",
         author: "Admin",
         comment: "2 Comments",
-        link: "/blog-details",
+        link: "/blog/room-by-room-cleaning-checklist-for-busy-homes",
         delay: "0.4s",
     },
     {
@@ -260,7 +260,7 @@ export const BlogListData = [
         description: "Discover how professional cleaners save time, maintain hygiene, and improve home comfort. Reliable services for every room in your house.",
         author: "Admin",
         comment: "2 Comments",
-        link: "/blog-details",
+        link: "/blog/top-benefits-of-hiring-professional-cleaning-services",
         delay: "0.5s",
     },
     {
@@ -271,7 +271,7 @@ export const BlogListData = [
         description: "Keep your bedroom and bathroom sparkling clean with professional tips. Ensure hygiene, prevent germs, and maintain a healthy home environment.",
         author: "Admin",
         comment: "2 Comments",
-        link: "/blog-details",
+        link: "/blog/expert-tips-for-cleaning-your-bedroom-bathroom",
         delay: "0.6s",
     },
     {
@@ -282,7 +282,7 @@ export const BlogListData = [
         description: "Our cleaning solutions are perfect for all types of homes and spaces. Learn techniques to maintain cleanliness efficiently and professionally.",
         author: "Admin",
         comment: "2 Comments",
-        link: "/blog-details",
+        link: "/blog/versatile-cleaning-solutions-for-every-home",
         delay: "0.7s",
     },
 ];
@@ -299,7 +299,7 @@ export const BlogStandardData = [
         description: "Keep your home clean and organized effortlessly with our expert daily cleaning tips. Learn simple routines that save time while maintaining hygiene.",
         author: "Admin",
         comment: "2 Comments",
-        link: "/blog-details",
+        link: "/blog/essential-daily-cleaning-tips-for-a-sparkling-home",
         delay: "0.1s",
     },
     {
@@ -311,7 +311,7 @@ export const BlogStandardData = [
         description: "Discover professional techniques to clean and maintain your bedroom. Ensure a dust-free, comfortable, and hygienic environment with our expert tips.",
         author: "Admin",
         comment: "2 Comments",
-        link: "/blog-details",
+        link: "/blog/comprehensive-bedroom-cleaning-guide-for-healthy-living",
         delay: "0.1s",
     },
     {
@@ -323,7 +323,7 @@ export const BlogStandardData = [
         description: "Learn effective strategies to keep your bathroom spotless and sanitary. Our professional cleaning tips help maintain hygiene and prevent bacterial growth.",
         author: "Admin",
         comment: "2 Comments",
-        link: "/blog-details",
+        link: "/blog/top-bathroom-cleaning-tips-for-a-germ-free-space",
         delay: "0.1s",
     },
     {
@@ -335,7 +335,7 @@ export const BlogStandardData = [
         description: "Keep your kitchen clean and safe with our professional cleaning guidelines. From countertops to appliances, maintain a hygienic cooking space easily.",
         author: "Admin",
         comment: "2 Comments",
-        link: "/blog-details",
+        link: "/blog/expert-kitchen-cleaning-advice-for-a-healthier-home",
         delay: "0.1s",
     },
 ];

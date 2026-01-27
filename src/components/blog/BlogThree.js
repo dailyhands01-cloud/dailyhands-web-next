@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { BlogThreeData } from '@/data/blog';
+import Link from 'next/link';
 
 const BlogThree = () => {
 
@@ -71,12 +72,13 @@ const BlogThree = () => {
                                     <div className="blog-one__single-img">
                                         <img src={item.image} alt={item.alt} />
                                         <div className="overlay-icon">
-                                            {/* <Link href={item.link}><span className="icon-plus"></span></Link> */}
+                                            <Link href={item.link}><span className="icon-plus"></span></Link>
                                         </div>
                                     </div>
 
                                     <div className="blog-one__content">
                                         <ul className="meta-info">
+
                                             <li>
                                                 <span className="icon-user"></span>
                                                 <a href="#">{item.author}</a>
@@ -87,17 +89,14 @@ const BlogThree = () => {
                                             </li>
                                         </ul>
 
-                                        {/* <h2><Link href={item.link}>{item.heading}</Link></h2> */}
-                                        <h2>{item.heading}</h2>
+                                        <h2><Link href={item.link}>{item.heading}</Link></h2>
 
                                         <p>{item.description}</p>
 
                                         <div className="btn-box">
-                                            {/* <Link href={item.link}>Read More <span className="icon-plus"></span></Link> */}
-                                            <span>
-                                                Read More <span className="icon-plus"></span>
-                                            </span>
+                                            <Link href={item.link}>Read More <span className="icon-plus"></span></Link>
                                         </div>
+
                                     </div>
                                 </div>
                             </div>

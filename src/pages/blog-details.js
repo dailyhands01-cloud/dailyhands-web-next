@@ -8,7 +8,7 @@ import BrandTwo from "@/components/brand/BrandTwo";
 export default function BlogDetailsPage() {
 	return (
 		<>
-			<SEO pageTitle={"Cleaning Blog Details | Dailyhand Pune - In-Depth Articles"} />
+			<SEO pageTitle={"Cleaning Blog Details | Dailyhand Pune - In-Depth Articles"} noindex />
 			<HeaderOne />
 			<Breadcrumb 
                 heading="Blog Post Details"

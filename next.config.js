@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
 
   // Required for Firebase static hosting
-  output: 'export',
+  ...(process.env.NODE_ENV === 'production' ? { output: 'export' } : {}),
 
   images: {
     unoptimized: true,

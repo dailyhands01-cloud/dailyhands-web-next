@@ -13,7 +13,7 @@ const BlogLatestPost = () => {
                         </div>
                         <div className="sidebar__post-content-box">
                             <h3>
-                                <Link href="/blog-details">Professional Car Cleaning Tips for a Spotless Vehicle</Link>
+                                <Link href="/blog">Professional Car Cleaning Tips for a Spotless Vehicle</Link>
                             </h3>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ const BlogLatestPost = () => {
                         </div>
                         <div className="sidebar__post-content-box">
                             <h3>
-                                <Link href="/blog-details">Effective Bedroom Cleaning Guide for a Fresh and Healthy Space</Link>
+                                <Link href="/blog">Effective Bedroom Cleaning Guide for a Fresh and Healthy Space</Link>
                             </h3>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ const BlogLatestPost = () => {
                         </div>
                         <div className="sidebar__post-content-box">
                             <h3>
-                                <Link href="/blog-details">House Cleaning Tips for a Spotless and Organized Home</Link>
+                                <Link href="/blog">House Cleaning Tips for a Spotless and Organized Home</Link>
                             </h3>
                         </div>
                     </div>
