@@ -18,9 +18,6 @@ const FooterOne = () => {
                                                 <div className="footer-widget__about-logo" style={{ display: "flex", justifyContent: "start", alignItems: "center" }} >
                                                     <Link href="/"><img src="/assets/images/resources/footer-logo1.webp" alt="" style={{ width: "250px", height: "100px" }} /></Link>
                                                 </div>
-                                                {/* <p className="footer-widget__about-text">We help businesses maximize their
-                                                    online presence with a personalized approach to digital marketing.</p> */}
-
                                                 <p className="footer-widget__about-text">
                                                     We help businesses strengthen their online presence through customized digital marketing strategies designed to boost visibility, engagement, and growth.
                                                 </p>
@@ -32,7 +29,6 @@ const FooterOne = () => {
                                                         {/* <li><a href="#"><span className="icon-twitter"></span></a></li> */}
                                                     </ul>
                                                 </div>
-
                                             </div>
                                         </div>
                                         {/* End Footer Widget Column */}

@@ -18,7 +18,7 @@ const Breadcrumb = ({
           <div className="col-xl-12">
             <div className="page-header__wrapper">
               <div className="page-header__content">
-                <h2>{heading}</h2>
+                <h1>{heading}</h1>
                 <div className="page-header__menu">
                   <ul>
                     <li><Link href="/">Home</Link></li>

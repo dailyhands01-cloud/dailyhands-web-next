@@ -11,7 +11,6 @@ const Sidebar = ({ isActive, setIsActive }) => {
                     <div className="tt-offcanvas-close" onClick={() => setIsActive(false)}>
                         <span><i className="fas fa-times"></i></span>
                     </div>
-
                     <div className="logo-box">
                         <Link href="/" aria-label="logo image"><img src="/assets/images/resources/footer-logo1.webp"
                             width="250px" height="100px" alt="" /></Link>
@@ -23,7 +22,6 @@ const Sidebar = ({ isActive, setIsActive }) => {
                             <MobileMenus />
                         </div>
                     </div>
-
                     <div className="mobile-nav__container"></div>
                     <ul className="mobile-nav__contact list-unstyled">
                         <li>
@@ -43,7 +41,6 @@ const Sidebar = ({ isActive, setIsActive }) => {
                     </div>
                 </div>
             </div>
-
             <div className={`body-overlay ${isActive ? "opened" : ""}`} onClick={() => setIsActive(false)}></div>
         </>
     );

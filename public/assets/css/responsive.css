@@ -419,7 +419,7 @@
     }
 
     /*Page Header*/
-    .page-header__content h2 {
+    .page-header__content h1{
         font-size: 50px;
     }
 
@@ -999,7 +999,8 @@
         right: 5%;
     }
 
-    .main-slider-one__content .title h2 {
+    .main-slider-one__content .title h2,
+    .main-slider-one__content .title h1 {
         font-size: 50px;
     }
 }
@@ -1015,10 +1016,10 @@
         right: 0%;
     }
 
-    .main-slider-one__content .title h2 {
+    .main-slider-one__content .title h2,
+    .main-slider-one__content .title h1 {
         font-size: 45px;
     }
-
 }
 
 
@@ -1039,7 +1040,8 @@
         display: none;
     }
 
-    .main-slider-one__content .title h2 {
+    .main-slider-one__content .title h2,
+    .main-slider-one__content .title h1 {
         font-size: 40px;
     }
 
@@ -1069,7 +1071,8 @@
         display: none;
     }
 
-    .main-slider-one__content .title h2 {
+    .main-slider-one__content .title h2,
+    .main-slider-one__content .title h1 {
         font-size: 40px;
     }
 
@@ -1110,11 +1113,13 @@
         display: none;
     }
 
-    .main-slider-one__content .title h2 {
+    .main-slider-one__content .title h2,
+    .main-slider-one__content .title h1 {
         font-size: 38px;
     }
 
-    .main-slider-one__content .title h2 br {
+    .main-slider-one__content .title h2 br,
+    .main-slider-one__content .title h1 br {
         display: none;
     }
 

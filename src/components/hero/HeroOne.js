@@ -50,12 +50,10 @@ const HeroOne = () => {
                                     <p>Welcome to Daily Hands. </p>
                                 </div>
                                 <div className="title">
-                                    <h2>Professional Cleaning Services <br /> That Deliver Exceptional Results</h2>
-
+                                    <h1>Professional Cleaning Services <br /> That Deliver Exceptional Results</h1>
                                 </div>
                                 <div className="text">
                                     <p>We deliver reliable health and wellness services that help you feel better, stay active, and enjoy a healthier lifestyle.</p>
-
                                 </div>
                                 <div className="btn-box">
                                     <Link href="/contact" className="thm-btn">
@@ -81,7 +79,6 @@ const HeroOne = () => {
                                 </div>
                                 <div className="title">
                                     <h2>Professional Cleaning Services <br /> That Deliver Exceptional Results</h2>
-
                                 </div>
                                 <div className="text">
                                     <p>We deliver reliable health and wellness services that help you feel better, stay active, and enjoy a healthier lifestyle.</p>

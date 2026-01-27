@@ -1962,7 +1962,8 @@ a.sc-hLseeU {
     transition-delay: 1200ms;
 }
 
-.main-slider-one__content .title h2 {
+.main-slider-one__content .title h2,
+.main-slider-one__content .title h1 {
     color: #ffffff;
     font-size: 60px;
     line-height: 1.2em;
@@ -2892,7 +2893,7 @@ div[class^="bubble-"] {
     display: block;
 }
 
-.page-header__content h2 {
+.page-header__content h1  {
     color: #ffffff;
     font-size: 60px;
     line-height: 1em;
@@ -2957,7 +2958,7 @@ div[class^="bubble-"] {
 }
 
 @media only screen and (max-width: 767px) {
-    .page-header__content h2 {
+    .page-header__content h1 {
         font-size: 35px !important;
     }
 }

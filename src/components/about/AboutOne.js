@@ -4,7 +4,6 @@ const AboutOne = () => {
     return (
         <>
             <section className="about-one pd-120-0-120">
-
                 {/* Floating Image */}
                 <div
                     className="about-one__img2 wow slideInRight"
@@ -16,10 +15,8 @@ const AboutOne = () => {
                         alt="Professional Cleaning Services"
                     />
                 </div>
-
                 <div className="container">
                     <div className="row">
-
                         {/* Start About Image */}
                         <div className="col-xl-6 d-flex justify-content-center">
                             <div className="about-one__img clearfix">

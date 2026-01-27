@@ -20,9 +20,9 @@ const HeaderOne = () => {
     }, []);
 
     const [isActive, setIsActive] = useState(false);
-    const [show, setShow] = useState(false);
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    // const [show, setShow] = useState(false);
+    // const handleClose = () => setShow(false);
+    // const handleShow = () => setShow(true);
 
     return (
         <>
@@ -121,9 +121,7 @@ const HeaderOne = () => {
                     </div>
                 </nav>
             </header>
-
             <Sidebar isActive={isActive} setIsActive={setIsActive} />
-
             <div className="body-overlay"></div>
         </>
     )
