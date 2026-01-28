@@ -20,10 +20,7 @@ const HeaderOne = () => {
     }, []);
 
     const [isActive, setIsActive] = useState(false);
-    // const [show, setShow] = useState(false);
-    // const handleClose = () => setShow(false);
-    // const handleShow = () => setShow(true);
-
+    
     return (
         <>
             <header className="main-header clearfix">
@@ -50,49 +47,9 @@ const HeaderOne = () => {
                                     </li>
                                 </ul>
                             </div>
-                            {/* <div className="main-header__top-right">
-                                <div className="main-header__top-right-search">
-                            <div className="main-header__top-right">
-                                {/* <div className="main-header__top-right-search">
-                                    <a href="#" className="search-toggler" variant="primary" onClick={handleShow}> <i className="fa fa-search"></i></a>
-                                    <div className="search-popup">
-                                        <Modal show={show} onHide={handleClose} className="search-popup__overlay search-toggler">
-                                            <div className="search-popup__content">
-                                                <form action="#">
-                                                    <label for="search" className="sr-only">search here</label>
-                                                    <input type="text" id="search" placeholder="Search Here..." />
-                                                    <button type="submit" aria-label="search submit" className="thm-btn">
-                                                        <i className="fa fa-search" aria-hidden="true"></i>
-                                                    </button>
-                                                </form>
-                                            </div>
-                                        </Modal>
-                                    </div>
-                                </div> */}
-
-                            {/* <div className="main-header__top-right-social">
-                                    <a href="#"><i className="fab fa-facebook"></i></a>
-                                    <a href="#"><i className="fab fa-twitter"></i></a>
-                                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
-                                </div> */}
-
-                            {/* <div class="language-switcher">
-                                    <div id="polyglotLanguageSwitcher">
-                                        <form action="#">
-                                            <select id="polyglot-language-options">
-                                                <option id="en" value="en" selected>England</option>
-                                                <option id="fr" value="fr">France</option>
-                                                <option id="de" value="de">Germany</option>
-                                                <option id="it" value="it">Italy</option>
-                                                <option id="es" value="es">Span</option>
-                                            </select>
-                                        </form>
-                                    </div>
-                                </div> */}
                         </div>
                     </div>
                 </div>
-
 
                 <nav className="main-menu clearfix">
                     <div className="container clearfix">

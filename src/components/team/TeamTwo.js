@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
 import { TeamOneData } from '@/data/team';
+import { useEffect } from 'react';
 import BackgroundOne from '../../../public/assets/images/pattern/team-v1-pattern.webp';
 
 const TeamTwo = () => {

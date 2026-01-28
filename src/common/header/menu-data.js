@@ -4,11 +4,6 @@ const menu_data = [
     has_dropdown: false,
     title: "Home",
     link: "/",
-    // sub_menus: [
-    //   { link: "/", title: "Home One" },
-    // { link: "/home-two", title: "Home Two" },
-    // { link: "/home-three", title: "Home Three" },
-    // ],
   },
   {
     id: 2,
@@ -22,8 +17,6 @@ const menu_data = [
     title: "Service",
     link: "#",
     sub_menus: [
-      // { link: "/service-one", title: "Service 01" },
-      // { link: "/service-two", title: "Service 02" },
       { link: "/bedroom-cleaning", title: "Bedroom Cleaning" },
       { link: "/window-cleaning", title: "Window Cleaning" },
       { link: "/office-cleaning", title: "Office Cleaning" },
@@ -41,16 +34,11 @@ const menu_data = [
     sub_menus: [
       { link: "/team", title: "Team" },
       { link: "/team-details", title: "Team Details" },
-      // { link: "/project", title: "Project" },
-      // { link: "/project-details", title: "Project Details" },
       { link: "/pricing", title: "Pricing" },
       { link: "/testimonial", title: "Testimonial" },
       { link: "/gallery-one", title: "Gallery" },
-      // { link: "/gallery-two", title: "Gallery 02" },
       { link: "/gallery-details", title: "Gallery Details" },
-      // { link: "/client", title: "Client" },
       { link: "/faq", title: "Faq" },
-      // { link: "/error", title: "404 Error" },
     ],
   },
   {
@@ -61,9 +49,6 @@ const menu_data = [
     sub_menus: [
       { link: "/blog", title: "Blog" },
       { link: "/blog-grid", title: "Blog Grid" },
-      // { link: "/blog-list", title: "Blog List" },
-      // { link: "/blog-standard", title: "Blog Standard" },
-      // { link: "/blog-details", title: "Blog Details" },
     ],
   },
   {

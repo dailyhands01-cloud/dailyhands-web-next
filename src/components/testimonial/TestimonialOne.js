@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
 import { TestimonialOneData } from '@/data/testimonial';
+import { useEffect } from 'react';
 import BackgroundOne from '../../../public/assets/images/backgrounds/testimonials-v1-bg.webp';
 
 const TestimonialOne = () => {

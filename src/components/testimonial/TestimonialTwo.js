@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
 import { TestimonialTwoData } from '@/data/testimonial';
+import { useEffect } from 'react';
 
 const TestimonialTwo = () => {
-
     useEffect(() => {
         if ($(".testimonial-two__carousel").length) {
             $(".testimonial-two__carousel").owlCarousel({

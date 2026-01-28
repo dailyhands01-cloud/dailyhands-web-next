@@ -1,6 +1,5 @@
-import React from 'react';
-import Link from 'next/link';
 import { ServiceTwoData } from '@/data/service';
+import Link from 'next/link';
 
 const ServiceTwo = () => {
     return (

@@ -1,4 +1,3 @@
-import React from 'react'
 import { BrandThreeData } from '@/data/brand';
 
 const BrandThree = () => {

@@ -1,6 +1,5 @@
-import Link from 'next/link';
-import React from 'react';
 import { FeaturesOneData } from '@/data/features';
+import Link from 'next/link';
 import BackgroundOne from '../../../public/assets/images/features/features-v1-img1.webp';
 
 const FeaturesOne = () => {

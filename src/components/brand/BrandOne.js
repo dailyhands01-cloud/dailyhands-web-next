@@ -1,4 +1,3 @@
-import React from 'react'
 import { BrandOneData } from '@/data/brand';
 import { Swiper, SwiperSlide } from "swiper/react";
 

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 const GalleryTwo = () => {
 
@@ -11,7 +11,6 @@ const GalleryTwo = () => {
                 if (!groups[id]) {
                     groups[id] = [];
                 }
-
                 groups[id].push(this);
             });
 

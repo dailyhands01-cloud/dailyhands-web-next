@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
-import Link from 'next/link';
 import { PricingOneData } from '@/data/pricing';
+import Link from 'next/link';
+import { useEffect } from 'react';
 import BackgroundOne from '../../../public/assets/images/backgrounds/priceing-plan-v1-bg.webp';
 
 const PricingOne = () => {

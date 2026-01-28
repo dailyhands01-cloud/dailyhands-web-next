@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
-import Link from 'next/link';
 import { ProjectTwoData } from '@/data/project';
+import Link from 'next/link';
+import { useEffect } from 'react';
 
 const ProjectTwo = () => {
 

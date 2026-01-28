@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 const GalleryOne = () => {
 
@@ -51,7 +51,6 @@ const GalleryOne = () => {
                 if (!groups[id]) {
                     groups[id] = [];
                 }
-
                 groups[id].push(this);
             });
 
@@ -72,7 +71,6 @@ const GalleryOne = () => {
                 $(this).find(".img-popup")[0].click();
             }
         });
-
     }, []);
 
     return (
@@ -97,7 +95,6 @@ const GalleryOne = () => {
                         </div>
                         {/* End case-studies-one Top */}
                     </div>
-
 
                     <div className="row filter-layout masonary-layout">
                         {/* Start Gallery Page Single */}

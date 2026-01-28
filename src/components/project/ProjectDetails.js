@@ -1,7 +1,6 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 const ProjectDetails = () => {
-
     useEffect(() => {
         if ($(".projects-detalis__content-carousel").length) {
             $(".projects-detalis__content-carousel").owlCarousel({

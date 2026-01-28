@@ -1,9 +1,8 @@
-import React from 'react';
 import Link from 'next/link';
-import BlogSearch from '../widgets/BlogSearch';
 import BlogCategory from '../widgets/BlogCategory';
 import BlogLatestPost from '../widgets/BlogLatestPost';
 import BlogQuery from '../widgets/BlogQuery';
+import BlogSearch from '../widgets/BlogSearch';
 import BlogTags from '../widgets/BlogTags';
 
 const BlogDetails = () => {

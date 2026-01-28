@@ -1,10 +1,10 @@
-import SEO from "../common/seo/Seo";
-import HeaderOne from "../common/header/HeaderOne";
 import Breadcrumb from "../common/breadcrumb/Breadcrumb";
-import ServiceOne from "../components/service/ServiceOne";
+import FooterOne from "../common/footer/FooterOne";
+import HeaderOne from "../common/header/HeaderOne";
+import SEO from "../common/seo/Seo";
 import BrandOne from "../components/brand/BrandTwo";
 import CtaOne from "../components/cta/CtaOne";
-import FooterOne from "../common/footer/FooterOne";
+import ServiceOne from "../components/service/ServiceOne";
 
 export default function ServicePageOne() {
 	return (

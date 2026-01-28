@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
 import { FaqOneData } from '@/data/faq';
+import { useEffect } from 'react';
 
 const FaqOne = () => {
 

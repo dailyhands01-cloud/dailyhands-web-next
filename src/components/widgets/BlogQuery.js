@@ -1,4 +1,3 @@
-import React from 'react';
 import QueryImg from '../../../public/assets/images/backgrounds/sidebar-support-bg.webp';
 
 const BlogQuery = () => {

@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
 import { BlogThreeData } from '@/data/blog';
 import Link from 'next/link';
+import { useEffect } from 'react';
 
 const BlogThree = () => {
 

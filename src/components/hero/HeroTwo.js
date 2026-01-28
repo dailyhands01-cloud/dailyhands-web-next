@@ -1,8 +1,6 @@
-import React, { useEffect } from "react";
 import Link from "next/link";
-import BackgroundOne from '../../../public/assets/images/backgrounds/main-slider-v2-bg.webp';
-import BackgroundTwo from '../../../public/assets/images/backgrounds/main-slider-v2-bg.webp';
-import BackgroundThree from '../../../public/assets/images/backgrounds/main-slider-v2-bg.webp';
+import { useEffect } from "react";
+import { default as BackgroundOne, default as BackgroundThree, default as BackgroundTwo } from '../../../public/assets/images/backgrounds/main-slider-v2-bg.webp';
 
 const HeroTwo = () => {
 

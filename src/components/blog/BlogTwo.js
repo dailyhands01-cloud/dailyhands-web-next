@@ -1,6 +1,5 @@
-import React from 'react';
-import Link from 'next/link';
 import { BlogTwoData } from '@/data/blog';
+import Link from 'next/link';
 
 const BlogTwo = () => {
     return (
@@ -17,7 +16,6 @@ const BlogTwo = () => {
                                 Explore expert cleaning tips, industry updates, and practical guides designed to keep your home and workspace fresh, healthy, and well-maintained. From daily housekeeping advice to professional cleaning insights, our blog helps you make smarter cleaning decisions.
                             </p>
                         </div>
-
                     </div>
                     <div className="row">
                         {BlogTwoData.map((item, i) => (

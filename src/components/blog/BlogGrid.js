@@ -1,4 +1,3 @@
-import React from 'react';
 import { BlogGridData } from '@/data/blog';
 
 const BlogGrid = () => {
@@ -32,20 +31,6 @@ const BlogGrid = () => {
                             </div>
                         ))}
                     </div>
-
-                    {/* Start Styled Pagination */}
-                    {/* <div className="row">
-                        <div className="col-xl-12">
-                            <ul className="styled-pagination text-center clearfix">
-                                <li className="prev"><a href="#"><span className="fa fa-angle-double-left"></span></a></li>
-                                <li><a href="#" className="active">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li className="next"><a href="#"><span className="fa fa-angle-double-right"></span></a></li>
-                            </ul>
-                        </div>
-                    </div> */}
-                    {/* Start Styled Pagination */}
                 </div>
             </section>
         </>

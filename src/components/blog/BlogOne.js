@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
 import { BlogOneData } from '@/data/blog';
 import Link from 'next/link';
+import { useEffect } from 'react';
 
 const BlogOne = () => {
 
@@ -65,14 +65,12 @@ const BlogOne = () => {
                     <div className="blog-one__content">
                       <h2>{item.heading}</h2>
                       <p>{item.description}</p>
-
                       <div className="btn-box">
                         <span>{item.btn} <span className="icon-plus"></span></span>
                       </div>
                     </div>
                   </Link>
                 </div>
-
               </div>
             ))}
           </div>

@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 
 const ProjectOne = () => {
-
     useEffect(() => {
         if ($(".img-popup").length) {
             var groups = {};

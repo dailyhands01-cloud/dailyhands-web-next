@@ -1,11 +1,10 @@
-import React, { useEffect } from "react";
 import Link from "next/link";
+import { useEffect } from "react";
+import BackgroundThree from '../../../public/assets/images/backgrounds/main-slider-v1-img3.webp';
 import BackgroundOne from '../../../public/assets/images/backgrounds/main-slider-v3-img1.webp';
 import BackgroundTwo from '../../../public/assets/images/backgrounds/main-slider-v3-img2.webp';
-import BackgroundThree from '../../../public/assets/images/backgrounds/main-slider-v1-img3.webp';
 
 const HeroThree = () => {
-
     useEffect(() => {
         if ($('.main-slider-three__carousel').length) {
             $('.main-slider-three__carousel').owlCarousel({

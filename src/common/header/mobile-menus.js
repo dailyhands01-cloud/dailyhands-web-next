@@ -23,7 +23,6 @@ const MobileMenus = () => {
     }
   };
   return (
-
     <nav className="mean-nav">
       <ul>
         {menu_data.map((menu, i) => (
@@ -74,7 +73,6 @@ const MobileMenus = () => {
                       <Link href={mega_m.link} className="mega-menu-title">
                         {mega_m.title}
                       </Link>
-
                       <ul
                         style={{
                           display: subMenu === mega_m.title ? "block" : "none",
@@ -86,7 +84,6 @@ const MobileMenus = () => {
                           </li>
                         ))}
                       </ul>
-
                       <a
                         className={`mean-expand ${subMenu === mega_m.title ? "mean-clicked" : ""
                           }`}
@@ -95,8 +92,6 @@ const MobileMenus = () => {
                       >
                         <i className="fas fa-plus"></i>
                       </a>
-
-
                     </li>
                   ))}
                 </ul>
