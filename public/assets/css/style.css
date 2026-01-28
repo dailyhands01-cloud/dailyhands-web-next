@@ -52,6 +52,9 @@ body.locked {
     overflow: hidden;
 }
 
+a{
+   color:var(--thm-black)
+}
 
 a,
 a:hover,
@@ -8070,6 +8073,9 @@ div[class^="bubble-"] {
     display: block;
     background-color: var(--thm-black);
     overflow: hidden;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .blog-details__img img {
