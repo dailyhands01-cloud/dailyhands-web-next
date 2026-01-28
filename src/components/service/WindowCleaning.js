@@ -23,7 +23,8 @@ const WindowCleaning = () => {
 
                             <div className="col-xl-8 order-1">
                                 <div className="service-details__top-img">
-                                    <img src="/assets/images/resources/service-details-img3.webp" alt="" />
+                                    <img src="/assets/images/resources/service-details-img3.webp" alt="Professional window cleaning service"
+                                        loading="lazy" />
                                 </div>
                             </div>
                         </div>
@@ -54,7 +55,8 @@ const WindowCleaning = () => {
                             <div className="row">
                                 <div className="col-xl-4 col-lg-5">
                                     <div className="img-box">
-                                        <img src="/assets/images/resources/window-cleaning.webp" alt="" />
+                                        <img src="/assets/images/resources/window-cleaning.webp" alt="Professional window cleaning service"
+                                            loading="lazy" />
                                     </div>
                                 </div>
                                 <div className="col-xl-8 col-lg-7">

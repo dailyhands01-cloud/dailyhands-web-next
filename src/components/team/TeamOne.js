@@ -55,7 +55,7 @@ const TeamOne = () => {
                 {TeamOneData.map((item, i) => (
                   <div key={i} className="team-one__single">
                     <div className="team-one__single-img">
-                      <img src={item.image} alt={item.alt} />
+                      <img src={item.image} alt={item.alt} loading="lazy" />
                       <div className="overlay-content">
                         <div className="title-box">
                           <h3>{item.name}</h3>

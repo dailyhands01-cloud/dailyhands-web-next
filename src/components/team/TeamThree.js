@@ -14,7 +14,7 @@ const TeamThree = () => {
                             <div key={i} className="col-xl-4 col-lg-4 col-md-6  wow fadeInUp" data-wow-delay={item.delay} data-wow-duration={item.duration}>
                                 <div className="team-one__single">
                                     <div className="team-one__single-img">
-                                        <img src={item.image} alt={item.alt} />
+                                        <img src={item.image} alt={item.alt} loading="lazy" />
                                         <div className="overlay-content">
                                             <div className="title-box">
                                                 <h3>{item.name}</h3>

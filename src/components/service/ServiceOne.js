@@ -28,7 +28,7 @@ const ServiceOne = () => {
                                     <div className="services-one__single">
                                         <div className="services-one__single-img">
                                             <div className="services-one__single-img-inner">
-                                                <img src={item.image} alt={item.alt} />
+                                                <img src={item.image} alt={item.alt} loading="lazy" />
                                             </div>
                                             <div className="icon">
                                                 <span className={item.icon}></span>

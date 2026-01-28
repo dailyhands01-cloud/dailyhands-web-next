@@ -49,7 +49,7 @@ const ProjectTwo = () => {
                                 <div className="projects-two__single">
                                     <div className="projects-two__single-img">
                                         <div className="projects-two__single-img-inner">
-                                            <img className="parallax-img" src={item.image} alt={item.alt} />
+                                            <img className="parallax-img" src={item.image} alt={item.alt} loading="lazy" />
                                         </div>
                                         <div className="overlay-content text-center">
                                             <div className="text">

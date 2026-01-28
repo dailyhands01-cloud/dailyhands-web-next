@@ -93,7 +93,7 @@ const WhyChooseUsOne = () => {
 
                                     <div className="col-xl-6 col-lg-6 col-md-12">
                                         <div className="tab-one__img">
-                                            <img src="/assets/images/resources/tab-v1-img.webp" alt="Professional Cleaning Services" />
+                                            <img src="/assets/images/resources/tab-v1-img.webp" alt="Professional Cleaning Services" loading="lazy" />
                                             <div className="icon">
                                                 <a href="https://www.youtube.com/watch?v=KjNnGgYDfwE" className="video-popup">
                                                     <div className="tab-one__video-icon">
@@ -137,7 +137,7 @@ const WhyChooseUsOne = () => {
 
                                     <div className="col-xl-6 col-lg-6 col-md-12">
                                         <div className="tab-one__img">
-                                            <img src="/assets/images/resources/tab-v1-img.webp" alt="Emergency Cleaning Services" />
+                                            <img src="/assets/images/resources/tab-v1-img.webp" alt="Emergency Cleaning Services" loading="lazy" />
                                             <div className="icon">
                                                 <a href="https://www.youtube.com/watch?v=KjNnGgYDfwE" className="video-popup">
                                                     <div className="tab-one__video-icon">
@@ -181,7 +181,7 @@ const WhyChooseUsOne = () => {
 
                                     <div className="col-xl-6 col-lg-6 col-md-12">
                                         <div className="tab-one__img">
-                                            <img src="/assets/images/resources/tab-v1-img.webp" alt="Residential Cleaning Services" />
+                                            <img src="/assets/images/resources/tab-v1-img.webp" alt="Residential Cleaning Services" loading="lazy" />
                                             <div className="icon">
                                                 <a href="https://www.youtube.com/watch?v=KjNnGgYDfwE" className="video-popup">
                                                     <div className="tab-one__video-icon">
@@ -225,7 +225,7 @@ const WhyChooseUsOne = () => {
 
                                     <div className="col-xl-6 col-lg-6 col-md-12">
                                         <div className="tab-one__img">
-                                            <img src="/assets/images/resources/tab-v1-img.webp" alt="Furniture Cleaning Services" />
+                                            <img src="/assets/images/resources/tab-v1-img.webp" alt="Furniture Cleaning Services" loading="lazy" />
                                             <div className="icon">
                                                 <a href="https://www.youtube.com/watch?v=KjNnGgYDfwE" className="video-popup">
                                                     <div className="tab-one__video-icon">

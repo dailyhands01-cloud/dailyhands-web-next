@@ -42,6 +42,7 @@ const AboutTwo = () => {
                                         <img
                                             src="/assets/images/about/about-v2-img1.webp"
                                             alt="Professional Cleaning Process"
+                                            loading="lazy"
                                         />
                                     </div>
                                 </div>
@@ -55,6 +56,7 @@ const AboutTwo = () => {
                                         <img
                                             src="/assets/images/about/about-v2-img2.webp"
                                             alt="Expert Cleaning Team at Work"
+                                            loading="lazy"
                                         />
                                     </div>
                                 </div>

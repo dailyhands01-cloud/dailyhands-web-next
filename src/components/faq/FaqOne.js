@@ -76,7 +76,7 @@ const FaqOne = () => {
                                                 <div className="accrodion-content">
                                                     <div className="inner">
                                                         <div className="img-box">
-                                                            <img src={item.image} alt={item.alt} />
+                                                            <img src={item.image} alt={item.alt} loading="lazy"/>
                                                         </div>
                                                         <div className="text">
                                                             <p>{item.description}</p>
@@ -94,7 +94,7 @@ const FaqOne = () => {
                         {/* Start Faq One Img */}
                         <div className="col-xl-5 d-flex justify-content-center align-items-center">
                             <div className="faq-one__img">
-                                <img src="/assets/images/resources/faq-v1-img2.webp" alt="Frequently asked questions" />
+                                <img src="/assets/images/resources/faq-v1-img2.webp" alt="Frequently asked questions" loading="lazy"/>
                             </div>
                         </div>
                         {/* End Faq One Img */}

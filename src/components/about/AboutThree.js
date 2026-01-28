@@ -10,7 +10,7 @@ const AboutThree = () => {
                             <div className="about-three__img clearfix">
                                 <div className="about-three__img1">
                                     <div className="about-three__img1-inner js-tilt">
-                                        <img src="/assets/images/about/about-v3-img1.webp" alt="" />
+                                        <img src="/assets/images/about/about-v3-img1.webp" alt="Professional Cleaning Services" loading="lazy" />
                                     </div>
                                 </div>
                             </div>

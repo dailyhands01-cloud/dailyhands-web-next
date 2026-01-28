@@ -38,86 +38,112 @@ const GalleryTwo = () => {
             <section className="gallery-page">
                 <div className="container">
                     <div className="row">
-                        {/* Start Gallery Page Single */}
+
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <div className="gallery-page__single">
                                 <div className="gallery-page__single-img">
-                                    <img src="/assets/images/gallery/gallery-page-img1.webp" alt="" />
+                                    <img
+                                        src="/assets/images/gallery/gallery-page-img1.webp"
+                                        alt="Modern interior design showcase"
+                                        loading="lazy"
+                                    />
                                     <div className="gallery-page__single-icon">
-                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-img1.webp"><span className="icon-plus"></span></a>
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-img1.webp">
+                                            <span className="icon-plus"></span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        {/* End Gallery Page Single */}
 
-                        {/* Start Gallery Page Single */}
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div className="gallery-page__single">
                                 <div className="gallery-page__single-img">
-                                    <img src="/assets/images/gallery/gallery-page-img2.webp" alt="" />
+                                    <img
+                                        src="/assets/images/gallery/gallery-page-img2.webp"
+                                        alt="Luxury home interior design"
+                                        loading="lazy"
+                                    />
                                     <div className="gallery-page__single-icon">
-                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-img2.webp"><span className="icon-plus"></span></a>
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-img2.webp">
+                                            <span className="icon-plus"></span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        {/* End Gallery Page Single */}
 
-                        {/* Start Gallery Page Single */}
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div className="gallery-page__single">
                                 <div className="gallery-page__single-img">
-                                    <img src="/assets/images/gallery/gallery-page-img3.webp" alt="" />
+                                    <img
+                                        src="/assets/images/gallery/gallery-page-img3.webp"
+                                        alt="Contemporary living space design"
+                                        loading="lazy"
+                                    />
                                     <div className="gallery-page__single-icon">
-                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-img3.webp"><span className="icon-plus"></span></a>
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-img3.webp">
+                                            <span className="icon-plus"></span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        {/* End Gallery Page Single */}
 
-                        {/* Start Gallery Page Single */}
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <div className="gallery-page__single">
                                 <div className="gallery-page__single-img">
-                                    <img src="/assets/images/gallery/gallery-page-img4.webp" alt="" />
+                                    <img
+                                        src="/assets/images/gallery/gallery-page-img4.webp"
+                                        alt="Modern kitchen interior design"
+                                        loading="lazy"
+                                    />
                                     <div className="gallery-page__single-icon">
-                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-img4.webp"><span className="icon-plus"></span></a>
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-img4.webp">
+                                            <span className="icon-plus"></span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        {/* End Gallery Page Single */}
 
-                        {/* Start Gallery Page Single */}
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div className="gallery-page__single">
                                 <div className="gallery-page__single-img">
-                                    <img src="/assets/images/gallery/gallery-page-img5.webp" alt="" />
+                                    <img
+                                        src="/assets/images/gallery/gallery-page-img5.webp"
+                                        alt="Elegant home decor and design"
+                                        loading="lazy"
+                                    />
                                     <div className="gallery-page__single-icon">
-                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-img5.webp"><span className="icon-plus"></span></a>
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-img5.webp">
+                                            <span className="icon-plus"></span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        {/* End Gallery Page Single */}
 
-                        {/* Start Gallery Page Single */}
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div className="gallery-page__single">
                                 <div className="gallery-page__single-img">
-                                    <img src="/assets/images/gallery/gallery-page-img6.webp" alt="" />
+                                    <img
+                                        src="/assets/images/gallery/gallery-page-img6.webp"
+                                        alt="Stylish interior architecture design"
+                                        loading="lazy"
+                                    />
                                     <div className="gallery-page__single-icon">
-                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-img6.webp"><span className="icon-plus"></span></a>
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-img6.webp">
+                                            <span className="icon-plus"></span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        {/* End Gallery Page Single */}
                     </div>
                 </div>
             </section>
+
         </>
     )
 }

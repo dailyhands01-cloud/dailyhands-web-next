@@ -40,7 +40,7 @@ const BrandTwo = () => {
                             {BrandOneData.map((item, i) => (
                                 <SwiperSlide key={i} className="swiper-slide">
                                     <div className="brand-one__single">
-                                        <img src={item.image} alt={item.alt} />
+                                        <img src={item.image} alt={item.alt} loading="lazy" />
                                         <h5>{item.title}</h5>
                                     </div>
                                 </SwiperSlide>

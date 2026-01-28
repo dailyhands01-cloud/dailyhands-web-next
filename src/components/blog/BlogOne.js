@@ -55,8 +55,7 @@ const BlogOne = () => {
                 <div className="blog-one__single">
                   <Link href={item.link} className="blog-one__link">
                     <div className="blog-one__single-img">
-                      <img src={item.image} alt={item.alt} />
-
+                      <img src={item.image} alt={item.alt} loading="lazy" />
                       <div className="overlay-icon">
                         <span className="icon-plus"></span>
                       </div>

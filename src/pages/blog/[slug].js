@@ -104,7 +104,7 @@ export default function BlogPostPage({ post }) {
               <div className="blog-details__left">
                 {post.image ? (
                   <div className="blog-details__img">
-                    <img src={post.image} alt={post.alt || post.heading} />
+                    <img src={post.image} alt={post.alt || post.heading} loading="lazy" />
                   </div>
                 ) : null}
 

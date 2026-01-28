@@ -36,12 +36,14 @@ const HeroTwo = () => {
     return (
         <>
             <section className="main-slider-one main-slider-one--two">
-                <div className="shape1 zoominout-2"><img src="/assets/images/shapes/main-slider-v2-shape1.webp" alt="" /></div>
+                <div className="shape1 zoominout-2"><img src="/assets/images/shapes/main-slider-v2-shape1.webp" alt="Professional cleaning service for a fresh and healthy home"
+                    loading="lazy" /></div>
                 <div className="main-slider-two__carousel owl-carousel owl-theme">
                     {/* Start Main Slider Two Single */}
                     <div className="main-slider-one__single">
                         <div className="main-slider-one--two-img">
-                            <img src="/assets/images/resources/main-slider-v2-img1.webp" alt="" />
+                            <img src="/assets/images/resources/main-slider-v2-img1.webp" alt="Expert home and office cleaning services"
+                                loading="lazy" />
                         </div>
                         <div className="image-layer" style={{ backgroundImage: `url(${BackgroundOne.src})` }}></div>
                         <div className="container">
@@ -70,7 +72,8 @@ const HeroTwo = () => {
                     {/* Start Main Slider Two Single */}
                     <div className="main-slider-one__single">
                         <div className="main-slider-one--two-img">
-                            <img src="/assets/images/resources/main-slider-v2-img2.webp" alt="" />
+                            <img src="/assets/images/resources/main-slider-v2-img2.webp" alt="Trusted cleaning professionals delivering spotless results"
+                                loading="lazy" />
                         </div>
                         <div className="image-layer" style={{ backgroundImage: `url(${BackgroundTwo.src})` }}></div>
                         <div className="container">
@@ -99,7 +102,8 @@ const HeroTwo = () => {
                     {/* Start Main Slider Two Single */}
                     <div className="main-slider-one__single">
                         <div className="main-slider-one--two-img">
-                            <img src="/assets/images/resources/main-slider-v2-img3.webp" alt="" />
+                            <img src="/assets/images/resources/main-slider-v2-img3.webp" alt="Professional cleaning service for a fresh and healthy home"
+                                loading="lazy" />
                         </div>
                         <div className="image-layer" style={{ backgroundImage: `url(${BackgroundThree.src})` }}></div>
                         <div className="container">
@@ -116,7 +120,7 @@ const HeroTwo = () => {
                                 </div>
                                 <div className="btn-box">
                                     <Link href="/contact" className="thm-btn">
-                                        <span>Discover Now</span>
+                                        <span>Discover Now</span>k
                                         <div className="liquid"></div>
                                     </Link>
                                 </div>

@@ -70,7 +70,7 @@ const BlogThree = () => {
                             >
                                 <div className="blog-one__single">
                                     <div className="blog-one__single-img">
-                                        <img src={item.image} alt={item.alt} />
+                                        <img src={item.image} alt={item.alt} loading="lazy" />
                                         <div className="overlay-icon">
                                             <Link href={item.link}><span className="icon-plus"></span></Link>
                                         </div>

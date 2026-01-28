@@ -62,7 +62,7 @@ const TestimonialOne = () => {
                     </div>
                     <div className="client-info">
                       {/* <div className="img">
-                                              <img src={item.image} alt={item.alt} />
+                                              <img src={item.image} alt={item.alt} loading="lazy" />
                                           </div> */}
                       <div className="text">
                         <h2>{item.name}</h2>

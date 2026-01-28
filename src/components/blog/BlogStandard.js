@@ -17,7 +17,7 @@ const BlogStandard = () => {
                                 {BlogStandardData.map((item, i) => (
                                     <div key={i} className="blog-standard__single">
                                         <div className="blog-standard__single-img">
-                                            <img src={item.image} alt={item.alt} />
+                                            <img src={item.image} alt={item.alt} loading="lazy" />
                                             <div className="blog-standard__date">
                                                 <p>{item.date}</p>
                                             </div>

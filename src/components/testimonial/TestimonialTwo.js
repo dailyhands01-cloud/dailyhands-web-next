@@ -43,7 +43,7 @@ const TestimonialTwo = () => {
         <>
             <section className="testimonial-two">
                 <div className="shape1 wow slideInRight" data-wow-delay="500ms">
-                    <img src="/assets/images/shapes/shape-1.webp" alt="" />
+                    <img src="/assets/images/shapes/shape-1.webp" alt="shapes" loading="lazy" />
                 </div>
                 <div className="container">
                     <div className="section-title__style2">
@@ -81,7 +81,7 @@ const TestimonialTwo = () => {
                                             </div>
                                         </div>
                                         <div className="testimonial-two__single-thumb">
-                                            <img src={item.image} alt={item.alt} />
+                                            <img src={item.image} alt={item.alt} loading="lazy" />
                                         </div>
                                         <div className="title-box">
                                             <h2>{item.name}</h2>

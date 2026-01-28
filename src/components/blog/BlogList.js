@@ -19,7 +19,7 @@ const BlogList = () => {
                                         <div className="row">
                                             <div className="col-xl-5">
                                                 <div className="blog-list__single-img">
-                                                    <img src={item.image} alt={item.alt} />
+                                                    <img src={item.image} alt={item.alt} loading="lazy" />
                                                 </div>
                                             </div>
 

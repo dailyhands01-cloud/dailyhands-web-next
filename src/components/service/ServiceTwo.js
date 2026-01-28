@@ -22,7 +22,7 @@ const ServiceTwo = () => {
                                 <div className="service-two__single">
                                     <div className="service-two__single-img">
                                         <div className="service-two__single-img-inner">
-                                            <img className="parallax-img" src={item.image} alt={item.alt} />
+                                            <img className="parallax-img" src={item.image} alt={item.alt} loading="lazy" />
                                         </div>
                                         <div className="icon-box">
                                             <span class={item.icon}></span>

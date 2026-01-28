@@ -39,7 +39,7 @@ const BrandOne = () => {
                         <div className="swiper-wrapper">
                             {BrandOneData.map((item, i) => (
                                 <SwiperSlide key={i} className="swiper-slide">
-                                    <a href={item.link}><img src={item.image} alt={item.alt} /></a>
+                                    <a href={item.link}><img src={item.image} alt={item.alt} loading="lazy" /></a>
                                 </SwiperSlide>
                             ))}
                         </div>

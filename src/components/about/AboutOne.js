@@ -12,6 +12,7 @@ const AboutOne = () => {
                         className="float-bob-x"
                         src="/assets/images/about/about-v1-img2.webp"
                         alt="Professional Cleaning Services"
+                        loading="lazy"
                     />
                 </div>
                 <div className="container">
@@ -23,6 +24,7 @@ const AboutOne = () => {
                                     <img
                                         src="/assets/images/about/about-v1-img1.webp"
                                         alt="Trusted Residential and Commercial Cleaning"
+                                        loading="lazy"
                                     />
                                 </div>
                                 <div className="experince-box">

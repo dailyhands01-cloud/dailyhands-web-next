@@ -14,7 +14,7 @@ const BlogDetails = () => {
                         <div className="col-xl-8 col-lg-7">
                             <div className="blog-details__left">
                                 <div className="blog-details__img">
-                                    <img src="/assets/images/blog/blog-details-img-1.webp" alt="Kitchen cleaning tips" />
+                                    <img src="/assets/images/blog/blog-details-img-1.webp" alt="Kitchen cleaning tips" loading="lazy" />
                                     <div className="blog-details__date">
                                         <p>10 <br /> Oct</p>
                                     </div>
@@ -35,7 +35,7 @@ const BlogDetails = () => {
                                 </div>
                                 <div className="blog-details__content-two">
                                     <div className="blog-details__content-two-img">
-                                        <img src="/assets/images/blog/blog-details-img-2.webp" alt="House cleaning checklist" />
+                                        <img src="/assets/images/blog/blog-details-img-2.webp" alt="House cleaning checklist" loading="lazy" />
                                     </div>
                                     <div className="blog-details__content-two-details">
                                         <h3 className="blog-details__content-two-title">Top Tips for House Cleaning</h3>
@@ -68,7 +68,7 @@ const BlogDetails = () => {
                                 </div>
                                 <div className="author-one">
                                     <div className="author-one__image">
-                                        <img src="/assets/images/blog/author-1-1.webp" alt="" />
+                                        <img src="/assets/images/blog/author-1-1.webp" alt="Hover Cameron" loading="lazy" />
                                     </div>
                                     <div className="author-one__content">
                                         <h3>Hover Cameron</h3>
@@ -81,7 +81,7 @@ const BlogDetails = () => {
 
                                     <div className="comment-one__single">
                                         <div className="comment-one__image">
-                                            <img src="/assets/images/blog/comment-1-1.webp" alt="Suren Sumi Comment" />
+                                            <img src="/assets/images/blog/comment-1-1.webp" alt="Suren Sumi Comment" loading="lazy" />
                                         </div>
                                         <div className="comment-one__content">
                                             <h3>Suren Sumi</h3>
@@ -93,7 +93,7 @@ const BlogDetails = () => {
 
                                     <div className="comment-one__single">
                                         <div className="comment-one__image">
-                                            <img src="/assets/images/blog/comment-1-2.webp" alt="Jessica Brown Comment" />
+                                            <img src="/assets/images/blog/comment-1-2.webp" alt="Jessica Brown Comment" loading="lazy" />
                                         </div>
                                         <div className="comment-one__content">
                                             <h3>Jessica Brown</h3>

@@ -37,72 +37,98 @@ const ProjectOne = () => {
                         <span className="section-title__tagline">Our Recent Work</span>
                         <h2 className="section-title__title">Our Recent Cleaning Projects</h2>
                     </div>
+
                     <div className="row">
-                        {/* Start Projects One Single */}
+
                         <div className="col-xl-4 col-lg-4 col-md-4 wow animated fadeInUp" style={{ cursor: "pointer" }} data-wow-delay="0.1s">
                             <div className="projects-one__single">
                                 <div className="projects-one__single-img">
-                                    <img className="parallax-img" src="/assets/images/projects/projects-v1-img1.webp" alt="" />
+                                    <img
+                                        className="parallax-img"
+                                        src="/assets/images/projects/projects-v1-img1.webp"
+                                        alt="Residential house cleaning project"
+                                        loading="lazy"
+                                    />
                                     <div className="overlay-icon">
-                                        <a className="img-popup" href="/assets/images/projects/projects-v1-img1.webp"><span
-                                            className="icon-link"></span></a>
+                                        <a className="img-popup" href="/assets/images/projects/projects-v1-img1.webp">
+                                            <span className="icon-link"></span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        {/* End Projects One Single */}
-                        {/* Start Projects One Single */}
+
                         <div className="col-xl-8 col-lg-8 col-md-8 wow animated fadeInUp" style={{ cursor: "pointer" }} data-wow-delay="0.3s">
                             <div className="projects-one__single">
                                 <div className="projects-one__single-img">
-                                    <img className="parallax-img" src="/assets/images/projects/projects-v1-img2.webp" alt="" />
+                                    <img
+                                        className="parallax-img"
+                                        src="/assets/images/projects/projects-v1-img2.webp"
+                                        alt="Professional office cleaning service project"
+                                        loading="lazy"
+                                    />
                                     <div className="overlay-icon">
-                                        <a className="img-popup" href="/assets/images/projects/projects-v1-img2.webp"><span
-                                            className="icon-link"></span></a>
+                                        <a className="img-popup" href="/assets/images/projects/projects-v1-img2.webp">
+                                            <span className="icon-link"></span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        {/* End Projects One Single */}
-                        {/* Start Projects One Single */}
+
                         <div className="col-xl-4 col-lg-4 col-md-4 wow animated fadeInUp" style={{ cursor: "pointer" }} data-wow-delay="0.5s">
                             <div className="projects-one__single">
                                 <div className="projects-one__single-img">
-                                    <img className="parallax-img" src="/assets/images/projects/projects-v1-img3.webp" alt="" />
+                                    <img
+                                        className="parallax-img"
+                                        src="/assets/images/projects/projects-v1-img3.webp"
+                                        alt="Commercial floor cleaning project"
+                                        loading="lazy"
+                                    />
                                     <div className="overlay-icon">
-                                        <a className="img-popup" href="/assets/images/projects/projects-v1-img3.webp"><span
-                                            className="icon-link"></span></a>
+                                        <a className="img-popup" href="/assets/images/projects/projects-v1-img3.webp">
+                                            <span className="icon-link"></span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        {/* End Projects One Single */}
-                        {/* Start Projects One Single */}
+
                         <div className="col-xl-4 col-lg-4 col-md-4 wow animated fadeInUp" style={{ cursor: "pointer" }} data-wow-delay="0.7s">
                             <div className="projects-one__single">
                                 <div className="projects-one__single-img">
-                                    <img className="parallax-img" src="/assets/images/projects/projects-v1-img4.webp" alt="" />
+                                    <img
+                                        className="parallax-img"
+                                        src="/assets/images/projects/projects-v1-img4.webp"
+                                        alt="Kitchen deep cleaning service project"
+                                        loading="lazy"
+                                    />
                                     <div className="overlay-icon">
-                                        <a className="img-popup" href="/assets/images/projects/projects-v1-img4.webp"><span
-                                            className="icon-link"></span></a>
+                                        <a className="img-popup" href="/assets/images/projects/projects-v1-img4.webp">
+                                            <span className="icon-link"></span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        {/* End Projects One Single */}
-                        {/* Start Projects One Single */}
+
                         <div className="col-xl-4 col-lg-4 col-md-4 wow animated fadeInUp" style={{ cursor: "pointer" }} data-wow-delay="0.9s">
                             <div className="projects-one__single">
                                 <div className="projects-one__single-img">
-                                    <img className="parallax-img" src="/assets/images/projects/projects-v1-img5.webp" alt="" />
+                                    <img
+                                        className="parallax-img"
+                                        src="/assets/images/projects/projects-v1-img5.webp"
+                                        alt="Bathroom and sanitary cleaning project"
+                                        loading="lazy"
+                                    />
                                     <div className="overlay-icon">
-                                        <a className="img-popup" href="/assets/images/projects/projects-v1-img5.webp"><span
-                                            className="icon-link"></span></a>
+                                        <a className="img-popup" href="/assets/images/projects/projects-v1-img5.webp">
+                                            <span className="icon-link"></span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        {/* End Projects One Single */}
                     </div>
                 </div>
             </section>

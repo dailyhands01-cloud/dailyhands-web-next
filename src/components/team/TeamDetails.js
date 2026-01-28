@@ -8,7 +8,7 @@ const TeamDetails = () => {
                         <div className="col-xl-5 d-flex">
                             {/* Start Team Details Img */}
                             <div className="team-details__img js-tilt ">
-                                <img src="/assets/images/resources/team-detalis-img1.webp" alt="" />
+                                <img src="/assets/images/resources/team-detalis-img1.webp" alt="Team Details" loading="lazy" />
                             </div>
                             {/* End Team Details Img */}
                         </div>

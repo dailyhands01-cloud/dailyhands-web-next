@@ -7,11 +7,11 @@ const ContactOne = () => {
     }, []);
     return (
         <>
-
             <section className="contact-one pd-120-0-120">
                 <div className="contact-one__bg jarallax" data-jarallax data-speed="0.2" data-imgposition="50% 0%" style={{ backgroundImage: `url(${BackgroundOne.src})` }}>
                 </div>
-                <div className="contact-one__img wow slideInRight" data-wow-delay="500ms" data-wow-duration="2500ms"><img src="/assets/images/resources/contact-v1-img1.webp" alt="" /></div>
+                <div className="contact-one__img wow slideInRight" data-wow-delay="500ms" data-wow-duration="2500ms">
+                    <img src="/assets/images/resources/contact-v1-img1.webp" alt="resources" loading="lazy" /></div>
                 <div className="container">
                     <div className="row">
                         {/* Start Contact One Form Box */}

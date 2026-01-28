@@ -16,7 +16,7 @@ const FooterOne = () => {
                                         <div className="col-xl-4 col-lg-4 col-md-6 wow animated fadeInUp" data-wow-delay="0.1s">
                                             <div className="footer-widget__column footer-widget__about">
                                                 <div className="footer-widget__about-logo" style={{ display: "flex", justifyContent: "start", alignItems: "center" }} >
-                                                    <Link href="/"><img src="/assets/images/resources/footer-logo1.webp" alt="" style={{ width: "250px", height: "100px" }} /></Link>
+                                                    <Link href="/"><img src="/assets/images/resources/footer-logo1.webp" alt="DailyHands footer logo" loading="lazy" style={{ width: "250px", height: "100px" }} /></Link>
                                                 </div>
                                                 <p className="footer-widget__about-text">
                                                     We help businesses strengthen their online presence through customized digital marketing strategies designed to boost visibility, engagement, and growth.
@@ -70,7 +70,7 @@ const FooterOne = () => {
                                                 <ul>
                                                     <li className="footer-widget__gallery-single">
                                                         <div className="img-box">
-                                                            <img src="/assets/images/footer/footer-v1-img1.webp" alt="" />
+                                                            <img src="/assets/images/footer/footer-v1-img1.webp" alt="DailyHands project gallery image 1" loading="lazy" />
                                                             <div className="overlay-icon">
                                                                 {/* <span className="icon-link"></span> */}
                                                             </div>
@@ -79,7 +79,7 @@ const FooterOne = () => {
 
                                                     <li className="footer-widget__gallery-single">
                                                         <div className="img-box">
-                                                            <img src="/assets/images/footer/footer-v1-img2.webp" alt="" />
+                                                            <img src="/assets/images/footer/footer-v1-img2.webp" alt="DailyHands project gallery image 2" loading="lazy" />
                                                             <div className="overlay-icon">
                                                                 {/* <span className="icon-link"></span> */}
                                                             </div>
@@ -88,7 +88,7 @@ const FooterOne = () => {
 
                                                     <li className="footer-widget__gallery-single">
                                                         <div className="img-box">
-                                                            <img src="/assets/images/footer/footer-v1-img3.webp" alt="" />
+                                                            <img src="/assets/images/footer/footer-v1-img3.webp" alt="DailyHands work showcase image 3" loading="lazy" />
                                                             <div className="overlay-icon">
                                                                 {/* <span className="icon-link"></span> */}
                                                             </div>
@@ -97,7 +97,7 @@ const FooterOne = () => {
 
                                                     <li className="footer-widget__gallery-single">
                                                         <div className="img-box">
-                                                            <img src="/assets/images/footer/footer-v1-img4.webp" alt="" />
+                                                            <img src="/assets/images/footer/footer-v1-img4.webp" alt="DailyHands portfolio gallery image 4" loading="lazy" />
                                                             <div className="overlay-icon">
                                                                 {/* <span className="icon-link"></span> */}
                                                             </div>
@@ -106,7 +106,7 @@ const FooterOne = () => {
 
                                                     <li className="footer-widget__gallery-single">
                                                         <div className="img-box">
-                                                            <img src="/assets/images/footer/footer-v1-img5.webp" alt="" />
+                                                            <img src="/assets/images/footer/footer-v1-img5.webp" alt="DailyHands design gallery image 5" loading="lazy" />
                                                             <div className="overlay-icon">
                                                                 {/* <span className="icon-link"></span> */}
                                                             </div>
@@ -115,7 +115,7 @@ const FooterOne = () => {
 
                                                     <li className="footer-widget__gallery-single">
                                                         <div className="img-box">
-                                                            <img src="/assets/images/footer/footer-v1-img6.webp" alt="" />
+                                                            <img src="/assets/images/footer/footer-v1-img6.webp" alt="DailyHands creative gallery image 6" loading="lazy" />
                                                             <div className="overlay-icon">
                                                                 {/* <span className="icon-link"></span> */}
                                                             </div>

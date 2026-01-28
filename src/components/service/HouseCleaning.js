@@ -38,6 +38,7 @@ const HouseCleaning = () => {
                                     <img
                                         src="/assets/images/resources/service-details-img6.webp"
                                         alt="House cleaning service"
+                                        loading="lazy"
                                     />
                                 </div>
                             </div>
@@ -90,6 +91,7 @@ const HouseCleaning = () => {
                                         <img
                                             src="/assets/images/resources/house-cleaning.webp"
                                             alt="Complete house deep cleaning before after results"
+                                            loading="lazy"
                                         />
                                     </div>
                                 </div>

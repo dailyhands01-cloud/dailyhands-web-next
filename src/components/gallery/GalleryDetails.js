@@ -8,7 +8,7 @@ const GalleryDetails = () => {
                         <div className="col-xl-12">
                             <div className="gallery-details__wrapper">
                                 <div className="gallery-details__img">
-                                    <img src="/assets/images/gallery/gallery-details-img.webp" alt="" />
+                                    <img src="/assets/images/gallery/gallery-details-img.webp" alt="Gallery detail image" loading="lazy" />
                                 </div>
 
                                 {/* Projects Details Information Start */}
