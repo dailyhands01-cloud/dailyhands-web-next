@@ -15,8 +15,10 @@ const GalleryOne = () => {
                 .on("click", function () {
                     var Self = $(this);
                     var selector = Self.parent().attr("data-filter");
-                    $(".post-filter li").removeclassName("active");
-                    Self.parent().addclassName("active");
+
+                    $(".post-filter li").removeClass("active");
+                    Self.parent().addClass("active");
+
                     $(".filter-layout").isotope({
                         filter: selector,
                         animationOptions: {
@@ -30,21 +32,21 @@ const GalleryOne = () => {
         }
 
         if ($(".post-filter.has-dynamic-filters-counter").length) {
-            // var allItem = $('.single-filter-item').length;
-            var activeFilterItem = $(".post-filter.has-dynamic-filters-counter").find(
-                "li"
-            );
+            var activeFilterItem = $(".post-filter.has-dynamic-filters-counter").find("li");
+
             activeFilterItem.each(function () {
                 var filterElement = $(this).data("filter");
                 var count = $(".filter-layout").find(filterElement).length;
+
                 $(this)
                     .children(".filter-text")
-                    .append('<span className="count">(' + count + ")</span>");
+                    .append('<span class="count">(' + count + ')</span>');
             });
         }
 
         if ($(".img-popup").length) {
             var groups = {};
+
             $(".img-popup").each(function () {
                 var id = parseInt($(this).attr("data-group"), 10);
 
