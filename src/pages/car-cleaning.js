@@ -8,7 +8,7 @@ import FooterOne from "../common/footer/FooterOne";
 export default function FocusEmergencyPage() {
 	return (
 		<>
-			<SEO pageTitle={"Professional Car Cleaning Services in Pune | Dailyhand"} />
+			<SEO pageTitle={"Professional Car Cleaning Services in Pune | Daily Hands"} />
 			<HeaderOne />
 			<Breadcrumb 
                 heading="Professional Car Cleaning Services in Pune"

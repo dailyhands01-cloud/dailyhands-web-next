@@ -9,7 +9,7 @@ import FaqOne from "../components/faq/FaqOne";
 export default function FaqPage() {
 	return (
 		<>
-			<SEO pageTitle={"Cleaning Services FAQ | Dailyhand Pune - Common Questions Answered"} />
+			<SEO pageTitle={"Cleaning Services FAQ | Daily Hands Pune - Common Questions Answered"} />
 			<HeaderOne />
 			<Breadcrumb 
                 heading="Frequently Asked Questions"

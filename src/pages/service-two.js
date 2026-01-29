@@ -9,7 +9,7 @@ import ServiceThree from "../components/service/ServiceThree";
 export default function ServicePageOne() {
 	return (
 		<>
-			<SEO pageTitle={"Professional Cleaning Services in Pune | Dailyhand"} />
+			<SEO pageTitle={"Professional Cleaning Services in Pune | Daily Hands"} />
 			<HeaderOne />
 			<Breadcrumb 
                 heading="Our Cleaning Services"

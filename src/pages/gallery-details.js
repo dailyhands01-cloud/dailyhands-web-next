@@ -8,7 +8,7 @@ import GalleryDetails from "../components/gallery/GalleryDetails";
 export default function GalleryDetailsPage() {
 	return (
 		<>
-			<SEO pageTitle={"Cleaning Gallery Details | Dailyhand Pune Project Photos"} />
+			<SEO pageTitle={"Cleaning Gallery Details | Daily Hands Pune Project Photos"} />
 			<HeaderOne />
 			<Breadcrumb 
                 heading="Gallery Project Details"

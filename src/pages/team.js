@@ -8,7 +8,7 @@ import TeamThree from "../components/team/TeamThree";
 export default function TeamPage() {
 	return (
 		<>
-			<SEO pageTitle={"Meet Our Expert Cleaning Team in Pune | Dailyhand Professionals"} />
+			<SEO pageTitle={"Meet Our Expert Cleaning Team in Pune | Daily Hands Professionals"} />
 			<HeaderOne />
 			<Breadcrumb 
                 heading="Our Professional Team"

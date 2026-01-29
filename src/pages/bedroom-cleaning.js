@@ -8,7 +8,7 @@ import FooterOne from "../common/footer/FooterOne";
 export default function BusinessGroceryPage() {
 	return (
 		<>
-			<SEO pageTitle={"Professional Bedroom Cleaning Services in Pune | Dailyhand"} />
+			<SEO pageTitle={"Professional Bedroom Cleaning Services in Pune | Daily Hands"} />
 			<HeaderOne />
 			<Breadcrumb
 				heading="Bedroom Cleaning Services"

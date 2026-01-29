@@ -8,7 +8,7 @@ import FooterOne from "../common/footer/FooterOne";
 export default function BlogGridPage() {
 	return (
 		<>
-			<SEO pageTitle={"Cleaning Blog Grid | Dailyhand Pune - Featured Articles & Tips"} />
+			<SEO pageTitle={"Cleaning Blog Grid | Daily Hands Pune - Featured Articles & Tips"} />
 			<HeaderOne />
 			<Breadcrumb 
                 heading="Blog Grid View"

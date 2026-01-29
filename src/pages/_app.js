@@ -17,7 +17,6 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-
       </Head>
       <div className="page-wrapper">
         <Component {...pageProps} />

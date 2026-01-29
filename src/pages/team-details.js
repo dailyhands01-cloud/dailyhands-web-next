@@ -9,7 +9,7 @@ import TeamOne from "../components/team/TeamOne";
 export default function TeamDetailsPage() {
 	return (
 		<>
-			<SEO pageTitle={"Expert Cleaning Team Details in Pune | Dailyhand Professionals"} />
+			<SEO pageTitle={"Expert Cleaning Team Details in Pune | Daily Hands Professionals"} />
 			<HeaderOne />
 			<Breadcrumb 
                 heading="Our Professional Team Details"

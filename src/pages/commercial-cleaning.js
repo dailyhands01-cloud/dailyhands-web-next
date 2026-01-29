@@ -8,7 +8,7 @@ import FooterOne from "../common/footer/FooterOne";
 export default function LibraryBusinessPage() {
 	return (
 		<>
-			<SEO pageTitle={"Commercial Cleaning Services | Dailyhand Pune"} />
+			<SEO pageTitle={"Commercial Cleaning Services | Daily Hands Pune"} />
 			<HeaderOne />
 			<Breadcrumb 
                 heading="Commercial Cleaning Services"

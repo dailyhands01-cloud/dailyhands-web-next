@@ -8,7 +8,7 @@ import FooterOne from "../common/footer/FooterOne";
 export default function OfficeCleaningPage() {
 	return (
 		<>
-			<SEO pageTitle={"Professional Office Cleaning Services in Pune | Dailyhand"} />
+			<SEO pageTitle={"Professional Office Cleaning Services in Pune | Daily Hands"} />
 			<HeaderOne />
 			<Breadcrumb 
                 heading="Office Cleaning Services"

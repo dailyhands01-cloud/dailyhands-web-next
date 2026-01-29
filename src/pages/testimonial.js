@@ -8,7 +8,7 @@ import FooterOne from "../common/footer/FooterOne";
 export default function TestimonialPage() {
 	return (
 		<>
-			<SEO pageTitle={"Customer Testimonials | Dailyhand Cleaning Services in Pune - Trusted Reviews"} />
+			<SEO pageTitle={"Customer Testimonials | Daily Hands Cleaning Services in Pune - Trusted Reviews"} />
 			<HeaderOne />
 			<Breadcrumb 
                 heading="Customer Testimonials"

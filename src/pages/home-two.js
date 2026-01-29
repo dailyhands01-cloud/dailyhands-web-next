@@ -15,7 +15,7 @@ import FooterOne from "../common/footer/FooterOne";
 export default function HomeTwo() {
 	return (
 		<>
-			<SEO pageTitle={"Dailyhand Cleaning Services in Pune | Professional Home & Office Cleaning"} />
+			<SEO pageTitle={"Daily Hands | Professional Home & Office Cleaning Services in Pune"} />
 			<HeaderOne />
 			<HeroTwo />
 			<AboutTwo />
@@ -31,3 +31,4 @@ export default function HomeTwo() {
 		</>
 	);
 }
+
