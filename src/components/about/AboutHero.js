@@ -1,5 +1,5 @@
 
-const AboutOne = () => {
+const AboutHero = () => {
     return (
         <>
             <section className="about-one pd-120-0-120">
@@ -97,4 +97,4 @@ const AboutOne = () => {
     );
 };
 
-export default AboutOne;
+export default AboutHero;

@@ -4,7 +4,7 @@ import BackgroundOne from '../../../public/assets/images/backgrounds/main-slider
 import BackgroundTwo from '../../../public/assets/images/backgrounds/main-slider-v1-img2.webp';
 import BackgroundThree from '../../../public/assets/images/backgrounds/main-slider-v1-img3.webp';
 
-const HeroOne = () => {
+const HeroSection = () => {
 
     useEffect(() => {
         if ($('.main-slider-one__carousel').length) {
@@ -127,4 +127,4 @@ const HeroOne = () => {
     )
 }
 
-export default HeroOne;
+export default HeroSection;

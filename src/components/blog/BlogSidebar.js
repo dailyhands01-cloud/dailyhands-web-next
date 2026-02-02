@@ -1,7 +1,7 @@
 import { BlogTwoData } from '@/data/blogs';
 import Link from 'next/link';
 
-const BlogTwo = () => {
+const BlogSidebar = () => {
     return (
         <>
             <section className="blog-one blog-one--two pd-120-0-120">
@@ -44,4 +44,4 @@ const BlogTwo = () => {
     )
 }
 
-export default BlogTwo;
+export default BlogSidebar;

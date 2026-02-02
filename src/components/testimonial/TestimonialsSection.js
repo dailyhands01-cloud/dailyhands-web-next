@@ -2,7 +2,7 @@ import { TestimonialOneData } from '@/data/testimonials';
 import { useEffect } from 'react';
 import BackgroundOne from '../../../public/assets/images/backgrounds/testimonials-v1-bg.webp';
 
-const TestimonialOne = () => {
+const TestimonialsSection = () => {
 
   useEffect(() => {
     if ($(".testimonials-one__carousel").length) {
@@ -80,4 +80,4 @@ const TestimonialOne = () => {
   )
 }
 
-export default TestimonialOne;
+export default TestimonialsSection;

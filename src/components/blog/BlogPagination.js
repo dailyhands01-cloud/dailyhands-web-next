@@ -2,7 +2,7 @@ import { BlogThreeData } from '@/data/blogs';
 import Link from 'next/link';
 import { useEffect } from 'react';
 
-const BlogThree = () => {
+const BlogPagination = () => {
 
     useEffect(() => {
         if ($(".blog-one__carousel").length) {
@@ -128,4 +128,4 @@ const BlogThree = () => {
     )
 }
 
-export default BlogThree;
+export default BlogPagination;

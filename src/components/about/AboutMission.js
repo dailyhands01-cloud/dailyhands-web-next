@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 
-const AboutTwo = () => {
-    
+const AboutMission = () => {
+
     useEffect(() => {
         if ($(".count-bar").length) {
             $(".count-bar").appear(
@@ -149,4 +149,4 @@ const AboutTwo = () => {
     );
 };
 
-export default AboutTwo;
+export default AboutMission;

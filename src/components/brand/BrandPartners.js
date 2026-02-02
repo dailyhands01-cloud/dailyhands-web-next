@@ -1,7 +1,7 @@
 import { BrandOneData } from '@/data/brands';
 import { Swiper, SwiperSlide } from "swiper/react";
 
-const BrandOne = () => {
+const BrandPartners = () => {
     return (
         <>
             <section className="brand-one brand-one--one">
@@ -50,4 +50,4 @@ const BrandOne = () => {
     )
 }
 
-export default BrandOne;
+export default BrandPartners;

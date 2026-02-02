@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import VideoBGOne from '../../../public/assets/images/backgrounds/video-v1-bg.webp';
 
-const VideoOne = () => {
+const VideoSection = () => {
 
     useEffect(() => {
         if ($(".video-popup").length) {
@@ -37,4 +37,4 @@ const VideoOne = () => {
     )
 }
 
-export default VideoOne;
+export default VideoSection;

@@ -1,5 +1,5 @@
 
-const NewsletterOne = () => {
+const NewsletterSection = () => {
     return (
         <>
             <section className="subscribe-one">
@@ -25,4 +25,4 @@ const NewsletterOne = () => {
     )
 }
 
-export default NewsletterOne;
+export default NewsletterSection;

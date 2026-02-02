@@ -2,7 +2,7 @@ import { TeamOneData } from '@/data/teamMembers';
 import { useEffect } from 'react';
 import BackgroundOne from '../../../public/assets/images/pattern/team-v1-pattern.webp';
 
-const TeamTwo = () => {
+const TeamMembers = () => {
 
   useEffect(() => {
     if ($(".team-one__carousel").length) {
@@ -85,4 +85,4 @@ const TeamTwo = () => {
   )
 }
 
-export default TeamTwo;
+export default TeamMembers;

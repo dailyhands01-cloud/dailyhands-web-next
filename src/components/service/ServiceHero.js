@@ -2,7 +2,7 @@ import { ServiceOneData } from '@/data/services';
 import Link from 'next/link';
 import BackgroundOne from '../../../public/assets/images/pattern/services-v1-pattern.webp';
 
-const ServiceOne = () => {
+const ServiceHero = () => {
     return (
         <>
             <section className="services-one pd-120-0-90">
@@ -51,4 +51,4 @@ const ServiceOne = () => {
     )
 }
 
-export default ServiceOne;
+export default ServiceHero;

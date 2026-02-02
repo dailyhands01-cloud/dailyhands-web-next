@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import BackgroundOne from '../../../public/assets/images/backgrounds/contact-v1-bg.webp';
 
-const ContactOne = () => {
+const ContactHero = () => {
     useEffect(() => {
         $('select').niceSelect();
     }, []);
@@ -101,4 +101,4 @@ const ContactOne = () => {
     )
 }
 
-export default ContactOne;
+export default ContactHero;

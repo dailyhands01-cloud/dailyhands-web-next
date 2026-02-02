@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-const WhyChooseUsOne = () => {
+const WhyChooseUs = () => {
     useEffect(() => {
 
         if ($(".tabs-box").length) {
@@ -219,6 +219,8 @@ const WhyChooseUsOne = () => {
                                                 <li>Advanced equipment for better results</li>
                                                 <li>Improves indoor air quality</li>
                                                 <li>Ideal for homes, offices, and hotels</li>
+                                                <li>Ideal for homes, offices, and hotels</li>
+                                                <li>Ideal for homes, offices, and hotels</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -246,4 +248,4 @@ const WhyChooseUsOne = () => {
     );
 };
 
-export default WhyChooseUsOne;
+export default WhyChooseUs;

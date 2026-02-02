@@ -1,7 +1,7 @@
 import { FaqOneData } from '@/data/faqs';
 import { useEffect } from 'react';
 
-const FaqOne = () => {
+const FAQSection = () => {
 
     useEffect(() => {
         if ($(".accrodion-grp").length) {
@@ -105,4 +105,4 @@ const FaqOne = () => {
     )
 }
 
-export default FaqOne;
+export default FAQSection;

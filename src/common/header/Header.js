@@ -3,7 +3,7 @@ import NavMenu from './NavMenu';
 import Sidebar from './sidebar';
 import Link from 'next/link';
 
-const HeaderOne = () => {
+const Header = () => {
 
     useEffect(() => {
         $('select').niceSelect();
@@ -20,7 +20,7 @@ const HeaderOne = () => {
     }, []);
 
     const [isActive, setIsActive] = useState(false);
-    
+
     return (
         <>
             <header className="main-header clearfix">
@@ -84,4 +84,4 @@ const HeaderOne = () => {
     )
 }
 
-export default HeaderOne;
+export default Header;

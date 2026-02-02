@@ -1,6 +1,6 @@
 import BackgroundOne from '../../../public/assets/images/backgrounds/cta-v1-bg.webp';
 
-const CtaOne = () => {
+const CTASection = () => {
     return (
         <>
             <section className="cta-one">
@@ -21,9 +21,9 @@ const CtaOne = () => {
                                         if (element) {
                                             element.scrollIntoView({ behavior: 'smooth' });
                                         }
-                                    }} style={{border:"none"}}> <span> Contact Us </span>
-                                    <div className="liquid"></div></a>
-                                    
+                                    }} style={{ border: "none" }}> <span> Contact Us </span>
+                                        <div className="liquid"></div></a>
+
                                 </div>
                             </div>
                         </div>
@@ -34,4 +34,4 @@ const CtaOne = () => {
     )
 }
 
-export default CtaOne;
+export default CTASection;

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useEffect } from "react";
 import { default as BackgroundOne, default as BackgroundThree, default as BackgroundTwo } from '../../../public/assets/images/backgrounds/main-slider-v2-bg.webp';
 
-const HeroTwo = () => {
+const HeroBanner = () => {
 
     useEffect(() => {
         if ($('.main-slider-two__carousel').length) {
@@ -134,4 +134,4 @@ const HeroTwo = () => {
     )
 }
 
-export default HeroTwo;
+export default HeroBanner;

@@ -2,7 +2,7 @@ import { ProjectTwoData } from '@/data/projects';
 import Link from 'next/link';
 import { useEffect } from 'react';
 
-const ProjectTwo = () => {
+const ProjectCard = () => {
 
     useEffect(() => {
         if ($(".img-popup").length) {
@@ -72,4 +72,4 @@ const ProjectTwo = () => {
     )
 }
 
-export default ProjectTwo;
+export default ProjectCard;

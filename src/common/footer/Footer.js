@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const FooterOne = () => {
+const Footer = () => {
     return (
         <>
             <footer className="footer-one">
@@ -155,4 +155,4 @@ const FooterOne = () => {
     )
 }
 
-export default FooterOne;
+export default Footer;

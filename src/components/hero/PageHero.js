@@ -4,7 +4,7 @@ import BackgroundThree from '../../../public/assets/images/backgrounds/main-slid
 import BackgroundOne from '../../../public/assets/images/backgrounds/main-slider-v3-img1.webp';
 import BackgroundTwo from '../../../public/assets/images/backgrounds/main-slider-v3-img2.webp';
 
-const HeroThree = () => {
+const PageHero = ({ title = "Default Title", heading = "Default Heading" }) => {
     useEffect(() => {
         if ($('.main-slider-three__carousel').length) {
             $('.main-slider-three__carousel').owlCarousel({
@@ -142,4 +142,4 @@ const HeroThree = () => {
     )
 }
 
-export default HeroThree;
+export default PageHero;

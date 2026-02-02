@@ -1,7 +1,7 @@
 import { TestimonialTwoData } from '@/data/testimonials';
 import { useEffect } from 'react';
 
-const TestimonialTwo = () => {
+const TestimonialSlider = () => {
     useEffect(() => {
         if ($(".testimonial-two__carousel").length) {
             $(".testimonial-two__carousel").owlCarousel({
@@ -98,4 +98,4 @@ const TestimonialTwo = () => {
     )
 }
 
-export default TestimonialTwo;
+export default TestimonialSlider;

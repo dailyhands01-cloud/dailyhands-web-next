@@ -1,7 +1,7 @@
 import { ServiceTwoData } from '@/data/services';
 import Link from 'next/link';
 
-const ServiceTwo = () => {
+const ServiceFeatures = () => {
     return (
         <>
             <section className="service-two">
@@ -42,4 +42,4 @@ const ServiceTwo = () => {
     )
 }
 
-export default ServiceTwo;
+export default ServiceFeatures;

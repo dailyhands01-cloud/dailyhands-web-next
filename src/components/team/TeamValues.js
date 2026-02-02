@@ -1,6 +1,6 @@
 import { TeamThreeData } from '@/data/teamMembers';
 
-const TeamThree = () => {
+const TeamValues = () => {
     return (
         <>
             <section className="team-one team-one--team">
@@ -36,4 +36,4 @@ const TeamThree = () => {
     )
 }
 
-export default TeamThree;
+export default TeamValues;

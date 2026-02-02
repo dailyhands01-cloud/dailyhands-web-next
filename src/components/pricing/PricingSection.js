@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useEffect } from 'react';
 import BackgroundOne from '../../../public/assets/images/backgrounds/priceing-plan-v1-bg.webp';
 
-const PricingOne = () => {
+const PricingSection = () => {
 
     useEffect(() => {
         if ($(".pricing-plan-one__carousel").length) {
@@ -102,4 +102,4 @@ const PricingOne = () => {
     )
 }
 
-export default PricingOne;
+export default PricingSection;

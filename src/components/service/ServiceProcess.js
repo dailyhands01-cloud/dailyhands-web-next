@@ -1,7 +1,7 @@
 import { ServiceThreeData } from '@/data/services';
 import Link from 'next/link';
 
-const ServiceThree = () => {
+const ServiceProcess = () => {
     return (
         <>
             <section className="services-three">
@@ -37,4 +37,4 @@ const ServiceThree = () => {
     )
 }
 
-export default ServiceThree;
+export default ServiceProcess;

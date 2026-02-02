@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-const ProjectOne = () => {
+const ProjectGrid = () => {
     useEffect(() => {
         if ($(".img-popup").length) {
             var groups = {};
@@ -136,4 +136,4 @@ const ProjectOne = () => {
     )
 }
 
-export default ProjectOne;
+export default ProjectGrid;

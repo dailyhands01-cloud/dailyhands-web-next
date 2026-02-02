@@ -2,7 +2,7 @@ import { FeaturesOneData } from '@/data/features';
 import Link from 'next/link';
 import BackgroundOne from '../../../public/assets/images/features/features-v1-img1.webp';
 
-const FeaturesOne = () => {
+const FeaturesSection = () => {
     return (
         <>
             <section className="features-one">
@@ -26,7 +26,7 @@ const FeaturesOne = () => {
                         {FeaturesOneData.map((item, i) => (
                             <div key={i} className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp animated animated" data-wow-delay={item.delay} data-wow-duration={item.duration}>
                                 <div className="features-one__single">
-                                    <div className="layer-outer" style={{ backgroundImage: `url(${BackgroundOne.src})`}}></div>
+                                    <div className="layer-outer" style={{ backgroundImage: `url(${BackgroundOne.src})` }}></div>
                                     <div className="features-one__single-inner">
                                         <div className="icon-box">
                                             <span className={item.icon}></span>
@@ -49,4 +49,4 @@ const FeaturesOne = () => {
     )
 }
 
-export default FeaturesOne;
+export default FeaturesSection;
