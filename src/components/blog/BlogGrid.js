@@ -1,4 +1,4 @@
-import { BlogGridData } from '@/data/blog';
+import { BlogGridData } from '@/data/blogs';
 
 const BlogGrid = () => {
     return (

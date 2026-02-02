@@ -1,0 +1,212 @@
+import { useEffect } from 'react';
+
+const GalleryOne = () => {
+
+    useEffect(() => {
+        if ($(".masonary-layout").length) {
+            $(".masonary-layout").isotope({
+                layoutMode: "masonry"
+            });
+        }
+
+        if ($(".post-filter").length) {
+            $(".post-filter li")
+                .children(".filter-text")
+                .on("click", function () {
+                    var Self = $(this);
+                    var selector = Self.parent().attr("data-filter");
+
+                    $(".post-filter li").removeClass("active");
+                    Self.parent().addClass("active");
+
+                    $(".filter-layout").isotope({
+                        filter: selector,
+                        animationOptions: {
+                            duration: 500,
+                            easing: "linear",
+                            queue: false
+                        }
+                    });
+                    return false;
+                });
+        }
+
+        if ($(".post-filter.has-dynamic-filters-counter").length) {
+            var activeFilterItem = $(".post-filter.has-dynamic-filters-counter").find("li");
+
+            activeFilterItem.each(function () {
+                var filterElement = $(this).data("filter");
+                var count = $(".filter-layout").find(filterElement).length;
+
+                $(this)
+                    .children(".filter-text")
+                    .append('<span class="count">(' + count + ')</span>');
+            });
+        }
+
+        if ($(".img-popup").length) {
+            var groups = {};
+
+            $(".img-popup").each(function () {
+                var id = parseInt($(this).attr("data-group"), 10);
+
+                if (!groups[id]) {
+                    groups[id] = [];
+                }
+                groups[id].push(this);
+            });
+
+            $.each(groups, function () {
+                $(this).magnificPopup({
+                    type: "image",
+                    closeOnContentClick: true,
+                    closeBtnInside: false,
+                    gallery: {
+                        enabled: true
+                    }
+                });
+            });
+        }
+
+        $(".gallery-page__single-img").on("click", function (e) {
+            if (!$(e.target).closest(".img-popup").length) {
+                $(this).find(".img-popup")[0].click();
+            }
+        });
+    }, []);
+
+    return (
+        <>
+            <section className="gallery-page">
+                <div className="container">
+                    <div className="row">
+                        {/* Start case-studies-one Top */}
+                        <div className="gallery-page__top">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                <div className="gallery-page__menu-box">
+                                    <ul className="project-filter clearfix post-filter has-dynamic-filters-counter">
+                                        <li data-filter=".filter-item" className="active"><span className="filter-text">Show All</span></li>
+                                        <li data-filter=".house"><span className="filter-text">House</span></li>
+                                        <li data-filter=".floor"><span className="filter-text">Floor </span></li>
+                                        <li data-filter=".kitchen"><span className="filter-text">Kitchen</span></li>
+                                        <li data-filter=".toilet"><span className="filter-text">Toilet</span></li>
+                                        <li data-filter=".office"><span className="filter-text">Office</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        {/* End case-studies-one Top */}
+                    </div>
+
+                    <div className="row filter-layout masonary-layout">
+
+                        <div className="col-xl-4 col-lg-4 col-md-6 filter-item house office">
+                            <div className="gallery-page__single wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <div className="gallery-page__single-img">
+                                    <img
+                                        src="/assets/images/gallery/gallery-page-house1.webp"
+                                        alt="Modern house interior design"
+                                        loading="lazy"
+                                    />
+                                    <div className="gallery-page__single-icon">
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-house1.webp">
+                                            <span className="icon-plus"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-xl-4 col-lg-4 col-md-6 filter-item toilet floor">
+                            <div className="gallery-page__single wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                <div className="gallery-page__single-img">
+                                    <img
+                                        src="/assets/images/gallery/gallery-page-house2.webp"
+                                        alt="Stylish bathroom floor and toilet design"
+                                        loading="lazy"
+                                    />
+                                    <div className="gallery-page__single-icon">
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-house2.webp">
+                                            <span className="icon-plus"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-xl-4 col-lg-4 col-md-6 office kitchen filter-item">
+                            <div className="gallery-page__single wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                                <div className="gallery-page__single-img">
+                                    <img
+                                        src="/assets/images/gallery/gallery-page-house3.webp"
+                                        alt="Office kitchen interior design"
+                                        loading="lazy"
+                                    />
+                                    <div className="gallery-page__single-icon">
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-house3.webp">
+                                            <span className="icon-plus"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-xl-4 col-lg-4 col-md-6 filter-item floor house kitchen">
+                            <div className="gallery-page__single wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <div className="gallery-page__single-img">
+                                    <img
+                                        src="/assets/images/gallery/gallery-page-house4.webp"
+                                        alt="Kitchen flooring in modern house"
+                                        loading="lazy"
+                                    />
+                                    <div className="gallery-page__single-icon">
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-house4.webp">
+                                            <span className="icon-plus"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-xl-4 col-lg-4 col-md-6 filter-item house toilet kitchen">
+                            <div className="gallery-page__single wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                <div className="gallery-page__single-img">
+                                    <img
+                                        src="/assets/images/gallery/gallery-page-house5.webp"
+                                        alt="House bathroom and kitchen interior design"
+                                        loading="lazy"
+                                    />
+                                    <div className="gallery-page__single-icon">
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-house5.webp">
+                                            <span className="icon-plus"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-xl-4 col-lg-4 col-md-6 filter-item kitchen house floor">
+                            <div className="gallery-page__single wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                                <div className="gallery-page__single-img">
+                                    <img
+                                        src="/assets/images/gallery/gallery-page-house6.webp"
+                                        alt="Modern kitchen floor design in house"
+                                        loading="lazy"
+                                    />
+                                    <div className="gallery-page__single-icon">
+                                        <a className="img-popup" href="/assets/images/gallery/gallery-page-house6.webp">
+                                            <span className="icon-plus"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </>
+    )
+}
+
+export default GalleryOne;

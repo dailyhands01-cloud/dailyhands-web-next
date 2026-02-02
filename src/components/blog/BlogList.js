@@ -1,4 +1,4 @@
-import { BlogListData } from '@/data/blog';
+import { BlogListData } from '@/data/blogs';
 import Link from 'next/link';
 import BlogCategory from '../widgets/BlogCategory';
 import BlogLatestPost from '../widgets/BlogLatestPost';

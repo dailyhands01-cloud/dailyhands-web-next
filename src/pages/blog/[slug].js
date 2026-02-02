@@ -1,7 +1,7 @@
 import SEO from "../../common/seo/Seo";
-import HeaderOne from "../../common/header/HeaderOne";
+import HeaderOne from "../../common/header/Header";
 import Breadcrumb from "../../common/breadcrumb/Breadcrumb";
-import FooterOne from "../../common/footer/FooterOne";
+import FooterOne from "../../common/footer/Footer";
 
 import {
   BlogOneData,
@@ -10,7 +10,7 @@ import {
   BlogGridData,
   BlogListData,
   BlogStandardData,
-} from "../../data/blog";
+} from "../../data/blogs";
 
 const DEFAULT_SITE_URL = "https://dailyhands.in";
 
@@ -73,8 +73,8 @@ export default function BlogPostPage({ post }) {
     },
     ...(post.image
       ? {
-          image: [`${siteUrl}${post.image.startsWith("/") ? post.image : `/${post.image}`}`],
-        }
+        image: [`${siteUrl}${post.image.startsWith("/") ? post.image : `/${post.image}`}`],
+      }
       : {}),
   };
 

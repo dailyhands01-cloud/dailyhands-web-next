@@ -1,8 +1,8 @@
-import HeaderOne from "@/common/header/HeaderOne";
+import HeaderOne from "@/common/header/Header";
 import Breadcrumb from "../common/breadcrumb/Breadcrumb";
-import FooterOne from "../common/footer/FooterOne";
+import FooterOne from "../common/footer/Footer";
 import SEO from "../common/seo/Seo";
-import CtaOne from "../components/cta/CtaOne";
+import CtaOne from "../components/cta/CTASection";
 import GalleryDetails from "../components/gallery/GalleryDetails";
 
 export default function GalleryDetailsPage() {
@@ -10,11 +10,11 @@ export default function GalleryDetailsPage() {
 		<>
 			<SEO pageTitle={"Cleaning Gallery Details | Daily Hands Pune Project Photos"} />
 			<HeaderOne />
-			<Breadcrumb 
-                heading="Gallery Project Details"
-                currentPage="Gallery Details" 
+			<Breadcrumb
+				heading="Gallery Project Details"
+				currentPage="Gallery Details"
 				bgImage="/assets/images/backgrounds/page-header-img9.webp"
-            />
+			/>
 			<GalleryDetails />
 			<CtaOne />
 			<FooterOne />

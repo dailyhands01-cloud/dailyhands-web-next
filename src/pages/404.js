@@ -1,8 +1,8 @@
 import SEO from "../common/seo/Seo";
-import HeaderOne from "../common/header/HeaderOne";
+import HeaderOne from "../common/header/Header";
 import Breadcrumb from "../common/breadcrumb/Breadcrumb";
 import ErrorContent from "../components/error/ErrorContent";
-import FooterOne from "../common/footer/FooterOne";
+import FooterOne from "../common/footer/Footer";
 
 export default function ErrorPage() {
 	return (

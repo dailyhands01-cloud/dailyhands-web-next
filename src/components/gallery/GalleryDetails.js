@@ -22,7 +22,6 @@ const GalleryDetails = () => {
                                         <li>
                                             <h5>Client</h5>
                                             <p>UrbanNest Facilities Pvt. Ltd.</p>
-
                                         </li>
 
                                         <li>
