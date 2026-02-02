@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-const ContactFour = () => {
+const ContactCTA = () => {
     useEffect(() => {
         $('select').niceSelect();
     }, []);
@@ -87,4 +87,4 @@ const ContactFour = () => {
     )
 }
 
-export default ContactFour;
+export default ContactCTA;

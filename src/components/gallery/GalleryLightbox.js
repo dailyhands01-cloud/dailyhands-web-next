@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-const GalleryTwo = () => {
+const GalleryLightbox = () => {
 
     useEffect(() => {
         if ($(".img-popup").length) {
@@ -148,4 +148,4 @@ const GalleryTwo = () => {
     )
 }
 
-export default GalleryTwo;
+export default GalleryLightbox;

@@ -1,5 +1,5 @@
 
-const CounterOne = () => {
+const CounterMetrics = () => {
     return (
         <>
             <section className="counter-one">
@@ -82,4 +82,4 @@ const CounterOne = () => {
     )
 }
 
-export default CounterOne;
+export default CounterMetrics;

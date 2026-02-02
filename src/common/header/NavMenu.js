@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import menu_data from "./menu-data";
 
 const NavMenu = () => {

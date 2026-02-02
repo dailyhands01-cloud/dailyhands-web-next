@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-const GalleryOne = () => {
+const GalleryGrid = () => {
 
     useEffect(() => {
         if ($(".masonary-layout").length) {
@@ -209,4 +209,4 @@ const GalleryOne = () => {
     )
 }
 
-export default GalleryOne;
+export default GalleryGrid;

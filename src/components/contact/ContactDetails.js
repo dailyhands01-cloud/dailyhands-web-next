@@ -1,4 +1,4 @@
-const ContactThree = () => {
+const ContactDetails = () => {
     return (
         <>
             <section className="contact-page-form">
@@ -15,7 +15,7 @@ const ContactThree = () => {
                                         </div>
                                         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                                             <div className="contact-page-form__input-box">
-                                                <input type="text" placeholder="Phone number" name="phone" required/>
+                                                <input type="text" placeholder="Phone number" name="phone" required />
                                             </div>
                                         </div>
                                     </div>
@@ -54,4 +54,4 @@ const ContactThree = () => {
     )
 }
 
-export default ContactThree;
+export default ContactDetails;

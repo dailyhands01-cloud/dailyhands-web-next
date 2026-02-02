@@ -1,22 +1,22 @@
-import SEO from "../common/seo/Seo";
-import HeaderOne from "../common/header/Header";
 import Breadcrumb from "../common/breadcrumb/Breadcrumb";
-import GalleryTwo from "../components/gallery/GalleryLightbox";
-import CtaOne from "../components/cta/CTASection";
-import FooterOne from "../common/footer/Footer";
+import Footer from "../common/footer/Footer";
+import Header from "../common/header/Header";
+import SEO from "../common/seo/Seo";
+import CTASection from "../components/cta/CTASection";
+import GalleryLightbox from "../components/gallery/GalleryLightbox";
 
 export default function GalleryOnePage() {
 	return (
 		<>
 			<SEO pageTitle={"Cleaning Gallery & Photo Portfolio | Daily Hands Pune Projects"} />
-			<HeaderOne />
+			<Header />
 			<Breadcrumb
 				heading="Cleaning Photo Gallery Pune"
 				currentPage="Gallery"
 			/>
-			<GalleryTwo />
-			<CtaOne />
-			<FooterOne />
+			<GalleryLightbox />
+			<CTASection />
+			<Footer />
 		</>
 	);
 }

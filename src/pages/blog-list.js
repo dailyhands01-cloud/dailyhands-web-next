@@ -1,22 +1,22 @@
-import SEO from "../common/seo/Seo";
-import HeaderOne from "../common/header/Header";
 import Breadcrumb from "../common/breadcrumb/Breadcrumb";
+import Footer from "../common/footer/Footer";
+import Header from "../common/header/Header";
+import SEO from "../common/seo/Seo";
 import BlogList from "../components/blog/BlogList";
-import BrandOne from "../components/brand/BrandPartners";
-import FooterOne from "../common/footer/Footer";
+import BrandShowcase from "../components/brand/BrandShowcase";
 
 export default function BlogListPage() {
 	return (
 		<>
 			<SEO pageTitle={"Cleaning Services Blog | Daily Hands Pune - Latest Articles & Tips"} />
-			<HeaderOne />
+			<Header />
 			<Breadcrumb
 				heading="Blog Articles List"
 				currentPage="Blog List"
 			/>
 			<BlogList />
-			<BrandOne />
-			<FooterOne />
+			<BrandShowcase />
+			<Footer />
 		</>
 	);
 }

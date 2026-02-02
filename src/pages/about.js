@@ -1,30 +1,30 @@
-import SEO from "../common/seo/Seo";
-import HeaderOne from "../common/header/Header";
 import Breadcrumb from "../common/breadcrumb/Breadcrumb";
-import AboutOne from "../components/about/AboutHero";
-import ServiceOne from "../components/service/ServiceHero";
-import ContactOne from "../components/contact/ContactHero";
-import TeamOne from "../components/team/TeamHero";
-import BlogOne from "../components/blog/BlogHero";
-import BrandOne from "../components/brand/BrandShowcase";
-import FooterOne from "../common/footer/Footer";
+import Footer from "../common/footer/Footer";
+import SEO from "../common/seo/Seo";
+import AboutHero from "../components/about/AboutHero";
+import BlogHero from "../components/blog/BlogHero";
+import BrandShowcase from "../components/brand/BrandShowcase";
+import ContactHero from "../components/contact/ContactHero";
+import ServiceHero from "../components/service/ServiceHero";
+import TeamHero from "../components/team/TeamHero";
+import Header from "../common/header/Header";
 
 export default function AboutPage() {
 	return (
 		<>
 			<SEO pageTitle={"About Daily Hands | Professional Cleaning Services in Pune"} />
-			<HeaderOne />
+			<Header />
 			<Breadcrumb
 				heading="About Our Cleaning Company"
 				currentPage="About"
 			/>
-			<AboutOne />
-			<ServiceOne />
-			<ContactOne />
-			<TeamOne />
-			<BlogOne />
-			<BrandOne />
-			<FooterOne />
+			<AboutHero />
+			<ServiceHero />
+			<ContactHero />
+			<TeamHero />
+			<BlogHero />
+			<BrandShowcase />
+			<Footer />
 		</>
 	);
 }

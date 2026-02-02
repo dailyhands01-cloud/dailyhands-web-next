@@ -36,9 +36,9 @@ const menu_data = [
       { link: "/team-details", title: "Team Details" },
       { link: "/pricing", title: "Pricing" },
       { link: "/testimonial", title: "Testimonial" },
-      { link: "/gallery-one", title: "Gallery" },
+      { link: "/gallery", title: "Gallery" },
       { link: "/gallery-details", title: "Gallery Details" },
-      { link: "/faq", title: "Faq" },
+      { link: "/faq", title: "FAQ" },
     ],
   },
   {

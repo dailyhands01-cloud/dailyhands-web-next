@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 const NiceSelect = () => {
 
     useEffect(() => {
         $('select').niceSelect();
     }, []);
-    
+
     return (
         <>
             {/* <div class="language-switcher">

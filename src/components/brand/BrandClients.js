@@ -1,6 +1,6 @@
 import { BrandThreeData } from '@/data/brands';
 
-const BrandThree = () => {
+const BrandClients = () => {
     return (
         <>
             <section className="client-page">
@@ -20,4 +20,4 @@ const BrandThree = () => {
     )
 }
 
-export default BrandThree;
+export default BrandClients;

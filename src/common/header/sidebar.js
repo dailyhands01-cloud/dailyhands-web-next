@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import React from 'react';
 import MobileMenus from './mobile-menus';
 
 const Sidebar = ({ isActive, setIsActive }) => {
@@ -13,7 +12,7 @@ const Sidebar = ({ isActive, setIsActive }) => {
                     </div>
                     <div className="logo-box">
                         <Link href="/" aria-label="logo image"><img src="/assets/images/resources/footer-logo1.webp"
-                            width="250px" height="100px"  alt="DailyHands company logo – Home" loading="lazy" /></Link>
+                            width="250px" height="100px" alt="DailyHands company logo – Home" loading="lazy" /></Link>
                     </div>
                     <div className="mobile-nav__container"></div>
 

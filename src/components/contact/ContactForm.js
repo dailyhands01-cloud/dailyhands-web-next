@@ -1,4 +1,4 @@
-const ContactTwo = () => {
+const ContactForm = () => {
     return (
         <>
             <section className="contact-page-form">
@@ -75,4 +75,4 @@ const ContactTwo = () => {
     )
 }
 
-export default ContactTwo;
+export default ContactForm;

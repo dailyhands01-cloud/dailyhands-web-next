@@ -2,7 +2,7 @@ import { BlogOneData } from '@/data/blogs';
 import Link from 'next/link';
 import { useEffect } from 'react';
 
-const BlogOne = () => {
+const BlogHero = () => {
 
   useEffect(() => {
     if ($(".blog-one__carousel").length) {
@@ -79,4 +79,4 @@ const BlogOne = () => {
   )
 }
 
-export default BlogOne;
+export default BlogHero;

@@ -1,22 +1,22 @@
-import SEO from "../common/seo/Seo";
-import HeaderOne from "../common/header/Header";
 import Breadcrumb from "../common/breadcrumb/Breadcrumb";
-import ProjectOne from "../components/project/ProjectGrid";
-import BrandOne from "../components/brand/BrandPartners";
-import FooterOne from "../common/footer/Footer";
+import Footer from "../common/footer/Footer";
+import Header from "../common/header/Header";
+import SEO from "../common/seo/Seo";
+import BrandPartners from "../components/brand/BrandPartners";
+import ProjectGrid from "../components/project/ProjectGrid";
 
 export default function ProjectPage() {
 	return (
 		<>
 			<SEO pageTitle={"Cleaning Projects & Portfolio in Pune | Daily Hands Success Stories"} />
-			<HeaderOne />
+			<Header />
 			<Breadcrumb
 				heading="Our Cleaning Projects"
 				currentPage="Projects"
 			/>
-			<ProjectOne />
-			<BrandOne />
-			<FooterOne />
+			<ProjectGrid />
+			<BrandPartners />
+			<Footer />
 		</>
 	);
 }

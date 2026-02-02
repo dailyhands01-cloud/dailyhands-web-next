@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
+import { useEffect, useState } from 'react';
 import NavMenu from './NavMenu';
 import Sidebar from './sidebar';
-import Link from 'next/link';
 
 const Header = () => {
 

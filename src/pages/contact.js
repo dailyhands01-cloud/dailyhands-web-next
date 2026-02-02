@@ -1,25 +1,25 @@
-import SEO from "../common/seo/Seo";
-import HeaderOne from "../common/header/Header";
 import Breadcrumb from "../common/breadcrumb/Breadcrumb";
+import Footer from "../common/footer/Footer";
+import Header from "../common/header/Header";
+import SEO from "../common/seo/Seo";
+import ContactDetails from "../components/contact/ContactDetails";
 import ContactInfo from "../components/contact/ContactInfo";
-import ContactThree from "../components/contact/ContactDetails";
 import ContactMap from "../components/contact/ContactMap";
-import FooterOne from "../common/footer/Footer";
 
 export default function ContactPage() {
 	return (
 		<>
 			<SEO pageTitle={"Contact Daily Hands Cleaning Services | Pune Office Location & Phone"} />
-			<HeaderOne />
+			<Header />
 			<Breadcrumb
 				heading="Contact Us"
 				currentPage="Contact"
 				bgImage="/assets/images/backgrounds/page-header-img14.webp"
 			/>
 			<ContactInfo />
-			<ContactThree />
+			<ContactDetails />
 			<ContactMap />
-			<FooterOne />
+			<Footer />
 		</>
 	);
 }

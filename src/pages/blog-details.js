@@ -1,22 +1,22 @@
-import SEO from "../common/seo/Seo";
-import HeaderOne from "../common/header/Header";
 import Breadcrumb from "../common/breadcrumb/Breadcrumb";
+import Footer from "../common/footer/Footer";
+import Header from "../common/header/Header";
+import SEO from "../common/seo/Seo";
 import BlogDetails from "../components/blog/BlogDetails";
-import FooterOne from "../common/footer/Footer";
-import BrandTwo from "@/components/brand/BrandShowcase";
+import BrandShowcase from "../components/brand/BrandShowcase";
 
 export default function BlogDetailsPage() {
 	return (
 		<>
 			<SEO pageTitle={"Cleaning Blog Details | Daily Hands Pune - In-Depth Articles"} noindex />
-			<HeaderOne />
+			<Header />
 			<Breadcrumb
 				heading="Blog Post Details"
 				currentPage="Blog Details"
 			/>
 			<BlogDetails />
-			<BrandTwo />
-			<FooterOne />
+			<BrandShowcase />
+			<Footer />
 		</>
 	);
 }
