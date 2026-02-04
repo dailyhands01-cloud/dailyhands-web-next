@@ -40,10 +40,11 @@ const BrandShowcase = () => {
                             {BrandOneData.map((item, i) => (
                                 <SwiperSlide key={i} className="swiper-slide">
                                     <div className="brand-one__single">
-                                        <img src={item.image} alt={item.alt} loading="lazy" />
-                                        <h5>{item.title}</h5>
+                                        <a href={item.link}><img src={item.image} alt={item.alt} loading="lazy" /></a>
+                                        <h5><a href={item.link}>{item.title}</a></h5>
                                     </div>
                                 </SwiperSlide>
+
                             ))}
                         </div>
                     </Swiper>

@@ -6,7 +6,7 @@ export const TeamOneData = [
         name: "Sonali Tupe",
         alt: "Team",
         position: "Founder",
-        facebook: "https://facebook.com",
+        facebook: "https://www.facebook.com/profile.php?id=61587064916236#",
         instagram: "https://www.instagram.com/"
     },
     {
@@ -15,7 +15,7 @@ export const TeamOneData = [
         alt: "Team",
         name: "Prerana Pardeshi",
         position: "Manager",
-        facebook: "https://facebook.com",
+        facebook: "https://www.facebook.com/profile.php?id=61587064916236#",
         instagram: "https://www.instagram.com/"
     },
     {
@@ -23,8 +23,8 @@ export const TeamOneData = [
         image: "/assets/images/team/team-v1-img3.webp",
         alt: "Team",
         name: "Rajashree Pawar",
-       position: "Business Executive",
-        facebook: "https://facebook.com",
+        position: "Business Executive",
+        facebook: "https://www.facebook.com/profile.php?id=61587064916236#",
         instagram: "https://www.instagram.com/"
     },
     {
@@ -33,7 +33,7 @@ export const TeamOneData = [
         name: "Sonali Tupe",
         alt: "Team",
         position: "Founder",
-        facebook: "https://facebook.com",
+        facebook: "https://www.facebook.com/profile.php?id=61587064916236#",
         instagram: "https://www.instagram.com/"
     },
     {
@@ -42,7 +42,7 @@ export const TeamOneData = [
         alt: "Team",
         name: "Prerana Pardeshi",
         position: "Manager",
-        facebook: "https://facebook.com",
+        facebook: "https://www.facebook.com/profile.php?id=61587064916236#",
         instagram: "https://www.instagram.com/"
     },
     {
@@ -51,16 +51,16 @@ export const TeamOneData = [
         alt: "Team",
         name: "Rajashree Pawar",
         position: "Business Executive",
-        facebook: "https://facebook.com",
+        facebook: "https://www.facebook.com/profile.php?id=61587064916236#",
         instagram: "https://www.instagram.com/"
     },
-     {
+    {
         id: 7,
         image: "/assets/images/team/team-v1-img1.webp",
         name: "Sonali Tupe",
         alt: "Team",
         position: "Founder",
-        facebook: "https://facebook.com",
+        facebook: "https://www.facebook.com/profile.php?id=61587064916236#",
         instagram: "https://www.instagram.com/"
     },
     {
@@ -69,7 +69,7 @@ export const TeamOneData = [
         alt: "Team",
         name: "Prerana Pardeshi",
         position: "Manager",
-        facebook: "https://facebook.com",
+        facebook: "https://www.facebook.com/profile.php?id=61587064916236#",
         instagram: "https://www.instagram.com/"
     },
     {
@@ -77,8 +77,8 @@ export const TeamOneData = [
         image: "/assets/images/team/team-v1-img3.webp",
         alt: "Team",
         name: "Rajashree Pawar",
-       position: "Business Executive",
-        facebook: "https://facebook.com",
+        position: "Business Executive",
+        facebook: "https://www.facebook.com/profile.php?id=61587064916236#",
         instagram: "https://www.instagram.com/"
     },
 ];
@@ -93,7 +93,7 @@ export const TeamThreeData = [
         name: "Sonali Tupe",
         position: "Founder",
         link: "/team-details",
-        facebook: "https://facebook.com",
+        facebook: "https://www.facebook.com/profile.php?id=61587064916236#",
         instagram: "https://www.instagram.com/",
         delay: "0ms",
         duration: "1500ms",
@@ -105,7 +105,7 @@ export const TeamThreeData = [
         name: "Prerana Pardeshi",
         position: "Manager",
         link: "/team-details",
-        facebook: "https://facebook.com",
+        facebook: "https://www.facebook.com/profile.php?id=61587064916236#",
         instagram: "https://www.instagram.com/",
         delay: "200ms",
         duration: "1500ms",
@@ -117,7 +117,7 @@ export const TeamThreeData = [
         name: "Rajashree Pawar",
         position: "Business Executive",
         link: "/team-details",
-        facebook: "https://facebook.com",
+        facebook: "https://www.facebook.com/profile.php?id=61587064916236#",
         instagram: "https://www.instagram.com/",
         delay: "400ms",
         duration: "1500ms",
@@ -129,7 +129,7 @@ export const TeamThreeData = [
         name: "Rohini Pawar",
         position: "HR Executive",
         link: "/team-details",
-        facebook: "https://facebook.com",
+        facebook: "https://www.facebook.com/profile.php?id=61587064916236#",
         instagram: "https://www.instagram.com/",
         delay: "0ms",
         duration: "1500ms"
@@ -141,7 +141,7 @@ export const TeamThreeData = [
         name: "Sanjana Pawar",
         position: "Client Relationship Manager",
         link: "/team-details",
-        facebook: "https://facebook.com",
+        facebook: "https://www.facebook.com/profile.php?id=61587064916236#",
         instagram: "https://www.instagram.com/",
         delay: "200ms",
         duration: "1500ms",
@@ -153,7 +153,7 @@ export const TeamThreeData = [
         name: "Jayashree Pawar",
         position: "Quality Control Executive",
         link: "/team-details",
-        facebook: "https://facebook.com",
+        facebook: "https://www.facebook.com/profile.php?id=61587064916236#",
         instagram: "https://www.instagram.com/",
         delay: "400ms",
         duration: "1500ms",
@@ -169,7 +169,7 @@ export const TeamThreeData = [
 //         name: "Mss. Sumi Aktar",
 //         position: "Founder",
 //         link: "/team-details",
-//         facebook: "https://facebook.com",
+//         facebook: "https://www.facebook.com/profile.php?id=61587064916236#",
 //         twitter: "https://twitter.com",
 //         pinterest: "https://pinterest.com",
 //         delay: "0ms",
@@ -182,7 +182,7 @@ export const TeamThreeData = [
 //         name: "Mss. Sumi Aktar",
 //         position: "Founder",
 //         link: "/team-details",
-//         facebook: "https://facebook.com",
+//         facebook: "https://www.facebook.com/profile.php?id=61587064916236#",
 //         twitter: "https://twitter.com",
 //         pinterest: "https://pinterest.com",
 //         delay: "200ms",
@@ -195,7 +195,7 @@ export const TeamThreeData = [
 //         name: "Mss. Sumi Aktar",
 //         position: "Founder",
 //         link: "/team-details",
-//         facebook: "https://facebook.com",
+//         facebook: "https://www.facebook.com/profile.php?id=61587064916236#",
 //         twitter: "https://twitter.com",
 //         pinterest: "https://pinterest.com",
 //         delay: "400ms",
@@ -208,7 +208,7 @@ export const TeamThreeData = [
 //         name: "Mss. Sumi Aktar",
 //         position: "Founder",
 //         link: "/team-details",
-//         facebook: "https://facebook.com",
+//         facebook: "https://www.facebook.com/profile.php?id=61587064916236#",
 //         twitter: "https://twitter.com",
 //         pinterest: "https://pinterest.com",
 //         delay: "0ms",
@@ -221,7 +221,7 @@ export const TeamThreeData = [
 //         name: "Mss. Sumi Aktar",
 //         position: "Founder",
 //         link: "/team-details",
-//         facebook: "https://facebook.com",
+//         facebook: "https://www.facebook.com/profile.php?id=61587064916236#",
 //         twitter: "https://twitter.com",
 //         pinterest: "https://pinterest.com",
 //         delay: "200ms",
@@ -234,7 +234,7 @@ export const TeamThreeData = [
 //         name: "Mss. Sumi Aktar",
 //         position: "Founder",
 //         link: "/team-details",
-//         facebook: "https://facebook.com",
+//         facebook: "https://www.facebook.com/profile.php?id=61587064916236#",
 //         twitter: "https://twitter.com",
 //         pinterest: "https://pinterest.com",
 //         delay: "400ms",

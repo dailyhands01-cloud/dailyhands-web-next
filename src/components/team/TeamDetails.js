@@ -39,7 +39,7 @@ const TeamDetails = () => {
                                         <h6>Follow us:</h6>
                                     </div>
                                     <ul>
-                                        <li><a href="#"><i className="fab fa-facebook"></i></a></li>
+                                        <li><a href="https://www.facebook.com/profile.php?id=61587064916236#"><i className="fab fa-facebook"></i></a></li>
                                         <li><a href="#"><i className="fab fa-instagram"></i></a></li>
                                     </ul>
                                 </div>

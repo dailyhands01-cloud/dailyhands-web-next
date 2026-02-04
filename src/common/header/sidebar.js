@@ -34,7 +34,7 @@ const Sidebar = ({ isActive, setIsActive }) => {
                     </ul>
                     <div className="mobile-nav__top">
                         <div className="mobile-nav__social">
-                            <a href="#" className="fab fa-facebook-square"></a>
+                            <a href="https://www.facebook.com/profile.php?id=61587064916236#" className="fab fa-facebook-square"></a>
                             <a href="https://www.instagram.com/dailyhands1?igsh=MWZsMnRxb20wdDJ0bQ==" className="fab fa-instagram"></a>
                         </div>
                     </div>

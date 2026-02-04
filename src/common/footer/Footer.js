@@ -23,7 +23,7 @@ const Footer = () => {
 
                                                 <div className="social-link">
                                                     <ul>
-                                                        <li><a href="#"><span className="icon-facebook"></span></a></li>
+                                                        <li><a href="https://www.facebook.com/profile.php?id=61587064916236#"><span className="icon-facebook"></span></a></li>
                                                         <li><a href="https://www.instagram.com/dailyhands1?igsh=MWZsMnRxb20wdDJ0bQ=="><span className="icon-instagram"></span></a></li>
                                                         {/* <li><a href="#"><span className="icon-twitter"></span></a></li> */}
                                                     </ul>

@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const BrandPartners = () => {
     return (
         <>
-            <section className="brand-one brand-one--one">
+            <section className="brand-one brand-one--two">
                 <div className="container">
                     <Swiper
                         spaceBetween={50}
@@ -39,13 +39,17 @@ const BrandPartners = () => {
                         <div className="swiper-wrapper">
                             {BrandOneData.map((item, i) => (
                                 <SwiperSlide key={i} className="swiper-slide">
-                                    <a href={item.link}><img src={item.image} alt={item.alt} loading="lazy" /></a>
+                                    <div className="brand-one__single">
+                                        <a href={item.link}><img src={item.image} alt={item.alt} loading="lazy" /></a>
+                                        <h5>{item.title}</h5>
+                                    </div>
                                 </SwiperSlide>
                             ))}
                         </div>
                     </Swiper>
                 </div>
             </section>
+
         </>
     )
 }
