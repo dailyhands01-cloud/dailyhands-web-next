@@ -61,7 +61,7 @@ const FAQSection = () => {
                             <div className="faq-one__content">
                                 <div className="faq-one__faq">
                                     <div className="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">
-                                        {FaqOneData.map((item, i) => (
+                                        {faqData.map((item, i) => (
                                             <div key={i} className={`accrodion wow fadeInUp ${item.open}`} data-wow-delay={item.delay} data-wow-duration={item.duration}>
                                                 <div className="accrodion-title">
                                                     <div className="accrodion-title-inner">
