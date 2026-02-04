@@ -52,8 +52,8 @@ body.locked {
     overflow: hidden;
 }
 
-a{
-   color:var(--thm-black)
+a {
+    color: var(--thm-black)
 }
 
 a,
@@ -2896,7 +2896,7 @@ div[class^="bubble-"] {
     display: block;
 }
 
-.page-header__content h1  {
+.page-header__content h1 {
     color: #ffffff;
     font-size: 60px;
     line-height: 1em;
@@ -6914,6 +6914,9 @@ div[class^="bubble-"] {
 .brand-one .swiper-slide a {
     position: relative;
     display: inline-block;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
 }
 
 .brand-one .swiper-slide>a>img {
