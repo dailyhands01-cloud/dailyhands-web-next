@@ -1,4 +1,4 @@
-import { BlogThreeData } from '@/data/blogs';
+import { latestBlogPosts } from '@/data/blogs';
 import Link from 'next/link';
 import { useEffect } from 'react';
 
@@ -62,7 +62,7 @@ const BlogPagination = () => {
                     </div>
 
                     <div className="row">
-                        {BlogThreeData.map((item, i) => (
+                        {latestBlogPosts.map((item, i) => (
                             <div
                                 key={i}
                                 className="col-xl-4 col-lg-4 wow fadeInUp"

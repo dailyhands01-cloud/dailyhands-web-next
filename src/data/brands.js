@@ -1,5 +1,5 @@
 // Brand One
-export const BrandOneData = [
+export const partnerBrandsData = [
     {
         id: 1,
         image: "/assets/images/brand/brand-1-1.webp",
@@ -45,7 +45,7 @@ export const BrandOneData = [
 ];
 
 // Brand Three
-export const BrandThreeData = [
+export const featuredBrandsData = [
     {
         id: 1,
         image: "/assets/images/brand/brand-1-1.webp",

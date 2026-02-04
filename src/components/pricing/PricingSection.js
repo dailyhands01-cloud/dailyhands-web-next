@@ -1,4 +1,4 @@
-import { PricingOneData } from '@/data/pricingPlans';
+import { pricingPlansData } from '@/data/pricingPlans';
 import Link from 'next/link';
 import { useEffect } from 'react';
 import BackgroundOne from '../../../public/assets/images/backgrounds/priceing-plan-v1-bg.webp';
@@ -62,7 +62,7 @@ const PricingSection = () => {
                     <div className="row">
                         <div className="col-xl-12">
                             <div className="pricing-plan-one__carousel owl-carousel owl-theme owl-dot-style1">
-                                {PricingOneData.map((item, i) => (
+                                {pricingPlansData.map((item, i) => (
                                     <div key={i} className="pricing-plan-one__single wow animated fadeInUp" data-wow-delay={item.delay}>
                                         <div className="pricing-plan-one__single-inner">
                                             <div className="layer-outer" style={{ backgroundImage: `url(${BackgroundOne.src})` }}></div>

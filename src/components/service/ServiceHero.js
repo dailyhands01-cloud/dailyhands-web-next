@@ -1,4 +1,4 @@
-import { ServiceOneData } from '@/data/services';
+import { coreServicesData } from '@/data/services';
 import Link from 'next/link';
 import BackgroundOne from '../../../public/assets/images/pattern/services-v1-pattern.webp';
 
@@ -16,7 +16,7 @@ const ServiceHero = () => {
                     </div>
 
                     <div className="row">
-                        {ServiceOneData.map((item, i) => (
+                        {coreServicesData.map((item, i) => (
                             <div
                                 key={i}
                                 className="col-xl-4 col-lg-4 col-md-6 wow fadeInLeft"

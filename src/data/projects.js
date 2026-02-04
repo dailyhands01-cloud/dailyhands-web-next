@@ -1,6 +1,6 @@
 
 // Hero Two Data
-export const ProjectTwoData = [
+export const portfolioProjectsData = [
     {
         id: 1,
         image: "/assets/images/projects/projects-v1-img1.webp",

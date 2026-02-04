@@ -1,5 +1,5 @@
 // Blog One - SEO-Friendly & Professional
-export const BlogOneData = [
+export const dailyHandsBlogPosts = [
     {
         id: 1,
         image: "/assets/images/blog/blog-v1-img1.webp",
@@ -31,7 +31,7 @@ export const BlogOneData = [
 
 
 // Blog Two
-export const BlogTwoData = [
+export const featuredBlogPosts = [
     {
         id: 1,
         image: "/assets/images/blog/blog-v1-img1.webp",
@@ -64,7 +64,7 @@ export const BlogTwoData = [
 
 // Blog Three
 
-export const BlogThreeData = [
+export const latestBlogPosts = [
     {
         id: 1,
         image: "/assets/images/blog/blog-v1-img1.webp",
@@ -135,7 +135,7 @@ export const BlogThreeData = [
 
 // Blog Grid
 
-export const BlogGridData = [
+export const blogGridPageData = [
     {
         id: 1,
         image: "/assets/images/blog/blog-v1-img1.webp",
@@ -207,7 +207,7 @@ export const BlogGridData = [
 
 
 // Blog List
-export const BlogListData = [
+export const blogListPageData = [
     {
         id: 1,
         image: "/assets/images/blog/blog-list-img1.webp",
@@ -289,7 +289,7 @@ export const BlogListData = [
 
 
 // Blog Standard
-export const BlogStandardData = [
+export const blogStandardPageData = [
     {
         id: 1,
         image: "/assets/images/blog/blog-standard-img1.webp",

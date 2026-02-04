@@ -1,4 +1,4 @@
-import { TestimonialOneData } from '@/data/testimonials';
+import { clientTestimonialsData } from '@/data/testimonials';
 import { useEffect } from 'react';
 import BackgroundOne from '../../../public/assets/images/backgrounds/testimonials-v1-bg.webp';
 
@@ -52,7 +52,7 @@ const TestimonialsSection = () => {
           <div className="row">
             <div className="col-xl-12">
               <div className="testimonials-one__carousel owl-carousel owl-theme owl-dot-style1">
-                {TestimonialOneData.map((item, i) => (
+                {clientTestimonialsData.map((item, i) => (
                   <div key={i} className="testimonials-one__single">
                     <div className="testimonials-one__single-icon">
                       <span className="icon-left-quote"></span>

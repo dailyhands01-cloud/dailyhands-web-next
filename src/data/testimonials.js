@@ -1,5 +1,5 @@
 // Testimonial One - Cleaning Services SEO Content
-export const TestimonialOneData = [
+export const clientTestimonialsData = [
     {
         id: 1,
         image: "/assets/images/testimonial/testimonials-v1-img1.webp",
@@ -77,7 +77,7 @@ export const TestimonialOneData = [
 // Testimonial Two - SEO-Friendly Content
 // Testimonial Two - Cleaning Services SEO Content
 
-export const TestimonialTwoData = [
+export const customerReviewsData = [
     {
         id: 1,
         image: "/assets/images/testimonial/testimonials-v2-thumb-img4.webp",

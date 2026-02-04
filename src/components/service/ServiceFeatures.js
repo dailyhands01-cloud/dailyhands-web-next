@@ -1,4 +1,4 @@
-import { ServiceTwoData } from '@/data/services';
+import { featuredServicesData } from '@/data/services';
 import Link from 'next/link';
 
 const ServiceFeatures = () => {
@@ -17,7 +17,7 @@ const ServiceFeatures = () => {
                         </div>
                     </div>
                     <div className="row">
-                        {ServiceTwoData.map((item, i) => (
+                        {featuredServicesData.map((item, i) => (
                             <div key={i} className="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay={item.delay} data-wow-duration={item.duration}>
                                 <div className="service-two__single">
                                     <div className="service-two__single-img">

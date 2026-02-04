@@ -1,6 +1,6 @@
 
 // Pricing One Data
-export const FeaturesOneData = [
+export const productFeaturesData = [
     {
         id: 1,
         icon: "icon-house-1",

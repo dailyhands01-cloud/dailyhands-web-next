@@ -1,4 +1,4 @@
-import { ProjectTwoData } from '@/data/projects';
+import { portfolioProjectsData } from '@/data/projects';
 import Link from 'next/link';
 import { useEffect } from 'react';
 
@@ -44,7 +44,7 @@ const ProjectCard = () => {
                         <h2 className="section-title__title">Explore Projects</h2>
                     </div>
                     <div className="row">
-                        {ProjectTwoData.map((item, i) => (
+                        {portfolioProjectsData.map((item, i) => (
                             <div key={i} className="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay={item.delay} data-wow-duration={item.duration}>
                                 <div className="projects-two__single">
                                     <div className="projects-two__single-img">

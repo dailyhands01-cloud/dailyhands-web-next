@@ -1,4 +1,4 @@
-import { TeamThreeData } from '@/data/teamMembers';
+import { coreTeamData } from '@/data/teamMembers';
 
 const TeamValues = () => {
     return (
@@ -10,7 +10,7 @@ const TeamValues = () => {
                         <h2 className="section-title__title">Meet Our Team</h2>
                     </div>
                     <div className="row">
-                        {TeamThreeData.map((item, i) => (
+                        {coreTeamData.map((item, i) => (
                             <div key={i} className="col-xl-4 col-lg-4 col-md-6  wow fadeInUp" data-wow-delay={item.delay} data-wow-duration={item.duration}>
                                 <div className="team-one__single">
                                     <div className="team-one__single-img">

@@ -1,5 +1,5 @@
 // SEO-Optimized House Cleaning FAQs
-export const FaqOneData = [
+export const faqData = [
     {
         id: 1,
         image: "/assets/images/resources/faq-v1-img1.webp",

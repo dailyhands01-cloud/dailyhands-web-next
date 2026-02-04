@@ -1,4 +1,4 @@
-import { FeaturesOneData } from '@/data/features';
+import { productFeaturesData } from '@/data/features';
 import Link from 'next/link';
 import BackgroundOne from '../../../public/assets/images/features/features-v1-img1.webp';
 
@@ -23,7 +23,7 @@ const FeaturesSection = () => {
                     </div>
 
                     <div className="row">
-                        {FeaturesOneData.map((item, i) => (
+                        {productFeaturesData.map((item, i) => (
                             <div key={i} className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp animated animated" data-wow-delay={item.delay} data-wow-duration={item.duration}>
                                 <div className="features-one__single">
                                     <div className="layer-outer" style={{ backgroundImage: `url(${BackgroundOne.src})` }}></div>

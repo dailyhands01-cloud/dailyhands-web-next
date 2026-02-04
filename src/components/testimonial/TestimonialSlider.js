@@ -1,4 +1,4 @@
-import { TestimonialTwoData } from '@/data/testimonials';
+import { customerReviewsData } from '@/data/testimonials';
 import { useEffect } from 'react';
 
 const TestimonialSlider = () => {
@@ -63,7 +63,7 @@ const TestimonialSlider = () => {
                     <div className="row">
                         <div className="col-xl-12">
                             <div className="testimonial-two__carousel owl-carousel owl-theme owl-dot-style1">
-                                {TestimonialTwoData.map((item, i) => (
+                                {customerReviewsData.map((item, i) => (
                                     <div key={i} className="testimonial-two__single text-center">
                                         <div className="testimonial-two__single-content">
                                             <div className="icon">

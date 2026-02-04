@@ -1,4 +1,4 @@
-import { BlogStandardData } from '@/data/blogs';
+import { blogStandardPageData } from '@/data/blogs';
 import Link from 'next/link';
 import BlogCategory from '../widgets/BlogCategory';
 import BlogLatestPost from '../widgets/BlogLatestPost';
@@ -14,7 +14,7 @@ const BlogStandard = () => {
                     <div className="row">
                         <div className="col-xl-8 col-lg-7">
                             <div className="blog-standard__left">
-                                {BlogStandardData.map((item, i) => (
+                                {blogStandardPageData.map((item, i) => (
                                     <div key={i} className="blog-standard__single">
                                         <div className="blog-standard__single-img">
                                             <img src={item.image} alt={item.alt} loading="lazy" />

@@ -1,7 +1,7 @@
 // ===============================
 // Service One (Detailed Cards)
 // ===============================
-export const ServiceOneData = [
+export const coreServicesData = [
   {
     id: 1,
     icon: "icon-house",
@@ -73,7 +73,7 @@ export const ServiceOneData = [
 // ===============================
 // Service Two (Homepage / Compact)
 // ===============================
-export const ServiceTwoData = [
+export const featuredServicesData = [
   {
     id: 1,
     icon: "icon-house",
@@ -115,7 +115,7 @@ export const ServiceTwoData = [
 // ===============================
 // Service Three (Icon / Feature List)
 // ===============================
-export const ServiceThreeData = [
+export const allServicesData = [
   {
     id: 1,
     icon: "icon-house",

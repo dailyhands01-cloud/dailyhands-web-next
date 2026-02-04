@@ -1,4 +1,4 @@
-import { BlogListData } from '@/data/blogs';
+import { blogListPageData } from '@/data/blogs';
 import Link from 'next/link';
 import BlogCategory from '../widgets/BlogCategory';
 import BlogLatestPost from '../widgets/BlogLatestPost';
@@ -14,7 +14,7 @@ const BlogList = () => {
                     <div className="row">
                         <div className="col-xl-8 col-lg-7">
                             <div className="blog-list__left">
-                                {BlogListData.map((item, i) => (
+                                {blogListPageData.map((item, i) => (
                                     <div key={i} className="blog-list__single wow animated fadeInUp" data-wow-delay={item.delay}>
                                         <div className="row">
                                             <div className="col-xl-5">

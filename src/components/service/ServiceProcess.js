@@ -1,4 +1,4 @@
-import { ServiceThreeData } from '@/data/services';
+import { allServicesData } from '@/data/services';
 import Link from 'next/link';
 
 const ServiceProcess = () => {
@@ -17,7 +17,7 @@ const ServiceProcess = () => {
                         </div>
                     </div>
                     <div className="row">
-                        {ServiceThreeData.map((item, i) => (
+                        {allServicesData.map((item, i) => (
                             <div key={i} className="col-xl-4 col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay={item.delay}>
                                 <div className="services-three__single text-center">
                                     <div className="services-three__single-icon">

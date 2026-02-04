@@ -1,4 +1,4 @@
-import { FaqOneData } from '@/data/faqs';
+import { faqData } from '@/data/faqs';
 import { useEffect } from 'react';
 
 const FAQSection = () => {

@@ -4,12 +4,12 @@ import Breadcrumb from "../../common/breadcrumb/Breadcrumb";
 import FooterOne from "../../common/footer/Footer";
 
 import {
-  BlogOneData,
-  BlogTwoData,
-  BlogThreeData,
-  BlogGridData,
-  BlogListData,
-  BlogStandardData,
+  dailyHandsBlogPosts,
+  featuredBlogPosts,
+  latestBlogPosts,
+  blogGridPageData,
+  blogListPageData,
+  blogStandardPageData,
 } from "../../data/blogs";
 
 const DEFAULT_SITE_URL = "https://dailyhands.in";
@@ -31,12 +31,12 @@ const normalizePathname = (pathname) => {
 
 const collectAllPosts = () => {
   const arrays = [
-    BlogOneData,
-    BlogTwoData,
-    BlogThreeData,
-    BlogGridData,
-    BlogListData,
-    BlogStandardData,
+    dailyHandsBlogPosts,
+    featuredBlogPosts,
+    latestBlogPosts,
+    blogGridPageData,
+    blogListPageData,
+    blogStandardPageData,
   ];
 
   const map = new Map();

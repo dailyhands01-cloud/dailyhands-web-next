@@ -1,5 +1,5 @@
 // Professional SEO-Optimized Pricing Plans
-export const PricingOneData = [
+export const pricingPlansData = [
     {
         id: 1,
         heading: "1 BHK Apartment Cleaning",

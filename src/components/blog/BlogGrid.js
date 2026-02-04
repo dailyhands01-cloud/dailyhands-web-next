@@ -1,4 +1,4 @@
-import { BlogGridData } from '@/data/blogs';
+import { blogGridPageData } from '@/data/blogs';
 
 const BlogGrid = () => {
     return (
@@ -6,7 +6,7 @@ const BlogGrid = () => {
             <section className="blog-one blog-one--blog blog-one--blog--grid">
                 <div className="container">
                     <div className="row">
-                        {BlogGridData.map((item, i) => (
+                        {blogGridPageData.map((item, i) => (
                             <div key={i} className="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay={item.delay}>
                                 <div className="blog-one__single">
                                     <div className="blog-one__single-img">

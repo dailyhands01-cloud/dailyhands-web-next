@@ -1,5 +1,5 @@
 // Team One
-export const TeamOneData = [
+export const leadershipTeamData = [
     {
         id: 1,
         image: "/assets/images/team/team-v1-img1.webp",
@@ -85,7 +85,7 @@ export const TeamOneData = [
 
 // Team Three
 
-export const TeamThreeData = [
+export const coreTeamData = [
     {
         id: 1,
         image: "/assets/images/team/team-v1-img1.webp",
@@ -161,7 +161,7 @@ export const TeamThreeData = [
 ];
 
 
-// export const TeamThreeData = [
+// export const coreTeamData = [
 //     {
 //         id: 1,
 //         image: "/assets/images/team/team-v1-img1.webp",

@@ -1,4 +1,4 @@
-import { BlogTwoData } from '@/data/blogs';
+import { featuredBlogPosts } from '@/data/blogs';
 import Link from 'next/link';
 
 const BlogSidebar = () => {
@@ -18,7 +18,7 @@ const BlogSidebar = () => {
                         </div>
                     </div>
                     <div className="row">
-                        {BlogTwoData.map((item, i) => (
+                        {featuredBlogPosts.map((item, i) => (
                             <div key={i} className="col-xl-4 col-lg-4">
                                 <div className="blog-one__single">
                                     <div className="blog-one__single-img">

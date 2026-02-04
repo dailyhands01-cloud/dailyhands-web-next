@@ -1,4 +1,4 @@
-import { TeamOneData } from '@/data/teamMembers';
+import { leadershipTeamData } from '@/data/teamMembers';
 import { useEffect } from 'react';
 import BackgroundOne from '../../../public/assets/images/pattern/team-v1-pattern.webp';
 
@@ -58,7 +58,7 @@ const TeamMembers = () => {
           <div className="row">
             <div className="col-xl-12">
               <div className="team-one__carousel owl-theme owl-carousel owl-dot-style1">
-                {TeamOneData.map((item, i) => (
+                {leadershipTeamData.map((item, i) => (
                   <div key={i} className="team-one__single">
                     <div className="team-one__single-img">
                       <img src={item.image} alt={item.alt} loading="lazy" />

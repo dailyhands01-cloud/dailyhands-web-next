@@ -1,4 +1,4 @@
-import { BrandOneData } from '@/data/brands';
+import { partnerBrandsData } from '@/data/brands';
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const BrandPartners = () => {
@@ -37,7 +37,7 @@ const BrandPartners = () => {
                             }
                         }} className="thm-swiper__slider swiper-container">
                         <div className="swiper-wrapper">
-                            {BrandOneData.map((item, i) => (
+                            {partnerBrandsData.map((item, i) => (
                                 <SwiperSlide key={i} className="swiper-slide">
                                     <div className="brand-one__single">
                                         <a href={item.link}><img src={item.image} alt={item.alt} loading="lazy" /></a>
