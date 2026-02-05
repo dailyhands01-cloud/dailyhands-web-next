@@ -1,27 +1,21 @@
 module.exports = {
   siteUrl: 'https://dailyhands.in', // change to your domain
-  generateRobotsTxt: false,
-  changefreq: 'daily',
-  priority: 1,
-  generateIndexSitemap: false,
+  exclude: ['/404', '/api/*'],
   transform: async (config, path) => {
-    let priority = config.priority;
+    let priority = 0.8;
     let changefreq = config.changefreq;
 
     if (path === '/') {
       priority = 1.0;
-    } else if (path === '/service') {
+    } else if (path === '/service' || path === '/home') {
       priority = 0.9;
     } else if (
-      ['/about', '/contact', '/pricing', '/blog'].includes(path) ||
-      path.includes('-cleaning') ||
-      path === '/project'
+      ['/about', '/contact', '/pricing', '/blog', '/project', '/gallery', '/faq', '/testimonial', '/team'].includes(path) ||
+      path.includes('-cleaning')
     ) {
       priority = 0.8;
-    } else if (['/team', '/faq', '/gallery', '/gallery-feed', '/client'].includes(path) || path.startsWith('/blog/')) {
-      priority = 0.8;
-    } else {
-      priority = 0.8;
+    } else if (path.startsWith('/blog/')) {
+      priority = 0.7;
     }
 
     return {
