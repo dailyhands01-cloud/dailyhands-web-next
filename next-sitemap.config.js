@@ -23,7 +23,11 @@ module.exports = {
         "/testimonial",
         "/team",
       ].includes(path) ||
-      path.includes("-cleaning")
+      path.includes("-cleaning") ||
+      path.includes("-maid") ||
+      path.includes("-service") ||
+      path.includes("-housekeeping") ||
+      path.includes("maid-near-me")
     ) {
       priority = 0.8;
     } else if (path.startsWith("/blog/")) {
