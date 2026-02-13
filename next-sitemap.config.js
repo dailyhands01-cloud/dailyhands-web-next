@@ -1,6 +1,6 @@
 module.exports = {
   siteUrl: "https://dailyhands.in", // change to your domain
-  exclude: ["/404", "/api/*"],
+  exclude: ["/404", "/api/*", "/home"],
   generateIndexSitemap: false,
   sitemapsChunkSize: 50000,
   transform: async (config, path) => {
