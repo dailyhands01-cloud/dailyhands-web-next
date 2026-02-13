@@ -183,7 +183,7 @@ const SofaCleaningPune = () => {
                         <div className="service-details__bottom-text1">
                             <div className="row mt-4">
                                 <div className="col-md-4 mb-3">
-                                    <div className="p-4" style={{background: '#f8f9fa', borderRadius: '10px', height: '100%'}}>
+                                    <div className="seo-feature-box">
                                         <h4>🪑 Fabric Sofas</h4>
                                         <p>
                                             Cotton, polyester, linen, and blended fabric sofas. We use water-based
@@ -194,7 +194,7 @@ const SofaCleaningPune = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-4 mb-3">
-                                    <div className="p-4" style={{background: '#f8f9fa', borderRadius: '10px', height: '100%'}}>
+                                    <div className="seo-feature-box">
                                         <h4>🛋️ Leather & Rexine</h4>
                                         <p>
                                             Genuine leather, PU leather, and rexine sofas require solvent-based
@@ -205,7 +205,7 @@ const SofaCleaningPune = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-4 mb-3">
-                                    <div className="p-4" style={{background: '#f8f9fa', borderRadius: '10px', height: '100%'}}>
+                                    <div className="seo-feature-box">
                                         <h4>✨ Velvet & Suede</h4>
                                         <p>
                                             Delicate fabrics need dry/foam cleaning to avoid watermarks and texture

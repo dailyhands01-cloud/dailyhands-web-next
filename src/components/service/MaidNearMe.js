@@ -185,8 +185,8 @@ const MaidNearMe = () => {
                         <div className="service-details__bottom-text1">
                             <div className="row mt-4">
                                 <div className="col-md-4 mb-3">
-                                    <div className="p-4 text-center" style={{background: '#fff3e0', borderRadius: '10px', border: '2px solid #ff5e14', height: '100%'}}>
-                                        <h4 style={{color: '#ff5e14', fontSize: '48px'}}>1</h4>
+                                    <div className="seo-step-box">
+                                        <h4 className="seo-step-number">1</h4>
                                         <h4>Share Your Requirements</h4>
                                         <p>
                                             Tell us your location, home size, number of rooms and bathrooms,
@@ -196,8 +196,8 @@ const MaidNearMe = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-4 mb-3">
-                                    <div className="p-4 text-center" style={{background: '#fff3e0', borderRadius: '10px', border: '2px solid #ff5e14', height: '100%'}}>
-                                        <h4 style={{color: '#ff5e14', fontSize: '48px'}}>2</h4>
+                                    <div className="seo-step-box">
+                                        <h4 className="seo-step-number">2</h4>
                                         <h4>We Match a Local Maid</h4>
                                         <p>
                                             Within 24–48 hours, we assign a verified maid from your neighborhood
@@ -207,8 +207,8 @@ const MaidNearMe = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-4 mb-3">
-                                    <div className="p-4 text-center" style={{background: '#fff3e0', borderRadius: '10px', border: '2px solid #ff5e14', height: '100%'}}>
-                                        <h4 style={{color: '#ff5e14', fontSize: '48px'}}>3</h4>
+                                    <div className="seo-step-box">
+                                        <h4 className="seo-step-number">3</h4>
                                         <h4>Start Your Free Trial</h4>
                                         <p>
                                             The maid starts work. Enjoy a 7-day free trial. If you're satisfied,
@@ -308,7 +308,7 @@ const MaidNearMe = () => {
                         <div className="service-details__bottom-text1">
                             <div className="row mt-3">
                                 <div className="col-md-6">
-                                    <div className="p-4" style={{background: '#f8f9fa', borderRadius: '10px'}}>
+                                    <div className="seo-feature-box">
                                         <h4>❌ Finding a Maid Yourself</h4>
                                         <ul>
                                             <li>No background verification = safety risk</li>
@@ -321,7 +321,7 @@ const MaidNearMe = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="p-4" style={{background: '#fff3e0', borderRadius: '10px', border: '2px solid #ff5e14'}}>
+                                    <div className="seo-feature-box" style={{background: '#fff3e0', border: '2px solid #ff5e14'}}>
                                         <h4 style={{color: '#ff5e14'}}>✅ Daily Hands Maid Service</h4>
                                         <ul>
                                             <li>Aadhaar + police verification on every maid</li>

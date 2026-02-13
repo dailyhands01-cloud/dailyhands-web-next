@@ -229,7 +229,7 @@ const FullTimeMaidPune = () => {
                         <div className="service-details__bottom-text2">
                             <div className="row mt-3">
                                 <div className="col-md-4 mb-3">
-                                    <div className="p-4" style={{background: '#f8f9fa', borderRadius: '10px', height: '100%'}}>
+                                    <div className="seo-feature-box">
                                         <h4>👨‍👩‍👧‍👦 Working Families</h4>
                                         <p>
                                             Both parents working? A full-time maid ensures your home stays clean,
@@ -251,7 +251,7 @@ const FullTimeMaidPune = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-4 mb-3">
-                                    <div className="p-4" style={{background: '#f8f9fa', borderRadius: '10px', height: '100%'}}>
+                                    <div className="seo-feature-box">
                                         <h4>🏠 Large Homes</h4>
                                         <p>
                                             3BHK+ apartments, bungalows, and villas in Pune require 6–8 hours
@@ -260,7 +260,7 @@ const FullTimeMaidPune = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-4 mb-3">
-                                    <div className="p-4" style={{background: '#f8f9fa', borderRadius: '10px', height: '100%'}}>
+                                    <div className="seo-feature-box">
                                         <h4>👶 New Parents</h4>
                                         <p>
                                             New baby at home? Our maids support with bottle sterilization, laundry,
@@ -269,7 +269,7 @@ const FullTimeMaidPune = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-4 mb-3">
-                                    <div className="p-4" style={{background: '#f8f9fa', borderRadius: '10px', height: '100%'}}>
+                                    <div className="seo-feature-box">
                                         <h4>✈️ NRI Property Owners</h4>
                                         <p>
                                             Own property in Pune while living abroad? Our full-time maid keeps
@@ -278,7 +278,7 @@ const FullTimeMaidPune = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-4 mb-3">
-                                    <div className="p-4" style={{background: '#f8f9fa', borderRadius: '10px', height: '100%'}}>
+                                    <div className="seo-feature-box">
                                         <h4>🐕 Pet Owners</h4>
                                         <p>
                                             Pets need extra cleaning attention — fur removal, floor sanitization,
@@ -312,9 +312,9 @@ const FullTimeMaidPune = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-4">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
+                                    <div className="seo-pricing-box">
                                         <h4>Live-In</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹18,000</p>
+                                        <p className="seo-pricing-amount">₹18,000</p>
                                         <p>per month</p>
                                         <p className="small">24/7 availability, dedicated helper, room + board included</p>
                                     </div>

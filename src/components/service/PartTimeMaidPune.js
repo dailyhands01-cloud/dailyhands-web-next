@@ -186,8 +186,8 @@ const PartTimeMaidPune = () => {
                             </p>
                             <div className="row mt-4">
                                 <div className="col-md-3">
-                                    <div className="p-4" style={{background: '#fff3e0', borderRadius: '10px', border: '2px solid #ff5e14', height: '100%'}}>
-                                        <h4 style={{color: '#ff5e14'}}>1 Hour</h4>
+                                    <div className="seo-step-box">
+                                        <h4 className="seo-step-title">1 Hour</h4>
                                         <ul className="small">
                                             <li>Floor sweeping + wet mopping</li>
                                             <li>Utensil / dishwashing</li>
@@ -198,8 +198,8 @@ const PartTimeMaidPune = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-3">
-                                    <div className="p-4" style={{background: '#fff3e0', borderRadius: '10px', border: '2px solid #ff5e14', height: '100%'}}>
-                                        <h4 style={{color: '#ff5e14'}}>2 Hours</h4>
+                                    <div className="seo-step-box">
+                                        <h4 className="seo-step-title">2 Hours</h4>
                                         <ul className="small">
                                             <li>Everything in 1-hour +</li>
                                             <li>Bathroom cleaning</li>
@@ -210,8 +210,8 @@ const PartTimeMaidPune = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-3">
-                                    <div className="p-4" style={{background: '#fff3e0', borderRadius: '10px', border: '2px solid #ff5e14', height: '100%'}}>
-                                        <h4 style={{color: '#ff5e14'}}>3 Hours</h4>
+                                    <div className="seo-step-box">
+                                        <h4 className="seo-step-title">3 Hours</h4>
                                         <ul className="small">
                                             <li>Everything in 2-hour +</li>
                                             <li>Kitchen deep cleaning</li>
@@ -222,8 +222,8 @@ const PartTimeMaidPune = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-3">
-                                    <div className="p-4" style={{background: '#fff3e0', borderRadius: '10px', border: '2px solid #ff5e14', height: '100%'}}>
-                                        <h4 style={{color: '#ff5e14'}}>4 Hours</h4>
+                                    <div className="seo-step-box">
+                                        <h4 className="seo-step-title">4 Hours</h4>
                                         <ul className="small">
                                             <li>Everything in 3-hour +</li>
                                             <li>Ironing & wardrobe</li>

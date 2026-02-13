@@ -228,7 +228,7 @@ const KitchenCleaningPune = () => {
                         <div className="service-details__bottom-text2">
                             <div className="row mt-3">
                                 <div className="col-md-4 mb-3">
-                                    <div className="p-4" style={{background: '#f8f9fa', borderRadius: '10px', height: '100%'}}>
+                                    <div className="seo-feature-box">
                                         <h4>🏗️ Modular Kitchen</h4>
                                         <p>
                                             hi-gloss laminate, acrylic, and membrane finish cabinets. We use
@@ -238,7 +238,7 @@ const KitchenCleaningPune = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-4 mb-3">
-                                    <div className="p-4" style={{background: '#f8f9fa', borderRadius: '10px', height: '100%'}}>
+                                    <div className="seo-feature-box">
                                         <h4>🏠 Traditional Kitchen</h4>
                                         <p>
                                             Granite/marble platforms, painted cabinets, open shelving. We handle
@@ -248,7 +248,7 @@ const KitchenCleaningPune = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-4 mb-3">
-                                    <div className="p-4" style={{background: '#f8f9fa', borderRadius: '10px', height: '100%'}}>
+                                    <div className="seo-feature-box">
                                         <h4>🍳 Semi-Modular Kitchen</h4>
                                         <p>
                                             Mix of modular and traditional elements. We adapt our approach to

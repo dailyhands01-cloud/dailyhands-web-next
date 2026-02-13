@@ -206,19 +206,19 @@ const HouseCleaningServicesPune = () => {
                         <div className="service-details__bottom-text2">
                             <div className="row mt-3">
                                 <div className="col-md-4 text-center mb-4">
-                                    <div className="p-4" style={{background: '#f8f9fa', borderRadius: '10px', height: '100%'}}>
+                                    <div className="seo-feature-box">
                                         <h4>🏆 4.8/5 Rating</h4>
                                         <p>Rated by 5,000+ Pune homeowners on Google Reviews. Consistent quality that builds trust with every visit.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-4 text-center mb-4">
-                                    <div className="p-4" style={{background: '#f8f9fa', borderRadius: '10px', height: '100%'}}>
+                                    <div className="seo-feature-box">
                                         <h4>⏰ On-Time Guarantee</h4>
                                         <p>Our teams arrive within the scheduled window. Late arrivals get you a complimentary add-on service at no charge.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-4 text-center mb-4">
-                                    <div className="p-4" style={{background: '#f8f9fa', borderRadius: '10px', height: '100%'}}>
+                                    <div className="seo-feature-box">
                                         <h4>🔒 Insured Service</h4>
                                         <p>All cleaning sessions are covered by our comprehensive insurance. Any accidental damage is handled at zero cost to you.</p>
                                     </div>
@@ -237,9 +237,9 @@ const HouseCleaningServicesPune = () => {
                             </p>
                             <div className="row mt-4">
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
+                                    <div className="seo-pricing-box">
                                         <h4>1BHK</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹1,499</p>
+                                        <p className="seo-pricing-amount">₹1,499</p>
                                         <p>one-time deep clean</p>
                                         <p className="small">~2–3 hours, 1 cleaner</p>
                                     </div>
@@ -253,9 +253,9 @@ const HouseCleaningServicesPune = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
+                                    <div className="seo-pricing-box">
                                         <h4>3BHK</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹3,499</p>
+                                        <p className="seo-pricing-amount">₹3,499</p>
                                         <p>one-time deep clean</p>
                                         <p className="small">~4–6 hours, 2–3 cleaners</p>
                                     </div>
