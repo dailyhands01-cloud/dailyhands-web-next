@@ -37,7 +37,7 @@ module.exports = {
     return {
       loc: path,
       changefreq: config.changefreq,
-      priority: 1.0,
+      priority,
       lastmod: config.autoLastmod ? new Date().toISOString() : undefined,
       alternateRefs: config.alternateRefs ?? [],
     };
