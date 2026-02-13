@@ -245,11 +245,11 @@ const HouseCleaningServicesPune = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
-                                        <h4>2BHK</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹2,499</p>
-                                        <p>one-time deep clean</p>
-                                        <p className="small">~3–4 hours, 2 cleaners</p>
+                                    <div className="seo-pricing-box">
+                                        <h4>Standard Cleaning</h4>
+                                        <p className="seo-pricing-amount">₹2,500</p>
+                                        <p>starts from</p>
+                                        <p className="small">Ideal for 1BHK. Covers dusting, sweeping, mopping, and basic sanitization.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-3">
@@ -261,11 +261,11 @@ const HouseCleaningServicesPune = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
-                                        <h4>4BHK+</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹4,999</p>
-                                        <p>one-time deep clean</p>
-                                        <p className="small">~6–8 hours, 3–4 cleaners</p>
+                                    <div className="seo-pricing-box">
+                                        <h4>Deep Cleaning</h4>
+                                        <p className="seo-pricing-amount">₹4,500</p>
+                                        <p>starts from</p>
+                                        <p className="small">Recommended for 2BHK. Heavy grease removal, machine scrubbing & steam cleaning.</p>
                                     </div>
                                 </div>
                             </div>
@@ -341,16 +341,16 @@ const HouseCleaningServicesPune = () => {
                         </div>
 
                         {/* CTA Section */}
-                        <div className="service-details__bottom-text1 mt-5 text-center p-5" style={{background: 'linear-gradient(135deg, #ff5e14 0%, #ff8c42 100%)', borderRadius: '15px', color: '#fff'}}>
-                            <h3 style={{color: '#fff', fontSize: '28px'}}>
-                                Transform Your Home Today!
+                        <div className="seo-cta-section">
+                            <h3 className="seo-cta-title">
+                                Restore Your Home's Sparkle Today!
                             </h3>
-                            <p style={{fontSize: '18px', maxWidth: '600px', margin: '15px auto'}}>
-                                Get sparkling clean rooms, sanitized bathrooms, and a grease-free kitchen.
-                                Trusted by 10,000+ Pune families.
+                            <p className="seo-cta-text">
+                                Experience the finest house cleaning services in Pune. Trusted by 5,000+ happy
+                                homeowners. Satisfaction guaranteed or we re-clean for free!
                             </p>
-                            <Link href="/contact" className="thm-btn" style={{background: '#fff', color: '#ff5e14', padding: '15px 40px', borderRadius: '30px', fontWeight: 'bold', display: 'inline-block', marginTop: '10px'}}>
-                                Book House Cleaning →
+                            <Link href="/contact" className="thm-btn seo-cta-btn">
+                                Schedule Your Cleaning Now →
                             </Link>
                         </div>
 

@@ -257,31 +257,35 @@ const SofaCleaningPune = () => {
                             <p>Per-seat pricing with all equipment, solutions, and drying included:</p>
                             <div className="row mt-4">
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
-                                        <h4>3-Seater</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹799</p>
-                                        <p>45–60 min</p>
+                                    <div className="seo-pricing-box">
+                                        <h4>3-Seater Sofa</h4>
+                                        <p className="seo-pricing-amount">₹799</p>
+                                        <p>Flat Rate</p>
+                                        <p className="small">Full shampooing, vacuuming, and stain removal with steam sanitization.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
-                                        <h4>5-Seater</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹1,199</p>
-                                        <p>1–1.5 hours</p>
+                                    <div className="seo-pricing-box">
+                                        <h4>5-Seater Sofa</h4>
+                                        <p className="seo-pricing-amount">₹1,199</p>
+                                        <p>Flat Rate</p>
+                                        <p className="small">Deep cleaning for medium-sized sofas, including all cushions.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
-                                        <h4>7-Seater</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹1,599</p>
-                                        <p>1.5–2 hours</p>
+                                    <div className="seo-pricing-box">
+                                        <h4>7-Seater Sofa</h4>
+                                        <p className="seo-pricing-amount">₹1,599</p>
+                                        <p>Flat Rate</p>
+                                        <p className="small">Extensive cleaning for large family sofas, ensuring every inch is spotless.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
-                                        <h4>L-Shape</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹1,999</p>
-                                        <p>2–2.5 hours</p>
+                                    <div className="seo-pricing-box">
+                                        <h4>L-Shape Sofa</h4>
+                                        <p className="seo-pricing-amount">₹1,999</p>
+                                        <p>Flat Rate</p>
+                                        <p className="small">Comprehensive deep clean for large corner sofas with cushion treatment.</p>
                                     </div>
                                 </div>
                             </div>
@@ -350,16 +354,16 @@ const SofaCleaningPune = () => {
                         </div>
 
                         {/* CTA */}
-                        <div className="service-details__bottom-text1 mt-5 text-center p-5" style={{background: 'linear-gradient(135deg, #ff5e14 0%, #ff8c42 100%)', borderRadius: '15px', color: '#fff'}}>
-                            <h3 style={{color: '#fff', fontSize: '28px'}}>
-                                Revive Your Sofa Today!
+                        <div className="seo-cta-section">
+                            <h3 className="seo-cta-title">
+                                Revive Your Sofa's Comfort Today!
                             </h3>
-                            <p style={{fontSize: '18px', maxWidth: '600px', margin: '15px auto'}}>
-                                Remove stains, eliminate odors, kill allergens. Professional extraction cleaning
-                                that makes your sofa look and feel like new.
+                            <p className="seo-cta-text">
+                                Don't let hidden dust and stains ruin your furniture. Get professional sofa
+                                shampooing in Pune and make your home feel new again.
                             </p>
-                            <Link href="/contact" className="thm-btn" style={{background: '#fff', color: '#ff5e14', padding: '15px 40px', borderRadius: '30px', fontWeight: 'bold', display: 'inline-block', marginTop: '10px'}}>
-                                Book Sofa Cleaning →
+                            <Link href="/contact" className="thm-btn seo-cta-btn">
+                                Book Sofa Shampooing →
                             </Link>
                         </div>
 

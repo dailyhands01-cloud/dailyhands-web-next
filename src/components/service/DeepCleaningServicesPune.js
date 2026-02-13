@@ -244,35 +244,35 @@ const DeepCleaningServicesPune = () => {
                             <p>All-inclusive rates with equipment, supplies, and trained team included:</p>
                             <div className="row mt-4">
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
-                                        <h4>1BHK</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹2,999</p>
-                                        <p>3–4 hours</p>
-                                        <p className="small">3-member team, all equipment included</p>
+                                    <div className="seo-pricing-box">
+                                        <h4>1BHK Deep Clean</h4>
+                                        <p className="seo-pricing-amount">₹3,499</p>
+                                        <p>Flat Rate</p>
+                                        <p className="small">Machine scrubbing, kitchen degreasing, and bathroom sanitization included.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
-                                        <h4>2BHK</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹4,499</p>
-                                        <p>4–5 hours</p>
-                                        <p className="small">3–4 member team, steam sanitization</p>
+                                    <div className="seo-pricing-box">
+                                        <h4>2BHK Deep Clean</h4>
+                                        <p className="seo-pricing-amount">₹4,999</p>
+                                        <p>Flat Rate</p>
+                                        <p className="small">Complete wall-to-wall treatment with window and balcony scrubbing.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
-                                        <h4>3BHK</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹5,999</p>
-                                        <p>5–7 hours</p>
-                                        <p className="small">4–5 member team, chimney included</p>
+                                    <div className="seo-pricing-box">
+                                        <h4>3BHK Deep Clean</h4>
+                                        <p className="seo-pricing-amount">₹6,499</p>
+                                        <p>Flat Rate</p>
+                                        <p className="small">Full house deep clean, including chimney and exhaust fan.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
-                                        <h4>4BHK+</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹7,999</p>
-                                        <p>7–9 hours</p>
-                                        <p className="small">5+ member team, full-property deep clean</p>
+                                    <div className="seo-pricing-box">
+                                        <h4>4BHK+ Deep Clean</h4>
+                                        <p className="seo-pricing-amount">₹8,499</p>
+                                        <p>Flat Rate</p>
+                                        <p className="small">Comprehensive deep clean for larger homes, villas, and bungalows.</p>
                                     </div>
                                 </div>
                             </div>
@@ -338,15 +338,15 @@ const DeepCleaningServicesPune = () => {
                         </div>
 
                         {/* CTA */}
-                        <div className="service-details__bottom-text1 mt-5 text-center p-5" style={{background: 'linear-gradient(135deg, #ff5e14 0%, #ff8c42 100%)', borderRadius: '15px', color: '#fff'}}>
-                            <h3 style={{color: '#fff', fontSize: '28px'}}>
-                                Give Your Home a Fresh Start!
+                        <div className="seo-cta-section">
+                            <h3 className="seo-cta-title">
+                                Give Your Home a Fresh Start Today!
                             </h3>
-                            <p style={{fontSize: '18px', maxWidth: '600px', margin: '15px auto'}}>
-                                Book a professional deep cleaning session and experience the transformation.
-                                100+ point checklist, commercial equipment, trained experts.
+                            <p className="seo-cta-text">
+                                Don't just clean, deep clean with Pune's #1 rated professionals. Get a spotless
+                                home within hours. Zero advance, flat pricing.
                             </p>
-                            <Link href="/contact" className="thm-btn" style={{background: '#fff', color: '#ff5e14', padding: '15px 40px', borderRadius: '30px', fontWeight: 'bold', display: 'inline-block', marginTop: '10px'}}>
+                            <Link href="/contact" className="thm-btn seo-cta-btn">
                                 Book Deep Cleaning →
                             </Link>
                         </div>

@@ -10563,3 +10563,75 @@ div[class^="bubble-"] {
     font-weight: 400 !important;
     color: var(--thm-black) !important;
 }
+
+/* SEO Service Pages Custom Styles */
+.seo-pricing-box {
+    padding: 1.5rem;
+    text-align: center;
+    background: #f8f9fa;
+    border-radius: 10px;
+    height: 100%;
+}
+.seo-pricing-amount {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff5e14;
+    margin: 10px 0;
+}
+.seo-comparison-box {
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.seo-premium-box {
+    padding: 1.5rem;
+    background: #fff3e0;
+    border-radius: 10px;
+    border: 2px solid #ff5e14;
+    height: 100%;
+}
+
+.seo-premium-box h4 {
+    color: #ff5e14;
+}
+
+.seo-cta-section {
+    margin-top: 3rem;
+    text-align: center;
+    padding: 3rem;
+    background: linear-gradient(135deg, #ff5e14 0%, #ff8c42 100%);
+    border-radius: 15px;
+    color: #fff;
+}
+
+.seo-cta-title {
+    color: #fff !important;
+    font-size: 28px;
+    margin-bottom: 1rem;
+}
+
+.seo-cta-text {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 15px auto;
+    color: #fff;
+}
+
+.seo-cta-btn {
+    background: #fff;
+    color: #ff5e14 !important;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.seo-cta-btn:hover {
+    background: #f8f9fa;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}

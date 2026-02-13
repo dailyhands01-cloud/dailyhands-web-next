@@ -268,27 +268,27 @@ const KitchenCleaningPune = () => {
                             <p>All-inclusive rates with all equipment and food-safe products provided:</p>
                             <div className="row mt-4">
                                 <div className="col-md-4">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
-                                        <h4>Standard Kitchen</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹799</p>
-                                        <p>1.5–2 hours</p>
-                                        <p className="small">Platform, stove, sink, appliance exterior, floor</p>
+                                    <div className="seo-pricing-box">
+                                        <h4>Premium Care</h4>
+                                        <p className="seo-pricing-amount">₹3,499</p>
+                                        <p>Flat Rate</p>
+                                        <p className="small">Full transformation with appliance exterior cleaning and sanitization.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
-                                        <h4>Kitchen + Chimney</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹1,299</p>
-                                        <p>2–3 hours</p>
-                                        <p className="small">Full kitchen + chimney filter degreasing & suction restore</p>
+                                    <div className="seo-pricing-box">
+                                        <h4>Deep Cleaning</h4>
+                                        <p className="seo-pricing-amount">₹2,499</p>
+                                        <p>Flat Rate</p>
+                                        <p className="small">Includes cabinet interior cleaning and chimney grease removal.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
-                                        <h4>Kitchen + Oven</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹1,499</p>
-                                        <p>2.5–3 hours</p>
-                                        <p className="small">Full kitchen + chimney + oven interior deep scrub</p>
+                                    <div className="seo-pricing-box">
+                                        <h4>Standard Cleaning</h4>
+                                        <p className="seo-pricing-amount">₹1,499</p>
+                                        <p>Flat Rate</p>
+                                        <p className="small">Full oil removal from platform, tiles, sink, and gas stove.</p>
                                     </div>
                                 </div>
                             </div>
@@ -352,15 +352,15 @@ const KitchenCleaningPune = () => {
                         </div>
 
                         {/* CTA */}
-                        <div className="service-details__bottom-text1 mt-5 text-center p-5" style={{background: 'linear-gradient(135deg, #ff5e14 0%, #ff8c42 100%)', borderRadius: '15px', color: '#fff'}}>
-                            <h3 style={{color: '#fff', fontSize: '28px'}}>
-                                Get a Grease-Free Kitchen Today!
+                        <div className="seo-cta-section">
+                            <h3 className="seo-cta-title">
+                                Get a Grease-Free Hygienic Kitchen Today!
                             </h3>
-                            <p style={{fontSize: '18px', maxWidth: '600px', margin: '15px auto'}}>
-                                Remove years of oil buildup, restore chimney suction, and make your kitchen shine.
-                                Food-safe products, professional results.
+                            <p className="seo-cta-text">
+                                Don't let grime accumulate. Hire Pune's top kitchen cleaning experts and
+                                experience professional degreasing like never before.
                             </p>
-                            <Link href="/contact" className="thm-btn" style={{background: '#fff', color: '#ff5e14', padding: '15px 40px', borderRadius: '30px', fontWeight: 'bold', display: 'inline-block', marginTop: '10px'}}>
+                            <Link href="/contact" className="thm-btn seo-cta-btn">
                                 Book Kitchen Cleaning →
                             </Link>
                         </div>

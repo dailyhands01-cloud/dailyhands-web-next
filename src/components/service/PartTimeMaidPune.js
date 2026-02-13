@@ -244,31 +244,27 @@ const PartTimeMaidPune = () => {
                             <p>Transparent monthly pricing with zero hidden charges:</p>
                             <div className="row mt-4">
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
-                                        <h4>1 Hr/Day</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹3,000</p>
+                                    <div className="seo-pricing-box">
+                                        <h4>Alternate Days</h4>
+                                        <p className="seo-pricing-amount">₹3,000</p>
                                         <p>per month</p>
+                                        <p className="small">3 days/week. Best for maintenance of smaller apartments.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
-                                        <h4>2 Hrs/Day</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹5,000</p>
+                                    <div className="seo-pricing-box">
+                                        <h4>2 Hours / Day</h4>
+                                        <p className="seo-pricing-amount">₹4,500</p>
                                         <p>per month</p>
+                                        <p className="small">Ideal for 1BHK. Covers sweeping, mopping, dusting, and UT washing.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
-                                        <h4>3 Hrs/Day</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹6,500</p>
+                                    <div className="seo-pricing-box">
+                                        <h4>4 Hours / Day</h4>
+                                        <p className="seo-pricing-amount">₹7,500</p>
                                         <p>per month</p>
-                                    </div>
-                                </div>
-                                <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
-                                        <h4>4 Hrs/Day</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹8,000</p>
-                                        <p>per month</p>
+                                        <p className="small">Perfect for 2-3BHK. Includes cleaning, laundry, and kitchen support.</p>
                                     </div>
                                 </div>
                             </div>
@@ -335,16 +331,16 @@ const PartTimeMaidPune = () => {
                         </div>
 
                         {/* CTA */}
-                        <div className="service-details__bottom-text2 mt-5 text-center p-5" style={{background: 'linear-gradient(135deg, #ff5e14 0%, #ff8c42 100%)', borderRadius: '15px', color: '#fff'}}>
-                            <h3 style={{color: '#fff', fontSize: '28px'}}>
-                                Start Your Free 7-Day Trial!
+                        <div className="seo-cta-section">
+                            <h3 className="seo-cta-title">
+                                Get Flexible Help for Your Home!
                             </h3>
-                            <p style={{fontSize: '18px', maxWidth: '600px', margin: '15px auto'}}>
-                                No deposit, no contract, no risk. Try our part-time maid service for 7 days free
-                                and see the difference yourself.
+                            <p className="seo-cta-text">
+                                Verified, punctual, and trained part-time maids in Pune. Zero advance, flat
+                                monthly rates, instant replacements.
                             </p>
-                            <Link href="/contact" className="thm-btn" style={{background: '#fff', color: '#ff5e14', padding: '15px 40px', borderRadius: '30px', fontWeight: 'bold', display: 'inline-block', marginTop: '10px'}}>
-                                Start Free Trial →
+                            <Link href="/contact" className="thm-btn seo-cta-btn">
+                                Book Part-Time Maid →
                             </Link>
                         </div>
 

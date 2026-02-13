@@ -343,33 +343,33 @@ const MaidNearMe = () => {
                         <div className="service-details__bottom-text2">
                             <div className="row mt-4">
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
-                                        <h4>1 Hr/Day</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹3,000</p>
+                                    <div className="seo-pricing-box">
+                                        <h4>1 Hour / Day</h4>
+                                        <p className="seo-pricing-amount">₹3,000</p>
                                         <p>per month</p>
-                                        <p className="small">Basic cleaning for 1BHK</p>
+                                        <p className="small">Ideal for 1BHK. Covers sweeping, mopping, dusting, and UT washing.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
-                                        <h4>2 Hrs/Day</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹5,000</p>
+                                    <div className="seo-pricing-box">
+                                        <h4>2 Hours / Day</h4>
+                                        <p className="seo-pricing-amount">₹5,000</p>
                                         <p>per month</p>
-                                        <p className="small">Cleaning + laundry for 2BHK</p>
+                                        <p className="small">Perfect for 2-3BHK. Includes cleaning, laundry, and kitchen support.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
+                                    <div className="seo-pricing-box">
                                         <h4>4 Hrs/Day</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹8,000</p>
+                                        <p className="seo-pricing-amount">₹8,000</p>
                                         <p>per month</p>
                                         <p className="small">Full housekeeping for 3BHK</p>
                                     </div>
                                 </div>
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
+                                    <div className="seo-pricing-box">
                                         <h4>Full Time</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹10,000</p>
+                                        <p className="seo-pricing-amount">₹10,000</p>
                                         <p>per month</p>
                                         <p className="small">8 hrs/day, complete home management</p>
                                     </div>
@@ -436,15 +436,15 @@ const MaidNearMe = () => {
                         </div>
 
                         {/* CTA */}
-                        <div className="service-details__bottom-text2 mt-5 text-center p-5" style={{background: 'linear-gradient(135deg, #ff5e14 0%, #ff8c42 100%)', borderRadius: '15px', color: '#fff'}}>
-                            <h3 style={{color: '#fff', fontSize: '28px'}}>
-                                Get a Verified Maid Near You Today!
+                        <div className="seo-cta-section">
+                            <h3 className="seo-cta-title">
+                                Need a Reliable Maid Near You?
                             </h3>
-                            <p style={{fontSize: '18px', maxWidth: '600px', margin: '15px auto'}}>
-                                3,000+ verified maids across Pune. 24-hour matching. 7-day free trial. Zero deposit.
-                                Your search for a reliable maid ends here.
+                            <p className="seo-cta-text">
+                                Hire Pune's most trusted domestic help within 48 hours. Professional management,
+                                digital tracking, and guaranteed safety.
                             </p>
-                            <Link href="/contact" className="thm-btn" style={{background: '#fff', color: '#ff5e14', padding: '15px 40px', borderRadius: '30px', fontWeight: 'bold', display: 'inline-block', marginTop: '10px'}}>
+                            <Link href="/contact" className="thm-btn seo-cta-btn">
                                 Find Maid Near Me →
                             </Link>
                         </div>

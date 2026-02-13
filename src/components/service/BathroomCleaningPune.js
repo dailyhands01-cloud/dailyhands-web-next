@@ -269,31 +269,35 @@ const BathroomCleaningPune = () => {
                             <p>All-inclusive pricing with equipment, supplies, and trained technician:</p>
                             <div className="row mt-4">
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
+                                    <div className="seo-pricing-box">
                                         <h4>1 Bathroom</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹499</p>
-                                        <p>45–60 min</p>
+                                        <p className="seo-pricing-amount">₹499</p>
+                                        <p>Flat Rate</p>
+                                        <p className="small">Full deep clean with acid-free products and floor scrubbing.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
+                                    <div className="seo-pricing-box">
                                         <h4>2 Bathrooms</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹899</p>
-                                        <p>1.5–2 hours</p>
+                                        <p className="seo-pricing-amount">₹899</p>
+                                        <p>Flat Rate</p>
+                                        <p className="small">Steam cleaning, tap polishing, and tile descaling for 2 units.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
+                                    <div className="seo-pricing-box">
                                         <h4>3 Bathrooms</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹1,299</p>
-                                        <p>2–3 hours</p>
+                                        <p className="seo-pricing-amount">₹1,299</p>
+                                        <p>Flat Rate</p>
+                                        <p className="small">Comprehensive revival and sanitization for larger households.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-3">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
+                                    <div className="seo-pricing-box">
                                         <h4>4+ Bathrooms</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹399</p>
+                                        <p className="seo-pricing-amount">₹399</p>
                                         <p>per bathroom</p>
+                                        <p className="small">Custom quote for commercial or multiple properties.</p>
                                     </div>
                                 </div>
                             </div>
@@ -361,15 +365,15 @@ const BathroomCleaningPune = () => {
                         </div>
 
                         {/* CTA */}
-                        <div className="service-details__bottom-text1 mt-5 text-center p-5" style={{background: 'linear-gradient(135deg, #ff5e14 0%, #ff8c42 100%)', borderRadius: '15px', color: '#fff'}}>
-                            <h3 style={{color: '#fff', fontSize: '28px'}}>
-                                Get a Sparkling Clean Bathroom!
+                        <div className="seo-cta-section">
+                            <h3 className="seo-cta-title">
+                                Get a Sparkling Germ-Free Bathroom!
                             </h3>
-                            <p style={{fontSize: '18px', maxWidth: '600px', margin: '15px auto'}}>
-                                Remove hard-water stains, kill bacteria, restore shine. Professional results in
-                                under 90 minutes. Starting from just ₹499.
+                            <p className="seo-cta-text">
+                                Hire Pune's professional bathroom cleaning experts today. Eco-friendly products,
+                                hospital-grade sanitization, and 100% satisfaction guarantee.
                             </p>
-                            <Link href="/contact" className="thm-btn" style={{background: '#fff', color: '#ff5e14', padding: '15px 40px', borderRadius: '30px', fontWeight: 'bold', display: 'inline-block', marginTop: '10px'}}>
+                            <Link href="/contact" className="thm-btn seo-cta-btn">
                                 Book Bathroom Cleaning →
                             </Link>
                         </div>

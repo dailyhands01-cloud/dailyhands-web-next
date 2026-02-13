@@ -303,25 +303,25 @@ const MaidServicePune = () => {
                             </p>
                             <div className="row mt-4">
                                 <div className="col-md-4">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
+                                    <div className="seo-pricing-box">
                                         <h4>1 Hour / Day</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹3,000</p>
+                                        <p className="seo-pricing-amount">₹3,000</p>
                                         <p>per month</p>
                                         <p className="small">Ideal for 1BHK apartments. Covers sweeping, mopping, dusting, and dishwashing.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
+                                    <div className="seo-pricing-box">
                                         <h4>2 Hours / Day</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹5,000</p>
+                                        <p className="seo-pricing-amount">₹5,000</p>
                                         <p>per month</p>
                                         <p className="small">Best for 2–3BHK homes. Full cleaning + laundry + kitchen work included.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
+                                    <div className="seo-pricing-box">
                                         <h4>4 Hours / Day</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹8,000</p>
+                                        <p className="seo-pricing-amount">₹8,000</p>
                                         <p>per month</p>
                                         <p className="small">Comprehensive coverage for 3–4BHK homes with bathrooms, balconies & cooking aid.</p>
                                     </div>
@@ -461,15 +461,15 @@ const MaidServicePune = () => {
                         </div>
 
                         {/* CTA Section */}
-                        <div className="service-details__bottom-text2 mt-5 text-center p-5" style={{background: 'linear-gradient(135deg, #ff5e14 0%, #ff8c42 100%)', borderRadius: '15px', color: '#fff'}}>
-                            <h3 style={{color: '#fff', fontSize: '28px'}}>
+                        <div className="seo-cta-section">
+                            <h3 className="seo-cta-title">
                                 Ready to Hire a Maid in Pune?
                             </h3>
-                            <p style={{fontSize: '18px', maxWidth: '600px', margin: '15px auto'}}>
+                            <p className="seo-cta-text">
                                 Join 10,000+ Pune households who trust Daily Hands for reliable, affordable,
                                 and professionally managed maid services every day.
                             </p>
-                            <Link href="/contact" className="thm-btn" style={{background: '#fff', color: '#ff5e14', padding: '15px 40px', borderRadius: '30px', fontWeight: 'bold', display: 'inline-block', marginTop: '10px'}}>
+                            <Link href="/contact" className="thm-btn seo-cta-btn">
                                 Book Your Maid Now →
                             </Link>
                         </div>

@@ -248,7 +248,7 @@ const HousekeepingServicesPune = () => {
                         <div className="service-details__bottom-text2">
                             <div className="row mt-3">
                                 <div className="col-md-6">
-                                    <div className="p-4" style={{background: '#f8f9fa', borderRadius: '10px'}}>
+                                    <div className="seo-comparison-box">
                                         <h4>Regular Maid</h4>
                                         <ul>
                                             <li>Handles basic sweeping & mopping</li>
@@ -261,8 +261,8 @@ const HousekeepingServicesPune = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="p-4" style={{background: '#fff3e0', borderRadius: '10px', border: '2px solid #ff5e14'}}>
-                                        <h4 style={{color: '#ff5e14'}}>Daily Hands Housekeeper ⭐</h4>
+                                    <div className="seo-premium-box">
+                                        <h4>Daily Hands Housekeeper ⭐</h4>
                                         <ul>
                                             <li>Complete home management professional</li>
                                             <li>40+ hours formal training certification</li>
@@ -283,25 +283,25 @@ const HousekeepingServicesPune = () => {
                         <div className="service-details__bottom-text1">
                             <div className="row mt-4">
                                 <div className="col-md-4">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
+                                    <div className="seo-pricing-box">
                                         <h4>2 Hours / Day</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹5,000</p>
+                                        <p className="seo-pricing-amount">₹5,000</p>
                                         <p>per month</p>
                                         <p className="small">Cleaning + laundry + kitchen basics for 1–2BHK homes.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
+                                    <div className="seo-pricing-box">
                                         <h4>4 Hours / Day</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹8,000</p>
+                                        <p className="seo-pricing-amount">₹8,000</p>
                                         <p>per month</p>
                                         <p className="small">Full housekeeping for 2–3BHK homes with cooking support.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
+                                    <div className="seo-pricing-box">
                                         <h4>8 Hours / Day</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹14,000</p>
+                                        <p className="seo-pricing-amount">₹14,000</p>
                                         <p>per month</p>
                                         <p className="small">Full-day dedicated housekeeper for large 3–5BHK homes.</p>
                                     </div>
@@ -367,15 +367,15 @@ const HousekeepingServicesPune = () => {
                         </div>
 
                         {/* CTA */}
-                        <div className="service-details__bottom-text1 mt-5 text-center p-5" style={{background: 'linear-gradient(135deg, #ff5e14 0%, #ff8c42 100%)', borderRadius: '15px', color: '#fff'}}>
-                            <h3 style={{color: '#fff', fontSize: '28px'}}>
+                        <div className="seo-cta-section">
+                            <h3 className="seo-cta-title">
                                 Let a Professional Manage Your Home!
                             </h3>
-                            <p style={{fontSize: '18px', maxWidth: '600px', margin: '15px auto'}}>
+                            <p className="seo-cta-text">
                                 7-day free trial, zero deposit, trained professionals. Experience premium
                                 housekeeping that transforms your daily life.
                             </p>
-                            <Link href="/contact" className="thm-btn" style={{background: '#fff', color: '#ff5e14', padding: '15px 40px', borderRadius: '30px', fontWeight: 'bold', display: 'inline-block', marginTop: '10px'}}>
+                            <Link href="/contact" className="thm-btn seo-cta-btn">
                                 Start Free Trial →
                             </Link>
                         </div>

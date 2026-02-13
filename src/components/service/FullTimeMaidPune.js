@@ -67,6 +67,17 @@ const FullTimeMaidPune = () => {
                                         <li className="service-details__sidebar-list-item">
                                             <Link href="/bathroom-cleaning-pune">Bathroom Cleaning</Link>
                                         </li>
+                                        <div className="seo-premium-box">
+                                        <h4>Daily Hands Full-Time Maid ⭐</h4>
+                                        <ul>
+                                            <li>8–10 hours dedicated support</li>
+                                            <li>Complete home & kitchen management</li>
+                                            <li>Available throughout the day</li>
+                                            <li>Premium hygiene & organzing</li>
+                                            <li>Self-managing, proactive expert</li>
+                                            <li>Flexible task prioritization</li>
+                                        </ul>
+                                    </div>
                                         <li className="service-details__sidebar-list-item">
                                             <Link href="/kitchen-cleaning-pune">Kitchen Cleaning</Link>
                                         </li>
@@ -227,12 +238,16 @@ const FullTimeMaidPune = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-4 mb-3">
-                                    <div className="p-4" style={{background: '#f8f9fa', borderRadius: '10px', height: '100%'}}>
-                                        <h4>👴 Senior Citizens</h4>
-                                        <p>
-                                            Elderly parents living alone need daily support for cleaning, cooking,
-                                            and companionship. Our maids are trained in elder-care sensitivity.
-                                        </p>
+                                    <div className="seo-comparison-box">
+                                        <h4>Part-Time Helper</h4>
+                                        <ul>
+                                            <li>Fixed 2–4 hour window</li>
+                                            <li>Basic routine housework</li>
+                                            <li>Leaves after tasks are done</li>
+                                            <li>Standard cleaning products</li>
+                                            <li>Higher supervision required</li>
+                                            <li>Fixed daily schedule</li>
+                                        </ul>
                                     </div>
                                 </div>
                                 <div className="col-md-4 mb-3">
@@ -281,19 +296,19 @@ const FullTimeMaidPune = () => {
                         <div className="service-details__bottom-text1">
                             <div className="row mt-4">
                                 <div className="col-md-4">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
+                                    <div className="seo-pricing-box">
                                         <h4>8 Hours / Day</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹10,000</p>
+                                        <p className="seo-pricing-amount">₹12,000</p>
                                         <p>per month</p>
-                                        <p className="small">Non-live-in, 6 days/week, cleaning + laundry + kitchen</p>
+                                        <p className="small">Ideal for 2–3BHK. Covers cleaning, laundry, and kitchen support.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
-                                    <div className="p-4 text-center" style={{background: '#f8f9fa', borderRadius: '10px'}}>
+                                    <div className="seo-pricing-box">
                                         <h4>10 Hours / Day</h4>
-                                        <p style={{fontSize: '28px', fontWeight: 'bold', color: '#ff5e14'}}>₹14,000</p>
+                                        <p className="seo-pricing-amount">₹15,000</p>
                                         <p>per month</p>
-                                        <p className="small">Non-live-in, 6 days/week, all duties + cooking support</p>
+                                        <p className="small">Best for large families. Includes cooking assistance and child/elderly care support.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
@@ -365,16 +380,16 @@ const FullTimeMaidPune = () => {
                         </div>
 
                         {/* CTA */}
-                        <div className="service-details__bottom-text1 mt-5 text-center p-5" style={{background: 'linear-gradient(135deg, #ff5e14 0%, #ff8c42 100%)', borderRadius: '15px', color: '#fff'}}>
-                            <h3 style={{color: '#fff', fontSize: '28px'}}>
-                                Hire Your Full Time Maid Today!
+                        <div className="seo-cta-section">
+                            <h3 className="seo-cta-title">
+                                Get Full-Time Support for Your Family!
                             </h3>
-                            <p style={{fontSize: '18px', maxWidth: '600px', margin: '15px auto'}}>
-                                Verified, trained, and managed. Join 5,000+ Pune families who rely on Daily Hands
-                                for full-time domestic help every day.
+                            <p className="seo-cta-text">
+                                Hire a dedicated, verified full-time maid in Pune within 48 hours. Zero advance,
+                                easy replacements, and professional management.
                             </p>
-                            <Link href="/contact" className="thm-btn" style={{background: '#fff', color: '#ff5e14', padding: '15px 40px', borderRadius: '30px', fontWeight: 'bold', display: 'inline-block', marginTop: '10px'}}>
-                                Hire Full Time Maid →
+                            <Link href="/contact" className="thm-btn seo-cta-btn">
+                                Hire Full-Time Maid →
                             </Link>
                         </div>
 
