@@ -71,9 +71,10 @@ export const coreServicesData = [
   {
     id: 7,
     icon: "icon-house",
-    image: "/assets/images/resources/service-details-img6.webp",
+    image: "/assets/images/services/maid-Image.webp",
     heading: "Maid Service in Pune",
-    description: "Professional and background-verified maid services for daily chores, sweeping, mopping, and utensil washing.",
+    description:
+      "Professional and background-verified maid services for daily chores, sweeping, mopping, and utensil washing.",
     link: "/maid-service-in-pune",
     delay: "600ms",
     duration: "1500ms",
@@ -81,9 +82,10 @@ export const coreServicesData = [
   {
     id: 8,
     icon: "icon-house-1",
-    image: "/assets/images/resources/service-details-img1.webp",
+    image: "/assets/images/services/House-keeping-Service.webp",
     heading: "House Cleaning",
-    description: "Expert house cleaning services in Pune for a spotless home. Our trained cleaners use eco-friendly products.",
+    description:
+      "Expert house cleaning services in Pune for a spotless home. Our trained cleaners use eco-friendly products.",
     link: "/house-cleaning-services-in-pune",
     delay: "700ms",
     duration: "1500ms",
@@ -91,9 +93,10 @@ export const coreServicesData = [
   {
     id: 9,
     icon: "icon-carpet-cleaner",
-    image: "/assets/images/resources/service-details-img1.webp",
+    image: "/assets/images/services/deep-cleaning-Image.webp",
     heading: "Deep Cleaning Services",
-    description: "Comprehensive deep cleaning for homes and offices. We cover every corner, including kitchens and bathrooms.",
+    description:
+      "Comprehensive deep cleaning for homes and offices. We cover every corner, including kitchens and bathrooms.",
     link: "/deep-cleaning-services-in-pune",
     delay: "800ms",
     duration: "1500ms",
@@ -101,9 +104,10 @@ export const coreServicesData = [
   {
     id: 10,
     icon: "icon-flat",
-    image: "/assets/images/resources/service-details-img3.webp",
+    image: "/assets/images/services/House-keeping-Service.webp",
     heading: "Housekeeping Services",
-    description: "Professional housekeeping management for residential complexes, offices, and commercial spaces in Pune.",
+    description:
+      "Professional housekeeping management for residential complexes, offices, and commercial spaces in Pune.",
     link: "/housekeeping-services-in-pune",
     delay: "900ms",
     duration: "1500ms",
@@ -111,9 +115,10 @@ export const coreServicesData = [
   {
     id: 11,
     icon: "icon-house",
-    image: "/assets/images/resources/service-details-img2.webp",
+    image: "/assets/images/services/full-time-maid.webp",
     heading: "Full Time Maid",
-    description: "Reliable 24/7 or day-shift full-time maids for comprehensive home management and continuous assistance.",
+    description:
+      "Reliable 24/7 or day-shift full-time maids for comprehensive home management and continuous assistance.",
     link: "/full-time-maid-pune",
     delay: "1000ms",
     duration: "1500ms",
@@ -121,9 +126,10 @@ export const coreServicesData = [
   {
     id: 12,
     icon: "icon-house-1",
-    image: "/assets/images/resources/service-details-img4.webp",
+    image: "/assets/images/services/part-time-maid.webp",
     heading: "Part Time Maid",
-    description: "Flexible part-time domestic helpers for 1-4 hours daily. Perfect for busy professionals and small families.",
+    description:
+      "Flexible part-time domestic helpers for 1-4 hours daily. Perfect for busy professionals and small families.",
     link: "/part-time-maid-pune",
     delay: "1100ms",
     duration: "1500ms",
@@ -131,9 +137,10 @@ export const coreServicesData = [
   {
     id: 13,
     icon: "icon-carpet-cleaner",
-    image: "/assets/images/resources/service-details-img3.webp",
+    image: "/assets/images/services/bathroom-cleaning.webp",
     heading: "Bathroom Cleaning",
-    description: "Deep sanitization and descaling of bathrooms. We remove hard water stains and restore shine to tiles.",
+    description:
+      "Deep sanitization and descaling of bathrooms. We remove hard water stains and restore shine to tiles.",
     link: "/bathroom-cleaning-pune",
     delay: "1200ms",
     duration: "1500ms",
@@ -141,9 +148,10 @@ export const coreServicesData = [
   {
     id: 14,
     icon: "icon-house",
-    image: "/assets/images/resources/service-details-img5.webp",
+    image: "/assets/images/services/kitchen-cleaning.webp",
     heading: "Kitchen Cleaning",
-    description: "Thorough kitchen degreasing, chimney filter cleaning, and appliance sanitization for a hygienic cooking space.",
+    description:
+      "Thorough kitchen degreasing, chimney filter cleaning, and appliance sanitization for a hygienic cooking space.",
     link: "/kitchen-cleaning-pune",
     delay: "1300ms",
     duration: "1500ms",
@@ -151,9 +159,10 @@ export const coreServicesData = [
   {
     id: 15,
     icon: "icon-carpet-cleaner",
-    image: "/assets/images/resources/service-details-img6.webp",
+    image: "/assets/images/services/sofa-cleaning.webp",
     heading: "Sofa Cleaning",
-    description: "Professional upholstery cleaning using hot water extraction to remove stains, dust, and allergens from sofas.",
+    description:
+      "Professional upholstery cleaning using hot water extraction to remove stains, dust, and allergens from sofas.",
     link: "/sofa-cleaning-pune",
     delay: "1400ms",
     duration: "1500ms",
@@ -161,9 +170,10 @@ export const coreServicesData = [
   {
     id: 16,
     icon: "icon-house-1",
-    image: "/assets/images/resources/service-details-img2.webp",
+    image: "/assets/images/services/maid-Image.webp",
     heading: "Maid Near Me",
-    description: "Find trusted and verified local maids in your neighborhood. Quick deployment and 7-day free trial.",
+    description:
+      "Find trusted and verified local maids in your neighborhood. Quick deployment and 7-day free trial.",
     link: "/maid-near-me",
     delay: "1500ms",
     duration: "1500ms",
@@ -216,7 +226,8 @@ export const featuredServicesData = [
     image: "/assets/images/resources/service-details-img6.webp",
     alt: "Maid Service in Pune",
     heading: "Maid Service in Pune",
-    description: "Background-verified maid services for all your daily domestic needs.",
+    description:
+      "Background-verified maid services for all your daily domestic needs.",
     link: "/maid-service-in-pune",
     delay: "300ms",
     duration: "1500ms",
@@ -227,7 +238,8 @@ export const featuredServicesData = [
     image: "/assets/images/resources/service-details-img1.webp",
     alt: "Deep Cleaning Services",
     heading: "Deep Cleaning",
-    description: "Professional deep cleaning services for a thoroughly sanitized home.",
+    description:
+      "Professional deep cleaning services for a thoroughly sanitized home.",
     link: "/deep-cleaning-services-in-pune",
     delay: "400ms",
     duration: "1500ms",
@@ -238,7 +250,8 @@ export const featuredServicesData = [
     image: "/assets/images/resources/service-details-img6.webp",
     alt: "Sofa Cleaning Pune",
     heading: "Sofa Cleaning",
-    description: "Deep level extraction cleaning to restore your sofa's hygiene.",
+    description:
+      "Deep level extraction cleaning to restore your sofa's hygiene.",
     link: "/sofa-cleaning-pune",
     delay: "500ms",
     duration: "1500ms",
@@ -315,7 +328,8 @@ export const allServicesData = [
     id: 8,
     icon: "icon-house-1",
     heading: "House Cleaning",
-    description: "Professional house cleaning for a spotless living environment.",
+    description:
+      "Professional house cleaning for a spotless living environment.",
     link: "/house-cleaning-services-in-pune",
     delay: "700ms",
   },
@@ -331,7 +345,8 @@ export const allServicesData = [
     id: 10,
     icon: "icon-flat",
     heading: "Housekeeping",
-    description: "Expert housekeeping services for residential and commercial spaces.",
+    description:
+      "Expert housekeeping services for residential and commercial spaces.",
     link: "/housekeeping-services-in-pune",
     delay: "900ms",
   },
