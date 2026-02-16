@@ -1,6 +1,6 @@
 module.exports = {
   siteUrl: "https://dailyhands.in", // change to your domain
-  exclude: ["/404", "/api/*", "/home"],
+  exclude: ["/404", "/api/*", "/home", "/home/"],
   generateIndexSitemap: false,
   sitemapsChunkSize: 50000,
   transform: async (config, path) => {
@@ -9,7 +9,7 @@ module.exports = {
 
     if (path === "/") {
       priority = 1.0;
-    } else if (path === "/service" || path === "/home") {
+    } else if (path === "/service") {
       priority = 0.9;
     } else if (
       [
