@@ -10678,18 +10678,18 @@ div[class^="bubble-"] {
   padding: 1.5rem;
   background: #fff3e0;
   border-radius: 10px;
-  border: 2px solid #ff5e14;
+  border: 2px solid var(--thm-base);
   height: 100%;
   text-align: center;
 }
 
 .seo-step-number {
-  color: #ff5e14;
+  color: var(--thm-base);
   font-size: 48px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .seo-step-title {
-  color: #ff5e14 !important;
+  color: var(--thm-base) !important;
 }

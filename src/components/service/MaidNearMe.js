@@ -345,10 +345,10 @@ const MaidNearMe = () => {
                     className="seo-feature-box"
                     style={{
                       background: "#fff3e0",
-                      border: "2px solid #ff5e14",
+                      border: "2px solid var(--thm-base)",
                     }}
                   >
-                    <h4 style={{ color: "#ff5e14" }}>
+                    <h4 style={{ color: "var(--thm-base)" }}>
                       ✅ Daily Hands Maid Service
                     </h4>
                     <ul>
