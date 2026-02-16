@@ -1,3 +1,4 @@
+/*
 import Link from 'next/link';
 
 const HouseCleaning = () => {
@@ -153,3 +154,8 @@ const HouseCleaning = () => {
 };
 
 export default HouseCleaning;
+*/
+
+// NOTE: This component is currently disabled in favor of HouseCleaningServicesPune.js
+// which provides a more detailed, location-specific version of the house cleaning page.
+// If you need to re-enable this generic version, uncomment the code above.

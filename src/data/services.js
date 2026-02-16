@@ -46,17 +46,17 @@ export const coreServicesData = [
     delay: "300ms",
     duration: "1500ms",
   },
-  {
-    id: 5,
-    icon: "icon-house-1",
-    image: "/assets/images/services/services-v1-img5.webp",
-    heading: "House Cleaning",
-    description:
-      "Comprehensive house cleaning services for kitchens, bathrooms, living rooms, bedrooms, and regular maintenance.",
-    link: "/house-cleaning",
-    delay: "400ms",
-    duration: "1500ms",
-  },
+  // {
+  //   id: 5,
+  //   icon: "icon-house-1",
+  //   image: "/assets/images/services/services-v1-img5.webp",
+  //   heading: "House Cleaning",
+  //   description:
+  //     "Comprehensive house cleaning services for kitchens, bathrooms, living rooms, bedrooms, and regular maintenance.",
+  //   link: "/house-cleaning",
+  //   delay: "400ms",
+  //   duration: "1500ms",
+  // },
   {
     id: 6,
     icon: "icon-electric-vehicle",
@@ -82,7 +82,7 @@ export const coreServicesData = [
   {
     id: 8,
     icon: "icon-house-1",
-    image: "/assets/images/services/House-keeping-Service.webp",
+    image: "/assets/images/services/House-cleaning.webp",
     heading: "House Cleaning",
     description:
       "Expert house cleaning services in Pune for a spotless home. Our trained cleaners use eco-friendly products.",
@@ -104,7 +104,7 @@ export const coreServicesData = [
   {
     id: 10,
     icon: "icon-flat",
-    image: "/assets/images/services/House-keeping-Service.webp",
+    image: "/assets/images/services/House-keeping.webp",
     heading: "Housekeeping Services",
     description:
       "Professional housekeeping management for residential complexes, offices, and commercial spaces in Pune.",

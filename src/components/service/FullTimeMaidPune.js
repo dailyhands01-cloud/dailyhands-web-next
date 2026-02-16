@@ -108,7 +108,7 @@ const FullTimeMaidPune = () => {
               <div className="col-xl-8 order-1">
                 <div className="service-details__top-img">
                   <img
-                    src="/assets/images/resources/service-details-img2.webp"
+                    src="/assets/images/services/full-time-maid.webp"
                     alt="Full time maid service in Pune by Daily Hands"
                     loading="lazy"
                   />
