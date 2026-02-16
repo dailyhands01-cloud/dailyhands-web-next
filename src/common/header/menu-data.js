@@ -21,7 +21,7 @@ const menu_data = [
       { link: "/window-cleaning", title: "Window Cleaning" },
       { link: "/office-cleaning", title: "Office Cleaning" },
       { link: "/commercial-cleaning", title: "Commercial Cleaning" },
-      { link: "/house-cleaning", title: "House Cleaning" },
+      // { link: "/house-cleaning", title: "House Cleaning" },
       { link: "/car-cleaning", title: "Car Cleaning" },
     ],
   },
