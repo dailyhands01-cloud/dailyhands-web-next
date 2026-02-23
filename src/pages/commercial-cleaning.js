@@ -13,12 +13,12 @@ const jsonLd = [
     description:
       "Expert commercial cleaning services for offices, retail spaces, warehouses, and industrial units in Pune by Daily Hands.",
     image:
-      "https://dailyhands.in/assets/images/resources/service-details-img3.webp",
-    url: "https://dailyhands.in/commercial-cleaning/",
+      "https://www.dailyhands.in/assets/images/resources/service-details-img3.webp",
+    url: "https://www.dailyhands.in/commercial-cleaning/",
     provider: {
       "@type": "LocalBusiness",
       name: "Daily Hands",
-      url: "https://dailyhands.in",
+      url: "https://www.dailyhands.in",
       telephone: "+91-88057-79006",
       priceRange: "₹₹",
       address: {
@@ -73,13 +73,13 @@ const jsonLd = [
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://dailyhands.in/",
+        item: "https://www.dailyhands.in/",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Commercial Cleaning",
-        item: "https://dailyhands.in/commercial-cleaning/",
+        item: "https://www.dailyhands.in/commercial-cleaning/",
       },
     ],
   },

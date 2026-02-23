@@ -13,11 +13,11 @@ const jsonLd = [
     name: "Professional Cleaning Services in Pune",
     description:
       "Explore our full range of cleaning services including home deep cleaning, office sanitization, sofa cleaning, and maid services in Pune.",
-    url: "https://dailyhands.in/service/",
+    url: "https://www.dailyhands.in/service/",
     provider: {
       "@type": "LocalBusiness",
       name: "Daily Hands",
-      url: "https://dailyhands.in",
+      url: "https://www.dailyhands.in",
     },
   },
   {
@@ -50,13 +50,13 @@ const jsonLd = [
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://dailyhands.in/",
+        item: "https://www.dailyhands.in/",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Services",
-        item: "https://dailyhands.in/service/",
+        item: "https://www.dailyhands.in/service/",
       },
     ],
   },

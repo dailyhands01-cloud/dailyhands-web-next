@@ -12,12 +12,12 @@ const jsonLd = [
 		name: "Part Time Maid in Pune",
 		description:
 			"Affordable part time maid in Pune by Daily Hands. 1-4 hour daily service for cleaning, dusting, mopping, utensil washing, and laundry across all Pune areas.",
-		image: "https://dailyhands.in/assets/images/resources/service-details-img2.webp",
-		url: "https://dailyhands.in/part-time-maid-pune/",
+		image: "https://www.dailyhands.in/assets/images/resources/service-details-img2.webp",
+		url: "https://www.dailyhands.in/part-time-maid-pune/",
 		provider: {
 			"@type": "LocalBusiness",
 			name: "Daily Hands",
-			url: "https://dailyhands.in",
+			url: "https://www.dailyhands.in",
 			telephone: "+91-88057-79006",
 			priceRange: "₹",
 			address: {
@@ -86,13 +86,13 @@ const jsonLd = [
 				"@type": "ListItem",
 				position: 1,
 				name: "Home",
-				item: "https://dailyhands.in/",
+				item: "https://www.dailyhands.in/",
 			},
 			{
 				"@type": "ListItem",
 				position: 2,
 				name: "Part Time Maid in Pune",
-				item: "https://dailyhands.in/part-time-maid-pune/",
+				item: "https://www.dailyhands.in/part-time-maid-pune/",
 			},
 		],
 	},
@@ -106,7 +106,7 @@ export default function PartTimeMaidPunePage() {
 				description="Hire an affordable part time maid in Pune. Daily Hands provides verified maids for 1-4 hours daily — sweeping, mopping, dusting, laundry & utensils. Book now!"
 				jsonLd={jsonLd}
 				openGraph={{
-					image: "https://dailyhands.in/assets/images/resources/service-details-img2.webp",
+					image: "https://www.dailyhands.in/assets/images/resources/service-details-img2.webp",
 				}}
 			/>
 			<Header />

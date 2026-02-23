@@ -6,17 +6,20 @@ import BrandShowcase from "../components/brand/BrandShowcase";
 import ProjectDetails from "../components/project/ProjectDetails";
 
 export default function ProjectDetailsPage() {
-	return (
-		<>
-			<SEO pageTitle={"Cleaning Project Details in Pune | Daily Hands Case Studies"} />
-			<Header />
-			<Breadcrumb
-				heading="Projects Details"
-				currentPage="Projects Details"
-			/>
-			<ProjectDetails />
-			<BrandShowcase />
-			<Footer />
-		</>
-	);
+  return (
+    <>
+      <SEO
+        pageTitle={
+          "Cleaning Project Details in Pune | Daily Hands Case Studies"
+        }
+        noindex
+        canonical="https://www.dailyhands.in/project/"
+      />
+      <Header />
+      <Breadcrumb heading="Projects Details" currentPage="Projects Details" />
+      <ProjectDetails />
+      <BrandShowcase />
+      <Footer />
+    </>
+  );
 }

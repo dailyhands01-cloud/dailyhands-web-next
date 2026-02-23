@@ -13,12 +13,12 @@ const jsonLd = [
     description:
       "Doorstep car cleaning and detailing services in Pune. Interior vacuuming, upholstery shampooing, dashboard polishing, and exterior pressure wash.",
     image:
-      "https://dailyhands.in/assets/images/backgrounds/page-header-img6.webp",
-    url: "https://dailyhands.in/car-cleaning/",
+      "https://www.dailyhands.in/assets/images/backgrounds/page-header-img6.webp",
+    url: "https://www.dailyhands.in/car-cleaning/",
     provider: {
       "@type": "LocalBusiness",
       name: "Daily Hands",
-      url: "https://dailyhands.in",
+      url: "https://www.dailyhands.in",
       telephone: "+91-88057-79006",
       priceRange: "₹",
       address: {
@@ -73,13 +73,13 @@ const jsonLd = [
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://dailyhands.in/",
+        item: "https://www.dailyhands.in/",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Car Cleaning",
-        item: "https://dailyhands.in/car-cleaning/",
+        item: "https://www.dailyhands.in/car-cleaning/",
       },
     ],
   },

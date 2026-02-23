@@ -7,20 +7,26 @@ import TeamDetails from "../components/team/TeamDetails";
 import TeamHero from "../components/team/TeamHero";
 
 export default function TeamDetailsPage() {
-	return (
-		<>
-			<SEO pageTitle={"Expert Cleaning Team Details in Pune | Daily Hands Professionals"} />
-			<Header />
-			<Breadcrumb
-				heading="Our Professional Team Details"
-				currentPage="Team Details"
-				bgImage="/assets/images/backgrounds/page-header-img7.webp"
-			/>
-			<TeamDetails />
-			<TeamHero />
-			<ContactCTA />
-			{/* <BrandTwo /> */}
-			<Footer />
-		</>
-	);
+  return (
+    <>
+      <SEO
+        pageTitle={
+          "Expert Cleaning Team Details in Pune | Daily Hands Professionals"
+        }
+        noindex
+        canonical="https://www.dailyhands.in/team/"
+      />
+      <Header />
+      <Breadcrumb
+        heading="Our Professional Team Details"
+        currentPage="Team Details"
+        bgImage="/assets/images/backgrounds/page-header-img7.webp"
+      />
+      <TeamDetails />
+      <TeamHero />
+      <ContactCTA />
+      {/* <BrandTwo /> */}
+      <Footer />
+    </>
+  );
 }

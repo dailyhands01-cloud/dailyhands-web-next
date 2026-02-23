@@ -12,12 +12,12 @@ const jsonLd = [
 		name: "Kitchen Cleaning in Pune",
 		description:
 			"Professional kitchen cleaning in Pune by Daily Hands. Chimney degreasing, slab polishing, appliance cleaning, and complete kitchen deep cleaning for Indian kitchens.",
-		image: "https://dailyhands.in/assets/images/resources/service-details-img5.webp",
-		url: "https://dailyhands.in/kitchen-cleaning-pune/",
+		image: "https://www.dailyhands.in/assets/images/resources/service-details-img5.webp",
+		url: "https://www.dailyhands.in/kitchen-cleaning-pune/",
 		provider: {
 			"@type": "LocalBusiness",
 			name: "Daily Hands",
-			url: "https://dailyhands.in",
+			url: "https://www.dailyhands.in",
 			telephone: "+91-88057-79006",
 			priceRange: "₹",
 			address: {
@@ -86,13 +86,13 @@ const jsonLd = [
 				"@type": "ListItem",
 				position: 1,
 				name: "Home",
-				item: "https://dailyhands.in/",
+				item: "https://www.dailyhands.in/",
 			},
 			{
 				"@type": "ListItem",
 				position: 2,
 				name: "Kitchen Cleaning in Pune",
-				item: "https://dailyhands.in/kitchen-cleaning-pune/",
+				item: "https://www.dailyhands.in/kitchen-cleaning-pune/",
 			},
 		],
 	},
@@ -106,7 +106,7 @@ export default function KitchenCleaningPunePage() {
 				description="Professional kitchen cleaning in Pune. Chimney degreasing, slab polishing, cabinet cleaning & appliance sanitization. Indian kitchen specialists. Book now!"
 				jsonLd={jsonLd}
 				openGraph={{
-					image: "https://dailyhands.in/assets/images/resources/service-details-img5.webp",
+					image: "https://www.dailyhands.in/assets/images/resources/service-details-img5.webp",
 				}}
 			/>
 			<Header />

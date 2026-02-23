@@ -6,17 +6,23 @@ import BlogStandard from "../components/blog/BlogStandard";
 import BrandShowcase from "../components/brand/BrandShowcase";
 
 export default function BlogStandardPage() {
-	return (
-		<>
-			<SEO pageTitle={"Cleaning Blog Post | Daily Hands Pune - Expert Tips & Guides"} />
-			<Header />
-			<Breadcrumb
-				heading="Blog Article - Cleaning Tips & Guides"
-				currentPage="Blog Standard"
-			/>
-			<BlogStandard />
-			<BrandShowcase />
-			<Footer />
-		</>
-	);
+  return (
+    <>
+      <SEO
+        pageTitle={
+          "Cleaning Blog Post | Daily Hands Pune - Expert Tips & Guides"
+        }
+        noindex
+        canonical="https://www.dailyhands.in/blog/"
+      />
+      <Header />
+      <Breadcrumb
+        heading="Blog Article - Cleaning Tips & Guides"
+        currentPage="Blog Standard"
+      />
+      <BlogStandard />
+      <BrandShowcase />
+      <Footer />
+    </>
+  );
 }

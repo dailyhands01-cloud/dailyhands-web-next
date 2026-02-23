@@ -6,18 +6,22 @@ import CTASection from "../components/cta/CTASection";
 import GalleryDetails from "../components/gallery/GalleryDetails";
 
 export default function GalleryDetailsPage() {
-	return (
-		<>
-			<SEO pageTitle={"Cleaning Gallery Details | Daily Hands Pune Project Photos"} />
-			<Header />
-			<Breadcrumb
-				heading="Gallery Project Details"
-				currentPage="Gallery Details"
-				bgImage="/assets/images/backgrounds/page-header-img9.webp"
-			/>
-			<GalleryDetails />
-			<CTASection />
-			<Footer />
-		</>
-	);
+  return (
+    <>
+      <SEO
+        pageTitle={"Cleaning Gallery Details | Daily Hands Pune Project Photos"}
+        noindex
+        canonical="https://www.dailyhands.in/gallery/"
+      />
+      <Header />
+      <Breadcrumb
+        heading="Gallery Project Details"
+        currentPage="Gallery Details"
+        bgImage="/assets/images/backgrounds/page-header-img9.webp"
+      />
+      <GalleryDetails />
+      <CTASection />
+      <Footer />
+    </>
+  );
 }

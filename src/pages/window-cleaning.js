@@ -13,12 +13,12 @@ const jsonLd = [
     description:
       "Streak-free professional window cleaning services for homes and offices in Pune. We clean glass panels, frames, and sills using specialized equipment.",
     image:
-      "https://dailyhands.in/assets/images/backgrounds/page-header-img3.webp",
-    url: "https://dailyhands.in/window-cleaning/",
+      "https://www.dailyhands.in/assets/images/backgrounds/page-header-img3.webp",
+    url: "https://www.dailyhands.in/window-cleaning/",
     provider: {
       "@type": "LocalBusiness",
       name: "Daily Hands",
-      url: "https://dailyhands.in",
+      url: "https://www.dailyhands.in",
       telephone: "+91-88057-79006",
       priceRange: "₹",
       address: {
@@ -73,13 +73,13 @@ const jsonLd = [
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://dailyhands.in/",
+        item: "https://www.dailyhands.in/",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Window Cleaning",
-        item: "https://dailyhands.in/window-cleaning/",
+        item: "https://www.dailyhands.in/window-cleaning/",
       },
     ],
   },

@@ -16,7 +16,7 @@ const jsonLd = [
     name: "About Daily Hands",
     description:
       "Daily Hands is Pune's leading professional cleaning service provider, dedicated to delivering high-quality, reliable, and affordable home and office cleaning solutions.",
-    url: "https://dailyhands.in/about/",
+    url: "https://www.dailyhands.in/about/",
   },
   {
     "@context": "https://schema.org",
@@ -56,13 +56,13 @@ const jsonLd = [
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://dailyhands.in/",
+        item: "https://www.dailyhands.in/",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "About",
-        item: "https://dailyhands.in/about/",
+        item: "https://www.dailyhands.in/about/",
       },
     ],
   },

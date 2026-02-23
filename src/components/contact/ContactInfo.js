@@ -28,7 +28,7 @@ const ContactInfo = () => {
                                 <div className="contact-box__single-text">
                                     <h2><a>Email Address</a></h2>
                                     <p><a href="mailto:info@dailyhands.in">info@dailyhands.in</a></p>
-                                    <p><a href="https://dailyhands.in">www.dailyhands.in</a></p>
+                                    <p><a href="https://www.dailyhands.in">www.dailyhands.in</a></p>
                                 </div>
                             </div>
                         </div>

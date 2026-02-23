@@ -7,18 +7,19 @@ import CTASection from "../components/cta/CTASection";
 import ServiceProcess from "../components/service/ServiceProcess";
 
 export default function ServicePageOne() {
-	return (
-		<>
-			<SEO pageTitle={"Professional Cleaning Services in Pune | Daily Hands"} />
-			<Header />
-			<Breadcrumb
-				heading="Our Cleaning Services"
-				currentPage="Service"
-			/>
-			<ServiceProcess />
-			<BrandPartners />
-			<CTASection />
-			<Footer />
-		</>
-	);
+  return (
+    <>
+      <SEO
+        pageTitle={"Professional Cleaning Services in Pune | Daily Hands"}
+        noindex
+        canonical="https://www.dailyhands.in/service/"
+      />
+      <Header />
+      <Breadcrumb heading="Our Cleaning Services" currentPage="Service" />
+      <ServiceProcess />
+      <BrandPartners />
+      <CTASection />
+      <Footer />
+    </>
+  );
 }

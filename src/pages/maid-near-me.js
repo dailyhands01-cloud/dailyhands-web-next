@@ -12,12 +12,12 @@ const jsonLd = [
 		name: "Maid Near Me in Pune",
 		description:
 			"Find a trusted, verified maid near you in Pune. Daily Hands has 3,000+ background-checked maids across 50+ Pune localities with 24-hour matching.",
-		image: "https://dailyhands.in/assets/images/resources/service-details-img2.webp",
-		url: "https://dailyhands.in/maid-near-me/",
+		image: "https://www.dailyhands.in/assets/images/resources/service-details-img2.webp",
+		url: "https://www.dailyhands.in/maid-near-me/",
 		provider: {
 			"@type": "LocalBusiness",
 			name: "Daily Hands",
-			url: "https://dailyhands.in",
+			url: "https://www.dailyhands.in",
 			telephone: "+91-88057-79006",
 			priceRange: "₹₹",
 			address: {
@@ -86,13 +86,13 @@ const jsonLd = [
 				"@type": "ListItem",
 				position: 1,
 				name: "Home",
-				item: "https://dailyhands.in/",
+				item: "https://www.dailyhands.in/",
 			},
 			{
 				"@type": "ListItem",
 				position: 2,
 				name: "Maid Near Me",
-				item: "https://dailyhands.in/maid-near-me/",
+				item: "https://www.dailyhands.in/maid-near-me/",
 			},
 		],
 	},
@@ -106,7 +106,7 @@ export default function MaidNearMePage() {
 				description="Find a trusted maid near you in Pune. 3,000+ verified maids across 50+ localities. 24-hour matching, 7-day free trial, same-day replacement. Book now!"
 				jsonLd={jsonLd}
 				openGraph={{
-					image: "https://dailyhands.in/assets/images/resources/service-details-img2.webp",
+					image: "https://www.dailyhands.in/assets/images/resources/service-details-img2.webp",
 				}}
 			/>
 			<Header />

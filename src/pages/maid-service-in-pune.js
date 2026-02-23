@@ -12,12 +12,12 @@ const jsonLd = [
 		name: "Maid Service in Pune",
 		description:
 			"Professional and reliable maid service in Pune by Daily Hands. Background-verified maids for sweeping, mopping, dusting, utensil washing, and complete home upkeep across all Pune areas.",
-		image: "https://dailyhands.in/assets/images/resources/service-details-img2.webp",
-		url: "https://dailyhands.in/maid-service-in-pune/",
+		image: "https://www.dailyhands.in/assets/images/resources/service-details-img2.webp",
+		url: "https://www.dailyhands.in/maid-service-in-pune/",
 		provider: {
 			"@type": "LocalBusiness",
 			name: "Daily Hands",
-			url: "https://dailyhands.in",
+			url: "https://www.dailyhands.in",
 			telephone: "+91-88057-79006",
 			priceRange: "₹₹",
 			address: {
@@ -86,13 +86,13 @@ const jsonLd = [
 				"@type": "ListItem",
 				position: 1,
 				name: "Home",
-				item: "https://dailyhands.in/",
+				item: "https://www.dailyhands.in/",
 			},
 			{
 				"@type": "ListItem",
 				position: 2,
 				name: "Maid Service in Pune",
-				item: "https://dailyhands.in/maid-service-in-pune/",
+				item: "https://www.dailyhands.in/maid-service-in-pune/",
 			},
 		],
 	},
@@ -106,7 +106,7 @@ export default function MaidServiceInPunePage() {
 				description="Looking for reliable maid service in Pune? Daily Hands provides background-verified, trained maids for daily housekeeping, sweeping, mopping & more. Book now!"
 				jsonLd={jsonLd}
 				openGraph={{
-					image: "https://dailyhands.in/assets/images/resources/service-details-img2.webp",
+					image: "https://www.dailyhands.in/assets/images/resources/service-details-img2.webp",
 				}}
 			/>
 			<Header />

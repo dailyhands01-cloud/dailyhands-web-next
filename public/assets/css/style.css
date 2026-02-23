@@ -6912,7 +6912,8 @@ div[class^="bubble-"] {
 .brand-one--two {
   position: relative;
   display: block;
-  padding: 120px 0px;
+  /* padding: 120px 0px; */
+  padding: 50px 0px;
 }
 
 .brand-one--two .swiper-wrapper {
@@ -7094,7 +7095,8 @@ div[class^="bubble-"] {
   position: relative;
   display: block;
   margin-top: 60px;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
+  margin-bottom: 20px;
 }
 
 .service-details__bottom-title {

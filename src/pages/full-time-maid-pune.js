@@ -12,12 +12,12 @@ const jsonLd = [
 		name: "Full Time Maid in Pune",
 		description:
 			"Hire a reliable full time maid in Pune through Daily Hands. 8-hour daily service for complete home management including cleaning, cooking assistance, laundry, and childcare support.",
-		image: "https://dailyhands.in/assets/images/resources/service-details-img2.webp",
-		url: "https://dailyhands.in/full-time-maid-pune/",
+		image: "https://www.dailyhands.in/assets/images/resources/service-details-img2.webp",
+		url: "https://www.dailyhands.in/full-time-maid-pune/",
 		provider: {
 			"@type": "LocalBusiness",
 			name: "Daily Hands",
-			url: "https://dailyhands.in",
+			url: "https://www.dailyhands.in",
 			telephone: "+91-88057-79006",
 			priceRange: "₹₹",
 			address: {
@@ -86,13 +86,13 @@ const jsonLd = [
 				"@type": "ListItem",
 				position: 1,
 				name: "Home",
-				item: "https://dailyhands.in/",
+				item: "https://www.dailyhands.in/",
 			},
 			{
 				"@type": "ListItem",
 				position: 2,
 				name: "Full Time Maid in Pune",
-				item: "https://dailyhands.in/full-time-maid-pune/",
+				item: "https://www.dailyhands.in/full-time-maid-pune/",
 			},
 		],
 	},
@@ -106,7 +106,7 @@ export default function FullTimeMaidPunePage() {
 				description="Hire a verified full time maid in Pune. Daily Hands provides trained maids for 8-hour daily service — cleaning, cooking, laundry & childcare support. Book now!"
 				jsonLd={jsonLd}
 				openGraph={{
-					image: "https://dailyhands.in/assets/images/resources/service-details-img2.webp",
+					image: "https://www.dailyhands.in/assets/images/resources/service-details-img2.webp",
 				}}
 			/>
 			<Header />

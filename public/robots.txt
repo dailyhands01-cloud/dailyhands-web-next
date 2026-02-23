@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://dailyhands.in
+Host: https://www.dailyhands.in
 
 # Sitemaps
-Sitemap: https://dailyhands.in/sitemap.xml
+Sitemap: https://www.dailyhands.in/sitemap.xml

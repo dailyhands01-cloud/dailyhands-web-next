@@ -12,12 +12,12 @@ const jsonLd = [
 		name: "Sofa Cleaning in Pune",
 		description:
 			"Professional sofa cleaning in Pune by Daily Hands. Hot-water extraction, stain removal, and anti-allergen treatment for fabric, leather, velvet, and microfiber sofas.",
-		image: "https://dailyhands.in/assets/images/resources/service-details-img6.webp",
-		url: "https://dailyhands.in/sofa-cleaning-pune/",
+		image: "https://www.dailyhands.in/assets/images/resources/service-details-img6.webp",
+		url: "https://www.dailyhands.in/sofa-cleaning-pune/",
 		provider: {
 			"@type": "LocalBusiness",
 			name: "Daily Hands",
-			url: "https://dailyhands.in",
+			url: "https://www.dailyhands.in",
 			telephone: "+91-88057-79006",
 			priceRange: "₹",
 			address: {
@@ -86,13 +86,13 @@ const jsonLd = [
 				"@type": "ListItem",
 				position: 1,
 				name: "Home",
-				item: "https://dailyhands.in/",
+				item: "https://www.dailyhands.in/",
 			},
 			{
 				"@type": "ListItem",
 				position: 2,
 				name: "Sofa Cleaning in Pune",
-				item: "https://dailyhands.in/sofa-cleaning-pune/",
+				item: "https://www.dailyhands.in/sofa-cleaning-pune/",
 			},
 		],
 	},
@@ -106,7 +106,7 @@ export default function SofaCleaningPunePage() {
 				description="Professional sofa cleaning in Pune. Daily Hands uses hot-water extraction for fabric, leather, velvet sofas. Stain removal + Scotchgard protection. From ₹799!"
 				jsonLd={jsonLd}
 				openGraph={{
-					image: "https://dailyhands.in/assets/images/resources/service-details-img6.webp",
+					image: "https://www.dailyhands.in/assets/images/resources/service-details-img6.webp",
 				}}
 			/>
 			<Header />

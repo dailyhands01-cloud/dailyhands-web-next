@@ -12,7 +12,7 @@ import {
   blogStandardPageData,
 } from "../../data/blogs";
 
-const DEFAULT_SITE_URL = "https://dailyhands.in";
+const DEFAULT_SITE_URL = "https://www.dailyhands.in";
 
 const extractSlugFromLink = (link) => {
   if (!link) return "";
@@ -41,17 +41,15 @@ const collectAllPosts = () => {
 
   const map = new Map();
 
-  arrays
-    .filter(Boolean)
-    .forEach((arr) => {
-      (arr || []).forEach((item) => {
-        const slug = extractSlugFromLink(item?.link);
-        if (!slug) return;
-        if (!map.has(slug)) {
-          map.set(slug, { ...item, slug });
-        }
-      });
+  arrays.filter(Boolean).forEach((arr) => {
+    (arr || []).forEach((item) => {
+      const slug = extractSlugFromLink(item?.link);
+      if (!slug) return;
+      if (!map.has(slug)) {
+        map.set(slug, { ...item, slug });
+      }
     });
+  });
 
   return Array.from(map.values());
 };
@@ -73,8 +71,10 @@ export default function BlogPostPage({ post }) {
     },
     ...(post.image
       ? {
-        image: [`${siteUrl}${post.image.startsWith("/") ? post.image : `/${post.image}`}`],
-      }
+          image: [
+            `${siteUrl}${post.image.startsWith("/") ? post.image : `/${post.image}`}`,
+          ],
+        }
       : {}),
   };
 
@@ -104,7 +104,11 @@ export default function BlogPostPage({ post }) {
               <div className="blog-details__left">
                 {post.image ? (
                   <div className="blog-details__img">
-                    <img src={post.image} alt={post.alt || post.heading} loading="lazy" />
+                    <img
+                      src={post.image}
+                      alt={post.alt || post.heading}
+                      loading="lazy"
+                    />
                   </div>
                 ) : null}
 

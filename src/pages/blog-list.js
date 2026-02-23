@@ -6,17 +6,20 @@ import BlogList from "../components/blog/BlogList";
 import BrandShowcase from "../components/brand/BrandShowcase";
 
 export default function BlogListPage() {
-	return (
-		<>
-			<SEO pageTitle={"Cleaning Services Blog | Daily Hands Pune - Latest Articles & Tips"} />
-			<Header />
-			<Breadcrumb
-				heading="Blog Articles List"
-				currentPage="Blog List"
-			/>
-			<BlogList />
-			<BrandShowcase />
-			<Footer />
-		</>
-	);
+  return (
+    <>
+      <SEO
+        pageTitle={
+          "Cleaning Services Blog | Daily Hands Pune - Latest Articles & Tips"
+        }
+        noindex
+        canonical="https://www.dailyhands.in/blog/"
+      />
+      <Header />
+      <Breadcrumb heading="Blog Articles List" currentPage="Blog List" />
+      <BlogList />
+      <BrandShowcase />
+      <Footer />
+    </>
+  );
 }

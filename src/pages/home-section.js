@@ -14,22 +14,28 @@ import TestimonialSlider from "../components/testimonial/TestimonialSlider";
 import VideoSection from "../components/video/VideoSection";
 
 export default function HomeThree() {
-	return (
-		<>
-			<SEO pageTitle={"Daily Hands Cleaning Services in Pune | Professional Home & Office Cleaning"} />
-			<Header />
-			<PageHero />
-			<AboutCompany />
-			<FeaturesSection />
-			<ServiceProcess />
-			<ProjectCard />
-			<TeamValues />
-			<VideoSection />
-			<PricingSection />
-			<TestimonialSlider />
-			<BlogSidebar />
-			<BrandShowcase />
-			<Footer />
-		</>
-	);
+  return (
+    <>
+      <SEO
+        pageTitle={
+          "Daily Hands Cleaning Services in Pune | Professional Home & Office Cleaning"
+        }
+        noindex
+        canonical="https://www.dailyhands.in/"
+      />
+      <Header />
+      <PageHero />
+      <AboutCompany />
+      <FeaturesSection />
+      <ServiceProcess />
+      <ProjectCard />
+      <TeamValues />
+      <VideoSection />
+      <PricingSection />
+      <TestimonialSlider />
+      <BlogSidebar />
+      <BrandShowcase />
+      <Footer />
+    </>
+  );
 }

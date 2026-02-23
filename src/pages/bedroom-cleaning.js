@@ -13,12 +13,12 @@ const jsonLd = [
     description:
       "Professional bedroom cleaning services including mattress sanitization, wardrobe dusting, and floor deep cleaning by Daily Hands Pune.",
     image:
-      "https://dailyhands.in/assets/images/backgrounds/page-header-img2.webp",
-    url: "https://dailyhands.in/bedroom-cleaning/",
+      "https://www.dailyhands.in/assets/images/backgrounds/page-header-img2.webp",
+    url: "https://www.dailyhands.in/bedroom-cleaning/",
     provider: {
       "@type": "LocalBusiness",
       name: "Daily Hands",
-      url: "https://dailyhands.in",
+      url: "https://www.dailyhands.in",
       telephone: "+91-88057-79006",
       priceRange: "₹",
       address: {
@@ -73,13 +73,13 @@ const jsonLd = [
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://dailyhands.in/",
+        item: "https://www.dailyhands.in/",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Bedroom Cleaning",
-        item: "https://dailyhands.in/bedroom-cleaning/",
+        item: "https://www.dailyhands.in/bedroom-cleaning/",
       },
     ],
   },

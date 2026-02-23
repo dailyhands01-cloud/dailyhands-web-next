@@ -7,18 +7,20 @@ import BrandPartners from "../components/brand/BrandPartners";
 import CTASection from "../components/cta/CTASection";
 
 export default function ClientPage() {
-	return (
-		<>
-			<SEO pageTitle={"Our Clients & Partners | Daily Hands Cleaning Services Pune"} />
-			<Header />
-			<Breadcrumb
-				heading="Our Valued Clients"
-				currentPage="Client Page"
-			/>
-			<BrandClients />
-			<BrandPartners />
-			<CTASection />
-			<Footer />
-		</>
-	);
+  return (
+    <>
+      <SEO
+        pageTitle={
+          "Our Clients & Partners | Daily Hands Cleaning Services Pune"
+        }
+        noindex
+      />
+      <Header />
+      <Breadcrumb heading="Our Valued Clients" currentPage="Client Page" />
+      <BrandClients />
+      <BrandPartners />
+      <CTASection />
+      <Footer />
+    </>
+  );
 }

@@ -12,12 +12,12 @@ const jsonLd = [
 		name: "Bathroom Cleaning in Pune",
 		description:
 			"Professional bathroom cleaning in Pune by Daily Hands. Deep descaling, grout scrubbing, hard water stain removal, and sanitization using commercial-grade solutions.",
-		image: "https://dailyhands.in/assets/images/resources/service-details-img4.webp",
-		url: "https://dailyhands.in/bathroom-cleaning-pune/",
+		image: "https://www.dailyhands.in/assets/images/resources/service-details-img4.webp",
+		url: "https://www.dailyhands.in/bathroom-cleaning-pune/",
 		provider: {
 			"@type": "LocalBusiness",
 			name: "Daily Hands",
-			url: "https://dailyhands.in",
+			url: "https://www.dailyhands.in",
 			telephone: "+91-88057-79006",
 			priceRange: "₹",
 			address: {
@@ -86,13 +86,13 @@ const jsonLd = [
 				"@type": "ListItem",
 				position: 1,
 				name: "Home",
-				item: "https://dailyhands.in/",
+				item: "https://www.dailyhands.in/",
 			},
 			{
 				"@type": "ListItem",
 				position: 2,
 				name: "Bathroom Cleaning in Pune",
-				item: "https://dailyhands.in/bathroom-cleaning-pune/",
+				item: "https://www.dailyhands.in/bathroom-cleaning-pune/",
 			},
 		],
 	},
@@ -106,7 +106,7 @@ export default function BathroomCleaningPunePage() {
 				description="Professional bathroom cleaning in Pune. Hard water stain removal, grout scrubbing, mold treatment & sanitization. 25-point checklist. Book bathroom deep clean!"
 				jsonLd={jsonLd}
 				openGraph={{
-					image: "https://dailyhands.in/assets/images/resources/service-details-img4.webp",
+					image: "https://www.dailyhands.in/assets/images/resources/service-details-img4.webp",
 				}}
 			/>
 			<Header />

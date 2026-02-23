@@ -13,12 +13,12 @@ const jsonLd = [
     description:
       "Professional house cleaning services in Pune by Daily Hands. We offer comprehensive home cleaning including dusting, mopping, kitchen and bathroom deep cleaning.",
     image:
-      "https://dailyhands.in/assets/images/resources/service-details-img6.webp",
-    url: "https://dailyhands.in/house-cleaning/",
+      "https://www.dailyhands.in/assets/images/resources/service-details-img6.webp",
+    url: "https://www.dailyhands.in/house-cleaning/",
     provider: {
       "@type": "LocalBusiness",
       name: "Daily Hands",
-      url: "https://dailyhands.in",
+      url: "https://www.dailyhands.in",
       telephone: "+91-88057-79006",
       priceRange: "₹₹",
       address: {
@@ -73,13 +73,13 @@ const jsonLd = [
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://dailyhands.in/",
+        item: "https://www.dailyhands.in/",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "House Cleaning",
-        item: "https://dailyhands.in/house-cleaning/",
+        item: "https://www.dailyhands.in/house-cleaning/",
       },
     ],
   },

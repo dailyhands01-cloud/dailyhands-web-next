@@ -13,12 +13,12 @@ const jsonLd = [
     description:
       "Complete office cleaning solutions in Pune. Workstation sanitization, carpet vacuuming, glass partition cleaning, and pantry hygiene maintenance by Daily Hands.",
     image:
-      "https://dailyhands.in/assets/images/backgrounds/page-header-img4.webp",
-    url: "https://dailyhands.in/office-cleaning/",
+      "https://www.dailyhands.in/assets/images/backgrounds/page-header-img4.webp",
+    url: "https://www.dailyhands.in/office-cleaning/",
     provider: {
       "@type": "LocalBusiness",
       name: "Daily Hands",
-      url: "https://dailyhands.in",
+      url: "https://www.dailyhands.in",
       telephone: "+91-88057-79006",
       priceRange: "₹₹",
       address: {
@@ -73,13 +73,13 @@ const jsonLd = [
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://dailyhands.in/",
+        item: "https://www.dailyhands.in/",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Office Cleaning",
-        item: "https://dailyhands.in/office-cleaning/",
+        item: "https://www.dailyhands.in/office-cleaning/",
       },
     ],
   },

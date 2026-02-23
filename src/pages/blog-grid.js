@@ -6,18 +6,24 @@ import Header from "../common/header/Header";
 import BrandShowcase from "../components/brand/BrandShowcase";
 
 export default function BlogGridPage() {
-	return (
-		<>
-			<SEO pageTitle={"Cleaning Blog Grid | Daily Hands Pune - Featured Articles & Tips"} />
-			<Header />
-			<Breadcrumb
-				heading="Blog Grid View"
-				currentPage="Blog Grid"
-				bgImage="/assets/images/backgrounds/page-header-img11.webp"
-			/>
-			<BlogGrid />
-			<BrandShowcase />
-			<Footer />
-		</>
-	);
+  return (
+    <>
+      <SEO
+        pageTitle={
+          "Cleaning Blog Grid | Daily Hands Pune - Featured Articles & Tips"
+        }
+        noindex
+        canonical="https://www.dailyhands.in/blog/"
+      />
+      <Header />
+      <Breadcrumb
+        heading="Blog Grid View"
+        currentPage="Blog Grid"
+        bgImage="/assets/images/backgrounds/page-header-img11.webp"
+      />
+      <BlogGrid />
+      <BrandShowcase />
+      <Footer />
+    </>
+  );
 }

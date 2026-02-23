@@ -13,7 +13,7 @@ const jsonLd = [
     name: "Contact Daily Hands",
     description:
       "Get in touch with Daily Hands for professional cleaning services in Pune. Contact us via phone, email, or visit our office.",
-    url: "https://dailyhands.in/contact/",
+    url: "https://www.dailyhands.in/contact/",
   },
   {
     "@context": "https://schema.org",
@@ -53,13 +53,13 @@ const jsonLd = [
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://dailyhands.in/",
+        item: "https://www.dailyhands.in/",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Contact",
-        item: "https://dailyhands.in/contact/",
+        item: "https://www.dailyhands.in/contact/",
       },
     ],
   },

@@ -12,12 +12,12 @@ const jsonLd = [
 		name: "House Cleaning Services in Pune",
 		description:
 			"Professional house cleaning services in Pune by Daily Hands. Trained cleaners for daily, weekly, and one-time home cleaning across all Pune areas.",
-		image: "https://dailyhands.in/assets/images/resources/service-details-img3.webp",
-		url: "https://dailyhands.in/house-cleaning-services-in-pune/",
+		image: "https://www.dailyhands.in/assets/images/resources/service-details-img3.webp",
+		url: "https://www.dailyhands.in/house-cleaning-services-in-pune/",
 		provider: {
 			"@type": "LocalBusiness",
 			name: "Daily Hands",
-			url: "https://dailyhands.in",
+			url: "https://www.dailyhands.in",
 			telephone: "+91-88057-79006",
 			priceRange: "₹₹",
 			address: {
@@ -86,13 +86,13 @@ const jsonLd = [
 				"@type": "ListItem",
 				position: 1,
 				name: "Home",
-				item: "https://dailyhands.in/",
+				item: "https://www.dailyhands.in/",
 			},
 			{
 				"@type": "ListItem",
 				position: 2,
 				name: "House Cleaning Services in Pune",
-				item: "https://dailyhands.in/house-cleaning-services-in-pune/",
+				item: "https://www.dailyhands.in/house-cleaning-services-in-pune/",
 			},
 		],
 	},
@@ -106,7 +106,7 @@ export default function HouseCleaningServicesInPunePage() {
 				description="Top-rated house cleaning services in Pune. Daily Hands provides trained cleaners for sweeping, mopping, dusting, bathroom & kitchen cleaning. Book now!"
 				jsonLd={jsonLd}
 				openGraph={{
-					image: "https://dailyhands.in/assets/images/resources/service-details-img3.webp",
+					image: "https://www.dailyhands.in/assets/images/resources/service-details-img3.webp",
 				}}
 			/>
 			<Header />
